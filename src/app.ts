@@ -1,6 +1,6 @@
 import express from 'express';
+import { PORT, NODE_ENV, API_VERSION } from './config/config';
 import { Routes } from './interfaces/route.interface';
-
 class App {
 
   public app: express.Application;
@@ -9,8 +9,8 @@ class App {
 
   constructor(routes: Routes[]) {
     this.app = express();
-    this.port = 3000;
-    this.env = 'development';
+    this.port = PORT || 3000;
+    this.env = NODE_ENV || 'development';
 
     this.initRoutes(routes);
   }
@@ -18,6 +18,7 @@ class App {
   public listen() {
     this.app.listen(this.port, () => {
       console.log(`API is runing in PORT: ${this.port}`);
+      console.log(`API is runing enviroment: ${this.env}`);
     })
   }
 
@@ -27,7 +28,7 @@ class App {
 
   public initRoutes(routes: Routes[]) {
     routes.forEach((route) => {
-      this.app.use('/', route.router);
+      this.app.use(`/api/${API_VERSION}`, route.router);
     })
   }
 }

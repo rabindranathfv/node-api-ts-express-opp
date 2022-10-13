@@ -9,3 +9,6 @@ lcov.info
 package-lock.json
 .nyc_output/
 .env
+.env.development.local
+.env.test.local
+.env.production.local
