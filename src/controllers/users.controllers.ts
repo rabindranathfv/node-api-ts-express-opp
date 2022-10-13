@@ -7,7 +7,6 @@ class UserController {
   constructor() {}
 
   public getAllUsers = (_req: Request, res: Response) => {
-    console.log('llamando al endpoint desde UserController');
     const usersRes = this.userService.getAllUsers();
     res.send(usersRes);
   }
