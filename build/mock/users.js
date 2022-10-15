@@ -11,3 +11,4 @@ exports.users = [{ "id": 1, "first_name": "Elsworth", "last_name": "Pursehouse",
     { "id": 8, "first_name": "Bent", "last_name": "Rochford", "email": "brochford7@csmonitor.com", "gender": "Male" },
     { "id": 9, "first_name": "Yuri", "last_name": "Wheal", "email": "ywheal8@ibm.com", "gender": "Male" },
     { "id": 10, "first_name": "Doy", "last_name": "Chipperfield", "email": "dchipperfield9@umn.edu", "gender": "Male" }];
+//# sourceMappingURL=users.js.map

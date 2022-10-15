@@ -1,6 +1,5 @@
-import { Router } from "express";
-import { Routes } from "../interfaces/route.interface";
-
+import { Router } from 'express';
+import { Routes } from '../interfaces/route.interface';
 
 class BaseRoute implements Routes {
   public path = '/alive';
@@ -12,10 +11,9 @@ class BaseRoute implements Routes {
 
   public initBaseRoutes() {
     this.router.get(`${this.path}`, () => {
-      console.log('I AM API AND I AM ALIVE***')
-    })
+      console.log('I AM API AND I AM ALIVE***');
+    });
   }
-
 }
 
 export default BaseRoute;

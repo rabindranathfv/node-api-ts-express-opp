@@ -1,6 +1,6 @@
-import { Router } from "express";
-import UserController from "../controllers/users.controllers";
-import { Routes } from "../interfaces/route.interface";
+import { Router } from 'express';
+import UserController from '../controllers/users.controllers';
+import { Routes } from '../interfaces/route.interface';
 
 class UserRoute implements Routes {
   public path = '/users';
@@ -12,9 +12,8 @@ class UserRoute implements Routes {
   }
 
   public initUsersRoutes() {
-    this.router.get(`${this.path}`, this.userController.getAllUsers)
+    this.router.get(`${this.path}`, this.userController.getAllUsers);
   }
-
 }
 
 export default UserRoute;

@@ -9,7 +9,7 @@ class UserController {
   public getAllUsers = (_req: Request, res: Response) => {
     const usersRes = this.userService.getAllUsers();
     res.send(usersRes);
-  }
+  };
 }
 
 export default UserController;

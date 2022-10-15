@@ -35,7 +35,7 @@ class App {
       logger.info(`======= ENV: ${this.env} =======`);
       logger.info(`🚀 App listening on the port ${this.port}`);
       logger.info(`=================================`);
-    })
+    });
   }
 
   private initiazeMiddlewares() {
@@ -44,8 +44,8 @@ class App {
     this.app.use(hpp());
     this.app.use(helmet());
     this.app.use(cookieParser());
-    this.app.use(morgan(LOG_FORMAT ?? '../logs', { stream }))
-    this.app.use(cors(corsConfig))
+    this.app.use(morgan(LOG_FORMAT ?? '../logs', { stream }));
+    this.app.use(cors(corsConfig));
   }
 
   public getServer() {
@@ -59,7 +59,7 @@ class App {
   private initRoutes(routes: Routes[]) {
     routes.forEach((route) => {
       this.app.use(`/api/${API_VERSION}`, route.router);
-    })
+    });
   }
 
   private initializeErrorHandling() {

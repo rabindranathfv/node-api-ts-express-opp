@@ -10,10 +10,11 @@ class UserRoute {
     router = (0, express_1.Router)();
     userController = new users_controllers_1.default();
     constructor() {
-        this.initBaseRoutes();
+        this.initUsersRoutes();
     }
-    initBaseRoutes() {
-        this.router.get(`${this.path}`, () => this.userController.getAllUsers());
+    initUsersRoutes() {
+        this.router.get(`${this.path}`, this.userController.getAllUsers);
     }
 }
 exports.default = UserRoute;
+//# sourceMappingURL=user.routes.js.map

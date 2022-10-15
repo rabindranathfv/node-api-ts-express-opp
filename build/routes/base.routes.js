@@ -14,3 +14,4 @@ class BaseRoute {
     }
 }
 exports.default = BaseRoute;
+//# sourceMappingURL=base.routes.js.map
