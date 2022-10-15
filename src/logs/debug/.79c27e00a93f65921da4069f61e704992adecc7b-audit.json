@@ -1,0 +1,15 @@
+{
+    "keep": {
+        "days": false,
+        "amount": 30
+    },
+    "auditLog": "C:\\Users\\ferre\\OneDrive\\Documentos\\backend\\node-api-express-oop\\src\\logs\\debug\\.79c27e00a93f65921da4069f61e704992adecc7b-audit.json",
+    "files": [
+        {
+            "date": 1665834664426,
+            "name": "C:\\Users\\ferre\\OneDrive\\Documentos\\backend\\node-api-express-oop\\src\\logs\\debug\\2022-10-15.log",
+            "hash": "3dd438ce121c0f0add0b870646a9861959b2da594cb4bc3f698fbcfe57bcb303"
+        }
+    ],
+    "hashType": "sha256"
+}
