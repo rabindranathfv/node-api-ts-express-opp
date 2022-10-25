@@ -1,0 +1,846 @@
+2022-10-26 00:00:12 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/services/post.service.ts(11,16): error TS2393: Duplicate function implementation.
+src/services/post.service.ts(17,16): error TS2393: Duplicate function implementation.
+src/services/post.service.ts(23,16): error TS2393: Duplicate function implementation.
+src/services/post.service.ts(29,16): error TS2393: Duplicate function implementation.
+
+Error: ⨯ Unable to compile TypeScript:
+src/services/post.service.ts(11,16): error TS2393: Duplicate function implementation.
+src/services/post.service.ts(17,16): error TS2393: Duplicate function implementation.
+src/services/post.service.ts(23,16): error TS2393: Duplicate function implementation.
+src/services/post.service.ts(29,16): error TS2393: Duplicate function implementation.
+
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/services/post.service.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-49757390637905985.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-49757390637905985.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-49757390637905985.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2022-10-26 00:00:18 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/services/post.service.ts(11,16): error TS2393: Duplicate function implementation.
+src/services/post.service.ts(23,16): error TS2393: Duplicate function implementation.
+src/services/post.service.ts(29,16): error TS2393: Duplicate function implementation.
+
+Error: ⨯ Unable to compile TypeScript:
+src/services/post.service.ts(11,16): error TS2393: Duplicate function implementation.
+src/services/post.service.ts(23,16): error TS2393: Duplicate function implementation.
+src/services/post.service.ts(29,16): error TS2393: Duplicate function implementation.
+
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/services/post.service.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-49757390637905985.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-49757390637905985.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-49757390637905985.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2022-10-26 00:00:21 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/services/post.service.ts(11,16): error TS2393: Duplicate function implementation.
+src/services/post.service.ts(29,16): error TS2393: Duplicate function implementation.
+
+Error: ⨯ Unable to compile TypeScript:
+src/services/post.service.ts(11,16): error TS2393: Duplicate function implementation.
+src/services/post.service.ts(29,16): error TS2393: Duplicate function implementation.
+
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/services/post.service.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-49757390637905985.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-49757390637905985.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-49757390637905985.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2022-10-26 00:00:27 error: uncaughtException: Route.delete() requires a callback function but got a [object Undefined]
+Error: Route.delete() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as delete] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/express/lib/router/route.js:211:15)
+    at Function.proto.<computed> [as delete] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/express/lib/router/index.js:521:19)
+    at PostsRoute.initBaseRoutes (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/routes/post.routes.ts:21:23)
+    at new PostsRoute (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/routes/post.routes.ts:11:10)
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/index.ts:6:56)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-49757390637905985.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-49757390637905985.js:114:20)
+2022-10-26 00:00:30 error: uncaughtException: Route.delete() requires a callback function but got a [object Undefined]
+Error: Route.delete() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as delete] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/express/lib/router/route.js:211:15)
+    at Function.proto.<computed> [as delete] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/express/lib/router/index.js:521:19)
+    at PostsRoute.initBaseRoutes (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/routes/post.routes.ts:21:23)
+    at new PostsRoute (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/routes/post.routes.ts:11:10)
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/index.ts:6:56)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-49757390637905985.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-49757390637905985.js:114:20)
+2022-10-26 00:00:35 error: uncaughtException: Route.delete() requires a callback function but got a [object Undefined]
+Error: Route.delete() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as delete] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/express/lib/router/route.js:211:15)
+    at Function.proto.<computed> [as delete] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/express/lib/router/index.js:521:19)
+    at PostsRoute.initBaseRoutes (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/routes/post.routes.ts:21:23)
+    at new PostsRoute (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/routes/post.routes.ts:11:10)
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/index.ts:6:56)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-49757390637905985.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-49757390637905985.js:114:20)
+2022-10-26 00:00:45 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/controllers/post.controller.ts(15,41): error TS1003: Identifier expected.
+
+Error: ⨯ Unable to compile TypeScript:
+src/controllers/post.controller.ts(15,41): error TS1003: Identifier expected.
+
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/controllers/post.controller.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-49757390637905985.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-49757390637905985.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-49757390637905985.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2022-10-26 00:00:49 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/controllers/post.controller.ts(15,41): error TS2339: Property 'get' does not exist on type 'PostService'.
+
+Error: ⨯ Unable to compile TypeScript:
+src/controllers/post.controller.ts(15,41): error TS2339: Property 'get' does not exist on type 'PostService'.
+
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/controllers/post.controller.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-49757390637905985.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-49757390637905985.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-49757390637905985.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2022-10-26 00:00:55 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/controllers/post.controller.ts(20,41): error TS1003: Identifier expected.
+
+Error: ⨯ Unable to compile TypeScript:
+src/controllers/post.controller.ts(20,41): error TS1003: Identifier expected.
+
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/controllers/post.controller.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-49757390637905985.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-49757390637905985.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-49757390637905985.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2022-10-26 00:00:59 error: uncaughtException: Route.delete() requires a callback function but got a [object Undefined]
+Error: Route.delete() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as delete] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/express/lib/router/route.js:211:15)
+    at Function.proto.<computed> [as delete] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/express/lib/router/index.js:521:19)
+    at PostsRoute.initBaseRoutes (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/routes/post.routes.ts:21:23)
+    at new PostsRoute (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/routes/post.routes.ts:11:10)
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/index.ts:6:56)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-49757390637905985.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-49757390637905985.js:114:20)
+2022-10-26 00:01:03 error: uncaughtException: Route.delete() requires a callback function but got a [object Undefined]
+Error: Route.delete() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as delete] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/express/lib/router/route.js:211:15)
+    at Function.proto.<computed> [as delete] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/express/lib/router/index.js:521:19)
+    at PostsRoute.initBaseRoutes (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/routes/post.routes.ts:21:23)
+    at new PostsRoute (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/routes/post.routes.ts:11:10)
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/index.ts:6:56)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-49757390637905985.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-49757390637905985.js:114:20)
+2022-10-26 00:01:40 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/controllers/post.controller.ts(15,33): error TS2552: Cannot find name 'req'. Did you mean '_req'?
+src/controllers/post.controller.ts(15,37): error TS1003: Identifier expected.
+
+Error: ⨯ Unable to compile TypeScript:
+src/controllers/post.controller.ts(15,33): error TS2552: Cannot find name 'req'. Did you mean '_req'?
+src/controllers/post.controller.ts(15,37): error TS1003: Identifier expected.
+
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/controllers/post.controller.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-49757390637905985.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-49757390637905985.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-49757390637905985.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2022-10-26 00:01:46 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/controllers/post.controller.ts(15,33): error TS2552: Cannot find name 'req'. Did you mean '_req'?
+src/controllers/post.controller.ts(15,45): error TS2552: Cannot find name 'req'. Did you mean '_req'?
+
+Error: ⨯ Unable to compile TypeScript:
+src/controllers/post.controller.ts(15,33): error TS2552: Cannot find name 'req'. Did you mean '_req'?
+src/controllers/post.controller.ts(15,45): error TS2552: Cannot find name 'req'. Did you mean '_req'?
+
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/controllers/post.controller.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-49757390637905985.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-49757390637905985.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-49757390637905985.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2022-10-26 00:03:00 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/controllers/post.controller.ts(14,35): error TS6133: 'req' is declared but its value is never read.
+
+Error: ⨯ Unable to compile TypeScript:
+src/controllers/post.controller.ts(14,35): error TS6133: 'req' is declared but its value is never read.
+
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/controllers/post.controller.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-49757390637905985.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-49757390637905985.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-49757390637905985.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2022-10-26 00:03:04 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/controllers/post.controller.ts(15,53): error TS2554: Expected 0 arguments, but got 1.
+
+Error: ⨯ Unable to compile TypeScript:
+src/controllers/post.controller.ts(15,53): error TS2554: Expected 0 arguments, but got 1.
+
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/controllers/post.controller.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-49757390637905985.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-49757390637905985.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-49757390637905985.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2022-10-26 00:03:07 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/controllers/post.controller.ts(15,53): error TS2554: Expected 0 arguments, but got 1.
+
+Error: ⨯ Unable to compile TypeScript:
+src/controllers/post.controller.ts(15,53): error TS2554: Expected 0 arguments, but got 1.
+
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/controllers/post.controller.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-49757390637905985.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-49757390637905985.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-49757390637905985.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2022-10-26 00:04:36 error: uncaughtException: Invalid URL
+TypeError: Invalid URL
+    at new NodeError (node:internal/errors:372:5)
+    at URL.onParseError (node:internal/url:553:9)
+    at new URL (node:internal/url:629:5)
+    at dispatchHttpRequest (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/axios/lib/adapters/http.js:169:20)
+    at new Promise (<anonymous>)
+    at httpAdapter (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/axios/lib/adapters/http.js:105:10)
+    at Axios.dispatchRequest (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/axios/lib/core/dispatchRequest.js:46:10)
+    at Axios.request (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/axios/lib/core/Axios.js:140:33)
+    at Axios.<computed> [as get] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/axios/lib/core/Axios.js:166:17)
+    at Function.wrap [as get] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/axios/lib/helpers/bind.js:5:15)
+2022-10-26 00:05:03 error: uncaughtException: Invalid URL
+TypeError: Invalid URL
+    at new NodeError (node:internal/errors:372:5)
+    at URL.onParseError (node:internal/url:553:9)
+    at new URL (node:internal/url:629:5)
+    at dispatchHttpRequest (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/axios/lib/adapters/http.js:169:20)
+    at new Promise (<anonymous>)
+    at httpAdapter (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/axios/lib/adapters/http.js:105:10)
+    at Axios.dispatchRequest (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/axios/lib/core/dispatchRequest.js:46:10)
+    at Axios.request (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/axios/lib/core/Axios.js:140:33)
+    at Axios.<computed> [as get] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/axios/lib/core/Axios.js:166:17)
+    at Function.wrap [as get] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/axios/lib/helpers/bind.js:5:15)
+2022-10-26 00:05:13 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/services/post.service.ts(17,41): error TS2355: A function whose declared type is neither 'void' nor 'any' must return a value.
+src/services/post.service.ts(18,58): error TS2362: The left-hand side of an arithmetic operation must be of type 'any', 'number', 'bigint' or an enum type.
+src/services/post.service.ts(18,78): error TS2581: Cannot find name '$'. Do you need to install type definitions for jQuery? Try `npm i --save-dev @types/jquery`.
+src/services/post.service.ts(18,79): error TS2349: This expression is not callable.
+  Type '{ id: string; }' has no call signatures.
+src/services/post.service.ts(18,79): error TS1005: '}' expected.
+src/services/post.service.ts(37,1): error TS1160: Unterminated template literal.
+
+Error: ⨯ Unable to compile TypeScript:
+src/services/post.service.ts(17,41): error TS2355: A function whose declared type is neither 'void' nor 'any' must return a value.
+src/services/post.service.ts(18,58): error TS2362: The left-hand side of an arithmetic operation must be of type 'any', 'number', 'bigint' or an enum type.
+src/services/post.service.ts(18,78): error TS2581: Cannot find name '$'. Do you need to install type definitions for jQuery? Try `npm i --save-dev @types/jquery`.
+src/services/post.service.ts(18,79): error TS2349: This expression is not callable.
+  Type '{ id: string; }' has no call signatures.
+src/services/post.service.ts(18,79): error TS1005: '}' expected.
+src/services/post.service.ts(37,1): error TS1160: Unterminated template literal.
+
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/services/post.service.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-7813165676146678.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-7813165676146678.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-7813165676146678.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2022-10-26 00:06:45 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/services/post.service.ts(32,5): error TS2739: Type 'Post[]' is missing the following properties from type 'Post': userId, id, title, body
+
+Error: ⨯ Unable to compile TypeScript:
+src/services/post.service.ts(32,5): error TS2739: Type 'Post[]' is missing the following properties from type 'Post': userId, id, title, body
+
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/services/post.service.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-7813165676146678.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-7813165676146678.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-7813165676146678.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2022-10-26 00:06:55 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/services/post.service.ts(29,30): error TS2355: A function whose declared type is neither 'void' nor 'any' must return a value.
+src/services/post.service.ts(37,1): error TS1160: Unterminated template literal.
+
+Error: ⨯ Unable to compile TypeScript:
+src/services/post.service.ts(29,30): error TS2355: A function whose declared type is neither 'void' nor 'any' must return a value.
+src/services/post.service.ts(37,1): error TS1160: Unterminated template literal.
+
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/services/post.service.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-7813165676146678.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-7813165676146678.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-7813165676146678.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2022-10-26 00:06:58 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/services/post.service.ts(30,77): error TS1005: '}' expected.
+
+Error: ⨯ Unable to compile TypeScript:
+src/services/post.service.ts(30,77): error TS1005: '}' expected.
+
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/services/post.service.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-7813165676146678.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-7813165676146678.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-7813165676146678.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2022-10-26 00:07:03 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/services/post.service.ts(29,30): error TS2355: A function whose declared type is neither 'void' nor 'any' must return a value.
+src/services/post.service.ts(37,1): error TS1160: Unterminated template literal.
+
+Error: ⨯ Unable to compile TypeScript:
+src/services/post.service.ts(29,30): error TS2355: A function whose declared type is neither 'void' nor 'any' must return a value.
+src/services/post.service.ts(37,1): error TS1160: Unterminated template literal.
+
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/services/post.service.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-7813165676146678.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-7813165676146678.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-7813165676146678.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2022-10-26 00:07:07 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/services/post.service.ts(29,30): error TS2355: A function whose declared type is neither 'void' nor 'any' must return a value.
+src/services/post.service.ts(30,81): error TS1109: Expression expected.
+src/services/post.service.ts(37,1): error TS1160: Unterminated template literal.
+
+Error: ⨯ Unable to compile TypeScript:
+src/services/post.service.ts(29,30): error TS2355: A function whose declared type is neither 'void' nor 'any' must return a value.
+src/services/post.service.ts(30,81): error TS1109: Expression expected.
+src/services/post.service.ts(37,1): error TS1160: Unterminated template literal.
+
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/services/post.service.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-7813165676146678.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-7813165676146678.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-7813165676146678.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2022-10-26 00:07:10 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/services/post.service.ts(29,30): error TS2355: A function whose declared type is neither 'void' nor 'any' must return a value.
+src/services/post.service.ts(30,81): error TS2304: Cannot find name 'id'.
+src/services/post.service.ts(37,1): error TS1160: Unterminated template literal.
+
+Error: ⨯ Unable to compile TypeScript:
+src/services/post.service.ts(29,30): error TS2355: A function whose declared type is neither 'void' nor 'any' must return a value.
+src/services/post.service.ts(30,81): error TS2304: Cannot find name 'id'.
+src/services/post.service.ts(37,1): error TS1160: Unterminated template literal.
+
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/services/post.service.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-7813165676146678.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-7813165676146678.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-7813165676146678.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2022-10-26 00:07:14 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/services/post.service.ts(29,40): error TS2355: A function whose declared type is neither 'void' nor 'any' must return a value.
+src/services/post.service.ts(37,1): error TS1160: Unterminated template literal.
+
+Error: ⨯ Unable to compile TypeScript:
+src/services/post.service.ts(29,40): error TS2355: A function whose declared type is neither 'void' nor 'any' must return a value.
+src/services/post.service.ts(37,1): error TS1160: Unterminated template literal.
+
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/services/post.service.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-7813165676146678.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-7813165676146678.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-7813165676146678.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2022-10-26 00:07:28 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/controllers/post.controller.ts(24,34): error TS6133: 'req' is declared but its value is never read.
+src/controllers/post.controller.ts(25,41): error TS2554: Expected 1 arguments, but got 0.
+
+Error: ⨯ Unable to compile TypeScript:
+src/controllers/post.controller.ts(24,34): error TS6133: 'req' is declared but its value is never read.
+src/controllers/post.controller.ts(25,41): error TS2554: Expected 1 arguments, but got 0.
+
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/controllers/post.controller.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-7813165676146678.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-7813165676146678.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-7813165676146678.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2022-10-26 00:08:33 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/services/post.service.ts(31,96): error TS2551: Property 'statu' does not exist on type 'AxiosResponse<any, any>'. Did you mean 'status'?
+
+Error: ⨯ Unable to compile TypeScript:
+src/services/post.service.ts(31,96): error TS2551: Property 'statu' does not exist on type 'AxiosResponse<any, any>'. Did you mean 'status'?
+
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/services/post.service.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-7813165676146678.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-7813165676146678.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-7813165676146678.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2022-10-26 00:09:30 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/controllers/post.controller.ts(19,34): error TS6133: 'req' is declared but its value is never read.
+
+Error: ⨯ Unable to compile TypeScript:
+src/controllers/post.controller.ts(19,34): error TS6133: 'req' is declared but its value is never read.
+
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/controllers/post.controller.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-7813165676146678.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-7813165676146678.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-7813165676146678.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2022-10-26 00:09:36 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/controllers/post.controller.ts(20,52): error TS2554: Expected 0 arguments, but got 1.
+
+Error: ⨯ Unable to compile TypeScript:
+src/controllers/post.controller.ts(20,52): error TS2554: Expected 0 arguments, but got 1.
+
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/controllers/post.controller.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-7813165676146678.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-7813165676146678.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-7813165676146678.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2022-10-26 00:12:17 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/controllers/post.controller.ts(20,56): error TS1003: Identifier expected.
+
+Error: ⨯ Unable to compile TypeScript:
+src/controllers/post.controller.ts(20,56): error TS1003: Identifier expected.
+
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/controllers/post.controller.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-7813165676146678.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-7813165676146678.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-7813165676146678.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2022-10-26 00:12:25 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/controllers/post.controller.ts(20,67): error TS2554: Expected 1 arguments, but got 2.
+
+Error: ⨯ Unable to compile TypeScript:
+src/controllers/post.controller.ts(20,67): error TS2554: Expected 1 arguments, but got 2.
+
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/controllers/post.controller.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-7813165676146678.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-7813165676146678.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-7813165676146678.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2022-10-26 00:13:00 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/controllers/post.controller.ts(20,41): error TS2554: Expected 2 arguments, but got 1.
+
+Error: ⨯ Unable to compile TypeScript:
+src/controllers/post.controller.ts(20,41): error TS2554: Expected 2 arguments, but got 1.
+
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/controllers/post.controller.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-7813165676146678.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-7813165676146678.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-7813165676146678.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2022-10-26 00:13:20 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/controllers/post.controller.ts(20,41): error TS2554: Expected 2 arguments, but got 1.
+
+Error: ⨯ Unable to compile TypeScript:
+src/controllers/post.controller.ts(20,41): error TS2554: Expected 2 arguments, but got 1.
+
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/controllers/post.controller.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-7813165676146678.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-7813165676146678.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-7813165676146678.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2022-10-26 00:17:29 error: uncaughtException: Cannot read properties of undefined (reading 'id')
+TypeError: Cannot read properties of undefined (reading 'id')
+    at PostService.updatePost (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/services/post.service.ts:25:94)
+    at updatePostCtrl (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/controllers/post.controller.ts:20:41)
+    at Layer.handle [as handle_request] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/express/lib/router/layer.js:95:5)
+    at /home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/express/lib/router/index.js:175:3)
+2022-10-26 00:17:47 error: uncaughtException: Cannot read properties of undefined (reading 'id')
+TypeError: Cannot read properties of undefined (reading 'id')
+    at PostService.updatePost (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/services/post.service.ts:26:94)
+    at updatePostCtrl (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/controllers/post.controller.ts:20:41)
+    at Layer.handle [as handle_request] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/express/lib/router/layer.js:95:5)
+    at /home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/express/lib/router/index.js:175:3)
+2022-10-26 00:18:25 error: uncaughtException: Cannot read properties of undefined (reading 'id')
+TypeError: Cannot read properties of undefined (reading 'id')
+    at PostService.updatePost (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/services/post.service.ts:25:94)
+    at updatePostCtrl (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/controllers/post.controller.ts:21:41)
+    at Layer.handle [as handle_request] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/express/lib/router/layer.js:95:5)
+    at /home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/express/lib/router/index.js:175:3)
+2022-10-26 00:20:09 error: uncaughtException: Cannot read properties of undefined (reading 'id')
+TypeError: Cannot read properties of undefined (reading 'id')
+    at PostService.updatePost (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/services/post.service.ts:25:94)
+    at updatePostCtrl (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/controllers/post.controller.ts:21:41)
+    at Layer.handle [as handle_request] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/express/lib/router/layer.js:95:5)
+    at /home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/express/lib/router/index.js:284:15
+    at param (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/express/lib/router/index.js:365:14)
+    at param (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/express/lib/router/index.js:376:14)
+    at Function.process_params (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/express/lib/router/index.js:421:3)
+2022-10-26 00:20:49 error: uncaughtException: Cannot read properties of undefined (reading 'id')
+TypeError: Cannot read properties of undefined (reading 'id')
+    at PostService.updatePost (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/services/post.service.ts:25:94)
+    at updatePostCtrl (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/controllers/post.controller.ts:21:41)
+    at Layer.handle [as handle_request] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/express/lib/router/layer.js:95:5)
+    at /home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/express/lib/router/index.js:284:15
+    at param (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/express/lib/router/index.js:365:14)
+    at param (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/express/lib/router/index.js:376:14)
+    at Function.process_params (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/express/lib/router/index.js:421:3)
+2022-10-26 00:22:06 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/controllers/post.controller.ts(20,32): error TS2339: Property 'b' does not exist on type 'Request<ParamsDictionary, any, any, ParsedQs, Record<string, any>>'.
+
+Error: ⨯ Unable to compile TypeScript:
+src/controllers/post.controller.ts(20,32): error TS2339: Property 'b' does not exist on type 'Request<ParamsDictionary, any, any, ParsedQs, Record<string, any>>'.
+
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/controllers/post.controller.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-02427433862466155.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-02427433862466155.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-02427433862466155.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2022-10-26 00:22:14 error: uncaughtException: Cannot read properties of undefined (reading 'id')
+TypeError: Cannot read properties of undefined (reading 'id')
+    at PostService.updatePost (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/services/post.service.ts:25:94)
+    at updatePostCtrl (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/controllers/post.controller.ts:21:41)
+    at Layer.handle [as handle_request] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/express/lib/router/layer.js:95:5)
+    at /home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/express/lib/router/index.js:284:15
+    at param (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/express/lib/router/index.js:365:14)
+    at param (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/express/lib/router/index.js:376:14)
+    at Function.process_params (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/express/lib/router/index.js:421:3)
+2022-10-26 00:23:51 error: uncaughtException: Cannot read properties of undefined (reading 'id')
+TypeError: Cannot read properties of undefined (reading 'id')
+    at PostService.updatePost (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/services/post.service.ts:25:94)
+    at updatePostCtrl (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/controllers/post.controller.ts:21:41)
+    at Layer.handle [as handle_request] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/express/lib/router/layer.js:95:5)
+    at /home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/express/lib/router/index.js:284:15
+    at param (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/express/lib/router/index.js:365:14)
+    at param (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/express/lib/router/index.js:376:14)
+    at Function.process_params (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/express/lib/router/index.js:421:3)
+2022-10-26 00:25:04 error: uncaughtException: Cannot read properties of undefined (reading 'id')
+TypeError: Cannot read properties of undefined (reading 'id')
+    at PostService.updatePost (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/services/post.service.ts:25:94)
+    at updatePostCtrl (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/controllers/post.controller.ts:21:41)
+    at Layer.handle [as handle_request] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/express/lib/router/layer.js:95:5)
+    at /home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/express/lib/router/index.js:284:15
+    at param (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/express/lib/router/index.js:365:14)
+    at param (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/express/lib/router/index.js:376:14)
+    at Function.process_params (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/express/lib/router/index.js:421:3)
+2022-10-26 00:25:20 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/controllers/post.controller.ts(20,67): error TS2554: Expected 1 arguments, but got 2.
+
+Error: ⨯ Unable to compile TypeScript:
+src/controllers/post.controller.ts(20,67): error TS2554: Expected 1 arguments, but got 2.
+
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/controllers/post.controller.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-30181099666761235.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-30181099666761235.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-30181099666761235.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2022-10-26 00:26:47 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/routes/post.routes.ts(23,17): error TS2555: Expected at least 1 arguments, but got 0.
+
+Error: ⨯ Unable to compile TypeScript:
+src/routes/post.routes.ts(23,17): error TS2555: Expected at least 1 arguments, but got 0.
+
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/routes/post.routes.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-40259052186390787.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-40259052186390787.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-40259052186390787.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2022-10-26 00:26:58 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/routes/post.routes.ts(23,5): error TS2695: Left side of comma operator is unused and has no side effects.
+src/routes/post.routes.ts(23,21): error TS2769: No overload matches this call.
+  The last overload gave the following error.
+    Argument of type 'TemplateStringsArray' is not assignable to parameter of type 'PathParams'.
+      Type 'TemplateStringsArray' is missing the following properties from type '(string | RegExp)[]': pop, push, reverse, shift, and 6 more.
+src/routes/post.routes.ts(23,61): error TS2339: Property 'createPostCtrl' does not exist on type 'PostController'.
+src/routes/post.routes.ts(23,75): error TS1005: ';' expected.
+
+Error: ⨯ Unable to compile TypeScript:
+src/routes/post.routes.ts(23,5): error TS2695: Left side of comma operator is unused and has no side effects.
+src/routes/post.routes.ts(23,21): error TS2769: No overload matches this call.
+  The last overload gave the following error.
+    Argument of type 'TemplateStringsArray' is not assignable to parameter of type 'PathParams'.
+      Type 'TemplateStringsArray' is missing the following properties from type '(string | RegExp)[]': pop, push, reverse, shift, and 6 more.
+src/routes/post.routes.ts(23,61): error TS2339: Property 'createPostCtrl' does not exist on type 'PostController'.
+src/routes/post.routes.ts(23,75): error TS1005: ';' expected.
+
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/routes/post.routes.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-40259052186390787.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-40259052186390787.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-40259052186390787.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2022-10-26 00:27:02 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/routes/post.routes.ts(23,5): error TS2695: Left side of comma operator is unused and has no side effects.
+src/routes/post.routes.ts(23,21): error TS2769: No overload matches this call.
+  The last overload gave the following error.
+    Argument of type 'TemplateStringsArray' is not assignable to parameter of type 'PathParams'.
+      Type 'TemplateStringsArray' is missing the following properties from type '(string | RegExp)[]': pop, push, reverse, shift, and 6 more.
+src/routes/post.routes.ts(23,57): error TS2339: Property 'createPostCtrl' does not exist on type 'PostController'.
+src/routes/post.routes.ts(23,71): error TS1005: ';' expected.
+
+Error: ⨯ Unable to compile TypeScript:
+src/routes/post.routes.ts(23,5): error TS2695: Left side of comma operator is unused and has no side effects.
+src/routes/post.routes.ts(23,21): error TS2769: No overload matches this call.
+  The last overload gave the following error.
+    Argument of type 'TemplateStringsArray' is not assignable to parameter of type 'PathParams'.
+      Type 'TemplateStringsArray' is missing the following properties from type '(string | RegExp)[]': pop, push, reverse, shift, and 6 more.
+src/routes/post.routes.ts(23,57): error TS2339: Property 'createPostCtrl' does not exist on type 'PostController'.
+src/routes/post.routes.ts(23,71): error TS1005: ';' expected.
+
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/routes/post.routes.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-40259052186390787.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-40259052186390787.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-40259052186390787.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2022-10-26 00:27:15 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/routes/post.routes.ts(23,58): error TS2339: Property 'createPostCtrl' does not exist on type 'PostController'.
+
+Error: ⨯ Unable to compile TypeScript:
+src/routes/post.routes.ts(23,58): error TS2339: Property 'createPostCtrl' does not exist on type 'PostController'.
+
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/routes/post.routes.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-40259052186390787.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-40259052186390787.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-40259052186390787.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2022-10-26 00:27:18 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/routes/post.routes.ts(23,58): error TS2339: Property 'createPostCtrl' does not exist on type 'PostController'.
+
+Error: ⨯ Unable to compile TypeScript:
+src/routes/post.routes.ts(23,58): error TS2339: Property 'createPostCtrl' does not exist on type 'PostController'.
+
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/routes/post.routes.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-40259052186390787.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-40259052186390787.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-40259052186390787.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2022-10-26 00:32:40 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/services/post.service.ts(47,11): error TS6133: 'newpostCreated' is declared but its value is never read.
+src/services/post.service.ts(48,12): error TS2552: Cannot find name 'postCreated'. Did you mean 'newpostCreated'?
+
+Error: ⨯ Unable to compile TypeScript:
+src/services/post.service.ts(47,11): error TS6133: 'newpostCreated' is declared but its value is never read.
+src/services/post.service.ts(48,12): error TS2552: Cannot find name 'postCreated'. Did you mean 'newpostCreated'?
+
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/services/post.service.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-8271803567354941.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-8271803567354941.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-8271803567354941.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2022-10-26 00:32:43 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/services/post.service.ts(47,11): error TS6133: 'newPostCreated' is declared but its value is never read.
+src/services/post.service.ts(48,12): error TS2552: Cannot find name 'postCreated'. Did you mean 'newPostCreated'?
+
+Error: ⨯ Unable to compile TypeScript:
+src/services/post.service.ts(47,11): error TS6133: 'newPostCreated' is declared but its value is never read.
+src/services/post.service.ts(48,12): error TS2552: Cannot find name 'postCreated'. Did you mean 'newPostCreated'?
+
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/services/post.service.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-8271803567354941.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-8271803567354941.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-8271803567354941.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2022-10-26 00:32:47 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/services/post.service.ts(47,11): error TS6133: 'newPostId' is declared but its value is never read.
+src/services/post.service.ts(48,12): error TS2304: Cannot find name 'postCreated'.
+
+Error: ⨯ Unable to compile TypeScript:
+src/services/post.service.ts(47,11): error TS6133: 'newPostId' is declared but its value is never read.
+src/services/post.service.ts(48,12): error TS2304: Cannot find name 'postCreated'.
+
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/services/post.service.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-8271803567354941.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-8271803567354941.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-8271803567354941.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)

@@ -26,6 +26,7 @@ class App {
         this.initiazeMiddlewares();
         this.initializeErrorHandling();
         this.connectToDataBase();
+        this.initializeSwagger();
     }
     listen() {
         this.app.listen(this.port, () => {
@@ -55,6 +56,9 @@ class App {
         routes.forEach((route) => {
             this.app.use(`/api/${config_1.API_VERSION}`, route.router);
         });
+    }
+    initializeSwagger() {
+        // TODO: Add swagger config
     }
     initializeErrorHandling() {
         this.app.use(error_middleware_1.default);

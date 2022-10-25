@@ -1,0 +1,20 @@
+{
+    "keep": {
+        "days": false,
+        "amount": 30
+    },
+    "auditLog": "/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/logs/debug/.b280c370768f0525a640f24fe5d6947193d2684a-audit.json",
+    "files": [
+        {
+            "date": 1666732730561,
+            "name": "/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/logs/debug/2022-10-25.log",
+            "hash": "026fb568273933e9949a9c8d5a8da54c7cdc39b43ec2aff4aecf613d78485f39"
+        },
+        {
+            "date": 1666735206886,
+            "name": "/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/logs/debug/2022-10-26.log",
+            "hash": "9e95f08cea9250a3ec2664c365ac86a436a52f73b9e3cddd7c135d23943b4e76"
+        }
+    ],
+    "hashType": "sha256"
+}
