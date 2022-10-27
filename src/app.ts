@@ -5,6 +5,8 @@ import helmet from 'helmet';
 import hpp from 'hpp';
 import morgan from 'morgan';
 import displayRoutes from 'express-routemap';
+import swaggerJsdoc from 'swagger-jsdoc';
+import swaggerUi from 'swagger-ui-express';
 
 import { NODE_ENV, PORT, LOG_FORMAT, API_VERSION } from './config/config';
 
@@ -13,6 +15,7 @@ import errorMiddleware from './middlewares/error.middleware';
 import corsConfig from './config/corsConfig';
 
 import { Routes } from './interfaces/route.interface';
+import { swaggerOptions } from './config/swaggerConfig';
 
 class App {
   public app: express.Application;
@@ -66,7 +69,8 @@ class App {
   }
 
   private initializeSwagger() {
-    // TODO: Add swagger settings
+    const configSwagger = swaggerJsdoc(swaggerOptions);
+    this.app.use(`/api/${API_VERSION}/docs`, swaggerUi.serve, swaggerUi.setup(configSwagger));
   }
 
   private initializeErrorHandling() {

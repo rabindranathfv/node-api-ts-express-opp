@@ -19,6 +19,11 @@
             "date": 1666903617660,
             "name": "/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/logs/error/2022-10-27.log",
             "hash": "7a26053a4fdefb52818f40a62c576f0edb9bc811f3c89d668cfc9d3a19ed3c2e"
+        },
+        {
+            "date": 1666908004176,
+            "name": "/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/logs/error/2022-10-28.log",
+            "hash": "83d303dc5cdee39586325b8fd957715324bba8ea101dcfa622d84a4bcb31c647"
         }
     ],
     "hashType": "sha256"

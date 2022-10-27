@@ -20,21 +20,42 @@ class PostService {
         const post = resp.data;
         return post;
     }
-    async updatePost(postData) {
-        // Existe el post???
-        const postById = await axios_1.default.get(`${this.urlExternalApi}/${postData.id}`);
-        if (!postById) {
-            console.log('no existe el post para actualizar');
+    async updatePost(id, bodyData) {
+        try {
+            const { title, body } = bodyData;
+            const { data } = await axios_1.default.put(`${this.urlExternalApi}/${id}`, {
+                ...(body && { body }),
+                ...(title && { title }),
+            });
+            const post = data;
+            return post;
         }
-        const resp = await axios_1.default.put(`${this.urlExternalApi}/${postData.id}`, postData);
-        const post = resp.data;
-        return post;
+        catch (error) {
+            console.log(error);
+            return undefined;
+        }
     }
     async deletePost(id) {
-        const resp = await axios_1.default.get(`${this.urlExternalApi}/${id}`);
-        console.log('🚀 ~ file: post.service.ts ~ line 31 ~ PostService ~ deletePost ~ resp', resp.status);
-        const posts = resp.data;
-        return posts;
+        try {
+            const { data, status } = await axios_1.default.delete(`${config_1.EXTERNAL_API}/${id}` ?? `https://jsonplaceholder.typicode.com/posts/${id}`);
+            const post = data;
+            if (status === 200 && Object.keys(post).length === 0) {
+                return post;
+            }
+            return post;
+        }
+        catch (error) {
+            console.log(error);
+            return undefined;
+        }
+    }
+    async createPost(bodyData) {
+        const { title, body } = bodyData;
+        const response = await axios_1.default.post(`${this.urlExternalApi}`, {
+            title,
+            body,
+        });
+        return response.data;
     }
 }
 exports.default = PostService;

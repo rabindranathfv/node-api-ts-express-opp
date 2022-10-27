@@ -16,11 +16,15 @@ class PostController {
         res.json(resp);
     };
     updatePostCtrl = async (req, res) => {
-        const resp = await this.postService.updatePost(req.body);
+        const resp = await this.postService.updatePost(req.params.id, req.body);
         res.json(resp);
     };
     deletePostCtrl = async (req, res) => {
         const resp = await this.postService.deletePost(req.params.id);
+        res.status(200).json(resp);
+    };
+    createPostCtrl = async (req, res) => {
+        const resp = await this.postService.createPost(req.body);
         res.status(200).json(resp);
     };
 }
