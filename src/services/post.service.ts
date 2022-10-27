@@ -20,28 +20,43 @@ class PostService {
     return post;
   }
 
-  public async updatePost(id: string, postData: Post): Promise<Post> {
-    const postById: AxiosResponse = await axios.get<Post>(`${this.urlExternalApi}/${id}`);
-    if (!postById) {
-      console.log('no existe el post para actualizar');
+  public async updatePost(id: string, bodyData: any) {
+    try {
+      const { title, body } = bodyData;
+      const { data }: AxiosResponse<Post> = await axios.put<Post>(`${this.urlExternalApi}/${id}`, {
+        ...(body && { body }),
+        ...(title && { title }),
+      });
+      const post: Post = data;
+      return post;
+    } catch (error) {
+      console.log(error);
+      return undefined;
     }
-
-    const resp: AxiosResponse = await axios.put<Post>(`${this.urlExternalApi}/${id}`, postData);
-    const post: Post = resp.data;
-    return post;
   }
 
-  public async deletePost(id: string): Promise<Post> {
-    const resp: AxiosResponse = await axios.get<Post>(`${this.urlExternalApi}/${id}`);
-    const posts: Post = resp.data;
-    return posts;
+  public async deletePost(id: string): Promise<Post | undefined> {
+    try {
+      const { data, status }: AxiosResponse = await axios.delete(`${EXTERNAL_API}/${id}` ?? `https://jsonplaceholder.typicode.com/posts/${id}`);
+      const post: Post = data;
+      if (status === 200 && Object.keys(post).length === 0) {
+        return post;
+      }
+      return post;
+    } catch (error) {
+      console.log(error);
+      return undefined;
+    }
   }
 
-  public async createPost(postBody: Post): Promise<Post> {
-    console.log('🚀 ~ file: post.service.ts ~ line 45 ~ PostService ~ createPost ~ postBody', postBody);
-    const resp: AxiosResponse = await axios.post<Post>(this.urlExternalApi, postBody);
-    const newPostId = resp.data;
-    return newPostId;
+  public async createPost(bodyData: any) {
+    const { title, body } = bodyData;
+
+    const response: AxiosResponse = await axios.post(`${this.urlExternalApi}`, {
+      title,
+      body,
+    });
+    return response.data;
   }
 }
 

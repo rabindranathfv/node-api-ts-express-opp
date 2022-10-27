@@ -1,16 +1,18 @@
-import express from 'express';
-import hpp from 'hpp';
-import helmet from 'helmet';
 import cookieParser from 'cookie-parser';
-import morgan from 'morgan';
-import { logger, stream } from './utils/logger';
-import displayRoutes from 'express-routemap';
 import cors from 'cors';
-import corsConfig from './config/corsConfig';
+import express from 'express';
+import helmet from 'helmet';
+import hpp from 'hpp';
+import morgan from 'morgan';
+import displayRoutes from 'express-routemap';
+
+import { NODE_ENV, PORT, LOG_FORMAT, API_VERSION } from './config/config';
+
+import { logger, stream } from './utils/logger';
 import errorMiddleware from './middlewares/error.middleware';
+import corsConfig from './config/corsConfig';
 
 import { Routes } from './interfaces/route.interface';
-import { PORT, NODE_ENV, API_VERSION, LOG_FORMAT } from './config/config';
 
 class App {
   public app: express.Application;
@@ -19,14 +21,14 @@ class App {
 
   constructor(routes: Routes[]) {
     this.app = express();
-    this.port = PORT || 3000;
     this.env = NODE_ENV || 'development';
+    this.port = PORT || 3000;
 
-    this.initRoutes(routes);
-    this.initiazeMiddlewares();
-    this.initializeErrorHandling();
-    this.connectToDataBase();
+    this.connectToDatabase();
+    this.initializeMiddlewares();
+    this.initializeRoutes(routes);
     this.initializeSwagger();
+    this.initializeErrorHandling();
   }
 
   public listen() {
@@ -39,32 +41,32 @@ class App {
     });
   }
 
-  private initiazeMiddlewares() {
-    this.app.use(express.json());
-    this.app.use(express.urlencoded({ extended: true }));
-    this.app.use(hpp());
-    this.app.use(helmet());
-    this.app.use(cookieParser());
-    this.app.use(morgan(LOG_FORMAT ?? '../logs', { stream }));
-    this.app.use(cors(corsConfig));
-  }
-
   public getServer() {
     return this.app;
   }
 
-  public connectToDataBase() {
-    // TODO: IMPORT DB CONNECTION
+  private connectToDatabase() {
+    // start DB instance Here
   }
 
-  private initRoutes(routes: Routes[]) {
+  private initializeMiddlewares() {
+    this.app.use(morgan(LOG_FORMAT ?? '../logs', { stream }));
+    this.app.use(cors(corsConfig));
+    this.app.use(hpp());
+    this.app.use(helmet());
+    this.app.use(express.json());
+    this.app.use(express.urlencoded({ extended: true }));
+    this.app.use(cookieParser());
+  }
+
+  private initializeRoutes(routes: Routes[]) {
     routes.forEach((route) => {
-      this.app.use(`/api/${API_VERSION}`, route.router);
+      this.app.use(`/api/${API_VERSION}/`, route.router);
     });
   }
 
   private initializeSwagger() {
-    // TODO: Add swagger config
+    // TODO: Add swagger settings
   }
 
   private initializeErrorHandling() {
