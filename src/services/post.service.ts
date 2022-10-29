@@ -8,19 +8,21 @@ class PostService {
     this.urlExternalApi = `${EXTERNAL_API}posts` ?? 'https://jsonplaceholder.typicode.com/post';
   }
 
+  // TODO: Manejar errores
   public async getAllPosts(): Promise<Post[]> {
-    const resp: AxiosResponse = await axios.get<Post[]>(this.urlExternalApi);
-    const posts: Post[] = resp.data;
+    const { data }: AxiosResponse = await axios.get<Post[]>(this.urlExternalApi);
+    const posts: Post[] = data;
     return posts;
   }
 
+  // TODO: Manejar errores
   public async getPostById(id: string): Promise<Post> {
-    const resp: AxiosResponse = await axios.get<Post>(`${this.urlExternalApi}/${id}`);
-    const post: Post = resp.data;
+    const { data }: AxiosResponse = await axios.get<Post>(`${this.urlExternalApi}/${id}`);
+    const post: Post = data;
     return post;
   }
 
-  public async updatePost(id: string, bodyData: any) {
+  public async updatePost(id: number, bodyData: any) {
     try {
       const { title, body } = bodyData;
       const { data }: AxiosResponse<Post> = await axios.put<Post>(`${this.urlExternalApi}/${id}`, {
@@ -35,12 +37,12 @@ class PostService {
     }
   }
 
-  public async deletePost(id: string): Promise<Post | undefined> {
+  public async deletePost(id: string): Promise<Partial<Post> | undefined> {
     try {
-      const { data, status }: AxiosResponse = await axios.delete(`${EXTERNAL_API}/${id}` ?? `https://jsonplaceholder.typicode.com/posts/${id}`);
+      const { data, status }: AxiosResponse = await axios.delete(`${this.urlExternalApi}/${id}`);
       const post: Post = data;
-      if (status === 200 && Object.keys(post).length === 0) {
-        return post;
+      if (status === 200) {
+        return { id: Number(id) };
       }
       return post;
     } catch (error) {
@@ -49,6 +51,7 @@ class PostService {
     }
   }
 
+  // TODO: Manejar errores
   public async createPost(bodyData: any) {
     const { title, body } = bodyData;
 

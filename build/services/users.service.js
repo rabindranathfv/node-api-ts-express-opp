@@ -4,7 +4,6 @@ const users_1 = require("./../mock/users");
 class UserService {
     constructor() { }
     getAllUsers() {
-        console.log('llamando desde el UserServices*********');
         return users_1.users;
     }
 }

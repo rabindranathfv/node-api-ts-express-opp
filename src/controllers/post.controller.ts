@@ -17,11 +17,17 @@ class PostController {
   };
 
   public updatePostCtrl = async (req: Request, res: Response) => {
-    const resp = await this.postService.updatePost(req.params.id, req.body);
+    const postId = Number(req.params.id);
+    if (!(postId > 0)) res.status(400).json({ message: `missing id of the post` });
+
+    const resp = await this.postService.updatePost(Number(postId), req.body);
     res.json(resp);
   };
 
   public deletePostCtrl = async (req: Request, res: Response) => {
+    const postId = Number(req.params.id);
+    if (!(postId > 0)) res.status(400).json({ message: `missing id of the post` });
+
     const resp = await this.postService.deletePost(req.params.id);
     res.status(200).json(resp);
   };

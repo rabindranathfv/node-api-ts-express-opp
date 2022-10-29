@@ -1,10 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 const express_1 = require("express");
-/**
- * @swagger
- *
- */
 class BaseRoute {
     path = '/alive';
     router = (0, express_1.Router)();
@@ -16,10 +12,10 @@ class BaseRoute {
          * @swagger
          * /api/v1/alive:
          *  get:
-         *    summary: endpoint base
-         *    response:
+         *    summary: check if API is running
+         *    responses:
          *      200:
-         *        description: endpoint base
+         *        description: check if API is running
          *        content:
          *          application/json:
          *            schema:
@@ -27,10 +23,10 @@ class BaseRoute {
          *              properties:
          *                ok:
          *                  type: boolean
-         *                  description: describe if response was good or not
+         *                  description: explain if the responses goings well or not
          *                message:
          *                  type: string
-         *                  description: description message based on endpoint
+         *                  description: explain message if register process was sucess or not
          */
         this.router.get(`${this.path}`, (_req, res) => {
             res.status(200).json({ ok: true, message: `I AM API AND I AM ALIVE` });
