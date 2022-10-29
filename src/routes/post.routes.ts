@@ -167,39 +167,6 @@ class PostsRoute implements Routes {
      * @swagger
      * /api/v1/post:
      *  post:
-     *    summary: create a new Post
-     *    tags: [Post]
-     *    parameters:
-     *      - in: path
-     *        name: id
-     *        required: true
-     *        description: id of the post
-     *      - in: body
-     *        name: title
-     *        required: true
-     *        description: title of the new post
-     *      - in: body
-     *        name: body
-     *        required: true
-     *        description: content of the new post
-     *    responses:
-     *      200:
-     *        descriptiopn: delete an specific Post
-     *        content:
-     *          application/json:
-     *            schema:
-     *              type: object
-     *              properties:
-     *                id:
-     *                  type: integer
-     *                  description: postId
-     *                title:
-     *                  type: string
-     *                  description: title of new post
-     *                /**
-     * @swagger
-     * /api/v1/post:
-     *  post:
      *    summary: create an specific Post
      *    tags: [Post]
      *    parameters:
