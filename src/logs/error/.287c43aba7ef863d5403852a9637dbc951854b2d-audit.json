@@ -6,29 +6,9 @@
     "auditLog": "/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/logs/error/.287c43aba7ef863d5403852a9637dbc951854b2d-audit.json",
     "files": [
         {
-            "date": 1666732730563,
-            "name": "/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/logs/error/2022-10-25.log",
-            "hash": "a35cf3b5b680b3852515432ce995f010637458b8d9f9761623627e302f2086db"
-        },
-        {
-            "date": 1666735206888,
-            "name": "/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/logs/error/2022-10-26.log",
-            "hash": "0e30d3527569ed526fba2697ce599f1dbbdcdc29f902df5d7c8d45f790524a38"
-        },
-        {
-            "date": 1666903617660,
-            "name": "/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/logs/error/2022-10-27.log",
-            "hash": "7a26053a4fdefb52818f40a62c576f0edb9bc811f3c89d668cfc9d3a19ed3c2e"
-        },
-        {
-            "date": 1666908004176,
-            "name": "/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/logs/error/2022-10-28.log",
-            "hash": "83d303dc5cdee39586325b8fd957715324bba8ea101dcfa622d84a4bcb31c647"
-        },
-        {
-            "date": 1667049368417,
+            "date": 1667058369458,
             "name": "/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/logs/error/2022-10-29.log",
-            "hash": "88c8526ec5ceca97776d5b9fe7376403841bfcf4e2d30bca83338fbe3db4c036"
+            "hash": "2ce734808256a00fa21747d378bee19f35bc1d7a566cffe289943a7f3fc65ec3"
         }
     ],
     "hashType": "sha256"
