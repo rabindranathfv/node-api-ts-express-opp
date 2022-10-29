@@ -1834,3 +1834,384 @@ Error: Cannot set headers after they are sent to the client
     at ServerResponse.json (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/express/lib/response.js:278:15)
     at deletePostCtrl (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/controllers/post.controller.ts:32:21)
     at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-10-29 17:12:54 error: uncaughtException: Error starting DB Connection with Mongo
+Error: Error starting DB Connection with Mongo
+    at mongoDbConnection (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/DB/mongo.config.ts:21:11)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-10-29 17:18:16 error: uncaughtException: Error starting DB Connection with Mongo
+Error: Error starting DB Connection with Mongo
+    at mongoDbConnection (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/DB/mongo.config.ts:21:11)
+2022-10-29 17:25:46 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/DB/mongo.config.ts(17,54): error TS2554: Expected 1-2 arguments, but got 0.
+
+Error: ⨯ Unable to compile TypeScript:
+src/DB/mongo.config.ts(17,54): error TS2554: Expected 1-2 arguments, but got 0.
+
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/DB/mongo.config.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-4167030742994573.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-4167030742994573.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-4167030742994573.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2022-10-29 17:34:34 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/routes/post.routes.ts(183,36): error TS1102: 'delete' cannot be called on an identifier in strict mode.
+src/routes/post.routes.ts(166,6): error TS2362: The left-hand side of an arithmetic operation must be of type 'any', 'number', 'bigint' or an enum type.
+src/routes/post.routes.ts(168,8): error TS2363: The right-hand side of an arithmetic operation must be of type 'any', 'number', 'bigint' or an enum type.
+src/routes/post.routes.ts(168,16): error TS2304: Cannot find name 'post'.
+src/routes/post.routes.ts(169,9): error TS2304: Cannot find name 'post'.
+src/routes/post.routes.ts(170,11): error TS2304: Cannot find name 'summary'.
+src/routes/post.routes.ts(170,20): error TS2304: Cannot find name 'create'.
+src/routes/post.routes.ts(170,27): error TS2304: Cannot find name 'an'.
+src/routes/post.routes.ts(170,30): error TS2304: Cannot find name 'specific'.
+src/routes/post.routes.ts(170,39): error TS2304: Cannot find name 'Post'.
+src/routes/post.routes.ts(171,11): error TS2304: Cannot find name 'tags'.
+src/routes/post.routes.ts(171,17): error TS2362: The left-hand side of an arithmetic operation must be of type 'any', 'number', 'bigint' or an enum type.
+src/routes/post.routes.ts(171,18): error TS2304: Cannot find name 'Post'.
+src/routes/post.routes.ts(172,11): error TS2304: Cannot find name 'parameters'.
+src/routes/post.routes.ts(173,19): error TS2304: Cannot find name 'body'.
+src/routes/post.routes.ts(174,15): error TS2363: The right-hand side of an arithmetic operation must be of type 'any', 'number', 'bigint' or an enum type.
+src/routes/post.routes.ts(174,21): error TS2304: Cannot find name 'title'.
+src/routes/post.routes.ts(175,15): error TS2304: Cannot find name 'required'.
+src/routes/post.routes.ts(175,25): error TS2362: The left-hand side of an arithmetic operation must be of type 'any', 'number', 'bigint' or an enum type.
+src/routes/post.routes.ts(176,15): error TS2304: Cannot find name 'description'.
+src/routes/post.routes.ts(176,28): error TS2304: Cannot find name 'title'.
+src/routes/post.routes.ts(176,34): error TS2304: Cannot find name 'of'.
+src/routes/post.routes.ts(176,41): error TS2304: Cannot find name 'post'.
+src/routes/post.routes.ts(177,19): error TS2304: Cannot find name 'body'.
+src/routes/post.routes.ts(178,15): error TS2363: The right-hand side of an arithmetic operation must be of type 'any', 'number', 'bigint' or an enum type.
+src/routes/post.routes.ts(178,21): error TS2304: Cannot find name 'body'.
+src/routes/post.routes.ts(179,15): error TS2304: Cannot find name 'required'.
+src/routes/post.routes.ts(179,25): error TS2362: The left-hand side of an arithmetic operation must be of type 'any', 'number', 'bigint' or an enum type.
+src/routes/post.routes.ts(180,15): error TS2304: Cannot find name 'description'.
+src/routes/post.routes.ts(180,28): error TS2304: Cannot find name 'content'.
+src/routes/post.routes.ts(180,36): error TS2304: Cannot find name 'of'.
+src/routes/post.routes.ts(180,39): error TS2304: Cannot find name 'the'.
+src/routes/post.routes.ts(180,47): error TS2304: Cannot find name 'post'.
+src/routes/post.routes.ts(181,11): error TS2304: Cannot find name 'responses'.
+src/routes/post.routes.ts(183,15): error TS2304: Cannot find name 'descriptiopn'.
+src/routes/post.routes.ts(183,36): error TS2304: Cannot find name 'an'.
+src/routes/post.routes.ts(183,36): error TS2703: The operand of a 'delete' operator must be a property reference.
+src/routes/post.routes.ts(183,39): error TS2304: Cannot find name 'specific'.
+src/routes/post.routes.ts(183,48): error TS2304: Cannot find name 'Post'.
+src/routes/post.routes.ts(184,15): error TS2304: Cannot find name 'content'.
+src/routes/post.routes.ts(185,17): error TS2304: Cannot find name 'application'.
+src/routes/post.routes.ts(185,29): error TS2304: Cannot find name 'json'.
+src/routes/post.routes.ts(186,19): error TS2304: Cannot find name 'schema'.
+src/routes/post.routes.ts(187,21): error TS2304: Cannot find name 'type'.
+src/routes/post.routes.ts(187,27): error TS2304: Cannot find name 'object'.
+src/routes/post.routes.ts(188,21): error TS2304: Cannot find name 'properties'.
+src/routes/post.routes.ts(189,23): error TS2304: Cannot find name 'id'.
+src/routes/post.routes.ts(190,25): error TS2304: Cannot find name 'type'.
+src/routes/post.routes.ts(190,31): error TS2304: Cannot find name 'integer'.
+src/routes/post.routes.ts(191,25): error TS2304: Cannot find name 'description'.
+src/routes/post.routes.ts(191,38): error TS2304: Cannot find name 'postId'.
+src/routes/post.routes.ts(192,23): error TS2304: Cannot find name 'title'.
+src/routes/post.routes.ts(193,25): error TS2304: Cannot find name 'type'.
+src/routes/post.routes.ts(193,31): error TS2693: 'string' only refers to a type, but is being used as a value here.
+src/routes/post.routes.ts(194,25): error TS2304: Cannot find name 'description'.
+src/routes/post.routes.ts(194,38): error TS2304: Cannot find name 'title'.
+src/routes/post.routes.ts(194,44): error TS2304: Cannot find name 'of'.
+src/routes/post.routes.ts(194,47): error TS2304: Cannot find name 'the'.
+src/routes/post.routes.ts(194,55): error TS2304: Cannot find name 'post'.
+src/routes/post.routes.ts(195,23): error TS2304: Cannot find name 'body'.
+src/routes/post.routes.ts(196,25): error TS2304: Cannot find name 'type'.
+src/routes/post.routes.ts(196,31): error TS2693: 'string' only refers to a type, but is being used as a value here.
+src/routes/post.routes.ts(197,25): error TS2304: Cannot find name 'description'.
+src/routes/post.routes.ts(197,38): error TS2304: Cannot find name 'content'.
+src/routes/post.routes.ts(197,46): error TS2304: Cannot find name 'of'.
+src/routes/post.routes.ts(197,49): error TS2304: Cannot find name 'the'.
+src/routes/post.routes.ts(197,57): error TS2304: Cannot find name 'post'.
+src/routes/post.routes.ts(199,15): error TS2304: Cannot find name 'description'.
+src/routes/post.routes.ts(199,28): error TS2304: Cannot find name 'bad'.
+src/routes/post.routes.ts(199,32): error TS2304: Cannot find name 'request'.
+src/routes/post.routes.ts(199,40): error TS2304: Cannot find name 'missing'.
+src/routes/post.routes.ts(199,48): error TS2304: Cannot find name 'parameters'.
+src/routes/post.routes.ts(200,15): error TS2304: Cannot find name 'content'.
+src/routes/post.routes.ts(201,17): error TS2304: Cannot find name 'application'.
+src/routes/post.routes.ts(201,29): error TS2304: Cannot find name 'json'.
+src/routes/post.routes.ts(202,19): error TS2304: Cannot find name 'schema'.
+src/routes/post.routes.ts(203,21): error TS2304: Cannot find name 'type'.
+src/routes/post.routes.ts(203,27): error TS2304: Cannot find name 'object'.
+src/routes/post.routes.ts(204,21): error TS2304: Cannot find name 'propierties'.
+src/routes/post.routes.ts(205,23): error TS2304: Cannot find name 'message'.
+src/routes/post.routes.ts(206,25): error TS2304: Cannot find name 'type'.
+src/routes/post.routes.ts(206,31): error TS2693: 'string' only refers to a type, but is being used as a value here.
+src/routes/post.routes.ts(207,25): error TS2304: Cannot find name 'description'.
+src/routes/post.routes.ts(207,38): error TS2304: Cannot find name 'error'.
+src/routes/post.routes.ts(207,44): error TS2304: Cannot find name 'description'.
+src/routes/post.routes.ts(207,56): error TS2304: Cannot find name 'message'.
+src/routes/post.routes.ts(208,7): error TS2363: The right-hand side of an arithmetic operation must be of type 'any', 'number', 'bigint' or an enum type.
+src/routes/post.routes.ts(166,7): error TS1161: Unterminated regular expression literal.
+src/routes/post.routes.ts(167,8): error TS1109: Expression expected.
+src/routes/post.routes.ts(167,16): error TS1146: Declaration expected.
+src/routes/post.routes.ts(168,6): error TS1109: Expression expected.
+src/routes/post.routes.ts(168,20): error TS1005: ';' expected.
+src/routes/post.routes.ts(169,6): error TS1109: Expression expected.
+src/routes/post.routes.ts(169,13): error TS1005: ';' expected.
+src/routes/post.routes.ts(170,6): error TS1109: Expression expected.
+src/routes/post.routes.ts(170,18): error TS1005: ';' expected.
+src/routes/post.routes.ts(170,20): error TS1434: Unexpected keyword or identifier.
+src/routes/post.routes.ts(170,27): error TS1434: Unexpected keyword or identifier.
+src/routes/post.routes.ts(170,30): error TS1434: Unexpected keyword or identifier.
+src/routes/post.routes.ts(171,15): error TS1005: ';' expected.
+src/routes/post.routes.ts(172,21): error TS1005: ';' expected.
+src/routes/post.routes.ts(173,6): error TS1109: Expression expected.
+src/routes/post.routes.ts(173,15): error TS1109: Expression expected.
+src/routes/post.routes.ts(173,17): error TS1109: Expression expected.
+src/routes/post.routes.ts(174,19): error TS1005: ';' expected.
+src/routes/post.routes.ts(175,23): error TS1005: ';' expected.
+src/routes/post.routes.ts(176,26): error TS1005: ';' expected.
+src/routes/post.routes.ts(176,28): error TS1434: Unexpected keyword or identifier.
+src/routes/post.routes.ts(176,34): error TS1434: Unexpected keyword or identifier.
+src/routes/post.routes.ts(177,15): error TS1109: Expression expected.
+src/routes/post.routes.ts(177,17): error TS1109: Expression expected.
+src/routes/post.routes.ts(178,19): error TS1005: ';' expected.
+src/routes/post.routes.ts(179,23): error TS1005: ';' expected.
+src/routes/post.routes.ts(180,26): error TS1005: ';' expected.
+src/routes/post.routes.ts(180,28): error TS1434: Unexpected keyword or identifier.
+src/routes/post.routes.ts(180,36): error TS1434: Unexpected keyword or identifier.
+src/routes/post.routes.ts(180,39): error TS1434: Unexpected keyword or identifier.
+src/routes/post.routes.ts(181,20): error TS1005: ';' expected.
+src/routes/post.routes.ts(182,6): error TS1109: Expression expected.
+src/routes/post.routes.ts(182,16): error TS1005: ';' expected.
+src/routes/post.routes.ts(183,6): error TS1109: Expression expected.
+src/routes/post.routes.ts(183,27): error TS1005: ';' expected.
+src/routes/post.routes.ts(183,39): error TS1005: ';' expected.
+src/routes/post.routes.ts(184,22): error TS1005: ';' expected.
+src/routes/post.routes.ts(185,6): error TS1109: Expression expected.
+src/routes/post.routes.ts(185,33): error TS1005: ';' expected.
+src/routes/post.routes.ts(186,6): error TS1109: Expression expected.
+src/routes/post.routes.ts(186,25): error TS1005: ';' expected.
+src/routes/post.routes.ts(187,6): error TS1109: Expression expected.
+src/routes/post.routes.ts(187,25): error TS1005: ';' expected.
+src/routes/post.routes.ts(188,31): error TS1005: ';' expected.
+src/routes/post.routes.ts(189,6): error TS1109: Expression expected.
+src/routes/post.routes.ts(189,25): error TS1005: ';' expected.
+src/routes/post.routes.ts(190,6): error TS1109: Expression expected.
+src/routes/post.routes.ts(190,29): error TS1005: ';' expected.
+src/routes/post.routes.ts(191,36): error TS1005: ';' expected.
+src/routes/post.routes.ts(192,28): error TS1005: ';' expected.
+src/routes/post.routes.ts(193,6): error TS1109: Expression expected.
+src/routes/post.routes.ts(193,29): error TS1005: ';' expected.
+src/routes/post.routes.ts(194,36): error TS1005: ';' expected.
+src/routes/post.routes.ts(194,38): error TS1434: Unexpected keyword or identifier.
+src/routes/post.routes.ts(194,44): error TS1434: Unexpected keyword or identifier.
+src/routes/post.routes.ts(194,47): error TS1434: Unexpected keyword or identifier.
+src/routes/post.routes.ts(195,27): error TS1005: ';' expected.
+src/routes/post.routes.ts(196,6): error TS1109: Expression expected.
+src/routes/post.routes.ts(196,29): error TS1005: ';' expected.
+src/routes/post.routes.ts(197,36): error TS1005: ';' expected.
+src/routes/post.routes.ts(197,38): error TS1434: Unexpected keyword or identifier.
+src/routes/post.routes.ts(197,46): error TS1434: Unexpected keyword or identifier.
+src/routes/post.routes.ts(197,49): error TS1434: Unexpected keyword or identifier.
+src/routes/post.routes.ts(198,16): error TS1005: ';' expected.
+src/routes/post.routes.ts(199,6): error TS1109: Expression expected.
+src/routes/post.routes.ts(199,26): error TS1005: ';' expected.
+src/routes/post.routes.ts(199,28): error TS1434: Unexpected keyword or identifier.
+src/routes/post.routes.ts(199,32): error TS1434: Unexpected keyword or identifier.
+src/routes/post.routes.ts(199,40): error TS1434: Unexpected keyword or identifier.
+src/routes/post.routes.ts(200,22): error TS1005: ';' expected.
+src/routes/post.routes.ts(201,6): error TS1109: Expression expected.
+src/routes/post.routes.ts(201,33): error TS1005: ';' expected.
+src/routes/post.routes.ts(202,6): error TS1109: Expression expected.
+src/routes/post.routes.ts(202,25): error TS1005: ';' expected.
+src/routes/post.routes.ts(203,6): error TS1109: Expression expected.
+src/routes/post.routes.ts(203,25): error TS1005: ';' expected.
+src/routes/post.routes.ts(204,32): error TS1005: ';' expected.
+src/routes/post.routes.ts(205,6): error TS1109: Expression expected.
+src/routes/post.routes.ts(205,30): error TS1005: ';' expected.
+src/routes/post.routes.ts(206,6): error TS1109: Expression expected.
+src/routes/post.routes.ts(206,29): error TS1005: ';' expected.
+src/routes/post.routes.ts(207,36): error TS1005: ';' expected.
+src/routes/post.routes.ts(207,38): error TS1434: Unexpected keyword or identifier.
+src/routes/post.routes.ts(207,44): error TS1434: Unexpected keyword or identifier.
+src/routes/post.routes.ts(208,8): error TS1161: Unterminated regular expression literal.
+
+Error: ⨯ Unable to compile TypeScript:
+src/routes/post.routes.ts(183,36): error TS1102: 'delete' cannot be called on an identifier in strict mode.
+src/routes/post.routes.ts(166,6): error TS2362: The left-hand side of an arithmetic operation must be of type 'any', 'number', 'bigint' or an enum type.
+src/routes/post.routes.ts(168,8): error TS2363: The right-hand side of an arithmetic operation must be of type 'any', 'number', 'bigint' or an enum type.
+src/routes/post.routes.ts(168,16): error TS2304: Cannot find name 'post'.
+src/routes/post.routes.ts(169,9): error TS2304: Cannot find name 'post'.
+src/routes/post.routes.ts(170,11): error TS2304: Cannot find name 'summary'.
+src/routes/post.routes.ts(170,20): error TS2304: Cannot find name 'create'.
+src/routes/post.routes.ts(170,27): error TS2304: Cannot find name 'an'.
+src/routes/post.routes.ts(170,30): error TS2304: Cannot find name 'specific'.
+src/routes/post.routes.ts(170,39): error TS2304: Cannot find name 'Post'.
+src/routes/post.routes.ts(171,11): error TS2304: Cannot find name 'tags'.
+src/routes/post.routes.ts(171,17): error TS2362: The left-hand side of an arithmetic operation must be of type 'any', 'number', 'bigint' or an enum type.
+src/routes/post.routes.ts(171,18): error TS2304: Cannot find name 'Post'.
+src/routes/post.routes.ts(172,11): error TS2304: Cannot find name 'parameters'.
+src/routes/post.routes.ts(173,19): error TS2304: Cannot find name 'body'.
+src/routes/post.routes.ts(174,15): error TS2363: The right-hand side of an arithmetic operation must be of type 'any', 'number', 'bigint' or an enum type.
+src/routes/post.routes.ts(174,21): error TS2304: Cannot find name 'title'.
+src/routes/post.routes.ts(175,15): error TS2304: Cannot find name 'required'.
+src/routes/post.routes.ts(175,25): error TS2362: The left-hand side of an arithmetic operation must be of type 'any', 'number', 'bigint' or an enum type.
+src/routes/post.routes.ts(176,15): error TS2304: Cannot find name 'description'.
+src/routes/post.routes.ts(176,28): error TS2304: Cannot find name 'title'.
+src/routes/post.routes.ts(176,34): error TS2304: Cannot find name 'of'.
+src/routes/post.routes.ts(176,41): error TS2304: Cannot find name 'post'.
+src/routes/post.routes.ts(177,19): error TS2304: Cannot find name 'body'.
+src/routes/post.routes.ts(178,15): error TS2363: The right-hand side of an arithmetic operation must be of type 'any', 'number', 'bigint' or an enum type.
+src/routes/post.routes.ts(178,21): error TS2304: Cannot find name 'body'.
+src/routes/post.routes.ts(179,15): error TS2304: Cannot find name 'required'.
+src/routes/post.routes.ts(179,25): error TS2362: The left-hand side of an arithmetic operation must be of type 'any', 'number', 'bigint' or an enum type.
+src/routes/post.routes.ts(180,15): error TS2304: Cannot find name 'description'.
+src/routes/post.routes.ts(180,28): error TS2304: Cannot find name 'content'.
+src/routes/post.routes.ts(180,36): error TS2304: Cannot find name 'of'.
+src/routes/post.routes.ts(180,39): error TS2304: Cannot find name 'the'.
+src/routes/post.routes.ts(180,47): error TS2304: Cannot find name 'post'.
+src/routes/post.routes.ts(181,11): error TS2304: Cannot find name 'responses'.
+src/routes/post.routes.ts(183,15): error TS2304: Cannot find name 'descriptiopn'.
+src/routes/post.routes.ts(183,36): error TS2304: Cannot find name 'an'.
+src/routes/post.routes.ts(183,36): error TS2703: The operand of a 'delete' operator must be a property reference.
+src/routes/post.routes.ts(183,39): error TS2304: Cannot find name 'specific'.
+src/routes/post.routes.ts(183,48): error TS2304: Cannot find name 'Post'.
+src/routes/post.routes.ts(184,15): error TS2304: Cannot find name 'content'.
+src/routes/post.routes.ts(185,17): error TS2304: Cannot find name 'application'.
+src/routes/post.routes.ts(185,29): error TS2304: Cannot find name 'json'.
+src/routes/post.routes.ts(186,19): error TS2304: Cannot find name 'schema'.
+src/routes/post.routes.ts(187,21): error TS2304: Cannot find name 'type'.
+src/routes/post.routes.ts(187,27): error TS2304: Cannot find name 'object'.
+src/routes/post.routes.ts(188,21): error TS2304: Cannot find name 'properties'.
+src/routes/post.routes.ts(189,23): error TS2304: Cannot find name 'id'.
+src/routes/post.routes.ts(190,25): error TS2304: Cannot find name 'type'.
+src/routes/post.routes.ts(190,31): error TS2304: Cannot find name 'integer'.
+src/routes/post.routes.ts(191,25): error TS2304: Cannot find name 'description'.
+src/routes/post.routes.ts(191,38): error TS2304: Cannot find name 'postId'.
+src/routes/post.routes.ts(192,23): error TS2304: Cannot find name 'title'.
+src/routes/post.routes.ts(193,25): error TS2304: Cannot find name 'type'.
+src/routes/post.routes.ts(193,31): error TS2693: 'string' only refers to a type, but is being used as a value here.
+src/routes/post.routes.ts(194,25): error TS2304: Cannot find name 'description'.
+src/routes/post.routes.ts(194,38): error TS2304: Cannot find name 'title'.
+src/routes/post.routes.ts(194,44): error TS2304: Cannot find name 'of'.
+src/routes/post.routes.ts(194,47): error TS2304: Cannot find name 'the'.
+src/routes/post.routes.ts(194,55): error TS2304: Cannot find name 'post'.
+src/routes/post.routes.ts(195,23): error TS2304: Cannot find name 'body'.
+src/routes/post.routes.ts(196,25): error TS2304: Cannot find name 'type'.
+src/routes/post.routes.ts(196,31): error TS2693: 'string' only refers to a type, but is being used as a value here.
+src/routes/post.routes.ts(197,25): error TS2304: Cannot find name 'description'.
+src/routes/post.routes.ts(197,38): error TS2304: Cannot find name 'content'.
+src/routes/post.routes.ts(197,46): error TS2304: Cannot find name 'of'.
+src/routes/post.routes.ts(197,49): error TS2304: Cannot find name 'the'.
+src/routes/post.routes.ts(197,57): error TS2304: Cannot find name 'post'.
+src/routes/post.routes.ts(199,15): error TS2304: Cannot find name 'description'.
+src/routes/post.routes.ts(199,28): error TS2304: Cannot find name 'bad'.
+src/routes/post.routes.ts(199,32): error TS2304: Cannot find name 'request'.
+src/routes/post.routes.ts(199,40): error TS2304: Cannot find name 'missing'.
+src/routes/post.routes.ts(199,48): error TS2304: Cannot find name 'parameters'.
+src/routes/post.routes.ts(200,15): error TS2304: Cannot find name 'content'.
+src/routes/post.routes.ts(201,17): error TS2304: Cannot find name 'application'.
+src/routes/post.routes.ts(201,29): error TS2304: Cannot find name 'json'.
+src/routes/post.routes.ts(202,19): error TS2304: Cannot find name 'schema'.
+src/routes/post.routes.ts(203,21): error TS2304: Cannot find name 'type'.
+src/routes/post.routes.ts(203,27): error TS2304: Cannot find name 'object'.
+src/routes/post.routes.ts(204,21): error TS2304: Cannot find name 'propierties'.
+src/routes/post.routes.ts(205,23): error TS2304: Cannot find name 'message'.
+src/routes/post.routes.ts(206,25): error TS2304: Cannot find name 'type'.
+src/routes/post.routes.ts(206,31): error TS2693: 'string' only refers to a type, but is being used as a value here.
+src/routes/post.routes.ts(207,25): error TS2304: Cannot find name 'description'.
+src/routes/post.routes.ts(207,38): error TS2304: Cannot find name 'error'.
+src/routes/post.routes.ts(207,44): error TS2304: Cannot find name 'description'.
+src/routes/post.routes.ts(207,56): error TS2304: Cannot find name 'message'.
+src/routes/post.routes.ts(208,7): error TS2363: The right-hand side of an arithmetic operation must be of type 'any', 'number', 'bigint' or an enum type.
+src/routes/post.routes.ts(166,7): error TS1161: Unterminated regular expression literal.
+src/routes/post.routes.ts(167,8): error TS1109: Expression expected.
+src/routes/post.routes.ts(167,16): error TS1146: Declaration expected.
+src/routes/post.routes.ts(168,6): error TS1109: Expression expected.
+src/routes/post.routes.ts(168,20): error TS1005: ';' expected.
+src/routes/post.routes.ts(169,6): error TS1109: Expression expected.
+src/routes/post.routes.ts(169,13): error TS1005: ';' expected.
+src/routes/post.routes.ts(170,6): error TS1109: Expression expected.
+src/routes/post.routes.ts(170,18): error TS1005: ';' expected.
+src/routes/post.routes.ts(170,20): error TS1434: Unexpected keyword or identifier.
+src/routes/post.routes.ts(170,27): error TS1434: Unexpected keyword or identifier.
+src/routes/post.routes.ts(170,30): error TS1434: Unexpected keyword or identifier.
+src/routes/post.routes.ts(171,15): error TS1005: ';' expected.
+src/routes/post.routes.ts(172,21): error TS1005: ';' expected.
+src/routes/post.routes.ts(173,6): error TS1109: Expression expected.
+src/routes/post.routes.ts(173,15): error TS1109: Expression expected.
+src/routes/post.routes.ts(173,17): error TS1109: Expression expected.
+src/routes/post.routes.ts(174,19): error TS1005: ';' expected.
+src/routes/post.routes.ts(175,23): error TS1005: ';' expected.
+src/routes/post.routes.ts(176,26): error TS1005: ';' expected.
+src/routes/post.routes.ts(176,28): error TS1434: Unexpected keyword or identifier.
+src/routes/post.routes.ts(176,34): error TS1434: Unexpected keyword or identifier.
+src/routes/post.routes.ts(177,15): error TS1109: Expression expected.
+src/routes/post.routes.ts(177,17): error TS1109: Expression expected.
+src/routes/post.routes.ts(178,19): error TS1005: ';' expected.
+src/routes/post.routes.ts(179,23): error TS1005: ';' expected.
+src/routes/post.routes.ts(180,26): error TS1005: ';' expected.
+src/routes/post.routes.ts(180,28): error TS1434: Unexpected keyword or identifier.
+src/routes/post.routes.ts(180,36): error TS1434: Unexpected keyword or identifier.
+src/routes/post.routes.ts(180,39): error TS1434: Unexpected keyword or identifier.
+src/routes/post.routes.ts(181,20): error TS1005: ';' expected.
+src/routes/post.routes.ts(182,6): error TS1109: Expression expected.
+src/routes/post.routes.ts(182,16): error TS1005: ';' expected.
+src/routes/post.routes.ts(183,6): error TS1109: Expression expected.
+src/routes/post.routes.ts(183,27): error TS1005: ';' expected.
+src/routes/post.routes.ts(183,39): error TS1005: ';' expected.
+src/routes/post.routes.ts(184,22): error TS1005: ';' expected.
+src/routes/post.routes.ts(185,6): error TS1109: Expression expected.
+src/routes/post.routes.ts(185,33): error TS1005: ';' expected.
+src/routes/post.routes.ts(186,6): error TS1109: Expression expected.
+src/routes/post.routes.ts(186,25): error TS1005: ';' expected.
+src/routes/post.routes.ts(187,6): error TS1109: Expression expected.
+src/routes/post.routes.ts(187,25): error TS1005: ';' expected.
+src/routes/post.routes.ts(188,31): error TS1005: ';' expected.
+src/routes/post.routes.ts(189,6): error TS1109: Expression expected.
+src/routes/post.routes.ts(189,25): error TS1005: ';' expected.
+src/routes/post.routes.ts(190,6): error TS1109: Expression expected.
+src/routes/post.routes.ts(190,29): error TS1005: ';' expected.
+src/routes/post.routes.ts(191,36): error TS1005: ';' expected.
+src/routes/post.routes.ts(192,28): error TS1005: ';' expected.
+src/routes/post.routes.ts(193,6): error TS1109: Expression expected.
+src/routes/post.routes.ts(193,29): error TS1005: ';' expected.
+src/routes/post.routes.ts(194,36): error TS1005: ';' expected.
+src/routes/post.routes.ts(194,38): error TS1434: Unexpected keyword or identifier.
+src/routes/post.routes.ts(194,44): error TS1434: Unexpected keyword or identifier.
+src/routes/post.routes.ts(194,47): error TS1434: Unexpected keyword or identifier.
+src/routes/post.routes.ts(195,27): error TS1005: ';' expected.
+src/routes/post.routes.ts(196,6): error TS1109: Expression expected.
+src/routes/post.routes.ts(196,29): error TS1005: ';' expected.
+src/routes/post.routes.ts(197,36): error TS1005: ';' expected.
+src/routes/post.routes.ts(197,38): error TS1434: Unexpected keyword or identifier.
+src/routes/post.routes.ts(197,46): error TS1434: Unexpected keyword or identifier.
+src/routes/post.routes.ts(197,49): error TS1434: Unexpected keyword or identifier.
+src/routes/post.routes.ts(198,16): error TS1005: ';' expected.
+src/routes/post.routes.ts(199,6): error TS1109: Expression expected.
+src/routes/post.routes.ts(199,26): error TS1005: ';' expected.
+src/routes/post.routes.ts(199,28): error TS1434: Unexpected keyword or identifier.
+src/routes/post.routes.ts(199,32): error TS1434: Unexpected keyword or identifier.
+src/routes/post.routes.ts(199,40): error TS1434: Unexpected keyword or identifier.
+src/routes/post.routes.ts(200,22): error TS1005: ';' expected.
+src/routes/post.routes.ts(201,6): error TS1109: Expression expected.
+src/routes/post.routes.ts(201,33): error TS1005: ';' expected.
+src/routes/post.routes.ts(202,6): error TS1109: Expression expected.
+src/routes/post.routes.ts(202,25): error TS1005: ';' expected.
+src/routes/post.routes.ts(203,6): error TS1109: Expression expected.
+src/routes/post.routes.ts(203,25): error TS1005: ';' expected.
+src/routes/post.routes.ts(204,32): error TS1005: ';' expected.
+src/routes/post.routes.ts(205,6): error TS1109: Expression expected.
+src/routes/post.routes.ts(205,30): error TS1005: ';' expected.
+src/routes/post.routes.ts(206,6): error TS1109: Expression expected.
+src/routes/post.routes.ts(206,29): error TS1005: ';' expected.
+src/routes/post.routes.ts(207,36): error TS1005: ';' expected.
+src/routes/post.routes.ts(207,38): error TS1434: Unexpected keyword or identifier.
+src/routes/post.routes.ts(207,44): error TS1434: Unexpected keyword or identifier.
+src/routes/post.routes.ts(208,8): error TS1161: Unterminated regular expression literal.
+
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/routes/post.routes.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-7547474969852357.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-7547474969852357.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-7547474969852357.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)

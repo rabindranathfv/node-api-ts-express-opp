@@ -39,7 +39,7 @@ class PostService {
     }
     async deletePost(id) {
         try {
-            const { data, status } = await axios_1.default.delete(`${config_1.EXTERNAL_API}posts/${id}` ?? `https://jsonplaceholder.typicode.com/posts/${id}`);
+            const { data, status } = await axios_1.default.delete(`${this.urlExternalApi}/${id}`);
             const post = data;
             if (status === 200) {
                 return { id: Number(id) };

@@ -25,12 +25,6 @@ const post_controller_1 = __importDefault(require("../controllers/post.controlle
  *          type: string
  *          description: title of the post
  */
-/**
- * @swagger
- *  tags:
- *    name: Post
- *    description: Post endpoints related with Axios and external API
- */
 class PostsRoute {
     path = '/post';
     router = (0, express_1.Router)();
@@ -135,8 +129,6 @@ class PostsRoute {
          *        name: id
          *        required: true
          *        description: id of the post
-         *        schema:
-         *          type: integer
          *    responses:
          *      200:
          *        descriptiopn: delete an specific Post
@@ -148,12 +140,6 @@ class PostsRoute {
          *                id:
          *                  type: integer
          *                  description: postId
-         *                body:
-         *                  type: string
-         *                  description: content of the post
-         *                title:
-         *                  type: string
-         *                  description: title of post
          *      400:
          *        description: bad request missing parameters
          *        content:
@@ -166,6 +152,82 @@ class PostsRoute {
          *                  description: error description message
          */
         this.router.delete(`${this.path}/:id`, this.postController.deletePostCtrl);
+        /**
+         * @swagger
+         * /api/v1/post:
+         *  post:
+         *    summary: create a new Post
+         *    tags: [Post]
+         *    parameters:
+         *      - in: path
+         *        name: id
+         *        required: true
+         *        description: id of the post
+         *      - in: body
+         *        name: title
+         *        required: true
+         *        description: title of the new post
+         *      - in: body
+         *        name: body
+         *        required: true
+         *        description: content of the new post
+         *    responses:
+         *      200:
+         *        descriptiopn: delete an specific Post
+         *        content:
+         *          application/json:
+         *            schema:
+         *              type: object
+         *              properties:
+         *                id:
+         *                  type: integer
+         *                  description: postId
+         *                title:
+         *                  type: string
+         *                  description: title of new post
+         *                /**
+         * @swagger
+         * /api/v1/post:
+         *  post:
+         *    summary: create an specific Post
+         *    tags: [Post]
+         *    parameters:
+         *      - in: body
+         *        name: title
+         *        required: true
+         *        description: title of new post
+         *      - in: body
+         *        name: body
+         *        required: true
+         *        description: content of the new post
+         *    responses:
+         *      200:
+         *        descriptiopn: delete an specific Post
+         *        content:
+         *          application/json:
+         *            schema:
+         *              type: object
+         *              properties:
+         *                id:
+         *                  type: integer
+         *                  description: postId
+         *                title:
+         *                  type: string
+         *                  description: title of the new post
+         *                body:
+         *                  type: string
+         *                  description: content of the new post
+         *      400:
+         *        description: bad request missing parameters
+         *        content:
+         *          application/json:
+         *            schema:
+         *              type: object
+         *              propierties:
+         *                message:
+         *                  type: string
+         *                  description: error description message
+         */
         this.router.post(`${this.path}`, this.postController.createPostCtrl);
     }
 }

@@ -17,6 +17,7 @@ const logger_1 = require("./utils/logger");
 const error_middleware_1 = __importDefault(require("./middlewares/error.middleware"));
 const corsConfig_1 = __importDefault(require("./config/corsConfig"));
 const swaggerConfig_1 = require("./config/swaggerConfig");
+const mongo_config_1 = require("./DB/mongo.config");
 class App {
     app;
     env;
@@ -44,7 +45,7 @@ class App {
         return this.app;
     }
     connectToDatabase() {
-        // start DB instance Here
+        (0, mongo_config_1.mongoDbConnection)();
     }
     initializeMiddlewares() {
         this.app.use((0, morgan_1.default)(config_1.LOG_FORMAT ?? '../logs', { stream: logger_1.stream }));
