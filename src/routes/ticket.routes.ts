@@ -2,6 +2,8 @@ import { Router } from 'express';
 import { Routes } from '../interfaces/route.interface';
 import TicketController from '../controllers/ticket.controller';
 
+import { ticketValidator } from '../middlewares/ticketValidator.middleware';
+
 // TODO: FIX THIS DOCUMENTATION
 /**
  * @swagger
@@ -48,7 +50,7 @@ class TicketRoute implements Routes {
 
     this.router.get(`${this.path}/:id`, this.ticketController.getTicketByIdCtrl);
 
-    this.router.post(`${this.path}`, this.ticketController.createTicketCtrl);
+    this.router.post(`${this.path}`, ticketValidator, this.ticketController.createTicketCtrl);
 
     this.router.delete(`${this.path}/:id`, this.ticketController.deleteTicketByIdCtrl);
 

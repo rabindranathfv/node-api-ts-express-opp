@@ -1056,3 +1056,26 @@ src/routes/ticket.routes.ts(55,63): error TS2551: Property 'updateTicketCtrl' do
     at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/ts-node-dev/lib/hook.js:63:13)
     at Module.load (node:internal/modules/cjs/loader:981:32)
     at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2022-11-06 18:36:36 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/routes/ticket.routes.ts(51,38): error TS2304: Cannot find name 'ticketValidator'.
+
+Error: ⨯ Unable to compile TypeScript:
+src/routes/ticket.routes.ts(51,38): error TS2304: Cannot find name 'ticketValidator'.
+
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/routes/ticket.routes.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-7862466321288721.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-7862466321288721.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-7862466321288721.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2022-11-06 18:40:47 error: [POST] /api/v1/ticket >> StatusCode:: 400, Message:: Unexpected token } in JSON at position 36
+2022-11-06 18:40:54 error: uncaughtException: Ticket validation failed: owner: Path `owner` is required., price: Path `price` is required., typeEvent: Path `typeEvent` is required.
+ValidationError: Ticket validation failed: owner: Path `owner` is required., price: Path `price` is required., typeEvent: Path `typeEvent` is required.
+    at model.Document.invalidate (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mongoose/lib/document.js:3097:32)
+    at /home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mongoose/lib/document.js:2885:17
+    at /home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mongoose/lib/schematype.js:1349:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11)
