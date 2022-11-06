@@ -17,7 +17,7 @@ const logger_1 = require("./utils/logger");
 const error_middleware_1 = __importDefault(require("./middlewares/error.middleware"));
 const corsConfig_1 = __importDefault(require("./config/corsConfig"));
 const swaggerConfig_1 = require("./config/swaggerConfig");
-const mongo_config_1 = require("./DB/mongo.config");
+const mongo_config_1 = require("./db/mongo.config");
 class App {
     app;
     env;

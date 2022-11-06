@@ -60,6 +60,7 @@ class UserRoute {
          *              description: array of users
          */
         this.router.get(`${this.path}`, this.userController.getAllUsers);
+        this.router.post(`${this.path}`, this.userController.createUserCtrl);
     }
 }
 exports.default = UserRoute;

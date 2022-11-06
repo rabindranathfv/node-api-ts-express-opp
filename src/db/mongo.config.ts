@@ -3,7 +3,7 @@ import { DB_CNN, DB_HOST, DB_PORT, DB_NAME } from '../config/config';
 import { logger } from '../utils/logger';
 
 export const configConnection = {
-  url: DB_CNN ?? `mongodb://${DB_HOST}/${DB_PORT}/${DB_NAME}`,
+  url: DB_CNN ?? `mongodb://${DB_HOST}:${DB_PORT}/${DB_NAME}`, // ,pomgp+svr
   options: {
     useNewUrlParser: true,
     useUnifiedTopology: true,

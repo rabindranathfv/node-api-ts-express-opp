@@ -1,0 +1,369 @@
+2022-11-01 17:30:11 error: uncaughtException: database names cannot contain the character '/'
+MongoAPIError: database names cannot contain the character '/'
+    at validateDatabaseName (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mongodb/src/db.ts:799:13)
+    at new Db (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mongodb/src/db.ts:155:5)
+    at MongoClient.db (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mongodb/src/mongo_client.ts:584:16)
+    at _setClient (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mongoose/lib/connection.js:859:58)
+    at /home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mongoose/lib/connection.js:814:7
+    at /home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mongodb/src/utils.ts:462:15
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-11-01 17:31:34 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/DB/mongo.config.ts(5,13): error TS2552: Cannot find name 'object'. Did you mean 'Object'?
+
+Error: ⨯ Unable to compile TypeScript:
+src/DB/mongo.config.ts(5,13): error TS2552: Cannot find name 'object'. Did you mean 'Object'?
+
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/DB/mongo.config.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-2953133263226342.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-2953133263226342.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-2953133263226342.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2022-11-01 17:31:39 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/DB/mongo.config.ts(5,13): error TS1109: Expression expected.
+src/DB/mongo.config.ts(5,15): error TS1109: Expression expected.
+
+Error: ⨯ Unable to compile TypeScript:
+src/DB/mongo.config.ts(5,13): error TS1109: Expression expected.
+src/DB/mongo.config.ts(5,15): error TS1109: Expression expected.
+
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/DB/mongo.config.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-2953133263226342.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-2953133263226342.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-2953133263226342.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2022-11-01 17:31:43 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/DB/mongo.config.ts(5,24): error TS2304: Cannot find name 'mongodb'.
+src/DB/mongo.config.ts(5,31): error TS1005: ',' expected.
+src/DB/mongo.config.ts(6,1): error TS1135: Argument expression expected.
+
+Error: ⨯ Unable to compile TypeScript:
+src/DB/mongo.config.ts(5,24): error TS2304: Cannot find name 'mongodb'.
+src/DB/mongo.config.ts(5,31): error TS1005: ',' expected.
+src/DB/mongo.config.ts(6,1): error TS1135: Argument expression expected.
+
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/DB/mongo.config.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-2953133263226342.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-2953133263226342.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-2953133263226342.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2022-11-01 17:31:48 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/DB/mongo.config.ts(5,24): error TS2304: Cannot find name 'mongodb'.
+src/DB/mongo.config.ts(5,31): error TS1005: ',' expected.
+src/DB/mongo.config.ts(6,1): error TS1135: Argument expression expected.
+
+Error: ⨯ Unable to compile TypeScript:
+src/DB/mongo.config.ts(5,24): error TS2304: Cannot find name 'mongodb'.
+src/DB/mongo.config.ts(5,31): error TS1005: ',' expected.
+src/DB/mongo.config.ts(6,1): error TS1135: Argument expression expected.
+
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/DB/mongo.config.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-2953133263226342.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-2953133263226342.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-2953133263226342.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2022-11-01 17:31:52 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/DB/mongo.config.ts(2,10): error TS6133: 'DB_CNN' is declared but its value is never read.
+src/DB/mongo.config.ts(5,59): error TS2349: This expression is not callable.
+  No constituent of type 'string | undefined' is callable.
+src/DB/mongo.config.ts(7,19): error TS2304: Cannot find name 'mongodb'.
+src/DB/mongo.config.ts(8,3): error TS2552: Cannot find name 'options'. Did you mean 'Option'?
+src/DB/mongo.config.ts(16,19): error TS2304: Cannot find name 'configConnection'.
+src/DB/mongo.config.ts(16,41): error TS2304: Cannot find name 'configConnection'.
+src/DB/mongo.config.ts(18,33): error TS2304: Cannot find name 'configConnection'.
+src/DB/mongo.config.ts(7,19): error TS1005: '}' expected.
+src/DB/mongo.config.ts(7,26): error TS1005: ',' expected.
+src/DB/mongo.config.ts(8,10): error TS1005: ',' expected.
+src/DB/mongo.config.ts(12,1): error TS1135: Argument expression expected.
+src/DB/mongo.config.ts(12,2): error TS1005: ')' expected.
+
+Error: ⨯ Unable to compile TypeScript:
+src/DB/mongo.config.ts(2,10): error TS6133: 'DB_CNN' is declared but its value is never read.
+src/DB/mongo.config.ts(5,59): error TS2349: This expression is not callable.
+  No constituent of type 'string | undefined' is callable.
+src/DB/mongo.config.ts(7,19): error TS2304: Cannot find name 'mongodb'.
+src/DB/mongo.config.ts(8,3): error TS2552: Cannot find name 'options'. Did you mean 'Option'?
+src/DB/mongo.config.ts(16,19): error TS2304: Cannot find name 'configConnection'.
+src/DB/mongo.config.ts(16,41): error TS2304: Cannot find name 'configConnection'.
+src/DB/mongo.config.ts(18,33): error TS2304: Cannot find name 'configConnection'.
+src/DB/mongo.config.ts(7,19): error TS1005: '}' expected.
+src/DB/mongo.config.ts(7,26): error TS1005: ',' expected.
+src/DB/mongo.config.ts(8,10): error TS1005: ',' expected.
+src/DB/mongo.config.ts(12,1): error TS1135: Argument expression expected.
+src/DB/mongo.config.ts(12,2): error TS1005: ')' expected.
+
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/DB/mongo.config.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-2953133263226342.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-2953133263226342.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-2953133263226342.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2022-11-01 17:32:08 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/DB/mongo.config.ts(5,24): error TS2304: Cannot find name 'mongodb'.
+src/DB/mongo.config.ts(5,31): error TS1005: ',' expected.
+src/DB/mongo.config.ts(6,1): error TS1135: Argument expression expected.
+
+Error: ⨯ Unable to compile TypeScript:
+src/DB/mongo.config.ts(5,24): error TS2304: Cannot find name 'mongodb'.
+src/DB/mongo.config.ts(5,31): error TS1005: ',' expected.
+src/DB/mongo.config.ts(6,1): error TS1135: Argument expression expected.
+
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/DB/mongo.config.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-2953133263226342.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-2953133263226342.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-2953133263226342.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2022-11-01 17:32:12 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/DB/mongo.config.ts(2,10): error TS6133: 'DB_CNN' is declared but its value is never read.
+src/DB/mongo.config.ts(5,59): error TS2349: This expression is not callable.
+  No constituent of type 'string | undefined' is callable.
+src/DB/mongo.config.ts(7,19): error TS2304: Cannot find name 'mongodb'.
+src/DB/mongo.config.ts(8,3): error TS2552: Cannot find name 'options'. Did you mean 'Option'?
+src/DB/mongo.config.ts(16,19): error TS2304: Cannot find name 'configConnection'.
+src/DB/mongo.config.ts(16,41): error TS2304: Cannot find name 'configConnection'.
+src/DB/mongo.config.ts(18,33): error TS2304: Cannot find name 'configConnection'.
+src/DB/mongo.config.ts(7,19): error TS1005: '}' expected.
+src/DB/mongo.config.ts(7,26): error TS1005: ',' expected.
+src/DB/mongo.config.ts(8,10): error TS1005: ',' expected.
+src/DB/mongo.config.ts(12,1): error TS1135: Argument expression expected.
+src/DB/mongo.config.ts(12,2): error TS1005: ')' expected.
+
+Error: ⨯ Unable to compile TypeScript:
+src/DB/mongo.config.ts(2,10): error TS6133: 'DB_CNN' is declared but its value is never read.
+src/DB/mongo.config.ts(5,59): error TS2349: This expression is not callable.
+  No constituent of type 'string | undefined' is callable.
+src/DB/mongo.config.ts(7,19): error TS2304: Cannot find name 'mongodb'.
+src/DB/mongo.config.ts(8,3): error TS2552: Cannot find name 'options'. Did you mean 'Option'?
+src/DB/mongo.config.ts(16,19): error TS2304: Cannot find name 'configConnection'.
+src/DB/mongo.config.ts(16,41): error TS2304: Cannot find name 'configConnection'.
+src/DB/mongo.config.ts(18,33): error TS2304: Cannot find name 'configConnection'.
+src/DB/mongo.config.ts(7,19): error TS1005: '}' expected.
+src/DB/mongo.config.ts(7,26): error TS1005: ',' expected.
+src/DB/mongo.config.ts(8,10): error TS1005: ',' expected.
+src/DB/mongo.config.ts(12,1): error TS1135: Argument expression expected.
+src/DB/mongo.config.ts(12,2): error TS1005: ')' expected.
+
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/DB/mongo.config.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-2953133263226342.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-2953133263226342.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-2953133263226342.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2022-11-01 17:32:22 error: uncaughtException: database names cannot contain the character '/'
+MongoAPIError: database names cannot contain the character '/'
+    at validateDatabaseName (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mongodb/src/db.ts:799:13)
+    at new Db (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mongodb/src/db.ts:155:5)
+    at MongoClient.db (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mongodb/src/mongo_client.ts:584:16)
+    at _setClient (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mongoose/lib/connection.js:859:58)
+    at /home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mongoose/lib/connection.js:814:7
+    at /home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mongodb/src/utils.ts:462:15
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-11-01 17:54:54 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/routes/user.routes.ts(65,57): error TS2339: Property 'createUser' does not exist on type 'UserController'.
+
+Error: ⨯ Unable to compile TypeScript:
+src/routes/user.routes.ts(65,57): error TS2339: Property 'createUser' does not exist on type 'UserController'.
+
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/routes/user.routes.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-9978926072632914.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-9978926072632914.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-9978926072632914.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2022-11-01 17:55:01 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/routes/user.routes.ts(65,58): error TS2339: Property 'createUser' does not exist on type 'UserController'.
+
+Error: ⨯ Unable to compile TypeScript:
+src/routes/user.routes.ts(65,58): error TS2339: Property 'createUser' does not exist on type 'UserController'.
+
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/routes/user.routes.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-9978926072632914.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-9978926072632914.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-9978926072632914.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2022-11-01 17:55:36 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/controllers/users.controllers.ts(15,39): error TS2339: Property 'create' does not exist on type 'UserService'.
+
+Error: ⨯ Unable to compile TypeScript:
+src/controllers/users.controllers.ts(15,39): error TS2339: Property 'create' does not exist on type 'UserService'.
+
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/controllers/users.controllers.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-9978926072632914.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-9978926072632914.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-9978926072632914.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2022-11-01 17:55:41 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/controllers/users.controllers.ts(15,39): error TS2339: Property 'createUser' does not exist on type 'UserService'.
+
+Error: ⨯ Unable to compile TypeScript:
+src/controllers/users.controllers.ts(15,39): error TS2339: Property 'createUser' does not exist on type 'UserService'.
+
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/controllers/users.controllers.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-9978926072632914.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-9978926072632914.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-9978926072632914.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2022-11-01 17:56:07 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/controllers/users.controllers.ts(15,50): error TS2552: Cannot find name 'req'. Did you mean '_req'?
+src/controllers/users.controllers.ts(15,50): error TS2554: Expected 0 arguments, but got 1.
+
+Error: ⨯ Unable to compile TypeScript:
+src/controllers/users.controllers.ts(15,50): error TS2552: Cannot find name 'req'. Did you mean '_req'?
+src/controllers/users.controllers.ts(15,50): error TS2554: Expected 0 arguments, but got 1.
+
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/controllers/users.controllers.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-9978926072632914.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-9978926072632914.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-9978926072632914.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2022-11-01 17:56:12 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/controllers/users.controllers.ts(15,50): error TS2554: Expected 0 arguments, but got 1.
+
+Error: ⨯ Unable to compile TypeScript:
+src/controllers/users.controllers.ts(15,50): error TS2554: Expected 0 arguments, but got 1.
+
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/controllers/users.controllers.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-9978926072632914.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-9978926072632914.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-9978926072632914.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2022-11-01 18:01:31 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/controllers/users.controllers.ts(15,50): error TS2554: Expected 0 arguments, but got 1.
+
+Error: ⨯ Unable to compile TypeScript:
+src/controllers/users.controllers.ts(15,50): error TS2554: Expected 0 arguments, but got 1.
+
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/controllers/users.controllers.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-9978926072632914.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-9978926072632914.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-9978926072632914.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2022-11-01 18:03:36 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/services/users.service.ts(6,18): error TS2304: Cannot find name 'UserModel'.
+
+Error: ⨯ Unable to compile TypeScript:
+src/services/users.service.ts(6,18): error TS2304: Cannot find name 'UserModel'.
+
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/services/users.service.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-1287278718763829.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-1287278718763829.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-1287278718763829.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2022-11-01 18:08:12 error: uncaughtException: database names cannot contain the character '/'
+MongoAPIError: database names cannot contain the character '/'
+    at validateDatabaseName (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mongodb/src/db.ts:799:13)
+    at new Db (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mongodb/src/db.ts:155:5)
+    at MongoClient.db (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mongodb/src/mongo_client.ts:584:16)
+    at _setClient (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mongoose/lib/connection.js:859:58)
+    at /home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mongoose/lib/connection.js:814:7
+    at /home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mongodb/src/utils.ts:462:15
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-11-01 19:56:53 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/controllers/users.controllers.ts(14,27): error TS2304: Cannot find name 'a'.
+src/controllers/users.controllers.ts(14,29): error TS2304: Cannot find name 'req'.
+src/controllers/users.controllers.ts(14,43): error TS2304: Cannot find name 'res'.
+src/controllers/users.controllers.ts(15,35): error TS2304: Cannot find name 'req'.
+src/controllers/users.controllers.ts(16,22): error TS2532: Object is possibly 'undefined'.
+src/controllers/users.controllers.ts(16,50): error TS2304: Cannot find name 'req'.
+src/controllers/users.controllers.ts(18,5): error TS2304: Cannot find name 'res'.
+src/controllers/users.controllers.ts(14,32): error TS1005: ',' expected.
+src/controllers/users.controllers.ts(14,46): error TS1005: ',' expected.
+src/controllers/users.controllers.ts(14,58): error TS1005: ';' expected.
+src/controllers/users.controllers.ts(14,61): error TS1068: Unexpected token. A constructor, method, accessor, or property was expected.
+src/controllers/users.controllers.ts(20,1): error TS1128: Declaration or statement expected.
+
+Error: ⨯ Unable to compile TypeScript:
+src/controllers/users.controllers.ts(14,27): error TS2304: Cannot find name 'a'.
+src/controllers/users.controllers.ts(14,29): error TS2304: Cannot find name 'req'.
+src/controllers/users.controllers.ts(14,43): error TS2304: Cannot find name 'res'.
+src/controllers/users.controllers.ts(15,35): error TS2304: Cannot find name 'req'.
+src/controllers/users.controllers.ts(16,22): error TS2532: Object is possibly 'undefined'.
+src/controllers/users.controllers.ts(16,50): error TS2304: Cannot find name 'req'.
+src/controllers/users.controllers.ts(18,5): error TS2304: Cannot find name 'res'.
+src/controllers/users.controllers.ts(14,32): error TS1005: ',' expected.
+src/controllers/users.controllers.ts(14,46): error TS1005: ',' expected.
+src/controllers/users.controllers.ts(14,58): error TS1005: ';' expected.
+src/controllers/users.controllers.ts(14,61): error TS1068: Unexpected token. A constructor, method, accessor, or property was expected.
+src/controllers/users.controllers.ts(20,1): error TS1128: Declaration or statement expected.
+
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/controllers/users.controllers.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-14053669479338615.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-14053669479338615.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-14053669479338615.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)

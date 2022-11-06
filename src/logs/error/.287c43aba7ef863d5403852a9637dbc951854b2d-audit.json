@@ -9,6 +9,16 @@
             "date": 1667058369458,
             "name": "/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/logs/error/2022-10-29.log",
             "hash": "2ce734808256a00fa21747d378bee19f35bc1d7a566cffe289943a7f3fc65ec3"
+        },
+        {
+            "date": 1667320210313,
+            "name": "/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/logs/error/2022-11-01.log",
+            "hash": "aab05dcf342a460427395200a1e7b458bb03fdcca85d35dbaa95bafb1a77801e"
+        },
+        {
+            "date": 1667749286515,
+            "name": "/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/logs/error/2022-11-06.log",
+            "hash": "d64f94958fb8f57ee493a10d910a1bb029ea6afca0457c9d3642cd243d20d7b4"
         }
     ],
     "hashType": "sha256"

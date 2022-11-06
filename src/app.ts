@@ -16,7 +16,7 @@ import corsConfig from './config/corsConfig';
 
 import { Routes } from './interfaces/route.interface';
 import { swaggerOptions } from './config/swaggerConfig';
-import { mongoDbConnection } from './DB/mongo.config';
+import { mongoDbConnection } from './db/mongo.config';
 
 class App {
   public app: express.Application;
