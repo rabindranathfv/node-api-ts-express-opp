@@ -36,7 +36,7 @@ class TicketService {
             ...(owner && { owner }),
             ...(email && { email }),
         };
-        const updatedTicket = await this.ticket.findByIdAndUpdate({ _id: ticketId }, updatedTicketBody);
+        const updatedTicket = await this.ticket.findByIdAndUpdate({ _id: ticketId }, updatedTicketBody, { new: true });
         return updatedTicket;
     }
 }

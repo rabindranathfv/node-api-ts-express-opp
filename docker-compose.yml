@@ -1,0 +1,16 @@
+version: '3.1'
+
+services:
+  db_dev:
+    image: mysql:5.7
+    volumes:
+      - ./mysql/init.sql:/docker-entrypoint-initdb.d/init.sql
+    command: --init-file /docker-entrypoint-initdb.d/init.sql
+    ports:
+      - "3312:3306"
+    environment:
+      MYSQL_DATABASE: db_dev
+      MYSQL_ROOT_USER: urfv
+      MYSQL_USER: urfv
+      MYSQL_ROOT_PASSWORD: SECRET
+      MYSQL_PASSWORD: SECRET
