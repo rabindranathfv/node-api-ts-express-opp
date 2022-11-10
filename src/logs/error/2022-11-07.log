@@ -1,0 +1,15 @@
+2022-11-07 22:29:45 error: uncaughtException: Error starting DB Connection with Mongo
+Error: Error starting DB Connection with Mongo
+    at mongoDbConnection (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/db/mongo.config.ts:21:11)
+2022-11-07 22:59:57 error: uncaughtException: Error starting DB Connection with Mongo
+Error: Error starting DB Connection with Mongo
+    at mySqlDBConnection (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/db/mysql.config.ts:30:11)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-11-07 23:00:11 error: uncaughtException: Error starting DB Connection with Mongo
+Error: Error starting DB Connection with Mongo
+    at mySqlDBConnection (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/db/mysql.config.ts:30:11)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-11-07 23:00:22 error: uncaughtException: Error starting DB Connection with Mongo
+Error: Error starting DB Connection with Mongo
+    at mySqlDBConnection (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/db/mysql.config.ts:30:11)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)

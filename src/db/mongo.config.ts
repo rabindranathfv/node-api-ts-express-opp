@@ -1,9 +1,9 @@
 import { connect, ConnectOptions } from 'mongoose';
-import { DB_CNN, DB_HOST, DB_PORT, DB_NAME } from '../config/config';
+import { DB_CNN, DB_HOST, DB_PORT_MONGO, DB_NAME } from '../config/config';
 import { logger } from '../utils/logger';
 
 export const configConnection = {
-  url: DB_CNN ?? `mongodb://${DB_HOST}:${DB_PORT}/${DB_NAME}`, // ,pomgp+svr
+  url: DB_CNN ?? `mongodb://${DB_HOST}:${DB_PORT_MONGO}/${DB_NAME}`, // ,pomgp+svr
   options: {
     useNewUrlParser: true,
     useUnifiedTopology: true,

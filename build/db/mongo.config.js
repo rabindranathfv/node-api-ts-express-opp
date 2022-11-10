@@ -5,7 +5,7 @@ const mongoose_1 = require("mongoose");
 const config_1 = require("../config/config");
 const logger_1 = require("../utils/logger");
 exports.configConnection = {
-    url: config_1.DB_CNN ?? `mongodb://${config_1.DB_HOST}:${config_1.DB_PORT}/${config_1.DB_NAME}`,
+    url: config_1.DB_CNN ?? `mongodb://${config_1.DB_HOST}:${config_1.DB_PORT_MONGO}/${config_1.DB_NAME}`,
     options: {
         useNewUrlParser: true,
         useUnifiedTopology: true,

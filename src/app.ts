@@ -1,6 +1,7 @@
+import express from 'express';
+import 'reflect-metadata';
 import cookieParser from 'cookie-parser';
 import cors from 'cors';
-import express from 'express';
 import helmet from 'helmet';
 import hpp from 'hpp';
 import morgan from 'morgan';
@@ -8,7 +9,7 @@ import displayRoutes from 'express-routemap';
 import swaggerJsdoc from 'swagger-jsdoc';
 import swaggerUi from 'swagger-ui-express';
 
-import { NODE_ENV, PORT, LOG_FORMAT, API_VERSION } from './config/config';
+import { NODE_ENV, PORT, LOG_FORMAT, API_VERSION, ConfigServer } from './config/config';
 
 import { logger, stream } from './utils/logger';
 import errorMiddleware from './middlewares/error.middleware';
@@ -16,17 +17,20 @@ import corsConfig from './config/corsConfig';
 
 import { Routes } from './interfaces/route.interface';
 import { swaggerOptions } from './config/swaggerConfig';
-import { mongoDbConnection } from './db/mongo.config';
 
-class App {
+// import { mongoDbConnection } from './db/mongo.config';
+import { DataSource } from 'typeorm';
+
+class App extends ConfigServer {
   public app: express.Application;
   public env: string;
-  public port: string | number;
+  public port: number;
 
   constructor(routes: Routes[]) {
+    super();
     this.app = express();
     this.env = NODE_ENV || 'development';
-    this.port = PORT || 3000;
+    this.port = Number(PORT) || 3000;
 
     this.connectToDatabase();
     this.initializeMiddlewares();
@@ -49,8 +53,15 @@ class App {
     return this.app;
   }
 
-  private connectToDatabase() {
-    mongoDbConnection();
+  public async connectToDatabase(): Promise<DataSource | void> {
+    // mongoDbConnection();
+    return this.initConnect
+      .then(() => {
+        console.log('Connect Success');
+      })
+      .catch((err) => {
+        console.error(err.message);
+      });
   }
 
   private initializeMiddlewares() {
