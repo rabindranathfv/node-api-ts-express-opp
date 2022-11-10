@@ -5,6 +5,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 Object.defineProperty(exports, "__esModule", { value: true });
 const express_1 = require("express");
 const ticket_controller_1 = __importDefault(require("../controllers/ticket.controller"));
+const ticketValidator_middleware_1 = require("../middlewares/ticketValidator.middleware");
 // TODO: FIX THIS DOCUMENTATION
 /**
  * @swagger
@@ -45,7 +46,7 @@ class TicketRoute {
     initUsersRoutes() {
         this.router.get(`${this.path}`, this.ticketController.getAllTicketsCtrl);
         this.router.get(`${this.path}/:id`, this.ticketController.getTicketByIdCtrl);
-        this.router.post(`${this.path}`, this.ticketController.createTicketCtrl);
+        this.router.post(`${this.path}`, ticketValidator_middleware_1.ticketValidator, this.ticketController.createTicketCtrl);
         this.router.delete(`${this.path}/:id`, this.ticketController.deleteTicketByIdCtrl);
         this.router.put(`${this.path}/:id`, this.ticketController.updateTicketCtrl);
     }

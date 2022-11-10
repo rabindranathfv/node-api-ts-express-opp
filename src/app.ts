@@ -16,7 +16,9 @@ import corsConfig from './config/corsConfig';
 
 import { Routes } from './interfaces/route.interface';
 import { swaggerOptions } from './config/swaggerConfig';
-import { mongoDbConnection } from './db/mongo.config';
+
+// import { mongoDbConnection } from './db/mongo.config';
+import { mySqlDBConnection } from './db/mysql.config';
 
 class App {
   public app: express.Application;
@@ -50,7 +52,8 @@ class App {
   }
 
   private connectToDatabase() {
-    mongoDbConnection();
+    // mongoDbConnection();
+    mySqlDBConnection();
   }
 
   private initializeMiddlewares() {
