@@ -11,7 +11,6 @@ class UserService extends BaseService<UserEntity> {
 
   public async getAllUsers(): Promise<UserEntity[]> {
     const users = await (await this.execRepository).find();
-    // console.log('🚀 ~ file: users.service.ts ~ line 14 ~ UserService ~ getAllUsers ~ users', users);
     return users;
   }
 
