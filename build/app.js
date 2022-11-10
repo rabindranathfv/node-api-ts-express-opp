@@ -3,9 +3,10 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
     return (mod && mod.__esModule) ? mod : { "default": mod };
 };
 Object.defineProperty(exports, "__esModule", { value: true });
+const express_1 = __importDefault(require("express"));
+require("reflect-metadata");
 const cookie_parser_1 = __importDefault(require("cookie-parser"));
 const cors_1 = __importDefault(require("cors"));
-const express_1 = __importDefault(require("express"));
 const helmet_1 = __importDefault(require("helmet"));
 const hpp_1 = __importDefault(require("hpp"));
 const morgan_1 = __importDefault(require("morgan"));
@@ -17,16 +18,15 @@ const logger_1 = require("./utils/logger");
 const error_middleware_1 = __importDefault(require("./middlewares/error.middleware"));
 const corsConfig_1 = __importDefault(require("./config/corsConfig"));
 const swaggerConfig_1 = require("./config/swaggerConfig");
-// import { mongoDbConnection } from './db/mongo.config';
-const mysql_config_1 = require("./db/mysql.config");
-class App {
+class App extends config_1.ConfigServer {
     app;
     env;
     port;
     constructor(routes) {
+        super();
         this.app = (0, express_1.default)();
         this.env = config_1.NODE_ENV || 'development';
-        this.port = config_1.PORT || 3000;
+        this.port = Number(config_1.PORT) || 3000;
         this.connectToDatabase();
         this.initializeMiddlewares();
         this.initializeRoutes(routes);
@@ -45,9 +45,15 @@ class App {
     getServer() {
         return this.app;
     }
-    connectToDatabase() {
+    async connectToDatabase() {
         // mongoDbConnection();
-        (0, mysql_config_1.mySqlDBConnection)();
+        return this.initConnect
+            .then(() => {
+            console.log('Connect Success');
+        })
+            .catch((err) => {
+            console.error(err.message);
+        });
     }
     initializeMiddlewares() {
         this.app.use((0, morgan_1.default)(config_1.LOG_FORMAT ?? '../logs', { stream: logger_1.stream }));

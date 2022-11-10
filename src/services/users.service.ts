@@ -1,25 +1,48 @@
 import { HttpException } from '../exceptions/httpExceptions';
-import { User } from '../interfaces/user.interface';
-import UserModel from '../models/user.model';
-import { users } from './../mock/users';
 
-class UserService {
-  public users = UserModel;
-  constructor() {}
+import { UserEntity } from '../entities/user.entity';
+import { BaseService } from '../config/base.service';
+import { UserDTO } from '../config/dto/user.dto';
 
-  public getAllUsers(): any[] {
+class UserService extends BaseService<UserEntity> {
+  constructor() {
+    super(UserEntity);
+  }
+
+  public async getAllUsers(): Promise<UserEntity[]> {
+    const users = await (await this.execRepository).find();
+    // console.log('🚀 ~ file: users.service.ts ~ line 14 ~ UserService ~ getAllUsers ~ users', users);
     return users;
   }
 
-  public async createUser(userData: any) {
-    const { email } = userData;
+  public async findUserById(userId: string): Promise<UserEntity | null> {
+    const findUser = (await this.execRepository).findOneBy({ id: userId });
+    if (!findUser) throw new HttpException(409, "User doesn't exist");
 
-    const findUser: User | null = await this.users.findOne({ email });
-    if (findUser) throw new HttpException(409, `This email ${email} already exists`);
+    return findUser;
+  }
 
-    const createUserData: User = await this.users.create({ ...userData });
+  public async createUser(userData: UserDTO): Promise<UserEntity | null> {
+    const newUser = (await this.execRepository).create(userData);
+    return (await this.execRepository).save(newUser);
+  }
 
-    return createUserData;
+  public async updateUser(userId: string, userData: UserDTO): Promise<UserEntity | null> {
+    const findUser = (await this.execRepository).findOne({ where: { id: userId } });
+    if (!findUser) throw new HttpException(409, "User doesn't exist");
+
+    (await this.execRepository).update(userId, { ...userData });
+
+    const updateUser = (await this.execRepository).findOne({ where: { id: userId } });
+    return updateUser;
+  }
+
+  public async deleteUser(userId: string): Promise<UserEntity | null> {
+    const findUser = (await this.execRepository).findOne({ where: { id: userId } });
+    if (!findUser) throw new HttpException(409, "User doesn't exist");
+
+    (await this.execRepository).delete({ id: userId });
+    return findUser;
   }
 }
 

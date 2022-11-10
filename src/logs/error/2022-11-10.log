@@ -1,0 +1,1820 @@
+2022-11-10 11:13:08 error: uncaughtException: DataSource is not set for this entity.
+Error: DataSource is not set for this entity.
+    at Function.getRepository (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/repository/BaseEntity.ts:115:19)
+    at new UserService (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/services/users.service.ts:12:31)
+    at UserController.<instance_members_initializer> (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/controllers/users.controllers.ts:5:47)
+    at new UserController (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/controllers/users.controllers.ts:6:3)
+    at UserRoute.<instance_members_initializer> (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/routes/user.routes.ts:39:27)
+    at new UserRoute (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/routes/user.routes.ts:41:3)
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/index.ts:7:39)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-7143032948193666.js:69:33)
+2022-11-10 11:19:05 error: uncaughtException: DataSource is not set for this entity.
+Error: DataSource is not set for this entity.
+    at Function.getRepository (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/repository/BaseEntity.ts:115:19)
+    at new UserService (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/services/users.service.ts:12:31)
+    at UserController.<instance_members_initializer> (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/controllers/users.controllers.ts:5:47)
+    at new UserController (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/controllers/users.controllers.ts:6:3)
+    at UserRoute.<instance_members_initializer> (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/routes/user.routes.ts:39:27)
+    at new UserRoute (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/routes/user.routes.ts:41:3)
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/index.ts:7:39)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-7143032948193666.js:69:33)
+2022-11-10 11:19:27 error: uncaughtException: DataSource is not set for this entity.
+Error: DataSource is not set for this entity.
+    at Function.getRepository (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/repository/BaseEntity.ts:115:19)
+    at new UserService (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/services/users.service.ts:12:31)
+    at UserController.<instance_members_initializer> (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/controllers/users.controllers.ts:5:47)
+    at new UserController (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/controllers/users.controllers.ts:6:3)
+    at UserRoute.<instance_members_initializer> (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/routes/user.routes.ts:39:27)
+    at new UserRoute (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/routes/user.routes.ts:41:3)
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/index.ts:7:39)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-7143032948193666.js:69:33)
+2022-11-10 11:19:35 error: uncaughtException: DataSource is not set for this entity.
+Error: DataSource is not set for this entity.
+    at Function.getRepository (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/repository/BaseEntity.ts:115:19)
+    at new UserService (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/services/users.service.ts:12:31)
+    at UserController.<instance_members_initializer> (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/controllers/users.controllers.ts:5:47)
+    at new UserController (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/controllers/users.controllers.ts:6:3)
+    at UserRoute.<instance_members_initializer> (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/routes/user.routes.ts:39:27)
+    at new UserRoute (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/routes/user.routes.ts:41:3)
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/index.ts:7:39)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-7143032948193666.js:69:33)
+2022-11-10 11:19:47 error: uncaughtException: DataSource is not set for this entity.
+Error: DataSource is not set for this entity.
+    at Function.getRepository (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/repository/BaseEntity.ts:115:19)
+    at new UserService (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/services/users.service.ts:12:31)
+    at UserController.<instance_members_initializer> (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/controllers/users.controllers.ts:5:47)
+    at new UserController (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/controllers/users.controllers.ts:6:3)
+    at UserRoute.<instance_members_initializer> (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/routes/user.routes.ts:39:27)
+    at new UserRoute (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/routes/user.routes.ts:41:3)
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/index.ts:7:39)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-7143032948193666.js:69:33)
+2022-11-10 11:30:36 error: uncaughtException: DataSource is not set for this entity.
+Error: DataSource is not set for this entity.
+    at Function.getRepository (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/repository/BaseEntity.ts:115:19)
+    at new UserService (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/services/users.service.ts:12:31)
+    at UserController.<instance_members_initializer> (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/controllers/users.controllers.ts:5:47)
+    at new UserController (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/controllers/users.controllers.ts:6:3)
+    at UserRoute.<instance_members_initializer> (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/routes/user.routes.ts:39:27)
+    at new UserRoute (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/routes/user.routes.ts:41:3)
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/index.ts:7:39)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-33296475905197487.js:69:33)
+2022-11-10 11:37:47 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/entities/user.entity.ts(1,10): error TS6133: 'BaseEntity' is declared but its value is never read.
+
+Error: ⨯ Unable to compile TypeScript:
+src/entities/user.entity.ts(1,10): error TS6133: 'BaseEntity' is declared but its value is never read.
+
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/entities/user.entity.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-33296475905197487.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-33296475905197487.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-33296475905197487.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2022-11-10 11:37:53 error: uncaughtException: user_entity_1.UserEntity.getRepository is not a function
+TypeError: user_entity_1.UserEntity.getRepository is not a function
+    at new UserService (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/services/users.service.ts:12:31)
+    at UserController.<instance_members_initializer> (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/controllers/users.controllers.ts:5:47)
+    at new UserController (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/controllers/users.controllers.ts:6:3)
+    at UserRoute.<instance_members_initializer> (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/routes/user.routes.ts:39:27)
+    at new UserRoute (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/routes/user.routes.ts:41:3)
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/index.ts:7:39)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-33296475905197487.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+2022-11-10 11:43:34 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/services/users.service.ts(1,10): error TS6133: 'EntityRepository' is declared but its value is never read.
+src/services/users.service.ts(12,31): error TS2339: Property 'getRepository' does not exist on type 'typeof UserEntity'.
+src/services/users.service.ts(16,44): error TS2339: Property 'find' does not exist on type 'typeof UserEntity'.
+src/services/users.service.ts(21,52): error TS2339: Property 'findOne' does not exist on type 'typeof UserEntity'.
+src/services/users.service.ts(30,52): error TS2339: Property 'findOne' does not exist on type 'typeof UserEntity'.
+src/services/users.service.ts(33,51): error TS2339: Property 'create' does not exist on type 'typeof UserEntity'.
+src/services/users.service.ts(39,52): error TS2339: Property 'findOne' does not exist on type 'typeof UserEntity'.
+src/services/users.service.ts(42,22): error TS2339: Property 'update' does not exist on type 'typeof UserEntity'.
+src/services/users.service.ts(44,54): error TS2339: Property 'findOne' does not exist on type 'typeof UserEntity'.
+src/services/users.service.ts(49,52): error TS2339: Property 'findOne' does not exist on type 'typeof UserEntity'.
+src/services/users.service.ts(52,22): error TS2339: Property 'delete' does not exist on type 'typeof UserEntity'.
+
+Error: ⨯ Unable to compile TypeScript:
+src/services/users.service.ts(1,10): error TS6133: 'EntityRepository' is declared but its value is never read.
+src/services/users.service.ts(12,31): error TS2339: Property 'getRepository' does not exist on type 'typeof UserEntity'.
+src/services/users.service.ts(16,44): error TS2339: Property 'find' does not exist on type 'typeof UserEntity'.
+src/services/users.service.ts(21,52): error TS2339: Property 'findOne' does not exist on type 'typeof UserEntity'.
+src/services/users.service.ts(30,52): error TS2339: Property 'findOne' does not exist on type 'typeof UserEntity'.
+src/services/users.service.ts(33,51): error TS2339: Property 'create' does not exist on type 'typeof UserEntity'.
+src/services/users.service.ts(39,52): error TS2339: Property 'findOne' does not exist on type 'typeof UserEntity'.
+src/services/users.service.ts(42,22): error TS2339: Property 'update' does not exist on type 'typeof UserEntity'.
+src/services/users.service.ts(44,54): error TS2339: Property 'findOne' does not exist on type 'typeof UserEntity'.
+src/services/users.service.ts(49,52): error TS2339: Property 'findOne' does not exist on type 'typeof UserEntity'.
+src/services/users.service.ts(52,22): error TS2339: Property 'delete' does not exist on type 'typeof UserEntity'.
+
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/services/users.service.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-33296475905197487.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-33296475905197487.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-33296475905197487.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2022-11-10 11:43:40 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/services/users.service.ts(12,31): error TS2339: Property 'getRepository' does not exist on type 'typeof UserEntity'.
+src/services/users.service.ts(16,44): error TS2339: Property 'find' does not exist on type 'typeof UserEntity'.
+src/services/users.service.ts(21,52): error TS2339: Property 'findOne' does not exist on type 'typeof UserEntity'.
+src/services/users.service.ts(30,52): error TS2339: Property 'findOne' does not exist on type 'typeof UserEntity'.
+src/services/users.service.ts(33,51): error TS2339: Property 'create' does not exist on type 'typeof UserEntity'.
+src/services/users.service.ts(39,52): error TS2339: Property 'findOne' does not exist on type 'typeof UserEntity'.
+src/services/users.service.ts(42,22): error TS2339: Property 'update' does not exist on type 'typeof UserEntity'.
+src/services/users.service.ts(44,54): error TS2339: Property 'findOne' does not exist on type 'typeof UserEntity'.
+src/services/users.service.ts(49,52): error TS2339: Property 'findOne' does not exist on type 'typeof UserEntity'.
+src/services/users.service.ts(52,22): error TS2339: Property 'delete' does not exist on type 'typeof UserEntity'.
+
+Error: ⨯ Unable to compile TypeScript:
+src/services/users.service.ts(12,31): error TS2339: Property 'getRepository' does not exist on type 'typeof UserEntity'.
+src/services/users.service.ts(16,44): error TS2339: Property 'find' does not exist on type 'typeof UserEntity'.
+src/services/users.service.ts(21,52): error TS2339: Property 'findOne' does not exist on type 'typeof UserEntity'.
+src/services/users.service.ts(30,52): error TS2339: Property 'findOne' does not exist on type 'typeof UserEntity'.
+src/services/users.service.ts(33,51): error TS2339: Property 'create' does not exist on type 'typeof UserEntity'.
+src/services/users.service.ts(39,52): error TS2339: Property 'findOne' does not exist on type 'typeof UserEntity'.
+src/services/users.service.ts(42,22): error TS2339: Property 'update' does not exist on type 'typeof UserEntity'.
+src/services/users.service.ts(44,54): error TS2339: Property 'findOne' does not exist on type 'typeof UserEntity'.
+src/services/users.service.ts(49,52): error TS2339: Property 'findOne' does not exist on type 'typeof UserEntity'.
+src/services/users.service.ts(52,22): error TS2339: Property 'delete' does not exist on type 'typeof UserEntity'.
+
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/services/users.service.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-33296475905197487.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-33296475905197487.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-33296475905197487.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2022-11-10 11:43:51 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/services/users.service.ts(8,27): error TS2304: Cannot find name 'B'.
+src/services/users.service.ts(11,3): error TS2377: Constructors for derived classes must contain a 'super' call.
+src/services/users.service.ts(12,5): error TS17009: 'super' must be called before accessing 'this' in the constructor of a derived class.
+src/services/users.service.ts(12,31): error TS2339: Property 'getRepository' does not exist on type 'typeof UserEntity'.
+src/services/users.service.ts(16,44): error TS2339: Property 'find' does not exist on type 'typeof UserEntity'.
+src/services/users.service.ts(21,52): error TS2339: Property 'findOne' does not exist on type 'typeof UserEntity'.
+src/services/users.service.ts(30,52): error TS2339: Property 'findOne' does not exist on type 'typeof UserEntity'.
+src/services/users.service.ts(33,51): error TS2339: Property 'create' does not exist on type 'typeof UserEntity'.
+src/services/users.service.ts(39,52): error TS2339: Property 'findOne' does not exist on type 'typeof UserEntity'.
+src/services/users.service.ts(42,22): error TS2339: Property 'update' does not exist on type 'typeof UserEntity'.
+src/services/users.service.ts(44,54): error TS2339: Property 'findOne' does not exist on type 'typeof UserEntity'.
+src/services/users.service.ts(49,52): error TS2339: Property 'findOne' does not exist on type 'typeof UserEntity'.
+src/services/users.service.ts(52,22): error TS2339: Property 'delete' does not exist on type 'typeof UserEntity'.
+
+Error: ⨯ Unable to compile TypeScript:
+src/services/users.service.ts(8,27): error TS2304: Cannot find name 'B'.
+src/services/users.service.ts(11,3): error TS2377: Constructors for derived classes must contain a 'super' call.
+src/services/users.service.ts(12,5): error TS17009: 'super' must be called before accessing 'this' in the constructor of a derived class.
+src/services/users.service.ts(12,31): error TS2339: Property 'getRepository' does not exist on type 'typeof UserEntity'.
+src/services/users.service.ts(16,44): error TS2339: Property 'find' does not exist on type 'typeof UserEntity'.
+src/services/users.service.ts(21,52): error TS2339: Property 'findOne' does not exist on type 'typeof UserEntity'.
+src/services/users.service.ts(30,52): error TS2339: Property 'findOne' does not exist on type 'typeof UserEntity'.
+src/services/users.service.ts(33,51): error TS2339: Property 'create' does not exist on type 'typeof UserEntity'.
+src/services/users.service.ts(39,52): error TS2339: Property 'findOne' does not exist on type 'typeof UserEntity'.
+src/services/users.service.ts(42,22): error TS2339: Property 'update' does not exist on type 'typeof UserEntity'.
+src/services/users.service.ts(44,54): error TS2339: Property 'findOne' does not exist on type 'typeof UserEntity'.
+src/services/users.service.ts(49,52): error TS2339: Property 'findOne' does not exist on type 'typeof UserEntity'.
+src/services/users.service.ts(52,22): error TS2339: Property 'delete' does not exist on type 'typeof UserEntity'.
+
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/services/users.service.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-33296475905197487.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-33296475905197487.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-33296475905197487.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2022-11-10 11:43:57 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/services/users.service.ts(8,27): error TS2552: Cannot find name 'BaseService'. Did you mean 'UserService'?
+src/services/users.service.ts(8,38): error TS1099: Type argument list cannot be empty.
+src/services/users.service.ts(11,3): error TS2377: Constructors for derived classes must contain a 'super' call.
+src/services/users.service.ts(12,5): error TS17009: 'super' must be called before accessing 'this' in the constructor of a derived class.
+src/services/users.service.ts(12,31): error TS2339: Property 'getRepository' does not exist on type 'typeof UserEntity'.
+src/services/users.service.ts(16,44): error TS2339: Property 'find' does not exist on type 'typeof UserEntity'.
+src/services/users.service.ts(21,52): error TS2339: Property 'findOne' does not exist on type 'typeof UserEntity'.
+src/services/users.service.ts(30,52): error TS2339: Property 'findOne' does not exist on type 'typeof UserEntity'.
+src/services/users.service.ts(33,51): error TS2339: Property 'create' does not exist on type 'typeof UserEntity'.
+src/services/users.service.ts(39,52): error TS2339: Property 'findOne' does not exist on type 'typeof UserEntity'.
+src/services/users.service.ts(42,22): error TS2339: Property 'update' does not exist on type 'typeof UserEntity'.
+src/services/users.service.ts(44,54): error TS2339: Property 'findOne' does not exist on type 'typeof UserEntity'.
+src/services/users.service.ts(49,52): error TS2339: Property 'findOne' does not exist on type 'typeof UserEntity'.
+src/services/users.service.ts(52,22): error TS2339: Property 'delete' does not exist on type 'typeof UserEntity'.
+
+Error: ⨯ Unable to compile TypeScript:
+src/services/users.service.ts(8,27): error TS2552: Cannot find name 'BaseService'. Did you mean 'UserService'?
+src/services/users.service.ts(8,38): error TS1099: Type argument list cannot be empty.
+src/services/users.service.ts(11,3): error TS2377: Constructors for derived classes must contain a 'super' call.
+src/services/users.service.ts(12,5): error TS17009: 'super' must be called before accessing 'this' in the constructor of a derived class.
+src/services/users.service.ts(12,31): error TS2339: Property 'getRepository' does not exist on type 'typeof UserEntity'.
+src/services/users.service.ts(16,44): error TS2339: Property 'find' does not exist on type 'typeof UserEntity'.
+src/services/users.service.ts(21,52): error TS2339: Property 'findOne' does not exist on type 'typeof UserEntity'.
+src/services/users.service.ts(30,52): error TS2339: Property 'findOne' does not exist on type 'typeof UserEntity'.
+src/services/users.service.ts(33,51): error TS2339: Property 'create' does not exist on type 'typeof UserEntity'.
+src/services/users.service.ts(39,52): error TS2339: Property 'findOne' does not exist on type 'typeof UserEntity'.
+src/services/users.service.ts(42,22): error TS2339: Property 'update' does not exist on type 'typeof UserEntity'.
+src/services/users.service.ts(44,54): error TS2339: Property 'findOne' does not exist on type 'typeof UserEntity'.
+src/services/users.service.ts(49,52): error TS2339: Property 'findOne' does not exist on type 'typeof UserEntity'.
+src/services/users.service.ts(52,22): error TS2339: Property 'delete' does not exist on type 'typeof UserEntity'.
+
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/services/users.service.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-33296475905197487.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-33296475905197487.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-33296475905197487.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2022-11-10 11:44:06 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/services/users.service.ts(8,27): error TS2552: Cannot find name 'BaseService'. Did you mean 'UserService'?
+src/services/users.service.ts(11,3): error TS2377: Constructors for derived classes must contain a 'super' call.
+src/services/users.service.ts(12,5): error TS17009: 'super' must be called before accessing 'this' in the constructor of a derived class.
+src/services/users.service.ts(12,31): error TS2339: Property 'getRepository' does not exist on type 'typeof UserEntity'.
+src/services/users.service.ts(16,44): error TS2339: Property 'find' does not exist on type 'typeof UserEntity'.
+src/services/users.service.ts(21,52): error TS2339: Property 'findOne' does not exist on type 'typeof UserEntity'.
+src/services/users.service.ts(30,52): error TS2339: Property 'findOne' does not exist on type 'typeof UserEntity'.
+src/services/users.service.ts(33,51): error TS2339: Property 'create' does not exist on type 'typeof UserEntity'.
+src/services/users.service.ts(39,52): error TS2339: Property 'findOne' does not exist on type 'typeof UserEntity'.
+src/services/users.service.ts(42,22): error TS2339: Property 'update' does not exist on type 'typeof UserEntity'.
+src/services/users.service.ts(44,54): error TS2339: Property 'findOne' does not exist on type 'typeof UserEntity'.
+src/services/users.service.ts(49,52): error TS2339: Property 'findOne' does not exist on type 'typeof UserEntity'.
+src/services/users.service.ts(52,22): error TS2339: Property 'delete' does not exist on type 'typeof UserEntity'.
+
+Error: ⨯ Unable to compile TypeScript:
+src/services/users.service.ts(8,27): error TS2552: Cannot find name 'BaseService'. Did you mean 'UserService'?
+src/services/users.service.ts(11,3): error TS2377: Constructors for derived classes must contain a 'super' call.
+src/services/users.service.ts(12,5): error TS17009: 'super' must be called before accessing 'this' in the constructor of a derived class.
+src/services/users.service.ts(12,31): error TS2339: Property 'getRepository' does not exist on type 'typeof UserEntity'.
+src/services/users.service.ts(16,44): error TS2339: Property 'find' does not exist on type 'typeof UserEntity'.
+src/services/users.service.ts(21,52): error TS2339: Property 'findOne' does not exist on type 'typeof UserEntity'.
+src/services/users.service.ts(30,52): error TS2339: Property 'findOne' does not exist on type 'typeof UserEntity'.
+src/services/users.service.ts(33,51): error TS2339: Property 'create' does not exist on type 'typeof UserEntity'.
+src/services/users.service.ts(39,52): error TS2339: Property 'findOne' does not exist on type 'typeof UserEntity'.
+src/services/users.service.ts(42,22): error TS2339: Property 'update' does not exist on type 'typeof UserEntity'.
+src/services/users.service.ts(44,54): error TS2339: Property 'findOne' does not exist on type 'typeof UserEntity'.
+src/services/users.service.ts(49,52): error TS2339: Property 'findOne' does not exist on type 'typeof UserEntity'.
+src/services/users.service.ts(52,22): error TS2339: Property 'delete' does not exist on type 'typeof UserEntity'.
+
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/services/users.service.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-33296475905197487.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-33296475905197487.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-33296475905197487.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2022-11-10 11:44:13 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/services/users.service.ts(12,3): error TS2377: Constructors for derived classes must contain a 'super' call.
+src/services/users.service.ts(13,5): error TS17009: 'super' must be called before accessing 'this' in the constructor of a derived class.
+src/services/users.service.ts(13,31): error TS2339: Property 'getRepository' does not exist on type 'typeof UserEntity'.
+src/services/users.service.ts(17,44): error TS2339: Property 'find' does not exist on type 'typeof UserEntity'.
+src/services/users.service.ts(22,52): error TS2339: Property 'findOne' does not exist on type 'typeof UserEntity'.
+src/services/users.service.ts(31,52): error TS2339: Property 'findOne' does not exist on type 'typeof UserEntity'.
+src/services/users.service.ts(34,51): error TS2339: Property 'create' does not exist on type 'typeof UserEntity'.
+src/services/users.service.ts(40,52): error TS2339: Property 'findOne' does not exist on type 'typeof UserEntity'.
+src/services/users.service.ts(43,22): error TS2339: Property 'update' does not exist on type 'typeof UserEntity'.
+src/services/users.service.ts(45,54): error TS2339: Property 'findOne' does not exist on type 'typeof UserEntity'.
+src/services/users.service.ts(50,52): error TS2339: Property 'findOne' does not exist on type 'typeof UserEntity'.
+src/services/users.service.ts(53,22): error TS2339: Property 'delete' does not exist on type 'typeof UserEntity'.
+
+Error: ⨯ Unable to compile TypeScript:
+src/services/users.service.ts(12,3): error TS2377: Constructors for derived classes must contain a 'super' call.
+src/services/users.service.ts(13,5): error TS17009: 'super' must be called before accessing 'this' in the constructor of a derived class.
+src/services/users.service.ts(13,31): error TS2339: Property 'getRepository' does not exist on type 'typeof UserEntity'.
+src/services/users.service.ts(17,44): error TS2339: Property 'find' does not exist on type 'typeof UserEntity'.
+src/services/users.service.ts(22,52): error TS2339: Property 'findOne' does not exist on type 'typeof UserEntity'.
+src/services/users.service.ts(31,52): error TS2339: Property 'findOne' does not exist on type 'typeof UserEntity'.
+src/services/users.service.ts(34,51): error TS2339: Property 'create' does not exist on type 'typeof UserEntity'.
+src/services/users.service.ts(40,52): error TS2339: Property 'findOne' does not exist on type 'typeof UserEntity'.
+src/services/users.service.ts(43,22): error TS2339: Property 'update' does not exist on type 'typeof UserEntity'.
+src/services/users.service.ts(45,54): error TS2339: Property 'findOne' does not exist on type 'typeof UserEntity'.
+src/services/users.service.ts(50,52): error TS2339: Property 'findOne' does not exist on type 'typeof UserEntity'.
+src/services/users.service.ts(53,22): error TS2339: Property 'delete' does not exist on type 'typeof UserEntity'.
+
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/services/users.service.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-33296475905197487.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-33296475905197487.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-33296475905197487.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2022-11-10 11:44:21 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/services/users.service.ts(1,1): error TS6133: 'Repository' is declared but its value is never read.
+src/services/users.service.ts(11,3): error TS2377: Constructors for derived classes must contain a 'super' call.
+src/services/users.service.ts(12,5): error TS17009: 'super' must be called before accessing 'this' in the constructor of a derived class.
+src/services/users.service.ts(12,10): error TS2339: Property 'userRep' does not exist on type 'UserService'.
+src/services/users.service.ts(12,31): error TS2339: Property 'getRepository' does not exist on type 'typeof UserEntity'.
+src/services/users.service.ts(16,44): error TS2339: Property 'find' does not exist on type 'typeof UserEntity'.
+src/services/users.service.ts(21,52): error TS2339: Property 'findOne' does not exist on type 'typeof UserEntity'.
+src/services/users.service.ts(30,52): error TS2339: Property 'findOne' does not exist on type 'typeof UserEntity'.
+src/services/users.service.ts(33,51): error TS2339: Property 'create' does not exist on type 'typeof UserEntity'.
+src/services/users.service.ts(39,52): error TS2339: Property 'findOne' does not exist on type 'typeof UserEntity'.
+src/services/users.service.ts(42,22): error TS2339: Property 'update' does not exist on type 'typeof UserEntity'.
+src/services/users.service.ts(44,54): error TS2339: Property 'findOne' does not exist on type 'typeof UserEntity'.
+src/services/users.service.ts(49,52): error TS2339: Property 'findOne' does not exist on type 'typeof UserEntity'.
+src/services/users.service.ts(52,22): error TS2339: Property 'delete' does not exist on type 'typeof UserEntity'.
+
+Error: ⨯ Unable to compile TypeScript:
+src/services/users.service.ts(1,1): error TS6133: 'Repository' is declared but its value is never read.
+src/services/users.service.ts(11,3): error TS2377: Constructors for derived classes must contain a 'super' call.
+src/services/users.service.ts(12,5): error TS17009: 'super' must be called before accessing 'this' in the constructor of a derived class.
+src/services/users.service.ts(12,10): error TS2339: Property 'userRep' does not exist on type 'UserService'.
+src/services/users.service.ts(12,31): error TS2339: Property 'getRepository' does not exist on type 'typeof UserEntity'.
+src/services/users.service.ts(16,44): error TS2339: Property 'find' does not exist on type 'typeof UserEntity'.
+src/services/users.service.ts(21,52): error TS2339: Property 'findOne' does not exist on type 'typeof UserEntity'.
+src/services/users.service.ts(30,52): error TS2339: Property 'findOne' does not exist on type 'typeof UserEntity'.
+src/services/users.service.ts(33,51): error TS2339: Property 'create' does not exist on type 'typeof UserEntity'.
+src/services/users.service.ts(39,52): error TS2339: Property 'findOne' does not exist on type 'typeof UserEntity'.
+src/services/users.service.ts(42,22): error TS2339: Property 'update' does not exist on type 'typeof UserEntity'.
+src/services/users.service.ts(44,54): error TS2339: Property 'findOne' does not exist on type 'typeof UserEntity'.
+src/services/users.service.ts(49,52): error TS2339: Property 'findOne' does not exist on type 'typeof UserEntity'.
+src/services/users.service.ts(52,22): error TS2339: Property 'delete' does not exist on type 'typeof UserEntity'.
+
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/services/users.service.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-33296475905197487.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-33296475905197487.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-33296475905197487.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2022-11-10 11:44:27 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/services/users.service.ts(1,1): error TS6133: 'Repository' is declared but its value is never read.
+src/services/users.service.ts(11,3): error TS2377: Constructors for derived classes must contain a 'super' call.
+src/services/users.service.ts(14,44): error TS2339: Property 'find' does not exist on type 'typeof UserEntity'.
+src/services/users.service.ts(19,52): error TS2339: Property 'findOne' does not exist on type 'typeof UserEntity'.
+src/services/users.service.ts(28,52): error TS2339: Property 'findOne' does not exist on type 'typeof UserEntity'.
+src/services/users.service.ts(31,51): error TS2339: Property 'create' does not exist on type 'typeof UserEntity'.
+src/services/users.service.ts(37,52): error TS2339: Property 'findOne' does not exist on type 'typeof UserEntity'.
+src/services/users.service.ts(40,22): error TS2339: Property 'update' does not exist on type 'typeof UserEntity'.
+src/services/users.service.ts(42,54): error TS2339: Property 'findOne' does not exist on type 'typeof UserEntity'.
+src/services/users.service.ts(47,52): error TS2339: Property 'findOne' does not exist on type 'typeof UserEntity'.
+src/services/users.service.ts(50,22): error TS2339: Property 'delete' does not exist on type 'typeof UserEntity'.
+
+Error: ⨯ Unable to compile TypeScript:
+src/services/users.service.ts(1,1): error TS6133: 'Repository' is declared but its value is never read.
+src/services/users.service.ts(11,3): error TS2377: Constructors for derived classes must contain a 'super' call.
+src/services/users.service.ts(14,44): error TS2339: Property 'find' does not exist on type 'typeof UserEntity'.
+src/services/users.service.ts(19,52): error TS2339: Property 'findOne' does not exist on type 'typeof UserEntity'.
+src/services/users.service.ts(28,52): error TS2339: Property 'findOne' does not exist on type 'typeof UserEntity'.
+src/services/users.service.ts(31,51): error TS2339: Property 'create' does not exist on type 'typeof UserEntity'.
+src/services/users.service.ts(37,52): error TS2339: Property 'findOne' does not exist on type 'typeof UserEntity'.
+src/services/users.service.ts(40,22): error TS2339: Property 'update' does not exist on type 'typeof UserEntity'.
+src/services/users.service.ts(42,54): error TS2339: Property 'findOne' does not exist on type 'typeof UserEntity'.
+src/services/users.service.ts(47,52): error TS2339: Property 'findOne' does not exist on type 'typeof UserEntity'.
+src/services/users.service.ts(50,22): error TS2339: Property 'delete' does not exist on type 'typeof UserEntity'.
+
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/services/users.service.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-33296475905197487.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-33296475905197487.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-33296475905197487.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2022-11-10 11:44:33 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/services/users.service.ts(1,1): error TS6133: 'Repository' is declared but its value is never read.
+src/services/users.service.ts(12,5): error TS2554: Expected 1 arguments, but got 0.
+src/services/users.service.ts(16,44): error TS2339: Property 'find' does not exist on type 'typeof UserEntity'.
+src/services/users.service.ts(21,52): error TS2339: Property 'findOne' does not exist on type 'typeof UserEntity'.
+src/services/users.service.ts(30,52): error TS2339: Property 'findOne' does not exist on type 'typeof UserEntity'.
+src/services/users.service.ts(33,51): error TS2339: Property 'create' does not exist on type 'typeof UserEntity'.
+src/services/users.service.ts(39,52): error TS2339: Property 'findOne' does not exist on type 'typeof UserEntity'.
+src/services/users.service.ts(42,22): error TS2339: Property 'update' does not exist on type 'typeof UserEntity'.
+src/services/users.service.ts(44,54): error TS2339: Property 'findOne' does not exist on type 'typeof UserEntity'.
+src/services/users.service.ts(49,52): error TS2339: Property 'findOne' does not exist on type 'typeof UserEntity'.
+src/services/users.service.ts(52,22): error TS2339: Property 'delete' does not exist on type 'typeof UserEntity'.
+
+Error: ⨯ Unable to compile TypeScript:
+src/services/users.service.ts(1,1): error TS6133: 'Repository' is declared but its value is never read.
+src/services/users.service.ts(12,5): error TS2554: Expected 1 arguments, but got 0.
+src/services/users.service.ts(16,44): error TS2339: Property 'find' does not exist on type 'typeof UserEntity'.
+src/services/users.service.ts(21,52): error TS2339: Property 'findOne' does not exist on type 'typeof UserEntity'.
+src/services/users.service.ts(30,52): error TS2339: Property 'findOne' does not exist on type 'typeof UserEntity'.
+src/services/users.service.ts(33,51): error TS2339: Property 'create' does not exist on type 'typeof UserEntity'.
+src/services/users.service.ts(39,52): error TS2339: Property 'findOne' does not exist on type 'typeof UserEntity'.
+src/services/users.service.ts(42,22): error TS2339: Property 'update' does not exist on type 'typeof UserEntity'.
+src/services/users.service.ts(44,54): error TS2339: Property 'findOne' does not exist on type 'typeof UserEntity'.
+src/services/users.service.ts(49,52): error TS2339: Property 'findOne' does not exist on type 'typeof UserEntity'.
+src/services/users.service.ts(52,22): error TS2339: Property 'delete' does not exist on type 'typeof UserEntity'.
+
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/services/users.service.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-33296475905197487.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-33296475905197487.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-33296475905197487.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2022-11-10 11:44:44 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/services/users.service.ts(11,5): error TS2554: Expected 1 arguments, but got 0.
+src/services/users.service.ts(15,44): error TS2339: Property 'find' does not exist on type 'typeof UserEntity'.
+src/services/users.service.ts(20,52): error TS2339: Property 'findOne' does not exist on type 'typeof UserEntity'.
+src/services/users.service.ts(29,52): error TS2339: Property 'findOne' does not exist on type 'typeof UserEntity'.
+src/services/users.service.ts(32,51): error TS2339: Property 'create' does not exist on type 'typeof UserEntity'.
+src/services/users.service.ts(38,52): error TS2339: Property 'findOne' does not exist on type 'typeof UserEntity'.
+src/services/users.service.ts(41,22): error TS2339: Property 'update' does not exist on type 'typeof UserEntity'.
+src/services/users.service.ts(43,54): error TS2339: Property 'findOne' does not exist on type 'typeof UserEntity'.
+src/services/users.service.ts(48,52): error TS2339: Property 'findOne' does not exist on type 'typeof UserEntity'.
+src/services/users.service.ts(51,22): error TS2339: Property 'delete' does not exist on type 'typeof UserEntity'.
+
+Error: ⨯ Unable to compile TypeScript:
+src/services/users.service.ts(11,5): error TS2554: Expected 1 arguments, but got 0.
+src/services/users.service.ts(15,44): error TS2339: Property 'find' does not exist on type 'typeof UserEntity'.
+src/services/users.service.ts(20,52): error TS2339: Property 'findOne' does not exist on type 'typeof UserEntity'.
+src/services/users.service.ts(29,52): error TS2339: Property 'findOne' does not exist on type 'typeof UserEntity'.
+src/services/users.service.ts(32,51): error TS2339: Property 'create' does not exist on type 'typeof UserEntity'.
+src/services/users.service.ts(38,52): error TS2339: Property 'findOne' does not exist on type 'typeof UserEntity'.
+src/services/users.service.ts(41,22): error TS2339: Property 'update' does not exist on type 'typeof UserEntity'.
+src/services/users.service.ts(43,54): error TS2339: Property 'findOne' does not exist on type 'typeof UserEntity'.
+src/services/users.service.ts(48,52): error TS2339: Property 'findOne' does not exist on type 'typeof UserEntity'.
+src/services/users.service.ts(51,22): error TS2339: Property 'delete' does not exist on type 'typeof UserEntity'.
+
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/services/users.service.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-33296475905197487.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-33296475905197487.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-33296475905197487.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2022-11-10 11:44:57 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/services/users.service.ts(9,5): error TS2554: Expected 1 arguments, but got 0.
+src/services/users.service.ts(13,44): error TS2339: Property 'find' does not exist on type 'typeof UserEntity'.
+src/services/users.service.ts(18,52): error TS2339: Property 'findOne' does not exist on type 'typeof UserEntity'.
+src/services/users.service.ts(27,52): error TS2339: Property 'findOne' does not exist on type 'typeof UserEntity'.
+src/services/users.service.ts(30,51): error TS2339: Property 'create' does not exist on type 'typeof UserEntity'.
+src/services/users.service.ts(36,52): error TS2339: Property 'findOne' does not exist on type 'typeof UserEntity'.
+src/services/users.service.ts(39,22): error TS2339: Property 'update' does not exist on type 'typeof UserEntity'.
+src/services/users.service.ts(41,54): error TS2339: Property 'findOne' does not exist on type 'typeof UserEntity'.
+src/services/users.service.ts(46,52): error TS2339: Property 'findOne' does not exist on type 'typeof UserEntity'.
+src/services/users.service.ts(49,22): error TS2339: Property 'delete' does not exist on type 'typeof UserEntity'.
+
+Error: ⨯ Unable to compile TypeScript:
+src/services/users.service.ts(9,5): error TS2554: Expected 1 arguments, but got 0.
+src/services/users.service.ts(13,44): error TS2339: Property 'find' does not exist on type 'typeof UserEntity'.
+src/services/users.service.ts(18,52): error TS2339: Property 'findOne' does not exist on type 'typeof UserEntity'.
+src/services/users.service.ts(27,52): error TS2339: Property 'findOne' does not exist on type 'typeof UserEntity'.
+src/services/users.service.ts(30,51): error TS2339: Property 'create' does not exist on type 'typeof UserEntity'.
+src/services/users.service.ts(36,52): error TS2339: Property 'findOne' does not exist on type 'typeof UserEntity'.
+src/services/users.service.ts(39,22): error TS2339: Property 'update' does not exist on type 'typeof UserEntity'.
+src/services/users.service.ts(41,54): error TS2339: Property 'findOne' does not exist on type 'typeof UserEntity'.
+src/services/users.service.ts(46,52): error TS2339: Property 'findOne' does not exist on type 'typeof UserEntity'.
+src/services/users.service.ts(49,22): error TS2339: Property 'delete' does not exist on type 'typeof UserEntity'.
+
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/services/users.service.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-33296475905197487.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-33296475905197487.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-33296475905197487.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2022-11-10 11:45:08 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/services/users.service.ts(13,44): error TS2339: Property 'find' does not exist on type 'typeof UserEntity'.
+src/services/users.service.ts(18,52): error TS2339: Property 'findOne' does not exist on type 'typeof UserEntity'.
+src/services/users.service.ts(27,52): error TS2339: Property 'findOne' does not exist on type 'typeof UserEntity'.
+src/services/users.service.ts(30,51): error TS2339: Property 'create' does not exist on type 'typeof UserEntity'.
+src/services/users.service.ts(36,52): error TS2339: Property 'findOne' does not exist on type 'typeof UserEntity'.
+src/services/users.service.ts(39,22): error TS2339: Property 'update' does not exist on type 'typeof UserEntity'.
+src/services/users.service.ts(41,54): error TS2339: Property 'findOne' does not exist on type 'typeof UserEntity'.
+src/services/users.service.ts(46,52): error TS2339: Property 'findOne' does not exist on type 'typeof UserEntity'.
+src/services/users.service.ts(49,22): error TS2339: Property 'delete' does not exist on type 'typeof UserEntity'.
+
+Error: ⨯ Unable to compile TypeScript:
+src/services/users.service.ts(13,44): error TS2339: Property 'find' does not exist on type 'typeof UserEntity'.
+src/services/users.service.ts(18,52): error TS2339: Property 'findOne' does not exist on type 'typeof UserEntity'.
+src/services/users.service.ts(27,52): error TS2339: Property 'findOne' does not exist on type 'typeof UserEntity'.
+src/services/users.service.ts(30,51): error TS2339: Property 'create' does not exist on type 'typeof UserEntity'.
+src/services/users.service.ts(36,52): error TS2339: Property 'findOne' does not exist on type 'typeof UserEntity'.
+src/services/users.service.ts(39,22): error TS2339: Property 'update' does not exist on type 'typeof UserEntity'.
+src/services/users.service.ts(41,54): error TS2339: Property 'findOne' does not exist on type 'typeof UserEntity'.
+src/services/users.service.ts(46,52): error TS2339: Property 'findOne' does not exist on type 'typeof UserEntity'.
+src/services/users.service.ts(49,22): error TS2339: Property 'delete' does not exist on type 'typeof UserEntity'.
+
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/services/users.service.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-33296475905197487.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-33296475905197487.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-33296475905197487.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2022-11-10 11:45:45 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/services/users.service.ts(13,11): error TS2740: Type 'Promise<UserEntity[]>' is missing the following properties from type 'User[]': length, pop, push, concat, and 29 more.
+src/services/users.service.ts(18,52): error TS2339: Property 'findOne' does not exist on type 'typeof UserEntity'.
+src/services/users.service.ts(27,52): error TS2339: Property 'findOne' does not exist on type 'typeof UserEntity'.
+src/services/users.service.ts(30,51): error TS2339: Property 'create' does not exist on type 'typeof UserEntity'.
+src/services/users.service.ts(36,52): error TS2339: Property 'findOne' does not exist on type 'typeof UserEntity'.
+src/services/users.service.ts(39,22): error TS2339: Property 'update' does not exist on type 'typeof UserEntity'.
+src/services/users.service.ts(41,54): error TS2339: Property 'findOne' does not exist on type 'typeof UserEntity'.
+src/services/users.service.ts(46,52): error TS2339: Property 'findOne' does not exist on type 'typeof UserEntity'.
+src/services/users.service.ts(49,22): error TS2339: Property 'delete' does not exist on type 'typeof UserEntity'.
+
+Error: ⨯ Unable to compile TypeScript:
+src/services/users.service.ts(13,11): error TS2740: Type 'Promise<UserEntity[]>' is missing the following properties from type 'User[]': length, pop, push, concat, and 29 more.
+src/services/users.service.ts(18,52): error TS2339: Property 'findOne' does not exist on type 'typeof UserEntity'.
+src/services/users.service.ts(27,52): error TS2339: Property 'findOne' does not exist on type 'typeof UserEntity'.
+src/services/users.service.ts(30,51): error TS2339: Property 'create' does not exist on type 'typeof UserEntity'.
+src/services/users.service.ts(36,52): error TS2339: Property 'findOne' does not exist on type 'typeof UserEntity'.
+src/services/users.service.ts(39,22): error TS2339: Property 'update' does not exist on type 'typeof UserEntity'.
+src/services/users.service.ts(41,54): error TS2339: Property 'findOne' does not exist on type 'typeof UserEntity'.
+src/services/users.service.ts(46,52): error TS2339: Property 'findOne' does not exist on type 'typeof UserEntity'.
+src/services/users.service.ts(49,22): error TS2339: Property 'delete' does not exist on type 'typeof UserEntity'.
+
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/services/users.service.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-33296475905197487.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-33296475905197487.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-33296475905197487.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2022-11-10 11:46:01 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/services/users.service.ts(13,11): error TS2740: Type 'Promise<UserEntity[]>' is missing the following properties from type 'User[]': length, pop, push, concat, and 29 more.
+src/services/users.service.ts(18,11): error TS2739: Type 'Promise<UserEntity | null>' is missing the following properties from type 'User': id, name, email, password
+src/services/users.service.ts(27,52): error TS2339: Property 'findOne' does not exist on type 'typeof UserEntity'.
+src/services/users.service.ts(30,51): error TS2339: Property 'create' does not exist on type 'typeof UserEntity'.
+src/services/users.service.ts(36,52): error TS2339: Property 'findOne' does not exist on type 'typeof UserEntity'.
+src/services/users.service.ts(39,22): error TS2339: Property 'update' does not exist on type 'typeof UserEntity'.
+src/services/users.service.ts(41,54): error TS2339: Property 'findOne' does not exist on type 'typeof UserEntity'.
+src/services/users.service.ts(46,52): error TS2339: Property 'findOne' does not exist on type 'typeof UserEntity'.
+src/services/users.service.ts(49,22): error TS2339: Property 'delete' does not exist on type 'typeof UserEntity'.
+
+Error: ⨯ Unable to compile TypeScript:
+src/services/users.service.ts(13,11): error TS2740: Type 'Promise<UserEntity[]>' is missing the following properties from type 'User[]': length, pop, push, concat, and 29 more.
+src/services/users.service.ts(18,11): error TS2739: Type 'Promise<UserEntity | null>' is missing the following properties from type 'User': id, name, email, password
+src/services/users.service.ts(27,52): error TS2339: Property 'findOne' does not exist on type 'typeof UserEntity'.
+src/services/users.service.ts(30,51): error TS2339: Property 'create' does not exist on type 'typeof UserEntity'.
+src/services/users.service.ts(36,52): error TS2339: Property 'findOne' does not exist on type 'typeof UserEntity'.
+src/services/users.service.ts(39,22): error TS2339: Property 'update' does not exist on type 'typeof UserEntity'.
+src/services/users.service.ts(41,54): error TS2339: Property 'findOne' does not exist on type 'typeof UserEntity'.
+src/services/users.service.ts(46,52): error TS2339: Property 'findOne' does not exist on type 'typeof UserEntity'.
+src/services/users.service.ts(49,22): error TS2339: Property 'delete' does not exist on type 'typeof UserEntity'.
+
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/services/users.service.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-33296475905197487.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-33296475905197487.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-33296475905197487.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2022-11-10 11:46:06 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/services/users.service.ts(13,11): error TS2740: Type 'Promise<UserEntity[]>' is missing the following properties from type 'User[]': length, pop, push, concat, and 29 more.
+src/services/users.service.ts(18,11): error TS2739: Type 'Promise<UserEntity | null>' is missing the following properties from type 'User': id, name, email, password
+src/services/users.service.ts(27,11): error TS2322: Type 'Promise<UserEntity | null>' is not assignable to type 'User'.
+src/services/users.service.ts(30,51): error TS2339: Property 'create' does not exist on type 'typeof UserEntity'.
+src/services/users.service.ts(36,52): error TS2339: Property 'findOne' does not exist on type 'typeof UserEntity'.
+src/services/users.service.ts(39,22): error TS2339: Property 'update' does not exist on type 'typeof UserEntity'.
+src/services/users.service.ts(41,54): error TS2339: Property 'findOne' does not exist on type 'typeof UserEntity'.
+src/services/users.service.ts(46,52): error TS2339: Property 'findOne' does not exist on type 'typeof UserEntity'.
+src/services/users.service.ts(49,22): error TS2339: Property 'delete' does not exist on type 'typeof UserEntity'.
+
+Error: ⨯ Unable to compile TypeScript:
+src/services/users.service.ts(13,11): error TS2740: Type 'Promise<UserEntity[]>' is missing the following properties from type 'User[]': length, pop, push, concat, and 29 more.
+src/services/users.service.ts(18,11): error TS2739: Type 'Promise<UserEntity | null>' is missing the following properties from type 'User': id, name, email, password
+src/services/users.service.ts(27,11): error TS2322: Type 'Promise<UserEntity | null>' is not assignable to type 'User'.
+src/services/users.service.ts(30,51): error TS2339: Property 'create' does not exist on type 'typeof UserEntity'.
+src/services/users.service.ts(36,52): error TS2339: Property 'findOne' does not exist on type 'typeof UserEntity'.
+src/services/users.service.ts(39,22): error TS2339: Property 'update' does not exist on type 'typeof UserEntity'.
+src/services/users.service.ts(41,54): error TS2339: Property 'findOne' does not exist on type 'typeof UserEntity'.
+src/services/users.service.ts(46,52): error TS2339: Property 'findOne' does not exist on type 'typeof UserEntity'.
+src/services/users.service.ts(49,22): error TS2339: Property 'delete' does not exist on type 'typeof UserEntity'.
+
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/services/users.service.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-33296475905197487.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-33296475905197487.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-33296475905197487.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2022-11-10 11:46:11 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/services/users.service.ts(13,11): error TS2740: Type 'Promise<UserEntity[]>' is missing the following properties from type 'User[]': length, pop, push, concat, and 29 more.
+src/services/users.service.ts(18,11): error TS2739: Type 'Promise<UserEntity | null>' is missing the following properties from type 'User': id, name, email, password
+src/services/users.service.ts(27,11): error TS2322: Type 'Promise<UserEntity | null>' is not assignable to type 'User'.
+src/services/users.service.ts(30,86): error TS2339: Property 'save' does not exist on type 'UserEntity[]'.
+src/services/users.service.ts(36,52): error TS2339: Property 'findOne' does not exist on type 'typeof UserEntity'.
+src/services/users.service.ts(39,22): error TS2339: Property 'update' does not exist on type 'typeof UserEntity'.
+src/services/users.service.ts(41,54): error TS2339: Property 'findOne' does not exist on type 'typeof UserEntity'.
+src/services/users.service.ts(46,52): error TS2339: Property 'findOne' does not exist on type 'typeof UserEntity'.
+src/services/users.service.ts(49,22): error TS2339: Property 'delete' does not exist on type 'typeof UserEntity'.
+
+Error: ⨯ Unable to compile TypeScript:
+src/services/users.service.ts(13,11): error TS2740: Type 'Promise<UserEntity[]>' is missing the following properties from type 'User[]': length, pop, push, concat, and 29 more.
+src/services/users.service.ts(18,11): error TS2739: Type 'Promise<UserEntity | null>' is missing the following properties from type 'User': id, name, email, password
+src/services/users.service.ts(27,11): error TS2322: Type 'Promise<UserEntity | null>' is not assignable to type 'User'.
+src/services/users.service.ts(30,86): error TS2339: Property 'save' does not exist on type 'UserEntity[]'.
+src/services/users.service.ts(36,52): error TS2339: Property 'findOne' does not exist on type 'typeof UserEntity'.
+src/services/users.service.ts(39,22): error TS2339: Property 'update' does not exist on type 'typeof UserEntity'.
+src/services/users.service.ts(41,54): error TS2339: Property 'findOne' does not exist on type 'typeof UserEntity'.
+src/services/users.service.ts(46,52): error TS2339: Property 'findOne' does not exist on type 'typeof UserEntity'.
+src/services/users.service.ts(49,22): error TS2339: Property 'delete' does not exist on type 'typeof UserEntity'.
+
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/services/users.service.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-33296475905197487.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-33296475905197487.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-33296475905197487.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2022-11-10 11:46:16 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/services/users.service.ts(13,11): error TS2740: Type 'Promise<UserEntity[]>' is missing the following properties from type 'User[]': length, pop, push, concat, and 29 more.
+src/services/users.service.ts(18,11): error TS2739: Type 'Promise<UserEntity | null>' is missing the following properties from type 'User': id, name, email, password
+src/services/users.service.ts(27,11): error TS2322: Type 'Promise<UserEntity | null>' is not assignable to type 'User'.
+src/services/users.service.ts(30,86): error TS2339: Property 'save' does not exist on type 'UserEntity[]'.
+src/services/users.service.ts(36,11): error TS2322: Type 'Promise<UserEntity | null>' is not assignable to type 'User'.
+src/services/users.service.ts(39,22): error TS2339: Property 'update' does not exist on type 'typeof UserEntity'.
+src/services/users.service.ts(41,54): error TS2339: Property 'findOne' does not exist on type 'typeof UserEntity'.
+src/services/users.service.ts(46,52): error TS2339: Property 'findOne' does not exist on type 'typeof UserEntity'.
+src/services/users.service.ts(49,22): error TS2339: Property 'delete' does not exist on type 'typeof UserEntity'.
+
+Error: ⨯ Unable to compile TypeScript:
+src/services/users.service.ts(13,11): error TS2740: Type 'Promise<UserEntity[]>' is missing the following properties from type 'User[]': length, pop, push, concat, and 29 more.
+src/services/users.service.ts(18,11): error TS2739: Type 'Promise<UserEntity | null>' is missing the following properties from type 'User': id, name, email, password
+src/services/users.service.ts(27,11): error TS2322: Type 'Promise<UserEntity | null>' is not assignable to type 'User'.
+src/services/users.service.ts(30,86): error TS2339: Property 'save' does not exist on type 'UserEntity[]'.
+src/services/users.service.ts(36,11): error TS2322: Type 'Promise<UserEntity | null>' is not assignable to type 'User'.
+src/services/users.service.ts(39,22): error TS2339: Property 'update' does not exist on type 'typeof UserEntity'.
+src/services/users.service.ts(41,54): error TS2339: Property 'findOne' does not exist on type 'typeof UserEntity'.
+src/services/users.service.ts(46,52): error TS2339: Property 'findOne' does not exist on type 'typeof UserEntity'.
+src/services/users.service.ts(49,22): error TS2339: Property 'delete' does not exist on type 'typeof UserEntity'.
+
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/services/users.service.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-33296475905197487.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-33296475905197487.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-33296475905197487.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2022-11-10 11:46:20 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/services/users.service.ts(13,11): error TS2740: Type 'Promise<UserEntity[]>' is missing the following properties from type 'User[]': length, pop, push, concat, and 29 more.
+src/services/users.service.ts(18,11): error TS2739: Type 'Promise<UserEntity | null>' is missing the following properties from type 'User': id, name, email, password
+src/services/users.service.ts(27,11): error TS2322: Type 'Promise<UserEntity | null>' is not assignable to type 'User'.
+src/services/users.service.ts(30,86): error TS2339: Property 'save' does not exist on type 'UserEntity[]'.
+src/services/users.service.ts(36,11): error TS2322: Type 'Promise<UserEntity | null>' is not assignable to type 'User'.
+src/services/users.service.ts(41,54): error TS2339: Property 'findOne' does not exist on type 'typeof UserEntity'.
+src/services/users.service.ts(46,52): error TS2339: Property 'findOne' does not exist on type 'typeof UserEntity'.
+src/services/users.service.ts(49,22): error TS2339: Property 'delete' does not exist on type 'typeof UserEntity'.
+
+Error: ⨯ Unable to compile TypeScript:
+src/services/users.service.ts(13,11): error TS2740: Type 'Promise<UserEntity[]>' is missing the following properties from type 'User[]': length, pop, push, concat, and 29 more.
+src/services/users.service.ts(18,11): error TS2739: Type 'Promise<UserEntity | null>' is missing the following properties from type 'User': id, name, email, password
+src/services/users.service.ts(27,11): error TS2322: Type 'Promise<UserEntity | null>' is not assignable to type 'User'.
+src/services/users.service.ts(30,86): error TS2339: Property 'save' does not exist on type 'UserEntity[]'.
+src/services/users.service.ts(36,11): error TS2322: Type 'Promise<UserEntity | null>' is not assignable to type 'User'.
+src/services/users.service.ts(41,54): error TS2339: Property 'findOne' does not exist on type 'typeof UserEntity'.
+src/services/users.service.ts(46,52): error TS2339: Property 'findOne' does not exist on type 'typeof UserEntity'.
+src/services/users.service.ts(49,22): error TS2339: Property 'delete' does not exist on type 'typeof UserEntity'.
+
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/services/users.service.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-33296475905197487.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-33296475905197487.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-33296475905197487.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2022-11-10 12:01:12 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/services/users.service.ts(2,1): error TS6133: 'User' is declared but its value is never read.
+
+Error: ⨯ Unable to compile TypeScript:
+src/services/users.service.ts(2,1): error TS6133: 'User' is declared but its value is never read.
+
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/services/users.service.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-6038663794294135.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-6038663794294135.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-6038663794294135.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2022-11-10 12:01:23 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/config/base.service.ts(6,23): error TS6138: Property 'getEntity' is declared but its value is never read.
+
+Error: ⨯ Unable to compile TypeScript:
+src/config/base.service.ts(6,23): error TS6138: Property 'getEntity' is declared but its value is never read.
+
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/config/base.service.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-6038663794294135.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-6038663794294135.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-6038663794294135.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2022-11-10 12:02:35 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/config/base.service.ts(6,23): error TS6138: Property '_getEntity' is declared but its value is never read.
+
+Error: ⨯ Unable to compile TypeScript:
+src/config/base.service.ts(6,23): error TS6138: Property '_getEntity' is declared but its value is never read.
+
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/config/base.service.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-6038663794294135.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-6038663794294135.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-6038663794294135.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2022-11-10 12:02:43 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/config/base.service.ts(6,23): error TS6138: Property '_getEntity' is declared but its value is never read.
+
+Error: ⨯ Unable to compile TypeScript:
+src/config/base.service.ts(6,23): error TS6138: Property '_getEntity' is declared but its value is never read.
+
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/config/base.service.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-6038663794294135.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-6038663794294135.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-6038663794294135.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2022-11-10 12:02:48 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/config/base.service.ts(6,23): error TS6138: Property 'getEntity' is declared but its value is never read.
+
+Error: ⨯ Unable to compile TypeScript:
+src/config/base.service.ts(6,23): error TS6138: Property 'getEntity' is declared but its value is never read.
+
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/config/base.service.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-6038663794294135.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-6038663794294135.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-6038663794294135.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2022-11-10 12:03:49 error: uncaughtException: connect ECONNREFUSED 127.0.0.1:3306
+Error: connect ECONNREFUSED 127.0.0.1:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1187:16)
+    --------------------
+    at Protocol._enqueue (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/Connection.js:116:18)
+    at Pool.getConnection (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/Pool.js:48:16)
+    at /home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/driver/mysql/MysqlDriver.ts:1241:18
+    at new Promise (<anonymous>)
+    at MysqlDriver.createPool (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/driver/mysql/MysqlDriver.ts:1238:16)
+    at MysqlDriver.connect (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/driver/mysql/MysqlDriver.ts:392:36)
+    at DataSource.initialize (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/data-source/DataSource.ts:232:27)
+    at UserService.get initConnect [as initConnect] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/config/config.ts:26:26)
+2022-11-10 12:04:54 error: uncaughtException: connect ECONNREFUSED 127.0.0.1:3306
+Error: connect ECONNREFUSED 127.0.0.1:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1187:16)
+    --------------------
+    at Protocol._enqueue (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/Connection.js:116:18)
+    at Pool.getConnection (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/Pool.js:48:16)
+    at /home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/driver/mysql/MysqlDriver.ts:1241:18
+    at new Promise (<anonymous>)
+    at MysqlDriver.createPool (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/driver/mysql/MysqlDriver.ts:1238:16)
+    at MysqlDriver.connect (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/driver/mysql/MysqlDriver.ts:392:36)
+    at DataSource.initialize (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/data-source/DataSource.ts:232:27)
+    at UserService.get initConnect [as initConnect] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/config/config.ts:26:26)
+2022-11-10 12:05:04 error: uncaughtException: connect ECONNREFUSED 127.0.0.1:3306
+Error: connect ECONNREFUSED 127.0.0.1:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1187:16)
+    --------------------
+    at Protocol._enqueue (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/Connection.js:116:18)
+    at Pool.getConnection (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/Pool.js:48:16)
+    at /home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/driver/mysql/MysqlDriver.ts:1241:18
+    at new Promise (<anonymous>)
+    at MysqlDriver.createPool (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/driver/mysql/MysqlDriver.ts:1238:16)
+    at MysqlDriver.connect (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/driver/mysql/MysqlDriver.ts:392:36)
+    at DataSource.initialize (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/data-source/DataSource.ts:232:27)
+    at UserService.get initConnect [as initConnect] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/config/config.ts:26:26)
+2022-11-10 12:05:26 error: uncaughtException: connect ECONNREFUSED 127.0.0.1:3306
+Error: connect ECONNREFUSED 127.0.0.1:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1187:16)
+    --------------------
+    at Protocol._enqueue (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/Connection.js:116:18)
+    at Pool.getConnection (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/Pool.js:48:16)
+    at /home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/driver/mysql/MysqlDriver.ts:1241:18
+    at new Promise (<anonymous>)
+    at MysqlDriver.createPool (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/driver/mysql/MysqlDriver.ts:1238:16)
+    at MysqlDriver.connect (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/driver/mysql/MysqlDriver.ts:392:36)
+    at DataSource.initialize (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/data-source/DataSource.ts:232:27)
+    at UserService.get initConnect [as initConnect] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/config/config.ts:26:26)
+2022-11-10 12:09:17 error: uncaughtException: connect ECONNREFUSED 127.0.0.1:3306
+Error: connect ECONNREFUSED 127.0.0.1:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1187:16)
+    --------------------
+    at Protocol._enqueue (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/Connection.js:116:18)
+    at Pool.getConnection (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/Pool.js:48:16)
+    at /home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/driver/mysql/MysqlDriver.ts:1241:18
+    at new Promise (<anonymous>)
+    at MysqlDriver.createPool (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/driver/mysql/MysqlDriver.ts:1238:16)
+    at MysqlDriver.connect (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/driver/mysql/MysqlDriver.ts:392:36)
+    at DataSource.initialize (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/data-source/DataSource.ts:232:27)
+    at UserService.get initConnect [as initConnect] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/config/config.ts:26:26)
+2022-11-10 12:09:52 error: uncaughtException: connect ECONNREFUSED 127.0.0.1:3306
+Error: connect ECONNREFUSED 127.0.0.1:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1187:16)
+    --------------------
+    at Protocol._enqueue (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/Connection.js:116:18)
+    at Pool.getConnection (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/Pool.js:48:16)
+    at /home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/driver/mysql/MysqlDriver.ts:1241:18
+    at new Promise (<anonymous>)
+    at MysqlDriver.createPool (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/driver/mysql/MysqlDriver.ts:1238:16)
+    at MysqlDriver.connect (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/driver/mysql/MysqlDriver.ts:392:36)
+    at DataSource.initialize (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/data-source/DataSource.ts:232:27)
+    at UserService.get initConnect [as initConnect] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/config/config.ts:26:26)
+2022-11-10 12:11:37 error: uncaughtException: connect ECONNREFUSED 127.0.0.1:3306
+Error: connect ECONNREFUSED 127.0.0.1:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1187:16)
+    --------------------
+    at Protocol._enqueue (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/Connection.js:116:18)
+    at Pool.getConnection (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/Pool.js:48:16)
+    at /home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/driver/mysql/MysqlDriver.ts:1241:18
+    at new Promise (<anonymous>)
+    at MysqlDriver.createPool (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/driver/mysql/MysqlDriver.ts:1238:16)
+    at MysqlDriver.connect (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/driver/mysql/MysqlDriver.ts:392:36)
+    at DataSource.initialize (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/data-source/DataSource.ts:232:27)
+    at UserService.get initConnect [as initConnect] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/config/config.ts:26:26)
+2022-11-10 12:11:44 error: uncaughtException: connect ECONNREFUSED 127.0.0.1:3306
+Error: connect ECONNREFUSED 127.0.0.1:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1187:16)
+    --------------------
+    at Protocol._enqueue (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/Connection.js:116:18)
+    at Pool.getConnection (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/Pool.js:48:16)
+    at /home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/driver/mysql/MysqlDriver.ts:1241:18
+    at new Promise (<anonymous>)
+    at MysqlDriver.createPool (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/driver/mysql/MysqlDriver.ts:1238:16)
+    at MysqlDriver.connect (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/driver/mysql/MysqlDriver.ts:392:36)
+    at DataSource.initialize (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/data-source/DataSource.ts:232:27)
+    at UserService.get initConnect [as initConnect] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/config/config.ts:26:26)
+2022-11-10 12:11:48 error: uncaughtException: connect ECONNREFUSED 127.0.0.1:3306
+Error: connect ECONNREFUSED 127.0.0.1:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1187:16)
+    --------------------
+    at Protocol._enqueue (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/Connection.js:116:18)
+    at Pool.getConnection (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/Pool.js:48:16)
+    at /home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/driver/mysql/MysqlDriver.ts:1241:18
+    at new Promise (<anonymous>)
+    at MysqlDriver.createPool (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/driver/mysql/MysqlDriver.ts:1238:16)
+    at MysqlDriver.connect (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/driver/mysql/MysqlDriver.ts:392:36)
+    at DataSource.initialize (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/data-source/DataSource.ts:232:27)
+    at UserService.get initConnect [as initConnect] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/config/config.ts:26:26)
+2022-11-10 12:12:07 error: uncaughtException: connect ECONNREFUSED 127.0.0.1:3306
+Error: connect ECONNREFUSED 127.0.0.1:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1187:16)
+    --------------------
+    at Protocol._enqueue (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/Connection.js:116:18)
+    at Pool.getConnection (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/Pool.js:48:16)
+    at /home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/driver/mysql/MysqlDriver.ts:1241:18
+    at new Promise (<anonymous>)
+    at MysqlDriver.createPool (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/driver/mysql/MysqlDriver.ts:1238:16)
+    at MysqlDriver.connect (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/driver/mysql/MysqlDriver.ts:392:36)
+    at DataSource.initialize (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/data-source/DataSource.ts:232:27)
+    at UserService.get initConnect [as initConnect] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/config/config.ts:26:26)
+2022-11-10 12:12:18 error: uncaughtException: connect ECONNREFUSED 127.0.0.1:3306
+Error: connect ECONNREFUSED 127.0.0.1:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1187:16)
+    --------------------
+    at Protocol._enqueue (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/Connection.js:116:18)
+    at Pool.getConnection (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/Pool.js:48:16)
+    at /home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/driver/mysql/MysqlDriver.ts:1241:18
+    at new Promise (<anonymous>)
+    at MysqlDriver.createPool (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/driver/mysql/MysqlDriver.ts:1238:16)
+    at MysqlDriver.connect (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/driver/mysql/MysqlDriver.ts:392:36)
+    at DataSource.initialize (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/data-source/DataSource.ts:232:27)
+    at UserService.get initConnect [as initConnect] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/config/config.ts:26:26)
+2022-11-10 12:12:36 error: uncaughtException: connect ECONNREFUSED 127.0.0.1:3306
+Error: connect ECONNREFUSED 127.0.0.1:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1187:16)
+    --------------------
+    at Protocol._enqueue (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/Connection.js:116:18)
+    at Pool.getConnection (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/Pool.js:48:16)
+    at /home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/driver/mysql/MysqlDriver.ts:1241:18
+    at new Promise (<anonymous>)
+    at MysqlDriver.createPool (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/driver/mysql/MysqlDriver.ts:1238:16)
+    at MysqlDriver.connect (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/driver/mysql/MysqlDriver.ts:392:36)
+    at DataSource.initialize (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/data-source/DataSource.ts:232:27)
+    at UserService.get initConnect [as initConnect] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/config/config.ts:26:26)
+2022-11-10 12:15:46 error: uncaughtException: connect ECONNREFUSED 127.0.0.1:3306
+Error: connect ECONNREFUSED 127.0.0.1:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1187:16)
+    --------------------
+    at Protocol._enqueue (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/Connection.js:116:18)
+    at Pool.getConnection (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/Pool.js:48:16)
+    at /home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/driver/mysql/MysqlDriver.ts:1241:18
+    at new Promise (<anonymous>)
+    at MysqlDriver.createPool (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/driver/mysql/MysqlDriver.ts:1238:16)
+    at MysqlDriver.connect (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/driver/mysql/MysqlDriver.ts:392:36)
+    at DataSource.initialize (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/data-source/DataSource.ts:232:27)
+    at UserService.get initConnect [as initConnect] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/config/config.ts:26:26)
+2022-11-10 12:15:55 error: uncaughtException: connect ECONNREFUSED 127.0.0.1:3306
+Error: connect ECONNREFUSED 127.0.0.1:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1187:16)
+    --------------------
+    at Protocol._enqueue (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/Connection.js:116:18)
+    at Pool.getConnection (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/Pool.js:48:16)
+    at /home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/driver/mysql/MysqlDriver.ts:1241:18
+    at new Promise (<anonymous>)
+    at MysqlDriver.createPool (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/driver/mysql/MysqlDriver.ts:1238:16)
+    at MysqlDriver.connect (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/driver/mysql/MysqlDriver.ts:392:36)
+    at DataSource.initialize (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/data-source/DataSource.ts:232:27)
+    at UserService.get initConnect [as initConnect] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/config/config.ts:26:26)
+2022-11-10 12:16:01 error: uncaughtException: connect ECONNREFUSED 127.0.0.1:3306
+Error: connect ECONNREFUSED 127.0.0.1:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1187:16)
+    --------------------
+    at Protocol._enqueue (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/Connection.js:116:18)
+    at Pool.getConnection (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/Pool.js:48:16)
+    at /home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/driver/mysql/MysqlDriver.ts:1241:18
+    at new Promise (<anonymous>)
+    at MysqlDriver.createPool (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/driver/mysql/MysqlDriver.ts:1238:16)
+    at MysqlDriver.connect (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/driver/mysql/MysqlDriver.ts:392:36)
+    at DataSource.initialize (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/data-source/DataSource.ts:232:27)
+    at UserService.get initConnect [as initConnect] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/config/config.ts:26:26)
+2022-11-10 12:16:12 error: uncaughtException: connect ECONNREFUSED 127.0.0.1:3306
+Error: connect ECONNREFUSED 127.0.0.1:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1187:16)
+    --------------------
+    at Protocol._enqueue (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/Connection.js:116:18)
+    at Pool.getConnection (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/Pool.js:48:16)
+    at /home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/driver/mysql/MysqlDriver.ts:1241:18
+    at new Promise (<anonymous>)
+    at MysqlDriver.createPool (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/driver/mysql/MysqlDriver.ts:1238:16)
+    at MysqlDriver.connect (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/driver/mysql/MysqlDriver.ts:392:36)
+    at DataSource.initialize (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/data-source/DataSource.ts:232:27)
+    at UserService.get initConnect [as initConnect] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/config/config.ts:26:26)
+2022-11-10 12:17:17 error: uncaughtException: connect ECONNREFUSED 127.0.0.1:3306
+Error: connect ECONNREFUSED 127.0.0.1:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1187:16)
+    --------------------
+    at Protocol._enqueue (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/Connection.js:116:18)
+    at Pool.getConnection (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/Pool.js:48:16)
+    at /home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/driver/mysql/MysqlDriver.ts:1241:18
+    at new Promise (<anonymous>)
+    at MysqlDriver.createPool (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/driver/mysql/MysqlDriver.ts:1238:16)
+    at MysqlDriver.connect (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/driver/mysql/MysqlDriver.ts:392:36)
+    at DataSource.initialize (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/data-source/DataSource.ts:232:27)
+    at UserService.get initConnect [as initConnect] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/config/config.ts:27:26)
+2022-11-10 12:17:29 error: uncaughtException: connect ECONNREFUSED 127.0.0.1:3306
+Error: connect ECONNREFUSED 127.0.0.1:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1187:16)
+    --------------------
+    at Protocol._enqueue (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/Connection.js:116:18)
+    at Pool.getConnection (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/Pool.js:48:16)
+    at /home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/driver/mysql/MysqlDriver.ts:1241:18
+    at new Promise (<anonymous>)
+    at MysqlDriver.createPool (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/driver/mysql/MysqlDriver.ts:1238:16)
+    at MysqlDriver.connect (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/driver/mysql/MysqlDriver.ts:392:36)
+    at DataSource.initialize (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/data-source/DataSource.ts:232:27)
+    at UserService.get initConnect [as initConnect] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/config/config.ts:27:26)
+2022-11-10 12:17:59 error: uncaughtException: connect ECONNREFUSED 127.0.0.1:3306
+Error: connect ECONNREFUSED 127.0.0.1:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1187:16)
+    --------------------
+    at Protocol._enqueue (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/Connection.js:116:18)
+    at Pool.getConnection (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/Pool.js:48:16)
+    at /home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/driver/mysql/MysqlDriver.ts:1241:18
+    at new Promise (<anonymous>)
+    at MysqlDriver.createPool (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/driver/mysql/MysqlDriver.ts:1238:16)
+    at MysqlDriver.connect (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/driver/mysql/MysqlDriver.ts:392:36)
+    at DataSource.initialize (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/data-source/DataSource.ts:232:27)
+    at UserService.get initConnect [as initConnect] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/config/config.ts:27:26)
+2022-11-10 12:18:23 error: uncaughtException: ER_TABLE_EXISTS_ERROR: Table 'migrations' already exists
+QueryFailedError: ER_TABLE_EXISTS_ERROR: Table 'migrations' already exists
+    at Query.<anonymous> (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/driver/mysql/MysqlQueryRunner.ts:222:33)
+    at Query.<anonymous> (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/Connection.js:526:10)
+    at Query._callback (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/Connection.js:488:16)
+    at Query.Sequence.end (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/protocol/sequences/Sequence.js:83:24)
+    at Query.ErrorPacket (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/protocol/sequences/Query.js:92:8)
+    at Protocol._parsePacket (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/Connection.js:88:28)
+2022-11-10 12:22:52 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/services/users.service.ts(22,27): error TS6133: 'userData' is declared but its value is never read.
+src/services/users.service.ts(22,43): error TS2355: A function whose declared type is neither 'void' nor 'any' must return a value.
+src/services/users.service.ts(24,56): error TS2304: Cannot find name 'userData'.
+src/services/users.service.ts(25,5): error TS7008: Member 'console' implicitly has an 'any' type.
+src/services/users.service.ts(25,13): error TS2391: Function implementation is missing or not immediately following the declaration.
+src/services/users.service.ts(25,13): error TS7010: 'log', which lacks return-type annotation, implicitly has an 'any' return type.
+src/services/users.service.ts(25,17): error TS7006: Parameter '(Missing)' implicitly has an 'any' type.
+src/services/users.service.ts(25,95): error TS7006: Parameter 'newUser' implicitly has an 'any' type.
+src/services/users.service.ts(30,10): error TS2304: Cannot find name 'async'.
+src/services/users.service.ts(30,16): error TS2448: Block-scoped variable 'updateUser' used before its declaration.
+src/services/users.service.ts(30,27): error TS2304: Cannot find name 'userId'.
+src/services/users.service.ts(30,35): error TS2693: 'string' only refers to a type, but is being used as a value here.
+src/services/users.service.ts(30,43): error TS2304: Cannot find name 'userData'.
+src/services/users.service.ts(30,53): error TS2693: 'any' only refers to a type, but is being used as a value here.
+src/services/users.service.ts(30,59): error TS2365: Operator '<' cannot be applied to types 'PromiseConstructor' and 'typeof UserEntity'.
+src/services/users.service.ts(30,59): error TS2447: The '|' operator is not allowed for boolean types. Consider using '||' instead.
+src/services/users.service.ts(30,80): error TS2531: Object is possibly 'null'.
+src/services/users.service.ts(30,86): error TS2349: This expression is not callable.
+  Type '{ const: any; if(: any, findUser: any): any; throw: HttpException; }' has no call signatures.
+src/services/users.service.ts(31,11): error TS2304: Cannot find name 'findUser'.
+src/services/users.service.ts(31,29): error TS2532: Object is possibly 'undefined'.
+src/services/users.service.ts(31,73): error TS2304: Cannot find name 'userId'.
+src/services/users.service.ts(32,9): error TS7006: Parameter '(Missing)' implicitly has an 'any' type.
+src/services/users.service.ts(32,10): error TS7006: Parameter 'findUser' implicitly has an 'any' type.
+src/services/users.service.ts(34,12): error TS2532: Object is possibly 'undefined'.
+src/services/users.service.ts(34,40): error TS2304: Cannot find name 'userId'.
+src/services/users.service.ts(34,53): error TS2304: Cannot find name 'userData'.
+src/services/users.service.ts(36,31): error TS2532: Object is possibly 'undefined'.
+src/services/users.service.ts(36,75): error TS2304: Cannot find name 'userId'.
+src/services/users.service.ts(40,10): error TS2304: Cannot find name 'async'.
+src/services/users.service.ts(40,16): error TS2304: Cannot find name 'deleteUser'.
+src/services/users.service.ts(40,27): error TS2304: Cannot find name 'userId'.
+src/services/users.service.ts(40,35): error TS2693: 'string' only refers to a type, but is being used as a value here.
+src/services/users.service.ts(40,44): error TS2365: Operator '<' cannot be applied to types 'PromiseConstructor' and 'typeof UserEntity'.
+src/services/users.service.ts(40,44): error TS2447: The '|' operator is not allowed for boolean types. Consider using '||' instead.
+src/services/users.service.ts(40,65): error TS2531: Object is possibly 'null'.
+src/services/users.service.ts(40,71): error TS2349: This expression is not callable.
+  Type '{ const: any; if(: any, findUser: any): any; throw: HttpException; }' has no call signatures.
+src/services/users.service.ts(41,11): error TS2304: Cannot find name 'findUser'.
+src/services/users.service.ts(41,29): error TS2532: Object is possibly 'undefined'.
+src/services/users.service.ts(41,73): error TS2304: Cannot find name 'userId'.
+src/services/users.service.ts(42,9): error TS7006: Parameter '(Missing)' implicitly has an 'any' type.
+src/services/users.service.ts(42,10): error TS7006: Parameter 'findUser' implicitly has an 'any' type.
+src/services/users.service.ts(44,12): error TS2532: Object is possibly 'undefined'.
+src/services/users.service.ts(44,46): error TS2304: Cannot find name 'userId'.
+src/services/users.service.ts(23,18): error TS1136: Property assignment expected.
+src/services/users.service.ts(23,20): error TS1005: ',' expected.
+src/services/users.service.ts(23,21): error TS1068: Unexpected token. A constructor, method, accessor, or property was expected.
+src/services/users.service.ts(25,5): error TS1434: Unexpected keyword or identifier.
+src/services/users.service.ts(25,12): error TS1068: Unexpected token. A constructor, method, accessor, or property was expected.
+src/services/users.service.ts(25,17): error TS1003: Identifier expected.
+src/services/users.service.ts(25,93): error TS1138: Parameter declaration expected.
+src/services/users.service.ts(27,5): error TS1068: Unexpected token. A constructor, method, accessor, or property was expected.
+src/services/users.service.ts(28,3): error TS1128: Declaration or statement expected.
+src/services/users.service.ts(30,3): error TS1128: Declaration or statement expected.
+src/services/users.service.ts(30,10): error TS1434: Unexpected keyword or identifier.
+src/services/users.service.ts(30,33): error TS1005: ',' expected.
+src/services/users.service.ts(30,51): error TS1005: ',' expected.
+src/services/users.service.ts(30,57): error TS1005: ';' expected.
+src/services/users.service.ts(31,11): error TS1005: ':' expected.
+src/services/users.service.ts(31,84): error TS1005: ',' expected.
+src/services/users.service.ts(32,9): error TS1003: Identifier expected.
+src/services/users.service.ts(32,20): error TS1005: '{' expected.
+src/services/users.service.ts(32,26): error TS1005: ':' expected.
+src/services/users.service.ts(32,70): error TS1005: ',' expected.
+src/services/users.service.ts(34,5): error TS1136: Property assignment expected.
+src/services/users.service.ts(38,3): error TS1128: Declaration or statement expected.
+src/services/users.service.ts(40,3): error TS1128: Declaration or statement expected.
+src/services/users.service.ts(40,10): error TS1434: Unexpected keyword or identifier.
+src/services/users.service.ts(40,33): error TS1005: ',' expected.
+src/services/users.service.ts(40,42): error TS1005: ';' expected.
+src/services/users.service.ts(41,11): error TS1005: ':' expected.
+src/services/users.service.ts(41,84): error TS1005: ',' expected.
+src/services/users.service.ts(42,9): error TS1003: Identifier expected.
+src/services/users.service.ts(42,20): error TS1005: '{' expected.
+src/services/users.service.ts(42,26): error TS1005: ':' expected.
+src/services/users.service.ts(42,70): error TS1005: ',' expected.
+src/services/users.service.ts(44,5): error TS1136: Property assignment expected.
+src/services/users.service.ts(46,3): error TS1128: Declaration or statement expected.
+src/services/users.service.ts(47,1): error TS1128: Declaration or statement expected.
+
+Error: ⨯ Unable to compile TypeScript:
+src/services/users.service.ts(22,27): error TS6133: 'userData' is declared but its value is never read.
+src/services/users.service.ts(22,43): error TS2355: A function whose declared type is neither 'void' nor 'any' must return a value.
+src/services/users.service.ts(24,56): error TS2304: Cannot find name 'userData'.
+src/services/users.service.ts(25,5): error TS7008: Member 'console' implicitly has an 'any' type.
+src/services/users.service.ts(25,13): error TS2391: Function implementation is missing or not immediately following the declaration.
+src/services/users.service.ts(25,13): error TS7010: 'log', which lacks return-type annotation, implicitly has an 'any' return type.
+src/services/users.service.ts(25,17): error TS7006: Parameter '(Missing)' implicitly has an 'any' type.
+src/services/users.service.ts(25,95): error TS7006: Parameter 'newUser' implicitly has an 'any' type.
+src/services/users.service.ts(30,10): error TS2304: Cannot find name 'async'.
+src/services/users.service.ts(30,16): error TS2448: Block-scoped variable 'updateUser' used before its declaration.
+src/services/users.service.ts(30,27): error TS2304: Cannot find name 'userId'.
+src/services/users.service.ts(30,35): error TS2693: 'string' only refers to a type, but is being used as a value here.
+src/services/users.service.ts(30,43): error TS2304: Cannot find name 'userData'.
+src/services/users.service.ts(30,53): error TS2693: 'any' only refers to a type, but is being used as a value here.
+src/services/users.service.ts(30,59): error TS2365: Operator '<' cannot be applied to types 'PromiseConstructor' and 'typeof UserEntity'.
+src/services/users.service.ts(30,59): error TS2447: The '|' operator is not allowed for boolean types. Consider using '||' instead.
+src/services/users.service.ts(30,80): error TS2531: Object is possibly 'null'.
+src/services/users.service.ts(30,86): error TS2349: This expression is not callable.
+  Type '{ const: any; if(: any, findUser: any): any; throw: HttpException; }' has no call signatures.
+src/services/users.service.ts(31,11): error TS2304: Cannot find name 'findUser'.
+src/services/users.service.ts(31,29): error TS2532: Object is possibly 'undefined'.
+src/services/users.service.ts(31,73): error TS2304: Cannot find name 'userId'.
+src/services/users.service.ts(32,9): error TS7006: Parameter '(Missing)' implicitly has an 'any' type.
+src/services/users.service.ts(32,10): error TS7006: Parameter 'findUser' implicitly has an 'any' type.
+src/services/users.service.ts(34,12): error TS2532: Object is possibly 'undefined'.
+src/services/users.service.ts(34,40): error TS2304: Cannot find name 'userId'.
+src/services/users.service.ts(34,53): error TS2304: Cannot find name 'userData'.
+src/services/users.service.ts(36,31): error TS2532: Object is possibly 'undefined'.
+src/services/users.service.ts(36,75): error TS2304: Cannot find name 'userId'.
+src/services/users.service.ts(40,10): error TS2304: Cannot find name 'async'.
+src/services/users.service.ts(40,16): error TS2304: Cannot find name 'deleteUser'.
+src/services/users.service.ts(40,27): error TS2304: Cannot find name 'userId'.
+src/services/users.service.ts(40,35): error TS2693: 'string' only refers to a type, but is being used as a value here.
+src/services/users.service.ts(40,44): error TS2365: Operator '<' cannot be applied to types 'PromiseConstructor' and 'typeof UserEntity'.
+src/services/users.service.ts(40,44): error TS2447: The '|' operator is not allowed for boolean types. Consider using '||' instead.
+src/services/users.service.ts(40,65): error TS2531: Object is possibly 'null'.
+src/services/users.service.ts(40,71): error TS2349: This expression is not callable.
+  Type '{ const: any; if(: any, findUser: any): any; throw: HttpException; }' has no call signatures.
+src/services/users.service.ts(41,11): error TS2304: Cannot find name 'findUser'.
+src/services/users.service.ts(41,29): error TS2532: Object is possibly 'undefined'.
+src/services/users.service.ts(41,73): error TS2304: Cannot find name 'userId'.
+src/services/users.service.ts(42,9): error TS7006: Parameter '(Missing)' implicitly has an 'any' type.
+src/services/users.service.ts(42,10): error TS7006: Parameter 'findUser' implicitly has an 'any' type.
+src/services/users.service.ts(44,12): error TS2532: Object is possibly 'undefined'.
+src/services/users.service.ts(44,46): error TS2304: Cannot find name 'userId'.
+src/services/users.service.ts(23,18): error TS1136: Property assignment expected.
+src/services/users.service.ts(23,20): error TS1005: ',' expected.
+src/services/users.service.ts(23,21): error TS1068: Unexpected token. A constructor, method, accessor, or property was expected.
+src/services/users.service.ts(25,5): error TS1434: Unexpected keyword or identifier.
+src/services/users.service.ts(25,12): error TS1068: Unexpected token. A constructor, method, accessor, or property was expected.
+src/services/users.service.ts(25,17): error TS1003: Identifier expected.
+src/services/users.service.ts(25,93): error TS1138: Parameter declaration expected.
+src/services/users.service.ts(27,5): error TS1068: Unexpected token. A constructor, method, accessor, or property was expected.
+src/services/users.service.ts(28,3): error TS1128: Declaration or statement expected.
+src/services/users.service.ts(30,3): error TS1128: Declaration or statement expected.
+src/services/users.service.ts(30,10): error TS1434: Unexpected keyword or identifier.
+src/services/users.service.ts(30,33): error TS1005: ',' expected.
+src/services/users.service.ts(30,51): error TS1005: ',' expected.
+src/services/users.service.ts(30,57): error TS1005: ';' expected.
+src/services/users.service.ts(31,11): error TS1005: ':' expected.
+src/services/users.service.ts(31,84): error TS1005: ',' expected.
+src/services/users.service.ts(32,9): error TS1003: Identifier expected.
+src/services/users.service.ts(32,20): error TS1005: '{' expected.
+src/services/users.service.ts(32,26): error TS1005: ':' expected.
+src/services/users.service.ts(32,70): error TS1005: ',' expected.
+src/services/users.service.ts(34,5): error TS1136: Property assignment expected.
+src/services/users.service.ts(38,3): error TS1128: Declaration or statement expected.
+src/services/users.service.ts(40,3): error TS1128: Declaration or statement expected.
+src/services/users.service.ts(40,10): error TS1434: Unexpected keyword or identifier.
+src/services/users.service.ts(40,33): error TS1005: ',' expected.
+src/services/users.service.ts(40,42): error TS1005: ';' expected.
+src/services/users.service.ts(41,11): error TS1005: ':' expected.
+src/services/users.service.ts(41,84): error TS1005: ',' expected.
+src/services/users.service.ts(42,9): error TS1003: Identifier expected.
+src/services/users.service.ts(42,20): error TS1005: '{' expected.
+src/services/users.service.ts(42,26): error TS1005: ':' expected.
+src/services/users.service.ts(42,70): error TS1005: ',' expected.
+src/services/users.service.ts(44,5): error TS1136: Property assignment expected.
+src/services/users.service.ts(46,3): error TS1128: Declaration or statement expected.
+src/services/users.service.ts(47,1): error TS1128: Declaration or statement expected.
+
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/services/users.service.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-41007562334945113.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-41007562334945113.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-41007562334945113.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2022-11-10 12:24:38 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/services/users.service.ts(25,11): error TS1155: 'const' declarations must be initialized.
+src/services/users.service.ts(25,11): error TS7005: Variable 'resp' implicitly has an 'any' type.
+
+Error: ⨯ Unable to compile TypeScript:
+src/services/users.service.ts(25,11): error TS1155: 'const' declarations must be initialized.
+src/services/users.service.ts(25,11): error TS7005: Variable 'resp' implicitly has an 'any' type.
+
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/services/users.service.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-41007562334945113.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-41007562334945113.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-41007562334945113.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2022-11-10 12:24:55 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/services/users.service.ts(25,46): error TS2554: Expected 1-2 arguments, but got 0.
+
+Error: ⨯ Unable to compile TypeScript:
+src/services/users.service.ts(25,46): error TS2554: Expected 1-2 arguments, but got 0.
+
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/services/users.service.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-41007562334945113.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-41007562334945113.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-41007562334945113.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2022-11-10 12:25:05 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/services/users.service.ts(28,5): error TS2740: Type 'UserEntity[]' is missing the following properties from type 'UserEntity': id, name, email, password, and 2 more.
+
+Error: ⨯ Unable to compile TypeScript:
+src/services/users.service.ts(28,5): error TS2740: Type 'UserEntity[]' is missing the following properties from type 'UserEntity': id, name, email, password, and 2 more.
+
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/services/users.service.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-41007562334945113.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-41007562334945113.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-41007562334945113.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2022-11-10 12:25:18 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/services/users.service.ts(22,27): error TS6133: 'userData' is declared but its value is never read.
+src/services/users.service.ts(22,51): error TS2314: Generic type 'Partial' requires 1 type argument(s).
+src/services/users.service.ts(24,28): error TS2532: Object is possibly 'undefined'.
+src/services/users.service.ts(24,56): error TS2304: Cannot find name 'userData'.
+src/services/users.service.ts(25,25): error TS2532: Object is possibly 'undefined'.
+src/services/users.service.ts(31,10): error TS2304: Cannot find name 'async'.
+src/services/users.service.ts(31,16): error TS2448: Block-scoped variable 'updateUser' used before its declaration.
+src/services/users.service.ts(31,27): error TS2304: Cannot find name 'userId'.
+src/services/users.service.ts(31,35): error TS2693: 'string' only refers to a type, but is being used as a value here.
+src/services/users.service.ts(31,43): error TS2304: Cannot find name 'userData'.
+src/services/users.service.ts(31,53): error TS2693: 'any' only refers to a type, but is being used as a value here.
+src/services/users.service.ts(31,59): error TS2365: Operator '<' cannot be applied to types 'PromiseConstructor' and 'typeof UserEntity'.
+src/services/users.service.ts(31,59): error TS2447: The '|' operator is not allowed for boolean types. Consider using '||' instead.
+src/services/users.service.ts(31,80): error TS2531: Object is possibly 'null'.
+src/services/users.service.ts(31,86): error TS2349: This expression is not callable.
+  Type '{ const: any; if(: any, findUser: any): any; throw: HttpException; }' has no call signatures.
+src/services/users.service.ts(32,11): error TS2304: Cannot find name 'findUser'.
+src/services/users.service.ts(32,29): error TS2532: Object is possibly 'undefined'.
+src/services/users.service.ts(32,73): error TS2304: Cannot find name 'userId'.
+src/services/users.service.ts(33,9): error TS7006: Parameter '(Missing)' implicitly has an 'any' type.
+src/services/users.service.ts(33,10): error TS7006: Parameter 'findUser' implicitly has an 'any' type.
+src/services/users.service.ts(35,12): error TS2532: Object is possibly 'undefined'.
+src/services/users.service.ts(35,40): error TS2304: Cannot find name 'userId'.
+src/services/users.service.ts(35,53): error TS2304: Cannot find name 'userData'.
+src/services/users.service.ts(37,31): error TS2532: Object is possibly 'undefined'.
+src/services/users.service.ts(37,75): error TS2304: Cannot find name 'userId'.
+src/services/users.service.ts(41,10): error TS2304: Cannot find name 'async'.
+src/services/users.service.ts(41,16): error TS2304: Cannot find name 'deleteUser'.
+src/services/users.service.ts(41,27): error TS2304: Cannot find name 'userId'.
+src/services/users.service.ts(41,35): error TS2693: 'string' only refers to a type, but is being used as a value here.
+src/services/users.service.ts(41,44): error TS2365: Operator '<' cannot be applied to types 'PromiseConstructor' and 'typeof UserEntity'.
+src/services/users.service.ts(41,44): error TS2447: The '|' operator is not allowed for boolean types. Consider using '||' instead.
+src/services/users.service.ts(41,65): error TS2531: Object is possibly 'null'.
+src/services/users.service.ts(41,71): error TS2349: This expression is not callable.
+  Type '{ const: any; if(: any, findUser: any): any; throw: HttpException; }' has no call signatures.
+src/services/users.service.ts(42,11): error TS2304: Cannot find name 'findUser'.
+src/services/users.service.ts(42,29): error TS2532: Object is possibly 'undefined'.
+src/services/users.service.ts(42,73): error TS2304: Cannot find name 'userId'.
+src/services/users.service.ts(43,9): error TS7006: Parameter '(Missing)' implicitly has an 'any' type.
+src/services/users.service.ts(43,10): error TS7006: Parameter 'findUser' implicitly has an 'any' type.
+src/services/users.service.ts(45,12): error TS2532: Object is possibly 'undefined'.
+src/services/users.service.ts(45,46): error TS2304: Cannot find name 'userId'.
+src/services/users.service.ts(22,59): error TS1005: '>' expected.
+src/services/users.service.ts(22,60): error TS1161: Unterminated regular expression literal.
+src/services/users.service.ts(29,3): error TS1128: Declaration or statement expected.
+src/services/users.service.ts(31,3): error TS1128: Declaration or statement expected.
+src/services/users.service.ts(31,10): error TS1434: Unexpected keyword or identifier.
+src/services/users.service.ts(31,33): error TS1005: ',' expected.
+src/services/users.service.ts(31,51): error TS1005: ',' expected.
+src/services/users.service.ts(31,57): error TS1005: ';' expected.
+src/services/users.service.ts(32,11): error TS1005: ':' expected.
+src/services/users.service.ts(32,84): error TS1005: ',' expected.
+src/services/users.service.ts(33,9): error TS1003: Identifier expected.
+src/services/users.service.ts(33,20): error TS1005: '{' expected.
+src/services/users.service.ts(33,26): error TS1005: ':' expected.
+src/services/users.service.ts(33,70): error TS1005: ',' expected.
+src/services/users.service.ts(35,5): error TS1136: Property assignment expected.
+src/services/users.service.ts(39,3): error TS1128: Declaration or statement expected.
+src/services/users.service.ts(41,3): error TS1128: Declaration or statement expected.
+src/services/users.service.ts(41,10): error TS1434: Unexpected keyword or identifier.
+src/services/users.service.ts(41,33): error TS1005: ',' expected.
+src/services/users.service.ts(41,42): error TS1005: ';' expected.
+src/services/users.service.ts(42,11): error TS1005: ':' expected.
+src/services/users.service.ts(42,84): error TS1005: ',' expected.
+src/services/users.service.ts(43,9): error TS1003: Identifier expected.
+src/services/users.service.ts(43,20): error TS1005: '{' expected.
+src/services/users.service.ts(43,26): error TS1005: ':' expected.
+src/services/users.service.ts(43,70): error TS1005: ',' expected.
+src/services/users.service.ts(45,5): error TS1136: Property assignment expected.
+src/services/users.service.ts(47,3): error TS1128: Declaration or statement expected.
+src/services/users.service.ts(48,1): error TS1128: Declaration or statement expected.
+
+Error: ⨯ Unable to compile TypeScript:
+src/services/users.service.ts(22,27): error TS6133: 'userData' is declared but its value is never read.
+src/services/users.service.ts(22,51): error TS2314: Generic type 'Partial' requires 1 type argument(s).
+src/services/users.service.ts(24,28): error TS2532: Object is possibly 'undefined'.
+src/services/users.service.ts(24,56): error TS2304: Cannot find name 'userData'.
+src/services/users.service.ts(25,25): error TS2532: Object is possibly 'undefined'.
+src/services/users.service.ts(31,10): error TS2304: Cannot find name 'async'.
+src/services/users.service.ts(31,16): error TS2448: Block-scoped variable 'updateUser' used before its declaration.
+src/services/users.service.ts(31,27): error TS2304: Cannot find name 'userId'.
+src/services/users.service.ts(31,35): error TS2693: 'string' only refers to a type, but is being used as a value here.
+src/services/users.service.ts(31,43): error TS2304: Cannot find name 'userData'.
+src/services/users.service.ts(31,53): error TS2693: 'any' only refers to a type, but is being used as a value here.
+src/services/users.service.ts(31,59): error TS2365: Operator '<' cannot be applied to types 'PromiseConstructor' and 'typeof UserEntity'.
+src/services/users.service.ts(31,59): error TS2447: The '|' operator is not allowed for boolean types. Consider using '||' instead.
+src/services/users.service.ts(31,80): error TS2531: Object is possibly 'null'.
+src/services/users.service.ts(31,86): error TS2349: This expression is not callable.
+  Type '{ const: any; if(: any, findUser: any): any; throw: HttpException; }' has no call signatures.
+src/services/users.service.ts(32,11): error TS2304: Cannot find name 'findUser'.
+src/services/users.service.ts(32,29): error TS2532: Object is possibly 'undefined'.
+src/services/users.service.ts(32,73): error TS2304: Cannot find name 'userId'.
+src/services/users.service.ts(33,9): error TS7006: Parameter '(Missing)' implicitly has an 'any' type.
+src/services/users.service.ts(33,10): error TS7006: Parameter 'findUser' implicitly has an 'any' type.
+src/services/users.service.ts(35,12): error TS2532: Object is possibly 'undefined'.
+src/services/users.service.ts(35,40): error TS2304: Cannot find name 'userId'.
+src/services/users.service.ts(35,53): error TS2304: Cannot find name 'userData'.
+src/services/users.service.ts(37,31): error TS2532: Object is possibly 'undefined'.
+src/services/users.service.ts(37,75): error TS2304: Cannot find name 'userId'.
+src/services/users.service.ts(41,10): error TS2304: Cannot find name 'async'.
+src/services/users.service.ts(41,16): error TS2304: Cannot find name 'deleteUser'.
+src/services/users.service.ts(41,27): error TS2304: Cannot find name 'userId'.
+src/services/users.service.ts(41,35): error TS2693: 'string' only refers to a type, but is being used as a value here.
+src/services/users.service.ts(41,44): error TS2365: Operator '<' cannot be applied to types 'PromiseConstructor' and 'typeof UserEntity'.
+src/services/users.service.ts(41,44): error TS2447: The '|' operator is not allowed for boolean types. Consider using '||' instead.
+src/services/users.service.ts(41,65): error TS2531: Object is possibly 'null'.
+src/services/users.service.ts(41,71): error TS2349: This expression is not callable.
+  Type '{ const: any; if(: any, findUser: any): any; throw: HttpException; }' has no call signatures.
+src/services/users.service.ts(42,11): error TS2304: Cannot find name 'findUser'.
+src/services/users.service.ts(42,29): error TS2532: Object is possibly 'undefined'.
+src/services/users.service.ts(42,73): error TS2304: Cannot find name 'userId'.
+src/services/users.service.ts(43,9): error TS7006: Parameter '(Missing)' implicitly has an 'any' type.
+src/services/users.service.ts(43,10): error TS7006: Parameter 'findUser' implicitly has an 'any' type.
+src/services/users.service.ts(45,12): error TS2532: Object is possibly 'undefined'.
+src/services/users.service.ts(45,46): error TS2304: Cannot find name 'userId'.
+src/services/users.service.ts(22,59): error TS1005: '>' expected.
+src/services/users.service.ts(22,60): error TS1161: Unterminated regular expression literal.
+src/services/users.service.ts(29,3): error TS1128: Declaration or statement expected.
+src/services/users.service.ts(31,3): error TS1128: Declaration or statement expected.
+src/services/users.service.ts(31,10): error TS1434: Unexpected keyword or identifier.
+src/services/users.service.ts(31,33): error TS1005: ',' expected.
+src/services/users.service.ts(31,51): error TS1005: ',' expected.
+src/services/users.service.ts(31,57): error TS1005: ';' expected.
+src/services/users.service.ts(32,11): error TS1005: ':' expected.
+src/services/users.service.ts(32,84): error TS1005: ',' expected.
+src/services/users.service.ts(33,9): error TS1003: Identifier expected.
+src/services/users.service.ts(33,20): error TS1005: '{' expected.
+src/services/users.service.ts(33,26): error TS1005: ':' expected.
+src/services/users.service.ts(33,70): error TS1005: ',' expected.
+src/services/users.service.ts(35,5): error TS1136: Property assignment expected.
+src/services/users.service.ts(39,3): error TS1128: Declaration or statement expected.
+src/services/users.service.ts(41,3): error TS1128: Declaration or statement expected.
+src/services/users.service.ts(41,10): error TS1434: Unexpected keyword or identifier.
+src/services/users.service.ts(41,33): error TS1005: ',' expected.
+src/services/users.service.ts(41,42): error TS1005: ';' expected.
+src/services/users.service.ts(42,11): error TS1005: ':' expected.
+src/services/users.service.ts(42,84): error TS1005: ',' expected.
+src/services/users.service.ts(43,9): error TS1003: Identifier expected.
+src/services/users.service.ts(43,20): error TS1005: '{' expected.
+src/services/users.service.ts(43,26): error TS1005: ':' expected.
+src/services/users.service.ts(43,70): error TS1005: ',' expected.
+src/services/users.service.ts(45,5): error TS1136: Property assignment expected.
+src/services/users.service.ts(47,3): error TS1128: Declaration or statement expected.
+src/services/users.service.ts(48,1): error TS1128: Declaration or statement expected.
+
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/services/users.service.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-41007562334945113.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-41007562334945113.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-41007562334945113.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2022-11-10 12:25:29 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/services/users.service.ts(22,27): error TS6133: 'userData' is declared but its value is never read.
+src/services/users.service.ts(24,28): error TS2532: Object is possibly 'undefined'.
+src/services/users.service.ts(24,56): error TS2304: Cannot find name 'userData'.
+src/services/users.service.ts(25,25): error TS2532: Object is possibly 'undefined'.
+src/services/users.service.ts(31,10): error TS2304: Cannot find name 'async'.
+src/services/users.service.ts(31,16): error TS2448: Block-scoped variable 'updateUser' used before its declaration.
+src/services/users.service.ts(31,27): error TS2304: Cannot find name 'userId'.
+src/services/users.service.ts(31,35): error TS2693: 'string' only refers to a type, but is being used as a value here.
+src/services/users.service.ts(31,43): error TS2304: Cannot find name 'userData'.
+src/services/users.service.ts(31,53): error TS2693: 'any' only refers to a type, but is being used as a value here.
+src/services/users.service.ts(31,59): error TS2365: Operator '<' cannot be applied to types 'PromiseConstructor' and 'typeof UserEntity'.
+src/services/users.service.ts(31,59): error TS2447: The '|' operator is not allowed for boolean types. Consider using '||' instead.
+src/services/users.service.ts(31,80): error TS2531: Object is possibly 'null'.
+src/services/users.service.ts(31,86): error TS2349: This expression is not callable.
+  Type '{ const: any; if(: any, findUser: any): any; throw: HttpException; }' has no call signatures.
+src/services/users.service.ts(32,11): error TS2304: Cannot find name 'findUser'.
+src/services/users.service.ts(32,29): error TS2532: Object is possibly 'undefined'.
+src/services/users.service.ts(32,73): error TS2304: Cannot find name 'userId'.
+src/services/users.service.ts(33,9): error TS7006: Parameter '(Missing)' implicitly has an 'any' type.
+src/services/users.service.ts(33,10): error TS7006: Parameter 'findUser' implicitly has an 'any' type.
+src/services/users.service.ts(35,12): error TS2532: Object is possibly 'undefined'.
+src/services/users.service.ts(35,40): error TS2304: Cannot find name 'userId'.
+src/services/users.service.ts(35,53): error TS2304: Cannot find name 'userData'.
+src/services/users.service.ts(37,31): error TS2532: Object is possibly 'undefined'.
+src/services/users.service.ts(37,75): error TS2304: Cannot find name 'userId'.
+src/services/users.service.ts(41,10): error TS2304: Cannot find name 'async'.
+src/services/users.service.ts(41,16): error TS2304: Cannot find name 'deleteUser'.
+src/services/users.service.ts(41,27): error TS2304: Cannot find name 'userId'.
+src/services/users.service.ts(41,35): error TS2693: 'string' only refers to a type, but is being used as a value here.
+src/services/users.service.ts(41,44): error TS2365: Operator '<' cannot be applied to types 'PromiseConstructor' and 'typeof UserEntity'.
+src/services/users.service.ts(41,44): error TS2447: The '|' operator is not allowed for boolean types. Consider using '||' instead.
+src/services/users.service.ts(41,65): error TS2531: Object is possibly 'null'.
+src/services/users.service.ts(41,71): error TS2349: This expression is not callable.
+  Type '{ const: any; if(: any, findUser: any): any; throw: HttpException; }' has no call signatures.
+src/services/users.service.ts(42,11): error TS2304: Cannot find name 'findUser'.
+src/services/users.service.ts(42,29): error TS2532: Object is possibly 'undefined'.
+src/services/users.service.ts(42,73): error TS2304: Cannot find name 'userId'.
+src/services/users.service.ts(43,9): error TS7006: Parameter '(Missing)' implicitly has an 'any' type.
+src/services/users.service.ts(43,10): error TS7006: Parameter 'findUser' implicitly has an 'any' type.
+src/services/users.service.ts(45,12): error TS2532: Object is possibly 'undefined'.
+src/services/users.service.ts(45,46): error TS2304: Cannot find name 'userId'.
+src/services/users.service.ts(22,70): error TS1005: '>' expected.
+src/services/users.service.ts(22,71): error TS1110: Type expected.
+src/services/users.service.ts(22,72): error TS1161: Unterminated regular expression literal.
+src/services/users.service.ts(29,3): error TS1128: Declaration or statement expected.
+src/services/users.service.ts(31,3): error TS1128: Declaration or statement expected.
+src/services/users.service.ts(31,10): error TS1434: Unexpected keyword or identifier.
+src/services/users.service.ts(31,33): error TS1005: ',' expected.
+src/services/users.service.ts(31,51): error TS1005: ',' expected.
+src/services/users.service.ts(31,57): error TS1005: ';' expected.
+src/services/users.service.ts(32,11): error TS1005: ':' expected.
+src/services/users.service.ts(32,84): error TS1005: ',' expected.
+src/services/users.service.ts(33,9): error TS1003: Identifier expected.
+src/services/users.service.ts(33,20): error TS1005: '{' expected.
+src/services/users.service.ts(33,26): error TS1005: ':' expected.
+src/services/users.service.ts(33,70): error TS1005: ',' expected.
+src/services/users.service.ts(35,5): error TS1136: Property assignment expected.
+src/services/users.service.ts(39,3): error TS1128: Declaration or statement expected.
+src/services/users.service.ts(41,3): error TS1128: Declaration or statement expected.
+src/services/users.service.ts(41,10): error TS1434: Unexpected keyword or identifier.
+src/services/users.service.ts(41,33): error TS1005: ',' expected.
+src/services/users.service.ts(41,42): error TS1005: ';' expected.
+src/services/users.service.ts(42,11): error TS1005: ':' expected.
+src/services/users.service.ts(42,84): error TS1005: ',' expected.
+src/services/users.service.ts(43,9): error TS1003: Identifier expected.
+src/services/users.service.ts(43,20): error TS1005: '{' expected.
+src/services/users.service.ts(43,26): error TS1005: ':' expected.
+src/services/users.service.ts(43,70): error TS1005: ',' expected.
+src/services/users.service.ts(45,5): error TS1136: Property assignment expected.
+src/services/users.service.ts(47,3): error TS1128: Declaration or statement expected.
+src/services/users.service.ts(48,1): error TS1128: Declaration or statement expected.
+
+Error: ⨯ Unable to compile TypeScript:
+src/services/users.service.ts(22,27): error TS6133: 'userData' is declared but its value is never read.
+src/services/users.service.ts(24,28): error TS2532: Object is possibly 'undefined'.
+src/services/users.service.ts(24,56): error TS2304: Cannot find name 'userData'.
+src/services/users.service.ts(25,25): error TS2532: Object is possibly 'undefined'.
+src/services/users.service.ts(31,10): error TS2304: Cannot find name 'async'.
+src/services/users.service.ts(31,16): error TS2448: Block-scoped variable 'updateUser' used before its declaration.
+src/services/users.service.ts(31,27): error TS2304: Cannot find name 'userId'.
+src/services/users.service.ts(31,35): error TS2693: 'string' only refers to a type, but is being used as a value here.
+src/services/users.service.ts(31,43): error TS2304: Cannot find name 'userData'.
+src/services/users.service.ts(31,53): error TS2693: 'any' only refers to a type, but is being used as a value here.
+src/services/users.service.ts(31,59): error TS2365: Operator '<' cannot be applied to types 'PromiseConstructor' and 'typeof UserEntity'.
+src/services/users.service.ts(31,59): error TS2447: The '|' operator is not allowed for boolean types. Consider using '||' instead.
+src/services/users.service.ts(31,80): error TS2531: Object is possibly 'null'.
+src/services/users.service.ts(31,86): error TS2349: This expression is not callable.
+  Type '{ const: any; if(: any, findUser: any): any; throw: HttpException; }' has no call signatures.
+src/services/users.service.ts(32,11): error TS2304: Cannot find name 'findUser'.
+src/services/users.service.ts(32,29): error TS2532: Object is possibly 'undefined'.
+src/services/users.service.ts(32,73): error TS2304: Cannot find name 'userId'.
+src/services/users.service.ts(33,9): error TS7006: Parameter '(Missing)' implicitly has an 'any' type.
+src/services/users.service.ts(33,10): error TS7006: Parameter 'findUser' implicitly has an 'any' type.
+src/services/users.service.ts(35,12): error TS2532: Object is possibly 'undefined'.
+src/services/users.service.ts(35,40): error TS2304: Cannot find name 'userId'.
+src/services/users.service.ts(35,53): error TS2304: Cannot find name 'userData'.
+src/services/users.service.ts(37,31): error TS2532: Object is possibly 'undefined'.
+src/services/users.service.ts(37,75): error TS2304: Cannot find name 'userId'.
+src/services/users.service.ts(41,10): error TS2304: Cannot find name 'async'.
+src/services/users.service.ts(41,16): error TS2304: Cannot find name 'deleteUser'.
+src/services/users.service.ts(41,27): error TS2304: Cannot find name 'userId'.
+src/services/users.service.ts(41,35): error TS2693: 'string' only refers to a type, but is being used as a value here.
+src/services/users.service.ts(41,44): error TS2365: Operator '<' cannot be applied to types 'PromiseConstructor' and 'typeof UserEntity'.
+src/services/users.service.ts(41,44): error TS2447: The '|' operator is not allowed for boolean types. Consider using '||' instead.
+src/services/users.service.ts(41,65): error TS2531: Object is possibly 'null'.
+src/services/users.service.ts(41,71): error TS2349: This expression is not callable.
+  Type '{ const: any; if(: any, findUser: any): any; throw: HttpException; }' has no call signatures.
+src/services/users.service.ts(42,11): error TS2304: Cannot find name 'findUser'.
+src/services/users.service.ts(42,29): error TS2532: Object is possibly 'undefined'.
+src/services/users.service.ts(42,73): error TS2304: Cannot find name 'userId'.
+src/services/users.service.ts(43,9): error TS7006: Parameter '(Missing)' implicitly has an 'any' type.
+src/services/users.service.ts(43,10): error TS7006: Parameter 'findUser' implicitly has an 'any' type.
+src/services/users.service.ts(45,12): error TS2532: Object is possibly 'undefined'.
+src/services/users.service.ts(45,46): error TS2304: Cannot find name 'userId'.
+src/services/users.service.ts(22,70): error TS1005: '>' expected.
+src/services/users.service.ts(22,71): error TS1110: Type expected.
+src/services/users.service.ts(22,72): error TS1161: Unterminated regular expression literal.
+src/services/users.service.ts(29,3): error TS1128: Declaration or statement expected.
+src/services/users.service.ts(31,3): error TS1128: Declaration or statement expected.
+src/services/users.service.ts(31,10): error TS1434: Unexpected keyword or identifier.
+src/services/users.service.ts(31,33): error TS1005: ',' expected.
+src/services/users.service.ts(31,51): error TS1005: ',' expected.
+src/services/users.service.ts(31,57): error TS1005: ';' expected.
+src/services/users.service.ts(32,11): error TS1005: ':' expected.
+src/services/users.service.ts(32,84): error TS1005: ',' expected.
+src/services/users.service.ts(33,9): error TS1003: Identifier expected.
+src/services/users.service.ts(33,20): error TS1005: '{' expected.
+src/services/users.service.ts(33,26): error TS1005: ':' expected.
+src/services/users.service.ts(33,70): error TS1005: ',' expected.
+src/services/users.service.ts(35,5): error TS1136: Property assignment expected.
+src/services/users.service.ts(39,3): error TS1128: Declaration or statement expected.
+src/services/users.service.ts(41,3): error TS1128: Declaration or statement expected.
+src/services/users.service.ts(41,10): error TS1434: Unexpected keyword or identifier.
+src/services/users.service.ts(41,33): error TS1005: ',' expected.
+src/services/users.service.ts(41,42): error TS1005: ';' expected.
+src/services/users.service.ts(42,11): error TS1005: ':' expected.
+src/services/users.service.ts(42,84): error TS1005: ',' expected.
+src/services/users.service.ts(43,9): error TS1003: Identifier expected.
+src/services/users.service.ts(43,20): error TS1005: '{' expected.
+src/services/users.service.ts(43,26): error TS1005: ':' expected.
+src/services/users.service.ts(43,70): error TS1005: ',' expected.
+src/services/users.service.ts(45,5): error TS1136: Property assignment expected.
+src/services/users.service.ts(47,3): error TS1128: Declaration or statement expected.
+src/services/users.service.ts(48,1): error TS1128: Declaration or statement expected.
+
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/services/users.service.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-41007562334945113.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-41007562334945113.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-41007562334945113.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2022-11-10 12:25:34 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/services/users.service.ts(28,5): error TS2559: Type 'UserEntity[]' has no properties in common with type 'Partial<UserEntity>'.
+
+Error: ⨯ Unable to compile TypeScript:
+src/services/users.service.ts(28,5): error TS2559: Type 'UserEntity[]' has no properties in common with type 'Partial<UserEntity>'.
+
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/services/users.service.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-41007562334945113.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-41007562334945113.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-41007562334945113.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2022-11-10 12:25:39 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/services/users.service.ts(28,5): error TS2559: Type 'UserEntity[]' has no properties in common with type 'Partial<UserEntity>'.
+
+Error: ⨯ Unable to compile TypeScript:
+src/services/users.service.ts(28,5): error TS2559: Type 'UserEntity[]' has no properties in common with type 'Partial<UserEntity>'.
+
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/services/users.service.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-41007562334945113.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-41007562334945113.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-41007562334945113.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2022-11-10 12:26:42 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/services/users.service.ts(28,5): error TS2740: Type 'UserEntity[]' is missing the following properties from type 'UserEntity': id, name, email, password, and 2 more.
+
+Error: ⨯ Unable to compile TypeScript:
+src/services/users.service.ts(28,5): error TS2740: Type 'UserEntity[]' is missing the following properties from type 'UserEntity': id, name, email, password, and 2 more.
+
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/services/users.service.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-41007562334945113.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-41007562334945113.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-41007562334945113.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2022-11-10 12:26:53 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/services/users.service.ts(26,5): error TS2740: Type 'UserEntity[]' is missing the following properties from type 'UserEntity': id, name, email, password, and 2 more.
+src/services/users.service.ts(28,12): error TS2304: Cannot find name 'resp'.
+
+Error: ⨯ Unable to compile TypeScript:
+src/services/users.service.ts(26,5): error TS2740: Type 'UserEntity[]' is missing the following properties from type 'UserEntity': id, name, email, password, and 2 more.
+src/services/users.service.ts(28,12): error TS2304: Cannot find name 'resp'.
+
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/services/users.service.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-41007562334945113.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-41007562334945113.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-41007562334945113.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2022-11-10 12:27:06 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/services/users.service.ts(26,5): error TS2740: Type 'UserEntity[]' is missing the following properties from type 'UserEntity': id, name, email, password, and 2 more.
+
+Error: ⨯ Unable to compile TypeScript:
+src/services/users.service.ts(26,5): error TS2740: Type 'UserEntity[]' is missing the following properties from type 'UserEntity': id, name, email, password, and 2 more.
+
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/services/users.service.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-41007562334945113.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-41007562334945113.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-41007562334945113.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2022-11-10 12:31:46 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/services/users.service.ts(22,37): error TS2304: Cannot find name 'y'.
+src/services/users.service.ts(26,5): error TS2740: Type 'UserEntity[]' is missing the following properties from type 'UserEntity': id, name, email, password, and 2 more.
+
+Error: ⨯ Unable to compile TypeScript:
+src/services/users.service.ts(22,37): error TS2304: Cannot find name 'y'.
+src/services/users.service.ts(26,5): error TS2740: Type 'UserEntity[]' is missing the following properties from type 'UserEntity': id, name, email, password, and 2 more.
+
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/services/users.service.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-41007562334945113.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-41007562334945113.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-41007562334945113.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2022-11-10 12:34:17 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/services/users.service.ts(14,3): error TS1003: Identifier expected.
+
+Error: ⨯ Unable to compile TypeScript:
+src/services/users.service.ts(14,3): error TS1003: Identifier expected.
+
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/services/users.service.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-41007562334945113.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-41007562334945113.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-41007562334945113.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2022-11-10 12:34:40 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/services/users.service.ts(13,5): error TS2322: Type 'undefined' is not assignable to type 'UserEntity[]'.
+
+Error: ⨯ Unable to compile TypeScript:
+src/services/users.service.ts(13,5): error TS2322: Type 'undefined' is not assignable to type 'UserEntity[]'.
+
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/services/users.service.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-41007562334945113.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-41007562334945113.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-41007562334945113.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2022-11-10 12:36:09 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/services/users.service.ts(13,94): error TS2304: Cannot find name 'users'.
+
+Error: ⨯ Unable to compile TypeScript:
+src/services/users.service.ts(13,94): error TS2304: Cannot find name 'users'.
+
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/services/users.service.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-9840880465699042.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-9840880465699042.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-9840880465699042.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2022-11-10 12:37:09 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/services/users.service.ts(13,5): error TS2322: Type 'undefined' is not assignable to type 'UserEntity[]'.
+
+Error: ⨯ Unable to compile TypeScript:
+src/services/users.service.ts(13,5): error TS2322: Type 'undefined' is not assignable to type 'UserEntity[]'.
+
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/services/users.service.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-3316631287453886.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-3316631287453886.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-3316631287453886.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2022-11-10 12:37:18 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/services/users.service.ts(15,5): error TS2322: Type 'undefined' is not assignable to type 'UserEntity[]'.
+
+Error: ⨯ Unable to compile TypeScript:
+src/services/users.service.ts(15,5): error TS2322: Type 'undefined' is not assignable to type 'UserEntity[]'.
+
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/services/users.service.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-3316631287453886.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-3316631287453886.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-3316631287453886.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2022-11-10 12:43:26 error: uncaughtException: write EPIPE
+Error: write EPIPE
+    at process.target._send (node:internal/child_process:866:20)
+    at process.target.send (node:internal/child_process:739:19)
+    at Object.exports.send (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/ts-node-dev/lib/ipc.js:17:14)
+    at /home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/ts-node-dev/lib/wrap.js:88:9
+    at Object.nodeDevHook [as .js] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/ts-node-dev/lib/hook.js:61:17)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mongoose/node_modules/mongodb/src/gridfs/index.ts:19:1)

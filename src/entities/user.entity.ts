@@ -1,8 +1,8 @@
-import { BaseEntity, Entity, PrimaryGeneratedColumn, Column, Unique, CreateDateColumn, UpdateDateColumn } from 'typeorm';
+import { Entity, PrimaryGeneratedColumn, Column, Unique, CreateDateColumn, UpdateDateColumn } from 'typeorm';
 import { User } from '../interfaces/user.interface';
 
 @Entity({ name: 'user' })
-export class UserEntity extends BaseEntity implements User {
+export class UserEntity implements User {
   @PrimaryGeneratedColumn()
   id!: string;
 
