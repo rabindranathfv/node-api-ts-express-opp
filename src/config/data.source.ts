@@ -14,8 +14,8 @@ const configDbConnection: DataSourceOptions = {
   username: DB_USER,
   password: DB_PASSWORD,
   database: DB_NAME,
-  synchronize: false,
-  migrationsRun: true,
+  synchronize: true, // it will be false
+  migrationsRun: false,
   logging: false,
   entities: [join(__dirname, '../**/*.entity{.ts,.js}')],
   migrations: [join(__dirname, '../**/*.migration{.ts,.js}')],

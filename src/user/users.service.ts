@@ -1,8 +1,8 @@
 import { HttpException } from '../exceptions/httpExceptions';
 
-import { UserEntity } from '../entities/user.entity';
+import { UserEntity } from './entities/user.entity';
 import { BaseService } from '../config/base.service';
-import { UserDTO } from '../config/dto/user.dto';
+import { UserDTO } from './dto/user.dto';
 
 class UserService extends BaseService<UserEntity> {
   constructor() {

@@ -3,6 +3,10 @@ export interface User {
   name: string;
   email: string;
   password: string;
+  username: string;
+  city: string;
+  province: string;
+  numberPhone: number;
   createdAt?: Date;
   updatedAt?: Date;
 }

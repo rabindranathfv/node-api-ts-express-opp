@@ -34,6 +34,16 @@
             "date": 1668075182852,
             "name": "/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/logs/error/2022-11-10.log",
             "hash": "4a86d42c8b59d886d04a29aee86084c8239570892b162d1ad242dbd085548384"
+        },
+        {
+            "date": 1674521416765,
+            "name": "/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/logs/error/2023-01-24.log",
+            "hash": "46e486c7a94267218705beba1f8cbe71b4110db40e789bf6cfecddd871316298"
+        },
+        {
+            "date": 1675625162821,
+            "name": "/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/logs/error/2023-02-05.log",
+            "hash": "b7038367b55499d25192031f21a449fcb47c2370ae1ac54353df33dddd4f38ab"
         }
     ],
     "hashType": "sha256"

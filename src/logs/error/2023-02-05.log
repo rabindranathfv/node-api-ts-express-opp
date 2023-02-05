@@ -1,0 +1,493 @@
+2023-02-05 20:26:03 error: uncaughtException: connect ECONNREFUSED 127.0.0.1:3312
+Error: connect ECONNREFUSED 127.0.0.1:3312
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1187:16)
+    --------------------
+    at Protocol._enqueue (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/Connection.js:116:18)
+    at Pool.getConnection (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/Pool.js:48:16)
+    at /home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/driver/mysql/MysqlDriver.ts:1241:18
+    at new Promise (<anonymous>)
+    at MysqlDriver.createPool (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/driver/mysql/MysqlDriver.ts:1238:16)
+    at MysqlDriver.connect (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/driver/mysql/MysqlDriver.ts:392:36)
+    at DataSource.initialize (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/data-source/DataSource.ts:232:27)
+    at UserService.get initConnect [as initConnect] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/config/config.ts:26:26)
+2023-02-05 20:29:09 error: uncaughtException: connect ECONNREFUSED 127.0.0.1:3312
+Error: connect ECONNREFUSED 127.0.0.1:3312
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1187:16)
+    --------------------
+    at Protocol._enqueue (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/Connection.js:116:18)
+    at Pool.getConnection (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/Pool.js:48:16)
+    at /home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/driver/mysql/MysqlDriver.ts:1241:18
+    at new Promise (<anonymous>)
+    at MysqlDriver.createPool (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/driver/mysql/MysqlDriver.ts:1238:16)
+    at MysqlDriver.connect (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/driver/mysql/MysqlDriver.ts:392:36)
+    at DataSource.initialize (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/data-source/DataSource.ts:232:27)
+    at UserService.get initConnect [as initConnect] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/config/config.ts:26:26)
+2023-02-05 20:29:17 error: uncaughtException: connect ECONNREFUSED 127.0.0.1:3312
+Error: connect ECONNREFUSED 127.0.0.1:3312
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1187:16)
+    --------------------
+    at Protocol._enqueue (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/Connection.js:116:18)
+    at Pool.getConnection (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/Pool.js:48:16)
+    at /home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/driver/mysql/MysqlDriver.ts:1241:18
+    at new Promise (<anonymous>)
+    at MysqlDriver.createPool (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/driver/mysql/MysqlDriver.ts:1238:16)
+    at MysqlDriver.connect (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/driver/mysql/MysqlDriver.ts:392:36)
+    at DataSource.initialize (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/data-source/DataSource.ts:232:27)
+    at UserService.get initConnect [as initConnect] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/config/config.ts:26:26)
+2023-02-05 20:29:28 error: uncaughtException: connect ECONNREFUSED 127.0.0.1:3312
+Error: connect ECONNREFUSED 127.0.0.1:3312
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1187:16)
+    --------------------
+    at Protocol._enqueue (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/Connection.js:116:18)
+    at Pool.getConnection (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/Pool.js:48:16)
+    at /home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/driver/mysql/MysqlDriver.ts:1241:18
+    at new Promise (<anonymous>)
+    at MysqlDriver.createPool (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/driver/mysql/MysqlDriver.ts:1238:16)
+    at MysqlDriver.connect (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/driver/mysql/MysqlDriver.ts:392:36)
+    at DataSource.initialize (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/data-source/DataSource.ts:232:27)
+    at UserService.get initConnect [as initConnect] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/config/config.ts:26:26)
+2023-02-05 20:29:46 error: uncaughtException: connect ECONNREFUSED 127.0.0.1:3312
+Error: connect ECONNREFUSED 127.0.0.1:3312
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1187:16)
+    --------------------
+    at Protocol._enqueue (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/Connection.js:116:18)
+    at Pool.getConnection (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/Pool.js:48:16)
+    at /home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/driver/mysql/MysqlDriver.ts:1241:18
+    at new Promise (<anonymous>)
+    at MysqlDriver.createPool (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/driver/mysql/MysqlDriver.ts:1238:16)
+    at MysqlDriver.connect (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/driver/mysql/MysqlDriver.ts:392:36)
+    at DataSource.initialize (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/data-source/DataSource.ts:232:27)
+    at UserService.get initConnect [as initConnect] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/config/config.ts:26:26)
+2023-02-05 20:35:31 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/entities/user.entity.ts(10,3): error TS7008: Member 'u' implicitly has an 'any' type.
+
+Error: ⨯ Unable to compile TypeScript:
+src/entities/user.entity.ts(10,3): error TS7008: Member 'u' implicitly has an 'any' type.
+
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/entities/user.entity.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-8320184355505673.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-8320184355505673.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-8320184355505673.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2023-02-05 20:35:38 error: uncaughtException: connect ECONNREFUSED 127.0.0.1:3312
+Error: connect ECONNREFUSED 127.0.0.1:3312
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1187:16)
+    --------------------
+    at Protocol._enqueue (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/Connection.js:116:18)
+    at Pool.getConnection (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/Pool.js:48:16)
+    at /home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/driver/mysql/MysqlDriver.ts:1241:18
+    at new Promise (<anonymous>)
+    at MysqlDriver.createPool (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/driver/mysql/MysqlDriver.ts:1238:16)
+    at MysqlDriver.connect (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/driver/mysql/MysqlDriver.ts:392:36)
+    at DataSource.initialize (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/data-source/DataSource.ts:232:27)
+    at UserService.get initConnect [as initConnect] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/config/config.ts:26:26)
+2023-02-05 20:35:46 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/entities/user.entity.ts(16,3): error TS2300: Duplicate identifier 'name'.
+
+Error: ⨯ Unable to compile TypeScript:
+src/entities/user.entity.ts(16,3): error TS2300: Duplicate identifier 'name'.
+
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/entities/user.entity.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-8320184355505673.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-8320184355505673.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-8320184355505673.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2023-02-05 20:35:51 error: uncaughtException: connect ECONNREFUSED 127.0.0.1:3312
+Error: connect ECONNREFUSED 127.0.0.1:3312
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1187:16)
+    --------------------
+    at Protocol._enqueue (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/Connection.js:116:18)
+    at Pool.getConnection (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/Pool.js:48:16)
+    at /home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/driver/mysql/MysqlDriver.ts:1241:18
+    at new Promise (<anonymous>)
+    at MysqlDriver.createPool (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/driver/mysql/MysqlDriver.ts:1238:16)
+    at MysqlDriver.connect (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/driver/mysql/MysqlDriver.ts:392:36)
+    at DataSource.initialize (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/data-source/DataSource.ts:232:27)
+    at UserService.get initConnect [as initConnect] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/config/config.ts:26:26)
+2023-02-05 20:36:02 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/entities/user.entity.ts(19,3): error TS2300: Duplicate identifier 'lastname'.
+
+Error: ⨯ Unable to compile TypeScript:
+src/entities/user.entity.ts(19,3): error TS2300: Duplicate identifier 'lastname'.
+
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/entities/user.entity.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-8320184355505673.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-8320184355505673.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-8320184355505673.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2023-02-05 20:36:10 error: uncaughtException: connect ECONNREFUSED 127.0.0.1:3312
+Error: connect ECONNREFUSED 127.0.0.1:3312
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1187:16)
+    --------------------
+    at Protocol._enqueue (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/Connection.js:116:18)
+    at Pool.getConnection (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/Pool.js:48:16)
+    at /home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/driver/mysql/MysqlDriver.ts:1241:18
+    at new Promise (<anonymous>)
+    at MysqlDriver.createPool (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/driver/mysql/MysqlDriver.ts:1238:16)
+    at MysqlDriver.connect (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/driver/mysql/MysqlDriver.ts:392:36)
+    at DataSource.initialize (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/data-source/DataSource.ts:232:27)
+    at UserService.get initConnect [as initConnect] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/config/config.ts:26:26)
+2023-02-05 20:36:19 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/entities/user.entity.ts(22,3): error TS2300: Duplicate identifier 'lastname'.
+
+Error: ⨯ Unable to compile TypeScript:
+src/entities/user.entity.ts(22,3): error TS2300: Duplicate identifier 'lastname'.
+
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/entities/user.entity.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-8320184355505673.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-8320184355505673.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-8320184355505673.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2023-02-05 20:36:29 error: uncaughtException: connect ECONNREFUSED 127.0.0.1:3312
+Error: connect ECONNREFUSED 127.0.0.1:3312
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1187:16)
+    --------------------
+    at Protocol._enqueue (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/Connection.js:116:18)
+    at Pool.getConnection (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/Pool.js:48:16)
+    at /home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/driver/mysql/MysqlDriver.ts:1241:18
+    at new Promise (<anonymous>)
+    at MysqlDriver.createPool (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/driver/mysql/MysqlDriver.ts:1238:16)
+    at MysqlDriver.connect (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/driver/mysql/MysqlDriver.ts:392:36)
+    at DataSource.initialize (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/data-source/DataSource.ts:232:27)
+    at UserService.get initConnect [as initConnect] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/config/config.ts:26:26)
+2023-02-05 20:36:31 error: uncaughtException: connect ECONNREFUSED 127.0.0.1:3312
+Error: connect ECONNREFUSED 127.0.0.1:3312
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1187:16)
+    --------------------
+    at Protocol._enqueue (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/Connection.js:116:18)
+    at Pool.getConnection (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/Pool.js:48:16)
+    at /home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/driver/mysql/MysqlDriver.ts:1241:18
+    at new Promise (<anonymous>)
+    at MysqlDriver.createPool (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/driver/mysql/MysqlDriver.ts:1238:16)
+    at MysqlDriver.connect (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/driver/mysql/MysqlDriver.ts:392:36)
+    at DataSource.initialize (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/data-source/DataSource.ts:232:27)
+    at UserService.get initConnect [as initConnect] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/config/config.ts:26:26)
+2023-02-05 20:39:44 error: uncaughtException: Pool is closed.
+Error: Pool is closed.
+    at Pool.getConnection (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/Pool.js:25:15)
+    at /home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/driver/mysql/MysqlDriver.ts:884:27
+    at new Promise (<anonymous>)
+    at MysqlDriver.obtainMasterConnection (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/driver/mysql/MysqlDriver.ts:873:16)
+    at MysqlQueryRunner.connect (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/driver/mysql/MysqlQueryRunner.ts:89:18)
+    at /home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/driver/mysql/MysqlQueryRunner.ts:191:55
+    at new Promise (<anonymous>)
+    at MysqlQueryRunner.query (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/driver/mysql/MysqlQueryRunner.ts:189:16)
+    at MysqlQueryRunner.startTransaction (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/driver/mysql/MysqlQueryRunner.ts:126:24)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2023-02-05 20:41:05 error: uncaughtException: ER_BAD_DB_ERROR: Unknown database 'db_dev'
+Error: ER_BAD_DB_ERROR: Unknown database 'db_dev'
+    at Handshake.Sequence._packetToError (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Handshake.ErrorPacket (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/protocol/sequences/Handshake.js:123:18)
+    at Protocol._parsePacket (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (node:events:527:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    --------------------
+    at Protocol._enqueue (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/Connection.js:116:18)
+    at Pool.getConnection (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/Pool.js:48:16)
+    at /home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/driver/mysql/MysqlDriver.ts:1241:18
+    at new Promise (<anonymous>)
+    at MysqlDriver.createPool (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/driver/mysql/MysqlDriver.ts:1238:16)
+    at MysqlDriver.connect (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/driver/mysql/MysqlDriver.ts:392:36)
+    at DataSource.initialize (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/data-source/DataSource.ts:232:27)
+    at UserService.get initConnect [as initConnect] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/config/config.ts:26:26)
+2023-02-05 20:42:39 error: uncaughtException: ER_TABLE_EXISTS_ERROR: Table 'user' already exists
+QueryFailedError: ER_TABLE_EXISTS_ERROR: Table 'user' already exists
+    at Query.<anonymous> (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/driver/mysql/MysqlQueryRunner.ts:222:33)
+    at Query.<anonymous> (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/Connection.js:526:10)
+    at Query._callback (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/Connection.js:488:16)
+    at Query.Sequence.end (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/protocol/sequences/Sequence.js:83:24)
+    at Query.ErrorPacket (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/protocol/sequences/Query.js:92:8)
+    at Protocol._parsePacket (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/Connection.js:88:28)
+2023-02-05 21:59:25 error: uncaughtException: ER_BAD_FIELD_ERROR: Unknown column 'job_position' in 'user'
+QueryFailedError: ER_BAD_FIELD_ERROR: Unknown column 'job_position' in 'user'
+    at Query.<anonymous> (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/driver/mysql/MysqlQueryRunner.ts:222:33)
+    at Query.<anonymous> (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/Connection.js:526:10)
+    at Query._callback (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/Connection.js:488:16)
+    at Query.Sequence.end (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/protocol/sequences/Sequence.js:83:24)
+    at Query.ErrorPacket (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/protocol/sequences/Query.js:92:8)
+    at Protocol._parsePacket (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/Connection.js:88:28)
+2023-02-05 21:59:39 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/entities/user.entity.ts(22,3): error TS2300: Duplicate identifier 'city'.
+
+Error: ⨯ Unable to compile TypeScript:
+src/entities/user.entity.ts(22,3): error TS2300: Duplicate identifier 'city'.
+
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/entities/user.entity.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-9430829276708153.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-9430829276708153.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-9430829276708153.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2023-02-05 22:11:38 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/entities/user.entity.ts(42,4): error TS2554: Expected 1-3 arguments, but got 0.
+src/entities/user.entity.ts(42,14): error TS7008: Member '(Missing)' implicitly has an 'any' type.
+src/entities/user.entity.ts(42,14): error TS1146: Declaration expected.
+
+Error: ⨯ Unable to compile TypeScript:
+src/entities/user.entity.ts(42,4): error TS2554: Expected 1-3 arguments, but got 0.
+src/entities/user.entity.ts(42,14): error TS7008: Member '(Missing)' implicitly has an 'any' type.
+src/entities/user.entity.ts(42,14): error TS1146: Declaration expected.
+
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/entities/user.entity.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-9430829276708153.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-9430829276708153.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-9430829276708153.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2023-02-05 22:11:48 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/entities/user.entity.ts(43,34): error TS7008: Member '(Missing)' implicitly has an 'any' type.
+src/entities/user.entity.ts(43,34): error TS1146: Declaration expected.
+
+Error: ⨯ Unable to compile TypeScript:
+src/entities/user.entity.ts(43,34): error TS7008: Member '(Missing)' implicitly has an 'any' type.
+src/entities/user.entity.ts(43,34): error TS1146: Declaration expected.
+
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/entities/user.entity.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-9430829276708153.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-9430829276708153.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-9430829276708153.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2023-02-05 22:11:57 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/entities/user.entity.ts(43,36): error TS6133: 'customer' is declared but its value is never read.
+src/entities/user.entity.ts(43,49): error TS2304: Cannot find name 'cu'.
+src/entities/user.entity.ts(43,52): error TS7008: Member '(Missing)' implicitly has an 'any' type.
+src/entities/user.entity.ts(43,52): error TS1146: Declaration expected.
+
+Error: ⨯ Unable to compile TypeScript:
+src/entities/user.entity.ts(43,36): error TS6133: 'customer' is declared but its value is never read.
+src/entities/user.entity.ts(43,49): error TS2304: Cannot find name 'cu'.
+src/entities/user.entity.ts(43,52): error TS7008: Member '(Missing)' implicitly has an 'any' type.
+src/entities/user.entity.ts(43,52): error TS1146: Declaration expected.
+
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/entities/user.entity.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-9430829276708153.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-9430829276708153.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-9430829276708153.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2023-02-05 22:12:04 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/entities/user.entity.ts(43,63): error TS7008: Member '(Missing)' implicitly has an 'any' type.
+src/entities/user.entity.ts(43,63): error TS1146: Declaration expected.
+
+Error: ⨯ Unable to compile TypeScript:
+src/entities/user.entity.ts(43,63): error TS7008: Member '(Missing)' implicitly has an 'any' type.
+src/entities/user.entity.ts(43,63): error TS1146: Declaration expected.
+
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/entities/user.entity.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-9430829276708153.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-9430829276708153.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-9430829276708153.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2023-02-05 22:12:12 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/entities/user.entity.ts(44,3): error TS1240: Unable to resolve signature of property decorator when called as an expression.
+src/entities/user.entity.ts(44,3): error TS1271: Decorator function return type is 'PropertyDecorator' but is expected to be 'void' or 'any'.
+src/entities/user.entity.ts(44,14): error TS7008: Member '(Missing)' implicitly has an 'any' type.
+src/entities/user.entity.ts(44,14): error TS1146: Declaration expected.
+
+Error: ⨯ Unable to compile TypeScript:
+src/entities/user.entity.ts(44,3): error TS1240: Unable to resolve signature of property decorator when called as an expression.
+src/entities/user.entity.ts(44,3): error TS1271: Decorator function return type is 'PropertyDecorator' but is expected to be 'void' or 'any'.
+src/entities/user.entity.ts(44,14): error TS7008: Member '(Missing)' implicitly has an 'any' type.
+src/entities/user.entity.ts(44,14): error TS1146: Declaration expected.
+
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/entities/user.entity.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-9430829276708153.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-9430829276708153.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-9430829276708153.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2023-02-05 22:12:19 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/entities/user.entity.ts(44,26): error TS7008: Member '(Missing)' implicitly has an 'any' type.
+src/entities/user.entity.ts(44,26): error TS1146: Declaration expected.
+
+Error: ⨯ Unable to compile TypeScript:
+src/entities/user.entity.ts(44,26): error TS7008: Member '(Missing)' implicitly has an 'any' type.
+src/entities/user.entity.ts(44,26): error TS1146: Declaration expected.
+
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/entities/user.entity.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-9430829276708153.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-9430829276708153.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-9430829276708153.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2023-02-05 22:12:26 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/entities/user.entity.ts(46,1): error TS1110: Type expected.
+
+Error: ⨯ Unable to compile TypeScript:
+src/entities/user.entity.ts(46,1): error TS1110: Type expected.
+
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/entities/user.entity.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-9430829276708153.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-9430829276708153.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-9430829276708153.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2023-02-05 22:12:34 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/entities/user.entity.ts(45,14): error TS2304: Cannot find name 'CustomerE'.
+
+Error: ⨯ Unable to compile TypeScript:
+src/entities/user.entity.ts(45,14): error TS2304: Cannot find name 'CustomerE'.
+
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/entities/user.entity.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-9430829276708153.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-9430829276708153.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-9430829276708153.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2023-02-05 22:12:40 error: uncaughtException: Cannot enqueue Query after invoking quit.
+QueryFailedError: Cannot enqueue Query after invoking quit.
+    at Query.<anonymous> (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/driver/mysql/MysqlQueryRunner.ts:222:33)
+    at Query.<anonymous> (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/Connection.js:526:10)
+    at Query._callback (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/Connection.js:488:16)
+    at Query.Sequence.end (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/protocol/sequences/Sequence.js:83:24)
+    at /home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/protocol/Protocol.js:236:14
+    at processTicksAndRejections (node:internal/process/task_queues:78:11)
+2023-02-05 22:12:56 error: uncaughtException: Cannot enqueue Query after invoking quit.
+QueryFailedError: Cannot enqueue Query after invoking quit.
+    at Query.<anonymous> (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/driver/mysql/MysqlQueryRunner.ts:222:33)
+    at Query.<anonymous> (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/Connection.js:526:10)
+    at Query._callback (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/Connection.js:488:16)
+    at Query.Sequence.end (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/protocol/sequences/Sequence.js:83:24)
+    at /home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/protocol/Protocol.js:236:14
+    at processTicksAndRejections (node:internal/process/task_queues:78:11)
+2023-02-05 22:13:01 error: uncaughtException: Cannot enqueue Query after invoking quit.
+QueryFailedError: Cannot enqueue Query after invoking quit.
+    at Query.<anonymous> (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/driver/mysql/MysqlQueryRunner.ts:222:33)
+    at Query.<anonymous> (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/Connection.js:526:10)
+    at Query._callback (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/Connection.js:488:16)
+    at Query.Sequence.end (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/protocol/sequences/Sequence.js:83:24)
+    at /home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/protocol/Protocol.js:236:14
+    at processTicksAndRejections (node:internal/process/task_queues:78:11)
+2023-02-05 22:13:26 error: uncaughtException: ER_CANT_DROP_FIELD_OR_KEY: Can't DROP 'IDX_d72eb2a5bbff4f2533a5d4caff'; check that column/key exists
+QueryFailedError: ER_CANT_DROP_FIELD_OR_KEY: Can't DROP 'IDX_d72eb2a5bbff4f2533a5d4caff'; check that column/key exists
+    at Query.<anonymous> (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/driver/mysql/MysqlQueryRunner.ts:222:33)
+    at Query.<anonymous> (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/Connection.js:526:10)
+    at Query._callback (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/Connection.js:488:16)
+    at Query.Sequence.end (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/protocol/sequences/Sequence.js:83:24)
+    at Query.ErrorPacket (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/protocol/sequences/Query.js:92:8)
+    at Protocol._parsePacket (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/Connection.js:88:28)
+2023-02-05 23:06:01 error: uncaughtException: ER_TABLE_EXISTS_ERROR: Table 'category' already exists
+QueryFailedError: ER_TABLE_EXISTS_ERROR: Table 'category' already exists
+    at Query.<anonymous> (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/driver/mysql/MysqlQueryRunner.ts:222:33)
+    at Query.<anonymous> (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/Connection.js:526:10)
+    at Query._callback (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/Connection.js:488:16)
+    at Query.Sequence.end (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/protocol/sequences/Sequence.js:83:24)
+    at Query.ErrorPacket (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/protocol/sequences/Query.js:92:8)
+    at Protocol._parsePacket (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/Connection.js:88:28)
+2023-02-05 23:07:41 error: uncaughtException: Cannot enqueue Query after invoking quit.
+QueryFailedError: Cannot enqueue Query after invoking quit.
+    at Query.<anonymous> (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/driver/mysql/MysqlQueryRunner.ts:222:33)
+    at Query.<anonymous> (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/Connection.js:526:10)
+    at Query._callback (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/Connection.js:488:16)
+    at Query.Sequence.end (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/protocol/sequences/Sequence.js:83:24)
+    at /home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/protocol/Protocol.js:236:14
+    at processTicksAndRejections (node:internal/process/task_queues:78:11)
+2023-02-05 23:08:20 error: uncaughtException: Cannot enqueue Query after invoking quit.
+QueryFailedError: Cannot enqueue Query after invoking quit.
+    at Query.<anonymous> (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/driver/mysql/MysqlQueryRunner.ts:222:33)
+    at Query.<anonymous> (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/Connection.js:526:10)
+    at Query._callback (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/Connection.js:488:16)
+    at Query.Sequence.end (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/protocol/sequences/Sequence.js:83:24)
+    at /home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/protocol/Protocol.js:236:14
+    at processTicksAndRejections (node:internal/process/task_queues:78:11)
