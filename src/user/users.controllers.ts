@@ -3,6 +3,7 @@ import UserService from './users.service';
 
 class UserController {
   private readonly userService: UserService = new UserService();
+  // eslint-disable-next-line @typescript-eslint/no-empty-function
   constructor() {}
 
   public getAllUsers = async (_req: Request, res: Response) => {
