@@ -5,11 +5,11 @@ import { PurchaseEntity } from '../../purchase/entities/purchase.entity';
 
 @Entity({ name: 'customer' })
 export class CustomerEntity implements Customer {
-  @PrimaryGeneratedColumn()
+  @PrimaryGeneratedColumn('uuid')
   id!: string;
 
   @Column()
-  addres!: string;
+  address!: string;
 
   @Column()
   dni!: number;
