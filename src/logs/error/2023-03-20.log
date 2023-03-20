@@ -1,0 +1,418 @@
+2023-03-20 17:48:53 error: uncaughtException: ER_DUP_KEY: Can't write; duplicate key in table '#sql-1_5'
+QueryFailedError: ER_DUP_KEY: Can't write; duplicate key in table '#sql-1_5'
+    at Query.<anonymous> (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/driver/mysql/MysqlQueryRunner.ts:222:33)
+    at Query.<anonymous> (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/Connection.js:526:10)
+    at Query._callback (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/Connection.js:488:16)
+    at Query.Sequence.end (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/protocol/sequences/Sequence.js:83:24)
+    at Query.ErrorPacket (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/protocol/sequences/Query.js:92:8)
+    at Protocol._parsePacket (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/Connection.js:88:28)
+2023-03-20 17:55:45 error: uncaughtException: ER_TABLE_EXISTS_ERROR: Table 'category' already exists
+QueryFailedError: ER_TABLE_EXISTS_ERROR: Table 'category' already exists
+    at Query.<anonymous> (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/driver/mysql/MysqlQueryRunner.ts:222:33)
+    at Query.<anonymous> (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/Connection.js:526:10)
+    at Query._callback (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/Connection.js:488:16)
+    at Query.Sequence.end (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/protocol/sequences/Sequence.js:83:24)
+    at Query.ErrorPacket (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/protocol/sequences/Query.js:92:8)
+    at Protocol._parsePacket (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/Connection.js:88:28)
+2023-03-20 18:09:05 error: uncaughtException: Cannot enqueue Query after invoking quit.
+QueryFailedError: Cannot enqueue Query after invoking quit.
+    at Query.<anonymous> (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/driver/mysql/MysqlQueryRunner.ts:222:33)
+    at Query.<anonymous> (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/Connection.js:526:10)
+    at Query._callback (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/Connection.js:488:16)
+    at Query.Sequence.end (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/protocol/sequences/Sequence.js:83:24)
+    at /home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/protocol/Protocol.js:236:14
+    at processTicksAndRejections (node:internal/process/task_queues:78:11)
+2023-03-20 18:14:00 error: uncaughtException: Cannot enqueue Query after invoking quit.
+QueryFailedError: Cannot enqueue Query after invoking quit.
+    at Query.<anonymous> (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/driver/mysql/MysqlQueryRunner.ts:222:33)
+    at Query.<anonymous> (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/Connection.js:526:10)
+    at Query._callback (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/Connection.js:488:16)
+    at Query.Sequence.end (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/protocol/sequences/Sequence.js:83:24)
+    at /home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/protocol/Protocol.js:236:14
+    at processTicksAndRejections (node:internal/process/task_queues:78:11)
+2023-03-20 18:35:37 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/user/entities/user.entity.ts(44,3): error TS7008: Member 'feo' implicitly has an 'any' type.
+
+Error: ⨯ Unable to compile TypeScript:
+src/user/entities/user.entity.ts(44,3): error TS7008: Member 'feo' implicitly has an 'any' type.
+
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/user/entities/user.entity.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-276093137913741.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-276093137913741.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-276093137913741.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2023-03-20 18:35:44 error: uncaughtException: Cannot enqueue Query after invoking quit.
+QueryFailedError: Cannot enqueue Query after invoking quit.
+    at Query.<anonymous> (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/driver/mysql/MysqlQueryRunner.ts:222:33)
+    at Query.<anonymous> (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/Connection.js:526:10)
+    at Query._callback (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/Connection.js:488:16)
+    at Query.Sequence.end (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/protocol/sequences/Sequence.js:83:24)
+    at /home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/protocol/Protocol.js:236:14
+    at processTicksAndRejections (node:internal/process/task_queues:78:11)
+2023-03-20 18:36:20 error: uncaughtException: Cannot enqueue Query after invoking quit.
+QueryFailedError: Cannot enqueue Query after invoking quit.
+    at Query.<anonymous> (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/driver/mysql/MysqlQueryRunner.ts:222:33)
+    at Query.<anonymous> (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/Connection.js:526:10)
+    at Query._callback (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/Connection.js:488:16)
+    at Query.Sequence.end (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/protocol/sequences/Sequence.js:83:24)
+    at /home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/protocol/Protocol.js:236:14
+    at processTicksAndRejections (node:internal/process/task_queues:78:11)
+2023-03-20 18:37:42 error: uncaughtException: ER_NO_DEFAULT_FOR_FIELD: Field 'username' doesn't have a default value
+QueryFailedError: ER_NO_DEFAULT_FOR_FIELD: Field 'username' doesn't have a default value
+    at Query.<anonymous> (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/driver/mysql/MysqlQueryRunner.ts:222:33)
+    at Query.<anonymous> (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/Connection.js:526:10)
+    at Query._callback (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/Connection.js:488:16)
+    at Query.Sequence.end (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/protocol/sequences/Sequence.js:83:24)
+    at Query.ErrorPacket (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/protocol/sequences/Query.js:92:8)
+    at Protocol._parsePacket (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/Connection.js:88:28)
+2023-03-20 18:38:34 error: uncaughtException: ER_TRUNCATED_WRONG_VALUE_FOR_FIELD: Incorrect integer value: '' for column 'number_phone' at row 1
+QueryFailedError: ER_TRUNCATED_WRONG_VALUE_FOR_FIELD: Incorrect integer value: '' for column 'number_phone' at row 1
+    at Query.<anonymous> (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/driver/mysql/MysqlQueryRunner.ts:222:33)
+    at Query.<anonymous> (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/Connection.js:526:10)
+    at Query._callback (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/Connection.js:488:16)
+    at Query.Sequence.end (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/protocol/sequences/Sequence.js:83:24)
+    at Query.ErrorPacket (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/protocol/sequences/Query.js:92:8)
+    at Protocol._parsePacket (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/Connection.js:88:28)
+2023-03-20 18:39:06 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/user/entities/user.entity.ts(6,14): error TS2420: Class 'UserEntity' incorrectly implements interface 'User'.
+  Property 'numberPhone' is missing in type 'UserEntity' but required in type 'User'.
+
+Error: ⨯ Unable to compile TypeScript:
+src/user/entities/user.entity.ts(6,14): error TS2420: Class 'UserEntity' incorrectly implements interface 'User'.
+  Property 'numberPhone' is missing in type 'UserEntity' but required in type 'User'.
+
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/user/entities/user.entity.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-9638781642819751.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-9638781642819751.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-9638781642819751.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2023-03-20 18:39:31 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/user/entities/user.entity.ts(6,14): error TS2420: Class 'UserEntity' incorrectly implements interface 'User'.
+  Property 'numberPhone' is missing in type 'UserEntity' but required in type 'User'.
+
+Error: ⨯ Unable to compile TypeScript:
+src/user/entities/user.entity.ts(6,14): error TS2420: Class 'UserEntity' incorrectly implements interface 'User'.
+  Property 'numberPhone' is missing in type 'UserEntity' but required in type 'User'.
+
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/user/entities/user.entity.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-07881535343579316.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-07881535343579316.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-07881535343579316.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2023-03-20 18:39:46 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/user/entities/user.entity.ts(6,14): error TS2420: Class 'UserEntity' incorrectly implements interface 'User'.
+  Property 'numberPhone' is missing in type 'UserEntity' but required in type 'User'.
+
+Error: ⨯ Unable to compile TypeScript:
+src/user/entities/user.entity.ts(6,14): error TS2420: Class 'UserEntity' incorrectly implements interface 'User'.
+  Property 'numberPhone' is missing in type 'UserEntity' but required in type 'User'.
+
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/user/entities/user.entity.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-07881535343579316.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-07881535343579316.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-07881535343579316.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2023-03-20 18:40:01 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/user/entities/user.entity.ts(6,14): error TS2420: Class 'UserEntity' incorrectly implements interface 'User'.
+  Property 'numberPhone' is missing in type 'UserEntity' but required in type 'User'.
+
+Error: ⨯ Unable to compile TypeScript:
+src/user/entities/user.entity.ts(6,14): error TS2420: Class 'UserEntity' incorrectly implements interface 'User'.
+  Property 'numberPhone' is missing in type 'UserEntity' but required in type 'User'.
+
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/user/entities/user.entity.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-04439813573607432.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-04439813573607432.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-04439813573607432.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2023-03-20 18:40:16 error: uncaughtException: write EPIPE
+Error: write EPIPE
+    at process.target._send (node:internal/child_process:866:20)
+    at process.target.send (node:internal/child_process:739:19)
+    at Object.exports.send (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/ts-node-dev/lib/ipc.js:17:14)
+    at /home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/ts-node-dev/lib/wrap.js:88:9
+    at Object.nodeDevHook [as .js] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/ts-node-dev/lib/hook.js:61:17)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at loadClass (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/index.js:139:15)
+2023-03-20 18:54:32 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/user/entities/user.entity.ts(32,4): error TS2304: Cannot find name 'Exc'.
+
+Error: ⨯ Unable to compile TypeScript:
+src/user/entities/user.entity.ts(32,4): error TS2304: Cannot find name 'Exc'.
+
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/user/entities/user.entity.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-04439813573607432.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-04439813573607432.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-04439813573607432.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2023-03-20 18:54:41 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/user/entities/user.entity.ts(33,4): error TS2304: Cannot find name 'Ex'.
+
+Error: ⨯ Unable to compile TypeScript:
+src/user/entities/user.entity.ts(33,4): error TS2304: Cannot find name 'Ex'.
+
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/user/entities/user.entity.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-04439813573607432.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-04439813573607432.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-04439813573607432.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2023-03-20 18:55:04 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/user/entities/user.entity.ts(33,4): error TS2348: Value of type 'typeof ExclusionMetadata' is not callable. Did you mean to include 'new'?
+
+Error: ⨯ Unable to compile TypeScript:
+src/user/entities/user.entity.ts(33,4): error TS2348: Value of type 'typeof ExclusionMetadata' is not callable. Did you mean to include 'new'?
+
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/user/entities/user.entity.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-04439813573607432.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-04439813573607432.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-04439813573607432.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2023-03-20 18:55:11 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/user/entities/user.entity.ts(33,4): error TS2348: Value of type 'typeof ExclusionMetadata' is not callable. Did you mean to include 'new'?
+
+Error: ⨯ Unable to compile TypeScript:
+src/user/entities/user.entity.ts(33,4): error TS2348: Value of type 'typeof ExclusionMetadata' is not callable. Did you mean to include 'new'?
+
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/user/entities/user.entity.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-04439813573607432.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-04439813573607432.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-04439813573607432.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2023-03-20 18:55:24 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/user/entities/user.entity.ts(34,4): error TS2348: Value of type 'typeof ExclusionMetadata' is not callable. Did you mean to include 'new'?
+src/user/entities/user.entity.ts(7,1): error TS1005: 'from' expected.
+
+Error: ⨯ Unable to compile TypeScript:
+src/user/entities/user.entity.ts(34,4): error TS2348: Value of type 'typeof ExclusionMetadata' is not callable. Did you mean to include 'new'?
+src/user/entities/user.entity.ts(7,1): error TS1005: 'from' expected.
+
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/user/entities/user.entity.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-04439813573607432.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-04439813573607432.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-04439813573607432.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2023-03-20 18:55:31 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/user/entities/user.entity.ts(5,25): error TS2307: Cannot find module 'cla' or its corresponding type declarations.
+src/user/entities/user.entity.ts(34,4): error TS2348: Value of type 'typeof ExclusionMetadata' is not callable. Did you mean to include 'new'?
+
+Error: ⨯ Unable to compile TypeScript:
+src/user/entities/user.entity.ts(5,25): error TS2307: Cannot find module 'cla' or its corresponding type declarations.
+src/user/entities/user.entity.ts(34,4): error TS2348: Value of type 'typeof ExclusionMetadata' is not callable. Did you mean to include 'new'?
+
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/user/entities/user.entity.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-04439813573607432.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-04439813573607432.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-04439813573607432.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2023-03-20 18:55:37 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/user/entities/user.entity.ts(5,25): error TS2307: Cannot find module 'class-transformer' or its corresponding type declarations.
+src/user/entities/user.entity.ts(34,4): error TS2348: Value of type 'typeof ExclusionMetadata' is not callable. Did you mean to include 'new'?
+
+Error: ⨯ Unable to compile TypeScript:
+src/user/entities/user.entity.ts(5,25): error TS2307: Cannot find module 'class-transformer' or its corresponding type declarations.
+src/user/entities/user.entity.ts(34,4): error TS2348: Value of type 'typeof ExclusionMetadata' is not callable. Did you mean to include 'new'?
+
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/user/entities/user.entity.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-04439813573607432.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-04439813573607432.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-04439813573607432.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2023-03-20 19:12:28 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/user/users.service.ts(45,5): error TS2322: Type 'UserEntity | null' is not assignable to type 'DeleteResult | null'.
+  Property 'raw' is missing in type 'UserEntity' but required in type 'DeleteResult'.
+
+Error: ⨯ Unable to compile TypeScript:
+src/user/users.service.ts(45,5): error TS2322: Type 'UserEntity | null' is not assignable to type 'DeleteResult | null'.
+  Property 'raw' is missing in type 'UserEntity' but required in type 'DeleteResult'.
+
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/user/users.service.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-877452968540966.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-877452968540966.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-877452968540966.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2023-03-20 19:12:44 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/user/users.service.ts(30,71): error TS2304: Cannot find name 'UpdateRe'.
+src/user/users.service.ts(45,5): error TS2322: Type 'UserEntity | null' is not assignable to type 'DeleteResult | null'.
+  Property 'raw' is missing in type 'UserEntity' but required in type 'DeleteResult'.
+
+Error: ⨯ Unable to compile TypeScript:
+src/user/users.service.ts(30,71): error TS2304: Cannot find name 'UpdateRe'.
+src/user/users.service.ts(45,5): error TS2322: Type 'UserEntity | null' is not assignable to type 'DeleteResult | null'.
+  Property 'raw' is missing in type 'UserEntity' but required in type 'DeleteResult'.
+
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/user/users.service.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-877452968540966.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-877452968540966.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-877452968540966.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2023-03-20 19:12:51 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/user/users.service.ts(30,71): error TS2304: Cannot find name 'UpdateResult'.
+src/user/users.service.ts(45,5): error TS2322: Type 'UserEntity | null' is not assignable to type 'DeleteResult | null'.
+  Property 'raw' is missing in type 'UserEntity' but required in type 'DeleteResult'.
+
+Error: ⨯ Unable to compile TypeScript:
+src/user/users.service.ts(30,71): error TS2304: Cannot find name 'UpdateResult'.
+src/user/users.service.ts(45,5): error TS2322: Type 'UserEntity | null' is not assignable to type 'DeleteResult | null'.
+  Property 'raw' is missing in type 'UserEntity' but required in type 'DeleteResult'.
+
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/user/users.service.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-877452968540966.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-877452968540966.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-877452968540966.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2023-03-20 19:12:59 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/user/users.service.ts(37,5): error TS2322: Type 'UserEntity | null' is not assignable to type 'UpdateResult | null'.
+  Type 'UserEntity' is missing the following properties from type 'UpdateResult': raw, generatedMaps
+src/user/users.service.ts(45,5): error TS2322: Type 'UserEntity | null' is not assignable to type 'DeleteResult | null'.
+  Property 'raw' is missing in type 'UserEntity' but required in type 'DeleteResult'.
+
+Error: ⨯ Unable to compile TypeScript:
+src/user/users.service.ts(37,5): error TS2322: Type 'UserEntity | null' is not assignable to type 'UpdateResult | null'.
+  Type 'UserEntity' is missing the following properties from type 'UpdateResult': raw, generatedMaps
+src/user/users.service.ts(45,5): error TS2322: Type 'UserEntity | null' is not assignable to type 'DeleteResult | null'.
+  Property 'raw' is missing in type 'UserEntity' but required in type 'DeleteResult'.
+
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/user/users.service.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-877452968540966.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-877452968540966.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-877452968540966.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2023-03-20 19:15:13 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/user/users.service.ts(30,43): error TS6133: 'userData' is declared but its value is never read.
+src/user/users.service.ts(34,12): error TS2663: Cannot find name 'updateUser'. Did you mean the instance member 'this.updateUser'?
+src/user/users.service.ts(42,5): error TS2322: Type 'UserEntity | null' is not assignable to type 'DeleteResult | null'.
+  Property 'raw' is missing in type 'UserEntity' but required in type 'DeleteResult'.
+
+Error: ⨯ Unable to compile TypeScript:
+src/user/users.service.ts(30,43): error TS6133: 'userData' is declared but its value is never read.
+src/user/users.service.ts(34,12): error TS2663: Cannot find name 'updateUser'. Did you mean the instance member 'this.updateUser'?
+src/user/users.service.ts(42,5): error TS2322: Type 'UserEntity | null' is not assignable to type 'DeleteResult | null'.
+  Property 'raw' is missing in type 'UserEntity' but required in type 'DeleteResult'.
+
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/user/users.service.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-877452968540966.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-877452968540966.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-877452968540966.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2023-03-20 19:15:19 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/user/users.service.ts(42,5): error TS2322: Type 'UserEntity | null' is not assignable to type 'DeleteResult | null'.
+  Property 'raw' is missing in type 'UserEntity' but required in type 'DeleteResult'.
+
+Error: ⨯ Unable to compile TypeScript:
+src/user/users.service.ts(42,5): error TS2322: Type 'UserEntity | null' is not assignable to type 'DeleteResult | null'.
+  Property 'raw' is missing in type 'UserEntity' but required in type 'DeleteResult'.
+
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/user/users.service.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-877452968540966.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-877452968540966.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-877452968540966.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)

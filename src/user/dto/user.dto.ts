@@ -4,13 +4,8 @@ export class UserDTO {
   @IsOptional()
   id!: string;
 
-  @IsDate()
-  @IsOptional()
-  createdAt!: Date;
-
-  @IsDate()
-  @IsOptional()
-  updatedAt!: Date;
+  @IsNotEmpty()
+  username!: string;
 
   @IsNotEmpty()
   name!: string;
@@ -19,7 +14,13 @@ export class UserDTO {
   lastname!: string;
 
   @IsNotEmpty()
-  username!: string;
+  city!: string;
+
+  @IsNotEmpty()
+  province!: string;
+
+  @IsOptional()
+  numberPhone!: number;
 
   @IsNotEmpty()
   email!: string;
@@ -27,9 +28,11 @@ export class UserDTO {
   @IsNotEmpty()
   password!: string;
 
-  @IsNotEmpty()
-  city!: string;
+  @IsDate()
+  @IsOptional()
+  createdAt!: Date;
 
-  @IsNotEmpty()
-  province!: string;
+  @IsDate()
+  @IsOptional()
+  updatedAt!: Date;
 }

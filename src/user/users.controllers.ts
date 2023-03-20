@@ -2,9 +2,8 @@ import { Request, Response } from 'express';
 import UserService from './users.service';
 
 class UserController {
-  private readonly userService: UserService = new UserService();
   // eslint-disable-next-line @typescript-eslint/no-empty-function
-  constructor() {}
+  constructor(private readonly userService: UserService = new UserService()) {}
 
   public getAllUsers = async (_req: Request, res: Response) => {
     const usersRes = await this.userService.getAllUsers();

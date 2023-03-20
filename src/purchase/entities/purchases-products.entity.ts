@@ -1,5 +1,5 @@
 import { Entity, PrimaryGeneratedColumn, Column, CreateDateColumn, UpdateDateColumn, JoinColumn, ManyToOne } from 'typeorm';
-import { PurchaseEntity } from '../../purchase/entities/purchase.entity';
+import { PurchaseEntity } from './purchase.entity';
 import { ProductEntity } from '../../product/entities/product.entity';
 
 @Entity({ name: 'purchases_product' })

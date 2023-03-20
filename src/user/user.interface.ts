@@ -2,11 +2,11 @@ export interface User {
   id: string;
   name: string;
   email: string;
-  password: string;
+  password?: string;
   username: string;
   city: string;
   province: string;
-  numberPhone: number;
+  numberPhone?: number;
   createdAt?: Date;
   updatedAt?: Date;
 }

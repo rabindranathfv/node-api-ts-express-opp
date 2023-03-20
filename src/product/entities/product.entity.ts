@@ -1,6 +1,6 @@
 import { Entity, PrimaryGeneratedColumn, Column, CreateDateColumn, UpdateDateColumn, ManyToOne, JoinTable, OneToMany } from 'typeorm';
 import { CategoryEntity } from '../../category/entities/category.entity';
-import { PurchaseProductEntity } from '../../custom/entities/purchases-products.entity';
+import { PurchaseProductEntity } from '../../purchase/entities/purchases-products.entity';
 import { Product } from '../interfaces/product.interface';
 
 @Entity({ name: 'product' })

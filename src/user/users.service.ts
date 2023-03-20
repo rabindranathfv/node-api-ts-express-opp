@@ -3,6 +3,7 @@ import { HttpException } from '../exceptions/httpExceptions';
 import { UserEntity } from './entities/user.entity';
 import { BaseService } from '../config/base.service';
 import { UserDTO } from './dto/user.dto';
+import { DeleteResult, UpdateResult } from 'typeorm';
 
 class UserService extends BaseService<UserEntity> {
   constructor() {
@@ -26,22 +27,18 @@ class UserService extends BaseService<UserEntity> {
     return (await this.execRepository).save(newUser);
   }
 
-  public async updateUser(userId: string, userData: UserDTO): Promise<UserEntity | null> {
+  public async updateUser(userId: string, userData: UserDTO): Promise<UpdateResult | null> {
     const findUser = (await this.execRepository).findOne({ where: { id: userId } });
     if (!findUser) throw new HttpException(409, "User doesn't exist");
 
-    (await this.execRepository).update(userId, { ...userData });
-
-    const updateUser = (await this.execRepository).findOne({ where: { id: userId } });
-    return updateUser;
+    return (await this.execRepository).update(userId, { ...userData });
   }
 
-  public async deleteUser(userId: string): Promise<UserEntity | null> {
+  public async deleteUser(userId: string): Promise<DeleteResult | null> {
     const findUser = (await this.execRepository).findOne({ where: { id: userId } });
     if (!findUser) throw new HttpException(409, "User doesn't exist");
 
-    (await this.execRepository).delete({ id: userId });
-    return findUser;
+    return (await this.execRepository).delete({ id: userId });
   }
 }
 
