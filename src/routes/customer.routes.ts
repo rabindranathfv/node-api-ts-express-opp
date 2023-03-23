@@ -12,15 +12,15 @@ class CustomerRoute implements Routes {
   }
 
   public initCustomerRoutes() {
-    this.router.get(`${this.path}`, this.customerController.getCustomers);
+    this.router.get(`${this.path}`, (req, res) => this.customerController.getCustomers(req, res));
 
-    this.router.get(`${this.path}/:id`, this.customerController.getCustomerById);
+    this.router.get(`${this.path}/:id`, (req, res) => this.customerController.getCustomerById(req, res));
 
-    this.router.post(`${this.path}`, this.customerController.createCustomer);
+    this.router.post(`${this.path}`, (req, res) => this.customerController.createCustomer(req, res));
 
-    this.router.put(`${this.path}/:id`, this.customerController.updateCustomer);
+    this.router.put(`${this.path}/:id`, (req, res) => this.customerController.updateCustomer(req, res));
 
-    this.router.delete(`${this.path}/:id`, this.customerController.deleteCustomer);
+    this.router.delete(`${this.path}/:id`, (req, res) => this.customerController.deleteCustomer(req, res));
   }
 }
 
