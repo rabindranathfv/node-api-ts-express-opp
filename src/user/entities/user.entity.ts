@@ -1,7 +1,6 @@
 import { Entity, PrimaryGeneratedColumn, Column, Unique, CreateDateColumn, UpdateDateColumn, OneToOne } from 'typeorm';
 import { CustomerEntity } from '../../customer/entities/customer.entity';
 import { User } from '../user.interface';
-import { Exclude } from 'class-transformer';
 
 @Entity({ name: 'user' })
 export class UserEntity implements User {
@@ -30,8 +29,7 @@ export class UserEntity implements User {
   @Unique(['email'])
   email!: string;
 
-  @Exclude()
-  @Column()
+  @Column({ select: false })
   password!: string;
 
   @Column()
