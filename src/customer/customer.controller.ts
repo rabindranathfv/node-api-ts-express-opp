@@ -1,9 +1,13 @@
 import { Request, Response } from 'express';
 import CustomerService from './customer.service';
+import { HttpResponse } from '../shared/response/http.response';
 
 class CustomerController {
   // eslint-disable-next-line @typescript-eslint/no-empty-function
-  constructor(private readonly customerService: CustomerService = new CustomerService()) {}
+  constructor(
+    private readonly customerService: CustomerService = new CustomerService(),
+    private readonly httpResponse: HttpResponse = new HttpResponse(),
+  ) {}
 
   async getCustomers(_req: Request, res: Response) {
     try {

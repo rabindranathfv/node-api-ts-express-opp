@@ -27,14 +27,14 @@ class UserService extends BaseService<UserEntity> {
     return (await this.execRepository).save(newUser);
   }
 
-  public async updateUser(userId: string, userData: UserDTO): Promise<UpdateResult | null> {
+  public async updateUser(userId: string, userData: UserDTO): Promise<UpdateResult> {
     const findUser = (await this.execRepository).findOne({ where: { id: userId } });
     if (!findUser) throw new HttpException(409, "User doesn't exist");
 
     return (await this.execRepository).update(userId, { ...userData });
   }
 
-  public async deleteUser(userId: string): Promise<DeleteResult | null> {
+  public async deleteUser(userId: string): Promise<DeleteResult> {
     const findUser = (await this.execRepository).findOne({ where: { id: userId } });
     if (!findUser) throw new HttpException(409, "User doesn't exist");
 
