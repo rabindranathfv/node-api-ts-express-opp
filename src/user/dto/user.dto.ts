@@ -19,14 +19,14 @@ export class UserDTO {
   @IsNotEmpty()
   province!: string;
 
-  @IsOptional()
-  numberPhone!: number;
-
   @IsNotEmpty()
   email!: string;
 
   @IsNotEmpty()
   password!: string;
+
+  @IsNotEmpty()
+  role!: RoleType;
 
   @IsDate()
   @IsOptional()
@@ -35,4 +35,10 @@ export class UserDTO {
   @IsDate()
   @IsOptional()
   updatedAt!: Date;
+}
+
+export enum RoleType {
+  USER = 'USER',
+  CUSTOMER = 'CUSTOMER',
+  ADMIN = 'ADMIN',
 }

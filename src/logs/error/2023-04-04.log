@@ -1,0 +1,472 @@
+2023-04-04 00:15:15 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/user/dto/user.dto.ts(32,3): error TS2300: Duplicate identifier 'password'.
+
+Error: ⨯ Unable to compile TypeScript:
+src/user/dto/user.dto.ts(32,3): error TS2300: Duplicate identifier 'password'.
+
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/user/dto/user.dto.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-434168184194343.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-434168184194343.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-434168184194343.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2023-04-04 00:15:27 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/user/dto/user.dto.ts(32,10): error TS1110: Type expected.
+
+Error: ⨯ Unable to compile TypeScript:
+src/user/dto/user.dto.ts(32,10): error TS1110: Type expected.
+
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/user/dto/user.dto.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-434168184194343.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-434168184194343.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-434168184194343.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2023-04-04 00:17:36 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/user/users.service.ts(25,47): error TS2366: Function lacks ending return statement and return type does not include 'undefined'.
+
+Error: ⨯ Unable to compile TypeScript:
+src/user/users.service.ts(25,47): error TS2366: Function lacks ending return statement and return type does not include 'undefined'.
+
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/user/users.service.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-434168184194343.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-434168184194343.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-434168184194343.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2023-04-04 00:17:40 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/user/users.service.ts(25,47): error TS2366: Function lacks ending return statement and return type does not include 'undefined'.
+
+Error: ⨯ Unable to compile TypeScript:
+src/user/users.service.ts(25,47): error TS2366: Function lacks ending return statement and return type does not include 'undefined'.
+
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/user/users.service.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-434168184194343.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-434168184194343.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-434168184194343.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2023-04-04 00:17:45 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/user/users.service.ts(25,47): error TS2366: Function lacks ending return statement and return type does not include 'undefined'.
+
+Error: ⨯ Unable to compile TypeScript:
+src/user/users.service.ts(25,47): error TS2366: Function lacks ending return statement and return type does not include 'undefined'.
+
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/user/users.service.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-434168184194343.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-434168184194343.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-434168184194343.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2023-04-04 00:17:57 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/user/users.service.ts(25,47): error TS2366: Function lacks ending return statement and return type does not include 'undefined'.
+
+Error: ⨯ Unable to compile TypeScript:
+src/user/users.service.ts(25,47): error TS2366: Function lacks ending return statement and return type does not include 'undefined'.
+
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/user/users.service.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-434168184194343.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-434168184194343.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-434168184194343.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2023-04-04 00:18:07 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/user/users.service.ts(25,47): error TS7030: Not all code paths return a value.
+
+Error: ⨯ Unable to compile TypeScript:
+src/user/users.service.ts(25,47): error TS7030: Not all code paths return a value.
+
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/user/users.service.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-434168184194343.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-434168184194343.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-434168184194343.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2023-04-04 01:17:20 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/category/category.service.ts(19,10): error TS1123: Variable declaration list cannot be empty.
+
+Error: ⨯ Unable to compile TypeScript:
+src/category/category.service.ts(19,10): error TS1123: Variable declaration list cannot be empty.
+
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/category/category.service.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-26736707164310825.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-26736707164310825.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-26736707164310825.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2023-04-04 01:17:48 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/category/category.service.ts(20,5): error TS2739: Type 'DeepPartial<CategoryEntity>[]' is missing the following properties from type 'CategoryEntity': id, categoryName, createdAt, updatedAt, products
+src/category/category.service.ts(20,45): error TS2769: No overload matches this call.
+  Overload 1 of 4, '(entities: DeepPartial<CategoryEntity>[], options?: SaveOptions | undefined): Promise<(DeepPartial<CategoryEntity> & CategoryEntity)[]>', gave the following error.
+    Argument of type '{ category_name: string; }' is not assignable to parameter of type 'DeepPartial<CategoryEntity>[]'.
+      Type '{ category_name: string; }' is missing the following properties from type 'DeepPartial<CategoryEntity>[]': length, pop, push, concat, and 29 more.
+  Overload 2 of 4, '(entity: DeepPartial<CategoryEntity>, options?: SaveOptions | undefined): Promise<DeepPartial<CategoryEntity> & CategoryEntity>', gave the following error.
+    Argument of type '{ category_name: string; }' is not assignable to parameter of type 'DeepPartial<CategoryEntity>'.
+
+Error: ⨯ Unable to compile TypeScript:
+src/category/category.service.ts(20,5): error TS2739: Type 'DeepPartial<CategoryEntity>[]' is missing the following properties from type 'CategoryEntity': id, categoryName, createdAt, updatedAt, products
+src/category/category.service.ts(20,45): error TS2769: No overload matches this call.
+  Overload 1 of 4, '(entities: DeepPartial<CategoryEntity>[], options?: SaveOptions | undefined): Promise<(DeepPartial<CategoryEntity> & CategoryEntity)[]>', gave the following error.
+    Argument of type '{ category_name: string; }' is not assignable to parameter of type 'DeepPartial<CategoryEntity>[]'.
+      Type '{ category_name: string; }' is missing the following properties from type 'DeepPartial<CategoryEntity>[]': length, pop, push, concat, and 29 more.
+  Overload 2 of 4, '(entity: DeepPartial<CategoryEntity>, options?: SaveOptions | undefined): Promise<DeepPartial<CategoryEntity> & CategoryEntity>', gave the following error.
+    Argument of type '{ category_name: string; }' is not assignable to parameter of type 'DeepPartial<CategoryEntity>'.
+
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/category/category.service.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-26736707164310825.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-26736707164310825.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-26736707164310825.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2023-04-04 01:29:15 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/category/category.service.ts(19,10): error TS1123: Variable declaration list cannot be empty.
+
+Error: ⨯ Unable to compile TypeScript:
+src/category/category.service.ts(19,10): error TS1123: Variable declaration list cannot be empty.
+
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/category/category.service.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-26736707164310825.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-26736707164310825.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-26736707164310825.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2023-04-04 01:29:23 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/category/category.service.ts(19,26): error TS1109: Expression expected.
+
+Error: ⨯ Unable to compile TypeScript:
+src/category/category.service.ts(19,26): error TS1109: Expression expected.
+
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/category/category.service.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-26736707164310825.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-26736707164310825.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-26736707164310825.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2023-04-04 01:30:57 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/category/category.service.ts(22,3): error TS7008: Member 'console' implicitly has an 'any' type.
+src/category/category.service.ts(22,11): error TS7010: 'log', which lacks return-type annotation, implicitly has an 'any' return type.
+src/category/category.service.ts(22,15): error TS7006: Parameter '(Missing)' implicitly has an 'any' type.
+src/category/category.service.ts(22,95): error TS7006: Parameter 'body' implicitly has an 'any' type.
+src/category/category.service.ts(23,9): error TS2389: Function implementation name must be 'log'.
+src/category/category.service.ts(22,3): error TS1434: Unexpected keyword or identifier.
+src/category/category.service.ts(22,10): error TS1068: Unexpected token. A constructor, method, accessor, or property was expected.
+src/category/category.service.ts(22,15): error TS1003: Identifier expected.
+src/category/category.service.ts(22,93): error TS1138: Parameter declaration expected.
+
+Error: ⨯ Unable to compile TypeScript:
+src/category/category.service.ts(22,3): error TS7008: Member 'console' implicitly has an 'any' type.
+src/category/category.service.ts(22,11): error TS7010: 'log', which lacks return-type annotation, implicitly has an 'any' return type.
+src/category/category.service.ts(22,15): error TS7006: Parameter '(Missing)' implicitly has an 'any' type.
+src/category/category.service.ts(22,95): error TS7006: Parameter 'body' implicitly has an 'any' type.
+src/category/category.service.ts(23,9): error TS2389: Function implementation name must be 'log'.
+src/category/category.service.ts(22,3): error TS1434: Unexpected keyword or identifier.
+src/category/category.service.ts(22,10): error TS1068: Unexpected token. A constructor, method, accessor, or property was expected.
+src/category/category.service.ts(22,15): error TS1003: Identifier expected.
+src/category/category.service.ts(22,93): error TS1138: Parameter declaration expected.
+
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/category/category.service.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-26736707164310825.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-26736707164310825.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-26736707164310825.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2023-04-04 01:31:34 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/category/category.service.ts(21,5): error TS2739: Type 'DeepPartial<CategoryEntity>[]' is missing the following properties from type 'CategoryEntity': id, categoryName, createdAt, updatedAt, products
+src/category/category.service.ts(21,45): error TS2769: No overload matches this call.
+  Overload 1 of 4, '(entities: DeepPartial<CategoryEntity>[], options?: SaveOptions | undefined): Promise<(DeepPartial<CategoryEntity> & CategoryEntity)[]>', gave the following error.
+    Argument of type '{ category_name: string; }' is not assignable to parameter of type 'DeepPartial<CategoryEntity>[]'.
+      Type '{ category_name: string; }' is missing the following properties from type 'DeepPartial<CategoryEntity>[]': length, pop, push, concat, and 29 more.
+  Overload 2 of 4, '(entity: DeepPartial<CategoryEntity>, options?: SaveOptions | undefined): Promise<DeepPartial<CategoryEntity> & CategoryEntity>', gave the following error.
+    Argument of type '{ category_name: string; }' is not assignable to parameter of type 'DeepPartial<CategoryEntity>'.
+
+Error: ⨯ Unable to compile TypeScript:
+src/category/category.service.ts(21,5): error TS2739: Type 'DeepPartial<CategoryEntity>[]' is missing the following properties from type 'CategoryEntity': id, categoryName, createdAt, updatedAt, products
+src/category/category.service.ts(21,45): error TS2769: No overload matches this call.
+  Overload 1 of 4, '(entities: DeepPartial<CategoryEntity>[], options?: SaveOptions | undefined): Promise<(DeepPartial<CategoryEntity> & CategoryEntity)[]>', gave the following error.
+    Argument of type '{ category_name: string; }' is not assignable to parameter of type 'DeepPartial<CategoryEntity>[]'.
+      Type '{ category_name: string; }' is missing the following properties from type 'DeepPartial<CategoryEntity>[]': length, pop, push, concat, and 29 more.
+  Overload 2 of 4, '(entity: DeepPartial<CategoryEntity>, options?: SaveOptions | undefined): Promise<DeepPartial<CategoryEntity> & CategoryEntity>', gave the following error.
+    Argument of type '{ category_name: string; }' is not assignable to parameter of type 'DeepPartial<CategoryEntity>'.
+
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/category/category.service.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-26736707164310825.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-26736707164310825.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-26736707164310825.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2023-04-04 01:31:47 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/category/category.service.ts(19,61): error TS1110: Type expected.
+
+Error: ⨯ Unable to compile TypeScript:
+src/category/category.service.ts(19,61): error TS1110: Type expected.
+
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/category/category.service.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-26736707164310825.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-26736707164310825.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-26736707164310825.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2023-04-04 01:32:54 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/category/category.service.ts(19,11): error TS1182: A destructuring declaration must have an initializer.
+src/category/category.service.ts(19,13): error TS7031: Binding element 'cate' implicitly has an 'any' type.
+
+Error: ⨯ Unable to compile TypeScript:
+src/category/category.service.ts(19,11): error TS1182: A destructuring declaration must have an initializer.
+src/category/category.service.ts(19,13): error TS7031: Binding element 'cate' implicitly has an 'any' type.
+
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/category/category.service.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-26736707164310825.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-26736707164310825.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-26736707164310825.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2023-04-04 01:37:58 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/category/category.service.ts(18,27): error TS1003: Identifier expected.
+
+Error: ⨯ Unable to compile TypeScript:
+src/category/category.service.ts(18,27): error TS1003: Identifier expected.
+
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/category/category.service.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-703708208895792.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-703708208895792.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-703708208895792.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2023-04-04 01:38:35 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/category/category.service.ts(19,102): error TS2339: Property 'cate' does not exist on type 'CategoryDTO'.
+
+Error: ⨯ Unable to compile TypeScript:
+src/category/category.service.ts(19,102): error TS2339: Property 'cate' does not exist on type 'CategoryDTO'.
+
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/category/category.service.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-703708208895792.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-703708208895792.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-703708208895792.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2023-04-04 01:38:57 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/category/category.service.ts(19,103): error TS2695: Left side of comma operator is unused and has no side effects.
+src/category/category.service.ts(19,102): error TS1003: Identifier expected.
+src/category/category.service.ts(19,134): error TS1005: ']' expected.
+
+Error: ⨯ Unable to compile TypeScript:
+src/category/category.service.ts(19,103): error TS2695: Left side of comma operator is unused and has no side effects.
+src/category/category.service.ts(19,102): error TS1003: Identifier expected.
+src/category/category.service.ts(19,134): error TS1005: ']' expected.
+
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/category/category.service.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-703708208895792.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-703708208895792.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-703708208895792.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2023-04-04 01:39:03 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/category/category.service.ts(19,102): error TS1003: Identifier expected.
+src/category/category.service.ts(19,138): error TS1002: Unterminated string literal.
+src/category/category.service.ts(20,5): error TS1005: ']' expected.
+
+Error: ⨯ Unable to compile TypeScript:
+src/category/category.service.ts(19,102): error TS1003: Identifier expected.
+src/category/category.service.ts(19,138): error TS1002: Unterminated string literal.
+src/category/category.service.ts(20,5): error TS1005: ']' expected.
+
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/category/category.service.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-703708208895792.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-703708208895792.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-703708208895792.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2023-04-04 01:39:09 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/category/category.service.ts(19,102): error TS2551: Property 'categoryName:' does not exist on type 'CategoryDTO'. Did you mean 'categoryName'?
+
+Error: ⨯ Unable to compile TypeScript:
+src/category/category.service.ts(19,102): error TS2551: Property 'categoryName:' does not exist on type 'CategoryDTO'. Did you mean 'categoryName'?
+
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/category/category.service.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-703708208895792.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-703708208895792.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-703708208895792.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2023-04-04 01:40:00 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/category/category.service.ts(20,5): error TS2739: Type 'DeepPartial<CategoryEntity>[]' is missing the following properties from type 'CategoryEntity': id, categoryName, createdAt, updatedAt, products
+src/category/category.service.ts(20,47): error TS2769: No overload matches this call.
+  Overload 1 of 4, '(entities: DeepPartial<CategoryEntity>[], options?: SaveOptions | undefined): Promise<(DeepPartial<CategoryEntity> & CategoryEntity)[]>', gave the following error.
+    Argument of type '{ category_name: any; }' is not assignable to parameter of type 'DeepPartial<CategoryEntity>[]'.
+      Object literal may only specify known properties, and 'category_name' does not exist in type 'DeepPartial<CategoryEntity>[]'.
+  Overload 2 of 4, '(entity: DeepPartial<CategoryEntity>, options?: SaveOptions | undefined): Promise<DeepPartial<CategoryEntity> & CategoryEntity>', gave the following error.
+    Argument of type '{ category_name: any; }' is not assignable to parameter of type 'DeepPartial<CategoryEntity>'.
+      Object literal may only specify known properties, but 'category_name' does not exist in type 'DeepPartial<CategoryEntity>'. Did you mean to write 'categoryName'?
+src/category/category.service.ts(20,62): error TS1109: Expression expected.
+
+Error: ⨯ Unable to compile TypeScript:
+src/category/category.service.ts(20,5): error TS2739: Type 'DeepPartial<CategoryEntity>[]' is missing the following properties from type 'CategoryEntity': id, categoryName, createdAt, updatedAt, products
+src/category/category.service.ts(20,47): error TS2769: No overload matches this call.
+  Overload 1 of 4, '(entities: DeepPartial<CategoryEntity>[], options?: SaveOptions | undefined): Promise<(DeepPartial<CategoryEntity> & CategoryEntity)[]>', gave the following error.
+    Argument of type '{ category_name: any; }' is not assignable to parameter of type 'DeepPartial<CategoryEntity>[]'.
+      Object literal may only specify known properties, and 'category_name' does not exist in type 'DeepPartial<CategoryEntity>[]'.
+  Overload 2 of 4, '(entity: DeepPartial<CategoryEntity>, options?: SaveOptions | undefined): Promise<DeepPartial<CategoryEntity> & CategoryEntity>', gave the following error.
+    Argument of type '{ category_name: any; }' is not assignable to parameter of type 'DeepPartial<CategoryEntity>'.
+      Object literal may only specify known properties, but 'category_name' does not exist in type 'DeepPartial<CategoryEntity>'. Did you mean to write 'categoryName'?
+src/category/category.service.ts(20,62): error TS1109: Expression expected.
+
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/category/category.service.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-703708208895792.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-703708208895792.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-703708208895792.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2023-04-04 01:40:05 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/category/category.service.ts(20,5): error TS2739: Type 'DeepPartial<CategoryEntity>[]' is missing the following properties from type 'CategoryEntity': id, categoryName, createdAt, updatedAt, products
+src/category/category.service.ts(20,47): error TS2769: No overload matches this call.
+  Overload 1 of 4, '(entities: DeepPartial<CategoryEntity>[], options?: SaveOptions | undefined): Promise<(DeepPartial<CategoryEntity> & CategoryEntity)[]>', gave the following error.
+    Argument of type '{ category_name: any; }' is not assignable to parameter of type 'DeepPartial<CategoryEntity>[]'.
+      Object literal may only specify known properties, and 'category_name' does not exist in type 'DeepPartial<CategoryEntity>[]'.
+  Overload 2 of 4, '(entity: DeepPartial<CategoryEntity>, options?: SaveOptions | undefined): Promise<DeepPartial<CategoryEntity> & CategoryEntity>', gave the following error.
+    Argument of type '{ category_name: any; }' is not assignable to parameter of type 'DeepPartial<CategoryEntity>'.
+      Object literal may only specify known properties, but 'category_name' does not exist in type 'DeepPartial<CategoryEntity>'. Did you mean to write 'categoryName'?
+
+Error: ⨯ Unable to compile TypeScript:
+src/category/category.service.ts(20,5): error TS2739: Type 'DeepPartial<CategoryEntity>[]' is missing the following properties from type 'CategoryEntity': id, categoryName, createdAt, updatedAt, products
+src/category/category.service.ts(20,47): error TS2769: No overload matches this call.
+  Overload 1 of 4, '(entities: DeepPartial<CategoryEntity>[], options?: SaveOptions | undefined): Promise<(DeepPartial<CategoryEntity> & CategoryEntity)[]>', gave the following error.
+    Argument of type '{ category_name: any; }' is not assignable to parameter of type 'DeepPartial<CategoryEntity>[]'.
+      Object literal may only specify known properties, and 'category_name' does not exist in type 'DeepPartial<CategoryEntity>[]'.
+  Overload 2 of 4, '(entity: DeepPartial<CategoryEntity>, options?: SaveOptions | undefined): Promise<DeepPartial<CategoryEntity> & CategoryEntity>', gave the following error.
+    Argument of type '{ category_name: any; }' is not assignable to parameter of type 'DeepPartial<CategoryEntity>'.
+      Object literal may only specify known properties, but 'category_name' does not exist in type 'DeepPartial<CategoryEntity>'. Did you mean to write 'categoryName'?
+
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/category/category.service.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-703708208895792.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-703708208895792.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-703708208895792.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2023-04-04 01:40:10 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/category/category.service.ts(20,89): error TS2304: Cannot find name 'un'.
+
+Error: ⨯ Unable to compile TypeScript:
+src/category/category.service.ts(20,89): error TS2304: Cannot find name 'un'.
+
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/category/category.service.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-703708208895792.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-703708208895792.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-703708208895792.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2023-04-04 01:46:51 error: uncaughtException: listen EADDRINUSE: address already in use :::3000
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (node:net:1372:16)
+    at listenInCluster (node:net:1420:12)
+    at Server.listen (node:net:1508:7)
+    at Function.listen (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/express/lib/application.js:635:24)
+    at App.listen (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/app.ts:43:14)
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/index.ts:20:5)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module.m._compile (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/ts-node/src/index.ts:1621:12)
+2023-04-04 01:49:23 error: uncaughtException: listen EADDRINUSE: address already in use :::3000
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (node:net:1372:16)
+    at listenInCluster (node:net:1420:12)
+    at Server.listen (node:net:1508:7)
+    at Function.listen (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/express/lib/application.js:635:24)
+    at App.listen (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/app.ts:43:14)
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/index.ts:20:5)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-6500698857885163.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)

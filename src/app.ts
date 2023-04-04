@@ -1,5 +1,5 @@
-import express from 'express';
 import 'reflect-metadata';
+import express from 'express';
 import cookieParser from 'cookie-parser';
 import cors from 'cors';
 import helmet from 'helmet';

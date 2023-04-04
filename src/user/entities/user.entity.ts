@@ -1,5 +1,7 @@
+import { crossOriginResourcePolicy } from 'helmet';
 import { Entity, PrimaryGeneratedColumn, Column, Unique, CreateDateColumn, UpdateDateColumn, OneToOne } from 'typeorm';
 import { CustomerEntity } from '../../customer/entities/customer.entity';
+import { RoleType } from '../dto/user.dto';
 import { User } from '../user.interface';
 
 @Entity({ name: 'user' })
@@ -23,14 +25,14 @@ export class UserEntity implements User {
   province!: string;
 
   @Column()
-  numberPhone!: number;
-
-  @Column()
   @Unique(['email'])
   email!: string;
 
   @Column({ select: false })
   password!: string;
+
+  @Column({ type: 'enum', enum: RoleType, nullable: false })
+  role!: RoleType;
 
   @Column()
   @CreateDateColumn()
@@ -43,3 +45,9 @@ export class UserEntity implements User {
   @OneToOne(() => CustomerEntity, (customer) => customer.user)
   customer!: CustomerEntity;
 }
+
+// CORRER ESE SCRIPT
+// npm run mig:gen -- src/migrations/addRoleUser
+
+// LUEGO
+// npm run mig:run

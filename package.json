@@ -9,7 +9,10 @@
     "start-prod": "cross-env NODE_ENV=production ts-node ./src/index.ts",
     "build-tsc": "tsc",
     "lint": "eslint src/**/*.ts",
-    "format": "eslint src/**/*.ts --fix"
+    "format": "eslint src/**/*.ts --fix",
+    "typeorm": "typeorm-ts-node-esm -d ./src/config/data.source.ts",
+    "mig:gen": "npm run typeorm migration:generate",
+    "mig:run": "npm run typeorm migration:run"
   },
   "keywords": [],
   "author": "",

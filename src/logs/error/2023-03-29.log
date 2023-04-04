@@ -1,0 +1,196 @@
+2023-03-29 23:09:50 error: uncaughtException: connect ECONNREFUSED 127.0.0.1:3312
+Error: connect ECONNREFUSED 127.0.0.1:3312
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1187:16)
+    --------------------
+    at Protocol._enqueue (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/Connection.js:116:18)
+    at Pool.getConnection (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/Pool.js:48:16)
+    at /home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/driver/mysql/MysqlDriver.ts:1241:18
+    at new Promise (<anonymous>)
+    at MysqlDriver.createPool (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/driver/mysql/MysqlDriver.ts:1238:16)
+    at MysqlDriver.connect (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/driver/mysql/MysqlDriver.ts:392:36)
+    at DataSource.initialize (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/data-source/DataSource.ts:232:27)
+    at UserService.get initConnect [as initConnect] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/config/config.ts:26:26)
+2023-03-29 23:09:50 error: uncaughtException: connect ECONNREFUSED 127.0.0.1:3312
+Error: connect ECONNREFUSED 127.0.0.1:3312
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1187:16)
+    --------------------
+    at Protocol._enqueue (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/Connection.js:116:18)
+    at Pool.getConnection (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/Pool.js:48:16)
+    at /home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/driver/mysql/MysqlDriver.ts:1241:18
+    at new Promise (<anonymous>)
+    at MysqlDriver.createPool (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/driver/mysql/MysqlDriver.ts:1238:16)
+    at MysqlDriver.connect (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/driver/mysql/MysqlDriver.ts:392:36)
+    at DataSource.initialize (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/data-source/DataSource.ts:232:27)
+    at CustomerService.get initConnect [as initConnect] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/config/config.ts:26:26)
+2023-03-29 23:10:41 error: uncaughtException: connect ECONNREFUSED 127.0.0.1:3312
+Error: connect ECONNREFUSED 127.0.0.1:3312
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1187:16)
+    --------------------
+    at Protocol._enqueue (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/Connection.js:116:18)
+    at Pool.getConnection (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/Pool.js:48:16)
+    at /home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/driver/mysql/MysqlDriver.ts:1241:18
+    at new Promise (<anonymous>)
+    at MysqlDriver.createPool (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/driver/mysql/MysqlDriver.ts:1238:16)
+    at MysqlDriver.connect (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/driver/mysql/MysqlDriver.ts:392:36)
+    at DataSource.initialize (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/data-source/DataSource.ts:232:27)
+    at UserService.get initConnect [as initConnect] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/config/config.ts:26:26)
+2023-03-29 23:10:41 error: uncaughtException: connect ECONNREFUSED 127.0.0.1:3312
+Error: connect ECONNREFUSED 127.0.0.1:3312
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1187:16)
+    --------------------
+    at Protocol._enqueue (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/Connection.js:116:18)
+    at Pool.getConnection (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/Pool.js:48:16)
+    at /home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/driver/mysql/MysqlDriver.ts:1241:18
+    at new Promise (<anonymous>)
+    at MysqlDriver.createPool (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/driver/mysql/MysqlDriver.ts:1238:16)
+    at MysqlDriver.connect (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/driver/mysql/MysqlDriver.ts:392:36)
+    at DataSource.initialize (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/data-source/DataSource.ts:232:27)
+    at CustomerService.get initConnect [as initConnect] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/config/config.ts:26:26)
+2023-03-29 23:10:54 error: uncaughtException: connect ECONNREFUSED 127.0.0.1:3312
+Error: connect ECONNREFUSED 127.0.0.1:3312
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1187:16)
+    --------------------
+    at Protocol._enqueue (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/Connection.js:116:18)
+    at Pool.getConnection (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/Pool.js:48:16)
+    at /home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/driver/mysql/MysqlDriver.ts:1241:18
+    at new Promise (<anonymous>)
+    at MysqlDriver.createPool (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/driver/mysql/MysqlDriver.ts:1238:16)
+    at MysqlDriver.connect (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/driver/mysql/MysqlDriver.ts:392:36)
+    at DataSource.initialize (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/data-source/DataSource.ts:232:27)
+    at UserService.get initConnect [as initConnect] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/config/config.ts:26:26)
+2023-03-29 23:10:54 error: uncaughtException: connect ECONNREFUSED 127.0.0.1:3312
+Error: connect ECONNREFUSED 127.0.0.1:3312
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1187:16)
+    --------------------
+    at Protocol._enqueue (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/Connection.js:116:18)
+    at Pool.getConnection (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/Pool.js:48:16)
+    at /home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/driver/mysql/MysqlDriver.ts:1241:18
+    at new Promise (<anonymous>)
+    at MysqlDriver.createPool (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/driver/mysql/MysqlDriver.ts:1238:16)
+    at MysqlDriver.connect (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/driver/mysql/MysqlDriver.ts:392:36)
+    at DataSource.initialize (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/data-source/DataSource.ts:232:27)
+    at CustomerService.get initConnect [as initConnect] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/config/config.ts:26:26)
+2023-03-29 23:10:59 error: uncaughtException: connect ECONNREFUSED 127.0.0.1:3312
+Error: connect ECONNREFUSED 127.0.0.1:3312
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1187:16)
+    --------------------
+    at Protocol._enqueue (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/Connection.js:116:18)
+    at Pool.getConnection (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/Pool.js:48:16)
+    at /home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/driver/mysql/MysqlDriver.ts:1241:18
+    at new Promise (<anonymous>)
+    at MysqlDriver.createPool (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/driver/mysql/MysqlDriver.ts:1238:16)
+    at MysqlDriver.connect (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/driver/mysql/MysqlDriver.ts:392:36)
+    at DataSource.initialize (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/data-source/DataSource.ts:232:27)
+    at UserService.get initConnect [as initConnect] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/config/config.ts:26:26)
+2023-03-29 23:10:59 error: uncaughtException: connect ECONNREFUSED 127.0.0.1:3312
+Error: connect ECONNREFUSED 127.0.0.1:3312
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1187:16)
+    --------------------
+    at Protocol._enqueue (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/Connection.js:116:18)
+    at Pool.getConnection (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/Pool.js:48:16)
+    at /home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/driver/mysql/MysqlDriver.ts:1241:18
+    at new Promise (<anonymous>)
+    at MysqlDriver.createPool (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/driver/mysql/MysqlDriver.ts:1238:16)
+    at MysqlDriver.connect (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/driver/mysql/MysqlDriver.ts:392:36)
+    at DataSource.initialize (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/data-source/DataSource.ts:232:27)
+    at CustomerService.get initConnect [as initConnect] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/config/config.ts:26:26)
+2023-03-29 23:11:12 error: uncaughtException: connect ECONNREFUSED 127.0.0.1:3312
+Error: connect ECONNREFUSED 127.0.0.1:3312
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1187:16)
+    --------------------
+    at Protocol._enqueue (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/Connection.js:116:18)
+    at Pool.getConnection (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/Pool.js:48:16)
+    at /home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/driver/mysql/MysqlDriver.ts:1241:18
+    at new Promise (<anonymous>)
+    at MysqlDriver.createPool (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/driver/mysql/MysqlDriver.ts:1238:16)
+    at MysqlDriver.connect (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/driver/mysql/MysqlDriver.ts:392:36)
+    at DataSource.initialize (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/data-source/DataSource.ts:232:27)
+    at UserService.get initConnect [as initConnect] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/config/config.ts:26:26)
+2023-03-29 23:11:12 error: uncaughtException: connect ECONNREFUSED 127.0.0.1:3312
+Error: connect ECONNREFUSED 127.0.0.1:3312
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1187:16)
+    --------------------
+    at Protocol._enqueue (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/Connection.js:116:18)
+    at Pool.getConnection (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/Pool.js:48:16)
+    at /home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/driver/mysql/MysqlDriver.ts:1241:18
+    at new Promise (<anonymous>)
+    at MysqlDriver.createPool (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/driver/mysql/MysqlDriver.ts:1238:16)
+    at MysqlDriver.connect (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/driver/mysql/MysqlDriver.ts:392:36)
+    at DataSource.initialize (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/data-source/DataSource.ts:232:27)
+    at CustomerService.get initConnect [as initConnect] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/config/config.ts:26:26)
+2023-03-29 23:11:30 error: uncaughtException: connect ECONNREFUSED 127.0.0.1:3312
+Error: connect ECONNREFUSED 127.0.0.1:3312
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1187:16)
+    --------------------
+    at Protocol._enqueue (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/Connection.js:116:18)
+    at Pool.getConnection (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/Pool.js:48:16)
+    at /home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/driver/mysql/MysqlDriver.ts:1241:18
+    at new Promise (<anonymous>)
+    at MysqlDriver.createPool (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/driver/mysql/MysqlDriver.ts:1238:16)
+    at MysqlDriver.connect (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/driver/mysql/MysqlDriver.ts:392:36)
+    at DataSource.initialize (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/data-source/DataSource.ts:232:27)
+    at UserService.get initConnect [as initConnect] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/config/config.ts:26:26)
+2023-03-29 23:11:30 error: uncaughtException: connect ECONNREFUSED 127.0.0.1:3312
+Error: connect ECONNREFUSED 127.0.0.1:3312
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1187:16)
+    --------------------
+    at Protocol._enqueue (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/Connection.js:116:18)
+    at Pool.getConnection (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/Pool.js:48:16)
+    at /home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/driver/mysql/MysqlDriver.ts:1241:18
+    at new Promise (<anonymous>)
+    at MysqlDriver.createPool (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/driver/mysql/MysqlDriver.ts:1238:16)
+    at MysqlDriver.connect (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/driver/mysql/MysqlDriver.ts:392:36)
+    at DataSource.initialize (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/data-source/DataSource.ts:232:27)
+    at CustomerService.get initConnect [as initConnect] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/config/config.ts:26:26)
+2023-03-29 23:11:38 error: uncaughtException: connect ECONNREFUSED 127.0.0.1:3312
+Error: connect ECONNREFUSED 127.0.0.1:3312
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1187:16)
+    --------------------
+    at Protocol._enqueue (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/Connection.js:116:18)
+    at Pool.getConnection (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/Pool.js:48:16)
+    at /home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/driver/mysql/MysqlDriver.ts:1241:18
+    at new Promise (<anonymous>)
+    at MysqlDriver.createPool (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/driver/mysql/MysqlDriver.ts:1238:16)
+    at MysqlDriver.connect (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/driver/mysql/MysqlDriver.ts:392:36)
+    at DataSource.initialize (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/data-source/DataSource.ts:232:27)
+    at UserService.get initConnect [as initConnect] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/config/config.ts:26:26)
+2023-03-29 23:11:38 error: uncaughtException: connect ECONNREFUSED 127.0.0.1:3312
+Error: connect ECONNREFUSED 127.0.0.1:3312
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1187:16)
+    --------------------
+    at Protocol._enqueue (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/Connection.js:116:18)
+    at Pool.getConnection (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/Pool.js:48:16)
+    at /home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/driver/mysql/MysqlDriver.ts:1241:18
+    at new Promise (<anonymous>)
+    at MysqlDriver.createPool (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/driver/mysql/MysqlDriver.ts:1238:16)
+    at MysqlDriver.connect (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/driver/mysql/MysqlDriver.ts:392:36)
+    at DataSource.initialize (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/data-source/DataSource.ts:232:27)
+    at CustomerService.get initConnect [as initConnect] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/config/config.ts:26:26)
