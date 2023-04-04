@@ -1,6 +1,6 @@
 import { Request, Response } from 'express';
-import CustomerService from './customer.service';
-import { HttpResponse } from '../shared/response/http.response';
+import CustomerService from '../services/customer.service';
+import { HttpResponse } from '../../shared/response/http.response';
 
 class CustomerController {
   // eslint-disable-next-line @typescript-eslint/no-empty-function

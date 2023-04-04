@@ -1,10 +1,9 @@
 import { Entity, PrimaryGeneratedColumn, Column, CreateDateColumn, UpdateDateColumn, OneToOne, JoinColumn, OneToMany } from 'typeorm';
-import { Customer } from '../interfaces/customer.interface';
 import { UserEntity } from '../../user/entities/user.entity';
 import { PurchaseEntity } from '../../purchase/entities/purchase.entity';
 
 @Entity({ name: 'customer' })
-export class CustomerEntity implements Customer {
+export class CustomerEntity {
   @PrimaryGeneratedColumn('uuid')
   id!: string;
 

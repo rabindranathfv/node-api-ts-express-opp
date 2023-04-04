@@ -1,6 +1,8 @@
 import { Router } from 'express';
-import UserController from '../user/users.controllers';
-import { Routes } from '../interfaces/route.interface';
+import UserController from '../user/controllers/users.controllers';
+import { BaseRouter } from '../shared/route/base.route';
+import { UserDTO } from '../user/dto/user.dto';
+import { ValidateMiddlewareDTO } from '../middlewares/validate-dto.middleware';
 
 /**
  * @swagger
@@ -33,12 +35,13 @@ import { Routes } from '../interfaces/route.interface';
  *    description: User Endpoints
  */
 
-class UserRoute implements Routes {
+class UserRoute extends BaseRouter<UserController, ValidateMiddlewareDTO> {
   public path = '/users';
   public router = Router();
   public userController = new UserController();
 
   constructor() {
+    super(UserController, ValidateMiddlewareDTO);
     this.initUsersRoutes();
   }
 
@@ -64,7 +67,11 @@ class UserRoute implements Routes {
 
     this.router.get(`${this.path}/:id`, (req, res) => this.userController.findUserByIdCtrl(req, res));
 
-    this.router.post(`${this.path}`, (req, res) => this.userController.createUserCtrl(req, res));
+    this.router.post(
+      `${this.path}`,
+      (req, res, next) => [this.middleware.validator(req, res, next, UserDTO)],
+      (req, res) => this.userController.createUserCtrl(req, res),
+    );
 
     this.router.put(`${this.path}/:id`, (req, res) => this.userController.updateUserCtrl(req, res));
 

@@ -470,3 +470,1151 @@ Error: listen EADDRINUSE: address already in use :::3000
     at Module._compile (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/source-map-support/source-map-support.js:568:25)
     at Module.m._compile (/tmp/ts-node-dev-hook-6500698857885163.js:69:33)
     at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+2023-04-04 16:20:34 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/middlewares/validate-dto.middleware.ts(8,16): error TS6133: 'res' is declared but its value is never read.
+
+Error: ⨯ Unable to compile TypeScript:
+src/middlewares/validate-dto.middleware.ts(8,16): error TS6133: 'res' is declared but its value is never read.
+
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/middlewares/validate-dto.middleware.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-10961764704907018.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-10961764704907018.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-10961764704907018.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2023-04-04 16:47:13 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/routes/purchase.routes.ts(21,76): error TS2769: No overload matches this call.
+  The last overload gave the following error.
+    Argument of type 'Promise<void>' is not assignable to parameter of type 'RequestHandlerParams<ParamsDictionary, any, any, ParsedQs, Record<string, any>>'.
+src/routes/purchase.routes.ts(21,115): error TS2304: Cannot find name 'req'.
+src/routes/purchase.routes.ts(21,120): error TS2304: Cannot find name 'res'.
+
+Error: ⨯ Unable to compile TypeScript:
+src/routes/purchase.routes.ts(21,76): error TS2769: No overload matches this call.
+  The last overload gave the following error.
+    Argument of type 'Promise<void>' is not assignable to parameter of type 'RequestHandlerParams<ParamsDictionary, any, any, ParsedQs, Record<string, any>>'.
+src/routes/purchase.routes.ts(21,115): error TS2304: Cannot find name 'req'.
+src/routes/purchase.routes.ts(21,120): error TS2304: Cannot find name 'res'.
+
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/routes/purchase.routes.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-6624387699409549.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-6624387699409549.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-6624387699409549.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2023-04-04 18:38:02 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/user/entities/user.entity.ts(5,22): error TS2307: Cannot find module '../user.interface' or its corresponding type declarations.
+
+Error: ⨯ Unable to compile TypeScript:
+src/user/entities/user.entity.ts(5,22): error TS2307: Cannot find module '../user.interface' or its corresponding type declarations.
+
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/user/entities/user.entity.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-08752295149399458.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-08752295149399458.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-08752295149399458.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2023-04-04 18:38:28 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/user/entities/user.entity.ts(6,36): error TS2304: Cannot find name 'User'.
+
+Error: ⨯ Unable to compile TypeScript:
+src/user/entities/user.entity.ts(6,36): error TS2304: Cannot find name 'User'.
+
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/user/entities/user.entity.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-08752295149399458.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-08752295149399458.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-08752295149399458.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2023-04-04 18:38:41 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/routes/purchase.routes.ts(7,60): error TS2304: Cannot find name 'PurchaseMiddleware'.
+src/routes/purchase.routes.ts(13,31): error TS2304: Cannot find name 'PurchaseMiddleware'.
+
+Error: ⨯ Unable to compile TypeScript:
+src/routes/purchase.routes.ts(7,60): error TS2304: Cannot find name 'PurchaseMiddleware'.
+src/routes/purchase.routes.ts(13,31): error TS2304: Cannot find name 'PurchaseMiddleware'.
+
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/routes/purchase.routes.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-11232817150381624.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-11232817150381624.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-11232817150381624.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2023-04-04 18:39:13 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/routes/purchase.routes.ts(7,60): error TS2304: Cannot find name 'PurchaseMiddleware'.
+src/routes/purchase.routes.ts(13,31): error TS2304: Cannot find name 'PurchaseMiddleware'.
+
+Error: ⨯ Unable to compile TypeScript:
+src/routes/purchase.routes.ts(7,60): error TS2304: Cannot find name 'PurchaseMiddleware'.
+src/routes/purchase.routes.ts(13,31): error TS2304: Cannot find name 'PurchaseMiddleware'.
+
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/routes/purchase.routes.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-11232817150381624.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-11232817150381624.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-11232817150381624.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2023-04-04 18:39:26 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/routes/purchase.routes.ts(7,60): error TS2304: Cannot find name 'PurchaseMiddleware'.
+
+Error: ⨯ Unable to compile TypeScript:
+src/routes/purchase.routes.ts(7,60): error TS2304: Cannot find name 'PurchaseMiddleware'.
+
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/routes/purchase.routes.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-11232817150381624.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-11232817150381624.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-11232817150381624.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2023-04-04 18:39:45 error: uncaughtException: connect ECONNREFUSED 127.0.0.1:3312
+Error: connect ECONNREFUSED 127.0.0.1:3312
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1187:16)
+    --------------------
+    at Protocol._enqueue (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/Connection.js:116:18)
+    at Pool.getConnection (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/Pool.js:48:16)
+    at /home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/driver/mysql/MysqlDriver.ts:1241:18
+    at new Promise (<anonymous>)
+    at MysqlDriver.createPool (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/driver/mysql/MysqlDriver.ts:1238:16)
+    at MysqlDriver.connect (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/driver/mysql/MysqlDriver.ts:392:36)
+    at DataSource.initialize (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/data-source/DataSource.ts:232:27)
+    at UserService.get initConnect [as initConnect] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/config/config.ts:26:26)
+2023-04-04 18:39:45 error: uncaughtException: connect ECONNREFUSED 127.0.0.1:3312
+Error: connect ECONNREFUSED 127.0.0.1:3312
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1187:16)
+    --------------------
+    at Protocol._enqueue (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/Connection.js:116:18)
+    at Pool.getConnection (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/Pool.js:48:16)
+    at /home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/driver/mysql/MysqlDriver.ts:1241:18
+    at new Promise (<anonymous>)
+    at MysqlDriver.createPool (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/driver/mysql/MysqlDriver.ts:1238:16)
+    at MysqlDriver.connect (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/driver/mysql/MysqlDriver.ts:392:36)
+    at DataSource.initialize (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/data-source/DataSource.ts:232:27)
+    at UserService.get initConnect [as initConnect] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/config/config.ts:26:26)
+2023-04-04 18:39:45 error: uncaughtException: connect ECONNREFUSED 127.0.0.1:3312
+Error: connect ECONNREFUSED 127.0.0.1:3312
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1187:16)
+    --------------------
+    at Protocol._enqueue (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/Connection.js:116:18)
+    at Pool.getConnection (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/Pool.js:48:16)
+    at /home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/driver/mysql/MysqlDriver.ts:1241:18
+    at new Promise (<anonymous>)
+    at MysqlDriver.createPool (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/driver/mysql/MysqlDriver.ts:1238:16)
+    at MysqlDriver.connect (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/driver/mysql/MysqlDriver.ts:392:36)
+    at DataSource.initialize (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/data-source/DataSource.ts:232:27)
+    at CustomerService.get initConnect [as initConnect] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/config/config.ts:26:26)
+2023-04-04 18:39:45 error: uncaughtException: connect ECONNREFUSED 127.0.0.1:3312
+Error: connect ECONNREFUSED 127.0.0.1:3312
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1187:16)
+    --------------------
+    at Protocol._enqueue (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/Connection.js:116:18)
+    at Pool.getConnection (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/Pool.js:48:16)
+    at /home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/driver/mysql/MysqlDriver.ts:1241:18
+    at new Promise (<anonymous>)
+    at MysqlDriver.createPool (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/driver/mysql/MysqlDriver.ts:1238:16)
+    at MysqlDriver.connect (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/driver/mysql/MysqlDriver.ts:392:36)
+    at DataSource.initialize (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/data-source/DataSource.ts:232:27)
+    at CategoryService.get initConnect [as initConnect] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/config/config.ts:26:26)
+2023-04-04 18:39:45 error: uncaughtException: connect ECONNREFUSED 127.0.0.1:3312
+Error: connect ECONNREFUSED 127.0.0.1:3312
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1187:16)
+    --------------------
+    at Protocol._enqueue (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/Connection.js:116:18)
+    at Pool.getConnection (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/Pool.js:48:16)
+    at /home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/driver/mysql/MysqlDriver.ts:1241:18
+    at new Promise (<anonymous>)
+    at MysqlDriver.createPool (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/driver/mysql/MysqlDriver.ts:1238:16)
+    at MysqlDriver.connect (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/driver/mysql/MysqlDriver.ts:392:36)
+    at DataSource.initialize (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/data-source/DataSource.ts:232:27)
+    at ProductService.get initConnect [as initConnect] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/config/config.ts:26:26)
+2023-04-04 18:39:45 error: uncaughtException: connect ECONNREFUSED 127.0.0.1:3312
+Error: connect ECONNREFUSED 127.0.0.1:3312
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1187:16)
+    --------------------
+    at Protocol._enqueue (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/Connection.js:116:18)
+    at Pool.getConnection (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/Pool.js:48:16)
+    at /home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/driver/mysql/MysqlDriver.ts:1241:18
+    at new Promise (<anonymous>)
+    at MysqlDriver.createPool (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/driver/mysql/MysqlDriver.ts:1238:16)
+    at MysqlDriver.connect (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/driver/mysql/MysqlDriver.ts:392:36)
+    at DataSource.initialize (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/data-source/DataSource.ts:232:27)
+    at PurchaseService.get initConnect [as initConnect] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/config/config.ts:26:26)
+2023-04-04 18:39:45 error: uncaughtException: connect ECONNREFUSED 127.0.0.1:3312
+Error: connect ECONNREFUSED 127.0.0.1:3312
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1187:16)
+    --------------------
+    at Protocol._enqueue (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/Connection.js:116:18)
+    at Pool.getConnection (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/Pool.js:48:16)
+    at /home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/driver/mysql/MysqlDriver.ts:1241:18
+    at new Promise (<anonymous>)
+    at MysqlDriver.createPool (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/driver/mysql/MysqlDriver.ts:1238:16)
+    at MysqlDriver.connect (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/driver/mysql/MysqlDriver.ts:392:36)
+    at DataSource.initialize (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/data-source/DataSource.ts:232:27)
+    at PurchaseService.get initConnect [as initConnect] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/config/config.ts:26:26)
+2023-04-04 18:39:45 error: uncaughtException: connect ECONNREFUSED 127.0.0.1:3312
+Error: connect ECONNREFUSED 127.0.0.1:3312
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1187:16)
+    --------------------
+    at Protocol._enqueue (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/Connection.js:116:18)
+    at Pool.getConnection (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/Pool.js:48:16)
+    at /home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/driver/mysql/MysqlDriver.ts:1241:18
+    at new Promise (<anonymous>)
+    at MysqlDriver.createPool (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/driver/mysql/MysqlDriver.ts:1238:16)
+    at MysqlDriver.connect (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/driver/mysql/MysqlDriver.ts:392:36)
+    at DataSource.initialize (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/data-source/DataSource.ts:232:27)
+    at ProductService.get initConnect [as initConnect] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/config/config.ts:26:26)
+2023-04-04 18:39:45 error: uncaughtException: connect ECONNREFUSED 127.0.0.1:3312
+Error: connect ECONNREFUSED 127.0.0.1:3312
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1187:16)
+    --------------------
+    at Protocol._enqueue (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/Connection.js:116:18)
+    at Pool.getConnection (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/Pool.js:48:16)
+    at /home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/driver/mysql/MysqlDriver.ts:1241:18
+    at new Promise (<anonymous>)
+    at MysqlDriver.createPool (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/driver/mysql/MysqlDriver.ts:1238:16)
+    at MysqlDriver.connect (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/driver/mysql/MysqlDriver.ts:392:36)
+    at DataSource.initialize (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/data-source/DataSource.ts:232:27)
+    at PurchaseProductService.get initConnect [as initConnect] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/config/config.ts:26:26)
+2023-04-04 18:39:45 error: uncaughtException: connect ECONNREFUSED 127.0.0.1:3312
+Error: connect ECONNREFUSED 127.0.0.1:3312
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1187:16)
+    --------------------
+    at Protocol._enqueue (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/Connection.js:116:18)
+    at Pool.getConnection (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/Pool.js:48:16)
+    at /home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/driver/mysql/MysqlDriver.ts:1241:18
+    at new Promise (<anonymous>)
+    at MysqlDriver.createPool (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/driver/mysql/MysqlDriver.ts:1238:16)
+    at MysqlDriver.connect (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/driver/mysql/MysqlDriver.ts:392:36)
+    at DataSource.initialize (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/data-source/DataSource.ts:232:27)
+    at ProductService.get initConnect [as initConnect] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/config/config.ts:26:26)
+2023-04-04 18:39:45 error: uncaughtException: connect ECONNREFUSED 127.0.0.1:3312
+Error: connect ECONNREFUSED 127.0.0.1:3312
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1187:16)
+    --------------------
+    at Protocol._enqueue (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/Connection.js:116:18)
+    at Pool.getConnection (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/Pool.js:48:16)
+    at /home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/driver/mysql/MysqlDriver.ts:1241:18
+    at new Promise (<anonymous>)
+    at MysqlDriver.createPool (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/driver/mysql/MysqlDriver.ts:1238:16)
+    at MysqlDriver.connect (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/driver/mysql/MysqlDriver.ts:392:36)
+    at DataSource.initialize (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/data-source/DataSource.ts:232:27)
+    at PurchaseProductService.get initConnect [as initConnect] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/config/config.ts:26:26)
+2023-04-04 18:39:58 error: uncaughtException: connect ECONNREFUSED 127.0.0.1:3312
+Error: connect ECONNREFUSED 127.0.0.1:3312
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1187:16)
+    --------------------
+    at Protocol._enqueue (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/Connection.js:116:18)
+    at Pool.getConnection (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/Pool.js:48:16)
+    at /home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/driver/mysql/MysqlDriver.ts:1241:18
+    at new Promise (<anonymous>)
+    at MysqlDriver.createPool (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/driver/mysql/MysqlDriver.ts:1238:16)
+    at MysqlDriver.connect (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/driver/mysql/MysqlDriver.ts:392:36)
+    at DataSource.initialize (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/data-source/DataSource.ts:232:27)
+    at UserService.get initConnect [as initConnect] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/config/config.ts:26:26)
+2023-04-04 18:39:58 error: uncaughtException: connect ECONNREFUSED 127.0.0.1:3312
+Error: connect ECONNREFUSED 127.0.0.1:3312
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1187:16)
+    --------------------
+    at Protocol._enqueue (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/Connection.js:116:18)
+    at Pool.getConnection (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/Pool.js:48:16)
+    at /home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/driver/mysql/MysqlDriver.ts:1241:18
+    at new Promise (<anonymous>)
+    at MysqlDriver.createPool (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/driver/mysql/MysqlDriver.ts:1238:16)
+    at MysqlDriver.connect (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/driver/mysql/MysqlDriver.ts:392:36)
+    at DataSource.initialize (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/data-source/DataSource.ts:232:27)
+    at UserService.get initConnect [as initConnect] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/config/config.ts:26:26)
+2023-04-04 18:39:58 error: uncaughtException: connect ECONNREFUSED 127.0.0.1:3312
+Error: connect ECONNREFUSED 127.0.0.1:3312
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1187:16)
+    --------------------
+    at Protocol._enqueue (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/Connection.js:116:18)
+    at Pool.getConnection (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/Pool.js:48:16)
+    at /home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/driver/mysql/MysqlDriver.ts:1241:18
+    at new Promise (<anonymous>)
+    at MysqlDriver.createPool (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/driver/mysql/MysqlDriver.ts:1238:16)
+    at MysqlDriver.connect (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/driver/mysql/MysqlDriver.ts:392:36)
+    at DataSource.initialize (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/data-source/DataSource.ts:232:27)
+    at CustomerService.get initConnect [as initConnect] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/config/config.ts:26:26)
+2023-04-04 18:39:58 error: uncaughtException: connect ECONNREFUSED 127.0.0.1:3312
+Error: connect ECONNREFUSED 127.0.0.1:3312
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1187:16)
+    --------------------
+    at Protocol._enqueue (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/Connection.js:116:18)
+    at Pool.getConnection (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/Pool.js:48:16)
+    at /home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/driver/mysql/MysqlDriver.ts:1241:18
+    at new Promise (<anonymous>)
+    at MysqlDriver.createPool (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/driver/mysql/MysqlDriver.ts:1238:16)
+    at MysqlDriver.connect (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/driver/mysql/MysqlDriver.ts:392:36)
+    at DataSource.initialize (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/data-source/DataSource.ts:232:27)
+    at CategoryService.get initConnect [as initConnect] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/config/config.ts:26:26)
+2023-04-04 18:39:58 error: uncaughtException: connect ECONNREFUSED 127.0.0.1:3312
+Error: connect ECONNREFUSED 127.0.0.1:3312
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1187:16)
+    --------------------
+    at Protocol._enqueue (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/Connection.js:116:18)
+    at Pool.getConnection (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/Pool.js:48:16)
+    at /home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/driver/mysql/MysqlDriver.ts:1241:18
+    at new Promise (<anonymous>)
+    at MysqlDriver.createPool (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/driver/mysql/MysqlDriver.ts:1238:16)
+    at MysqlDriver.connect (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/driver/mysql/MysqlDriver.ts:392:36)
+    at DataSource.initialize (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/data-source/DataSource.ts:232:27)
+    at ProductService.get initConnect [as initConnect] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/config/config.ts:26:26)
+2023-04-04 18:39:58 error: uncaughtException: connect ECONNREFUSED 127.0.0.1:3312
+Error: connect ECONNREFUSED 127.0.0.1:3312
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1187:16)
+    --------------------
+    at Protocol._enqueue (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/Connection.js:116:18)
+    at Pool.getConnection (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/Pool.js:48:16)
+    at /home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/driver/mysql/MysqlDriver.ts:1241:18
+    at new Promise (<anonymous>)
+    at MysqlDriver.createPool (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/driver/mysql/MysqlDriver.ts:1238:16)
+    at MysqlDriver.connect (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/driver/mysql/MysqlDriver.ts:392:36)
+    at DataSource.initialize (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/data-source/DataSource.ts:232:27)
+    at PurchaseService.get initConnect [as initConnect] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/config/config.ts:26:26)
+2023-04-04 18:39:58 error: uncaughtException: connect ECONNREFUSED 127.0.0.1:3312
+Error: connect ECONNREFUSED 127.0.0.1:3312
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1187:16)
+    --------------------
+    at Protocol._enqueue (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/Connection.js:116:18)
+    at Pool.getConnection (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/Pool.js:48:16)
+    at /home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/driver/mysql/MysqlDriver.ts:1241:18
+    at new Promise (<anonymous>)
+    at MysqlDriver.createPool (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/driver/mysql/MysqlDriver.ts:1238:16)
+    at MysqlDriver.connect (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/driver/mysql/MysqlDriver.ts:392:36)
+    at DataSource.initialize (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/data-source/DataSource.ts:232:27)
+    at PurchaseService.get initConnect [as initConnect] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/config/config.ts:26:26)
+2023-04-04 18:39:58 error: uncaughtException: connect ECONNREFUSED 127.0.0.1:3312
+Error: connect ECONNREFUSED 127.0.0.1:3312
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1187:16)
+    --------------------
+    at Protocol._enqueue (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/Connection.js:116:18)
+    at Pool.getConnection (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/Pool.js:48:16)
+    at /home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/driver/mysql/MysqlDriver.ts:1241:18
+    at new Promise (<anonymous>)
+    at MysqlDriver.createPool (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/driver/mysql/MysqlDriver.ts:1238:16)
+    at MysqlDriver.connect (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/driver/mysql/MysqlDriver.ts:392:36)
+    at DataSource.initialize (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/data-source/DataSource.ts:232:27)
+    at ProductService.get initConnect [as initConnect] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/config/config.ts:26:26)
+2023-04-04 18:39:58 error: uncaughtException: connect ECONNREFUSED 127.0.0.1:3312
+Error: connect ECONNREFUSED 127.0.0.1:3312
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1187:16)
+    --------------------
+    at Protocol._enqueue (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/Connection.js:116:18)
+    at Pool.getConnection (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/Pool.js:48:16)
+    at /home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/driver/mysql/MysqlDriver.ts:1241:18
+    at new Promise (<anonymous>)
+    at MysqlDriver.createPool (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/driver/mysql/MysqlDriver.ts:1238:16)
+    at MysqlDriver.connect (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/driver/mysql/MysqlDriver.ts:392:36)
+    at DataSource.initialize (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/data-source/DataSource.ts:232:27)
+    at PurchaseProductService.get initConnect [as initConnect] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/config/config.ts:26:26)
+2023-04-04 18:39:58 error: uncaughtException: connect ECONNREFUSED 127.0.0.1:3312
+Error: connect ECONNREFUSED 127.0.0.1:3312
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1187:16)
+    --------------------
+    at Protocol._enqueue (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/Connection.js:116:18)
+    at Pool.getConnection (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/Pool.js:48:16)
+    at /home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/driver/mysql/MysqlDriver.ts:1241:18
+    at new Promise (<anonymous>)
+    at MysqlDriver.createPool (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/driver/mysql/MysqlDriver.ts:1238:16)
+    at MysqlDriver.connect (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/driver/mysql/MysqlDriver.ts:392:36)
+    at DataSource.initialize (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/data-source/DataSource.ts:232:27)
+    at ProductService.get initConnect [as initConnect] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/config/config.ts:26:26)
+2023-04-04 18:39:58 error: uncaughtException: connect ECONNREFUSED 127.0.0.1:3312
+Error: connect ECONNREFUSED 127.0.0.1:3312
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1187:16)
+    --------------------
+    at Protocol._enqueue (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/Connection.js:116:18)
+    at Pool.getConnection (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/Pool.js:48:16)
+    at /home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/driver/mysql/MysqlDriver.ts:1241:18
+    at new Promise (<anonymous>)
+    at MysqlDriver.createPool (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/driver/mysql/MysqlDriver.ts:1238:16)
+    at MysqlDriver.connect (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/driver/mysql/MysqlDriver.ts:392:36)
+    at DataSource.initialize (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/data-source/DataSource.ts:232:27)
+    at PurchaseProductService.get initConnect [as initConnect] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/config/config.ts:26:26)
+2023-04-04 18:40:19 error: uncaughtException: connect ECONNREFUSED 127.0.0.1:3312
+Error: connect ECONNREFUSED 127.0.0.1:3312
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1187:16)
+    --------------------
+    at Protocol._enqueue (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/Connection.js:116:18)
+    at Pool.getConnection (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/Pool.js:48:16)
+    at /home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/driver/mysql/MysqlDriver.ts:1241:18
+    at new Promise (<anonymous>)
+    at MysqlDriver.createPool (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/driver/mysql/MysqlDriver.ts:1238:16)
+    at MysqlDriver.connect (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/driver/mysql/MysqlDriver.ts:392:36)
+    at DataSource.initialize (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/data-source/DataSource.ts:232:27)
+    at UserService.get initConnect [as initConnect] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/config/config.ts:26:26)
+2023-04-04 18:40:19 error: uncaughtException: connect ECONNREFUSED 127.0.0.1:3312
+Error: connect ECONNREFUSED 127.0.0.1:3312
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1187:16)
+    --------------------
+    at Protocol._enqueue (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/Connection.js:116:18)
+    at Pool.getConnection (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/Pool.js:48:16)
+    at /home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/driver/mysql/MysqlDriver.ts:1241:18
+    at new Promise (<anonymous>)
+    at MysqlDriver.createPool (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/driver/mysql/MysqlDriver.ts:1238:16)
+    at MysqlDriver.connect (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/driver/mysql/MysqlDriver.ts:392:36)
+    at DataSource.initialize (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/data-source/DataSource.ts:232:27)
+    at UserService.get initConnect [as initConnect] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/config/config.ts:26:26)
+2023-04-04 18:40:19 error: uncaughtException: connect ECONNREFUSED 127.0.0.1:3312
+Error: connect ECONNREFUSED 127.0.0.1:3312
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1187:16)
+    --------------------
+    at Protocol._enqueue (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/Connection.js:116:18)
+    at Pool.getConnection (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/Pool.js:48:16)
+    at /home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/driver/mysql/MysqlDriver.ts:1241:18
+    at new Promise (<anonymous>)
+    at MysqlDriver.createPool (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/driver/mysql/MysqlDriver.ts:1238:16)
+    at MysqlDriver.connect (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/driver/mysql/MysqlDriver.ts:392:36)
+    at DataSource.initialize (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/data-source/DataSource.ts:232:27)
+    at CustomerService.get initConnect [as initConnect] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/config/config.ts:26:26)
+2023-04-04 18:40:19 error: uncaughtException: connect ECONNREFUSED 127.0.0.1:3312
+Error: connect ECONNREFUSED 127.0.0.1:3312
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1187:16)
+    --------------------
+    at Protocol._enqueue (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/Connection.js:116:18)
+    at Pool.getConnection (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/Pool.js:48:16)
+    at /home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/driver/mysql/MysqlDriver.ts:1241:18
+    at new Promise (<anonymous>)
+    at MysqlDriver.createPool (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/driver/mysql/MysqlDriver.ts:1238:16)
+    at MysqlDriver.connect (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/driver/mysql/MysqlDriver.ts:392:36)
+    at DataSource.initialize (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/data-source/DataSource.ts:232:27)
+    at CategoryService.get initConnect [as initConnect] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/config/config.ts:26:26)
+2023-04-04 18:40:19 error: uncaughtException: connect ECONNREFUSED 127.0.0.1:3312
+Error: connect ECONNREFUSED 127.0.0.1:3312
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1187:16)
+    --------------------
+    at Protocol._enqueue (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/Connection.js:116:18)
+    at Pool.getConnection (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/Pool.js:48:16)
+    at /home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/driver/mysql/MysqlDriver.ts:1241:18
+    at new Promise (<anonymous>)
+    at MysqlDriver.createPool (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/driver/mysql/MysqlDriver.ts:1238:16)
+    at MysqlDriver.connect (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/driver/mysql/MysqlDriver.ts:392:36)
+    at DataSource.initialize (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/data-source/DataSource.ts:232:27)
+    at ProductService.get initConnect [as initConnect] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/config/config.ts:26:26)
+2023-04-04 18:40:19 error: uncaughtException: connect ECONNREFUSED 127.0.0.1:3312
+Error: connect ECONNREFUSED 127.0.0.1:3312
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1187:16)
+    --------------------
+    at Protocol._enqueue (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/Connection.js:116:18)
+    at Pool.getConnection (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/Pool.js:48:16)
+    at /home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/driver/mysql/MysqlDriver.ts:1241:18
+    at new Promise (<anonymous>)
+    at MysqlDriver.createPool (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/driver/mysql/MysqlDriver.ts:1238:16)
+    at MysqlDriver.connect (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/driver/mysql/MysqlDriver.ts:392:36)
+    at DataSource.initialize (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/data-source/DataSource.ts:232:27)
+    at PurchaseService.get initConnect [as initConnect] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/config/config.ts:26:26)
+2023-04-04 18:40:19 error: uncaughtException: connect ECONNREFUSED 127.0.0.1:3312
+Error: connect ECONNREFUSED 127.0.0.1:3312
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1187:16)
+    --------------------
+    at Protocol._enqueue (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/Connection.js:116:18)
+    at Pool.getConnection (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/Pool.js:48:16)
+    at /home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/driver/mysql/MysqlDriver.ts:1241:18
+    at new Promise (<anonymous>)
+    at MysqlDriver.createPool (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/driver/mysql/MysqlDriver.ts:1238:16)
+    at MysqlDriver.connect (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/driver/mysql/MysqlDriver.ts:392:36)
+    at DataSource.initialize (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/data-source/DataSource.ts:232:27)
+    at PurchaseService.get initConnect [as initConnect] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/config/config.ts:26:26)
+2023-04-04 18:40:19 error: uncaughtException: connect ECONNREFUSED 127.0.0.1:3312
+Error: connect ECONNREFUSED 127.0.0.1:3312
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1187:16)
+    --------------------
+    at Protocol._enqueue (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/Connection.js:116:18)
+    at Pool.getConnection (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/Pool.js:48:16)
+    at /home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/driver/mysql/MysqlDriver.ts:1241:18
+    at new Promise (<anonymous>)
+    at MysqlDriver.createPool (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/driver/mysql/MysqlDriver.ts:1238:16)
+    at MysqlDriver.connect (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/driver/mysql/MysqlDriver.ts:392:36)
+    at DataSource.initialize (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/data-source/DataSource.ts:232:27)
+    at ProductService.get initConnect [as initConnect] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/config/config.ts:26:26)
+2023-04-04 18:40:19 error: uncaughtException: connect ECONNREFUSED 127.0.0.1:3312
+Error: connect ECONNREFUSED 127.0.0.1:3312
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1187:16)
+    --------------------
+    at Protocol._enqueue (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/Connection.js:116:18)
+    at Pool.getConnection (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/Pool.js:48:16)
+    at /home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/driver/mysql/MysqlDriver.ts:1241:18
+    at new Promise (<anonymous>)
+    at MysqlDriver.createPool (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/driver/mysql/MysqlDriver.ts:1238:16)
+    at MysqlDriver.connect (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/driver/mysql/MysqlDriver.ts:392:36)
+    at DataSource.initialize (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/data-source/DataSource.ts:232:27)
+    at PurchaseProductService.get initConnect [as initConnect] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/config/config.ts:26:26)
+2023-04-04 18:40:19 error: uncaughtException: connect ECONNREFUSED 127.0.0.1:3312
+Error: connect ECONNREFUSED 127.0.0.1:3312
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1187:16)
+    --------------------
+    at Protocol._enqueue (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/Connection.js:116:18)
+    at Pool.getConnection (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/Pool.js:48:16)
+    at /home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/driver/mysql/MysqlDriver.ts:1241:18
+    at new Promise (<anonymous>)
+    at MysqlDriver.createPool (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/driver/mysql/MysqlDriver.ts:1238:16)
+    at MysqlDriver.connect (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/driver/mysql/MysqlDriver.ts:392:36)
+    at DataSource.initialize (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/data-source/DataSource.ts:232:27)
+    at ProductService.get initConnect [as initConnect] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/config/config.ts:26:26)
+2023-04-04 18:40:19 error: uncaughtException: connect ECONNREFUSED 127.0.0.1:3312
+Error: connect ECONNREFUSED 127.0.0.1:3312
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1187:16)
+    --------------------
+    at Protocol._enqueue (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/Connection.js:116:18)
+    at Pool.getConnection (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/Pool.js:48:16)
+    at /home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/driver/mysql/MysqlDriver.ts:1241:18
+    at new Promise (<anonymous>)
+    at MysqlDriver.createPool (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/driver/mysql/MysqlDriver.ts:1238:16)
+    at MysqlDriver.connect (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/driver/mysql/MysqlDriver.ts:392:36)
+    at DataSource.initialize (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/data-source/DataSource.ts:232:27)
+    at PurchaseProductService.get initConnect [as initConnect] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/config/config.ts:26:26)
+2023-04-04 18:40:59 error: uncaughtException: connect ECONNREFUSED 127.0.0.1:3312
+Error: connect ECONNREFUSED 127.0.0.1:3312
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1187:16)
+    --------------------
+    at Protocol._enqueue (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/Connection.js:116:18)
+    at Pool.getConnection (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/Pool.js:48:16)
+    at /home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/driver/mysql/MysqlDriver.ts:1241:18
+    at new Promise (<anonymous>)
+    at MysqlDriver.createPool (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/driver/mysql/MysqlDriver.ts:1238:16)
+    at MysqlDriver.connect (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/driver/mysql/MysqlDriver.ts:392:36)
+    at DataSource.initialize (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/data-source/DataSource.ts:232:27)
+    at UserService.get initConnect [as initConnect] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/config/config.ts:26:26)
+2023-04-04 18:40:59 error: uncaughtException: connect ECONNREFUSED 127.0.0.1:3312
+Error: connect ECONNREFUSED 127.0.0.1:3312
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1187:16)
+    --------------------
+    at Protocol._enqueue (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/Connection.js:116:18)
+    at Pool.getConnection (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/Pool.js:48:16)
+    at /home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/driver/mysql/MysqlDriver.ts:1241:18
+    at new Promise (<anonymous>)
+    at MysqlDriver.createPool (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/driver/mysql/MysqlDriver.ts:1238:16)
+    at MysqlDriver.connect (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/driver/mysql/MysqlDriver.ts:392:36)
+    at DataSource.initialize (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/data-source/DataSource.ts:232:27)
+    at UserService.get initConnect [as initConnect] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/config/config.ts:26:26)
+2023-04-04 18:40:59 error: uncaughtException: connect ECONNREFUSED 127.0.0.1:3312
+Error: connect ECONNREFUSED 127.0.0.1:3312
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1187:16)
+    --------------------
+    at Protocol._enqueue (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/Connection.js:116:18)
+    at Pool.getConnection (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/Pool.js:48:16)
+    at /home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/driver/mysql/MysqlDriver.ts:1241:18
+    at new Promise (<anonymous>)
+    at MysqlDriver.createPool (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/driver/mysql/MysqlDriver.ts:1238:16)
+    at MysqlDriver.connect (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/driver/mysql/MysqlDriver.ts:392:36)
+    at DataSource.initialize (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/data-source/DataSource.ts:232:27)
+    at CustomerService.get initConnect [as initConnect] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/config/config.ts:26:26)
+2023-04-04 18:40:59 error: uncaughtException: connect ECONNREFUSED 127.0.0.1:3312
+Error: connect ECONNREFUSED 127.0.0.1:3312
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1187:16)
+    --------------------
+    at Protocol._enqueue (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/Connection.js:116:18)
+    at Pool.getConnection (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/Pool.js:48:16)
+    at /home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/driver/mysql/MysqlDriver.ts:1241:18
+    at new Promise (<anonymous>)
+    at MysqlDriver.createPool (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/driver/mysql/MysqlDriver.ts:1238:16)
+    at MysqlDriver.connect (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/driver/mysql/MysqlDriver.ts:392:36)
+    at DataSource.initialize (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/data-source/DataSource.ts:232:27)
+    at CategoryService.get initConnect [as initConnect] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/config/config.ts:26:26)
+2023-04-04 18:40:59 error: uncaughtException: connect ECONNREFUSED 127.0.0.1:3312
+Error: connect ECONNREFUSED 127.0.0.1:3312
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1187:16)
+    --------------------
+    at Protocol._enqueue (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/Connection.js:116:18)
+    at Pool.getConnection (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/Pool.js:48:16)
+    at /home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/driver/mysql/MysqlDriver.ts:1241:18
+    at new Promise (<anonymous>)
+    at MysqlDriver.createPool (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/driver/mysql/MysqlDriver.ts:1238:16)
+    at MysqlDriver.connect (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/driver/mysql/MysqlDriver.ts:392:36)
+    at DataSource.initialize (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/data-source/DataSource.ts:232:27)
+    at ProductService.get initConnect [as initConnect] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/config/config.ts:26:26)
+2023-04-04 18:40:59 error: uncaughtException: connect ECONNREFUSED 127.0.0.1:3312
+Error: connect ECONNREFUSED 127.0.0.1:3312
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1187:16)
+    --------------------
+    at Protocol._enqueue (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/Connection.js:116:18)
+    at Pool.getConnection (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/Pool.js:48:16)
+    at /home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/driver/mysql/MysqlDriver.ts:1241:18
+    at new Promise (<anonymous>)
+    at MysqlDriver.createPool (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/driver/mysql/MysqlDriver.ts:1238:16)
+    at MysqlDriver.connect (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/driver/mysql/MysqlDriver.ts:392:36)
+    at DataSource.initialize (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/data-source/DataSource.ts:232:27)
+    at PurchaseService.get initConnect [as initConnect] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/config/config.ts:26:26)
+2023-04-04 18:40:59 error: uncaughtException: connect ECONNREFUSED 127.0.0.1:3312
+Error: connect ECONNREFUSED 127.0.0.1:3312
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1187:16)
+    --------------------
+    at Protocol._enqueue (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/Connection.js:116:18)
+    at Pool.getConnection (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/Pool.js:48:16)
+    at /home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/driver/mysql/MysqlDriver.ts:1241:18
+    at new Promise (<anonymous>)
+    at MysqlDriver.createPool (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/driver/mysql/MysqlDriver.ts:1238:16)
+    at MysqlDriver.connect (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/driver/mysql/MysqlDriver.ts:392:36)
+    at DataSource.initialize (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/data-source/DataSource.ts:232:27)
+    at PurchaseService.get initConnect [as initConnect] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/config/config.ts:26:26)
+2023-04-04 18:40:59 error: uncaughtException: connect ECONNREFUSED 127.0.0.1:3312
+Error: connect ECONNREFUSED 127.0.0.1:3312
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1187:16)
+    --------------------
+    at Protocol._enqueue (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/Connection.js:116:18)
+    at Pool.getConnection (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/Pool.js:48:16)
+    at /home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/driver/mysql/MysqlDriver.ts:1241:18
+    at new Promise (<anonymous>)
+    at MysqlDriver.createPool (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/driver/mysql/MysqlDriver.ts:1238:16)
+    at MysqlDriver.connect (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/driver/mysql/MysqlDriver.ts:392:36)
+    at DataSource.initialize (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/data-source/DataSource.ts:232:27)
+    at ProductService.get initConnect [as initConnect] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/config/config.ts:26:26)
+2023-04-04 18:40:59 error: uncaughtException: connect ECONNREFUSED 127.0.0.1:3312
+Error: connect ECONNREFUSED 127.0.0.1:3312
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1187:16)
+    --------------------
+    at Protocol._enqueue (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/Connection.js:116:18)
+    at Pool.getConnection (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/Pool.js:48:16)
+    at /home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/driver/mysql/MysqlDriver.ts:1241:18
+    at new Promise (<anonymous>)
+    at MysqlDriver.createPool (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/driver/mysql/MysqlDriver.ts:1238:16)
+    at MysqlDriver.connect (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/driver/mysql/MysqlDriver.ts:392:36)
+    at DataSource.initialize (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/data-source/DataSource.ts:232:27)
+    at PurchaseProductService.get initConnect [as initConnect] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/config/config.ts:26:26)
+2023-04-04 18:40:59 error: uncaughtException: connect ECONNREFUSED 127.0.0.1:3312
+Error: connect ECONNREFUSED 127.0.0.1:3312
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1187:16)
+    --------------------
+    at Protocol._enqueue (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/Connection.js:116:18)
+    at Pool.getConnection (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/Pool.js:48:16)
+    at /home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/driver/mysql/MysqlDriver.ts:1241:18
+    at new Promise (<anonymous>)
+    at MysqlDriver.createPool (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/driver/mysql/MysqlDriver.ts:1238:16)
+    at MysqlDriver.connect (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/driver/mysql/MysqlDriver.ts:392:36)
+    at DataSource.initialize (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/data-source/DataSource.ts:232:27)
+    at ProductService.get initConnect [as initConnect] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/config/config.ts:26:26)
+2023-04-04 18:40:59 error: uncaughtException: connect ECONNREFUSED 127.0.0.1:3312
+Error: connect ECONNREFUSED 127.0.0.1:3312
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1187:16)
+    --------------------
+    at Protocol._enqueue (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/Connection.js:116:18)
+    at Pool.getConnection (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/Pool.js:48:16)
+    at /home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/driver/mysql/MysqlDriver.ts:1241:18
+    at new Promise (<anonymous>)
+    at MysqlDriver.createPool (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/driver/mysql/MysqlDriver.ts:1238:16)
+    at MysqlDriver.connect (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/driver/mysql/MysqlDriver.ts:392:36)
+    at DataSource.initialize (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/data-source/DataSource.ts:232:27)
+    at PurchaseProductService.get initConnect [as initConnect] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/config/config.ts:26:26)
+2023-04-04 18:51:24 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/user/middleware/user.middleware.ts(26,27): error TS2552: Cannot find name 'errors'. Did you mean 'Error'?
+src/user/middleware/user.middleware.ts(26,46): error TS2304: Cannot find name 'ValidationError'.
+
+Error: ⨯ Unable to compile TypeScript:
+src/user/middleware/user.middleware.ts(26,27): error TS2552: Cannot find name 'errors'. Did you mean 'Error'?
+src/user/middleware/user.middleware.ts(26,46): error TS2304: Cannot find name 'ValidationError'.
+
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/user/middleware/user.middleware.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-27095789147133.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-27095789147133.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-27095789147133.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2023-04-04 18:51:31 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/user/middleware/user.middleware.ts(26,43): error TS2304: Cannot find name 'ValidationError'.
+
+Error: ⨯ Unable to compile TypeScript:
+src/user/middleware/user.middleware.ts(26,43): error TS2304: Cannot find name 'ValidationError'.
+
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/user/middleware/user.middleware.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-27095789147133.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-27095789147133.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-27095789147133.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2023-04-04 18:55:56 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/purchase/middlewares/purchase.middleware.ts(19,45): error TS2304: Cannot find name 'ValidationError'.
+
+Error: ⨯ Unable to compile TypeScript:
+src/purchase/middlewares/purchase.middleware.ts(19,45): error TS2304: Cannot find name 'ValidationError'.
+
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/purchase/middlewares/purchase.middleware.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-27095789147133.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-27095789147133.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-27095789147133.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2023-04-04 18:56:04 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/purchase/middlewares/purchase.middleware.ts(19,45): error TS2304: Cannot find name 'ValidationError'.
+
+Error: ⨯ Unable to compile TypeScript:
+src/purchase/middlewares/purchase.middleware.ts(19,45): error TS2304: Cannot find name 'ValidationError'.
+
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/purchase/middlewares/purchase.middleware.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-27095789147133.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-27095789147133.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-27095789147133.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2023-04-04 18:56:13 error: uncaughtException: write EPIPE
+Error: write EPIPE
+    at process.target._send (node:internal/child_process:866:20)
+    at process.target.send (node:internal/child_process:739:19)
+    at Object.exports.send (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/ts-node-dev/lib/ipc.js:17:14)
+    at /home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/ts-node-dev/lib/wrap.js:88:9
+    at Object.nodeDevHook [as .js] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/ts-node-dev/lib/hook.js:61:17)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/mysql/lib/Connection.js:5:24)
+2023-04-04 18:56:18 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/purchase/middlewares/purchase-product.middelware.ts(20,43): error TS2304: Cannot find name 'ValidationError'.
+src/purchase/middlewares/purchase-product.middelware.ts(21,45): error TS2304: Cannot find name 'dto'.
+
+Error: ⨯ Unable to compile TypeScript:
+src/purchase/middlewares/purchase-product.middelware.ts(20,43): error TS2304: Cannot find name 'ValidationError'.
+src/purchase/middlewares/purchase-product.middelware.ts(21,45): error TS2304: Cannot find name 'dto'.
+
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/purchase/middlewares/purchase-product.middelware.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-27095789147133.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-27095789147133.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-27095789147133.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2023-04-04 19:10:31 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/user/middleware/user.middleware.ts(8,17): error TS6133: 'req' is declared but its value is never read.
+src/user/middleware/user.middleware.ts(13,5): error TS2304: Cannot find name 'valid'.
+src/user/middleware/user.middleware.ts(14,5): error TS2304: Cannot find name 'valid'.
+src/user/middleware/user.middleware.ts(14,22): error TS2304: Cannot find name 'lastname'.
+src/user/middleware/user.middleware.ts(15,5): error TS2304: Cannot find name 'valid'.
+src/user/middleware/user.middleware.ts(15,22): error TS2304: Cannot find name 'username'.
+src/user/middleware/user.middleware.ts(16,5): error TS2304: Cannot find name 'valid'.
+src/user/middleware/user.middleware.ts(16,19): error TS2304: Cannot find name 'email'.
+src/user/middleware/user.middleware.ts(17,5): error TS2304: Cannot find name 'valid'.
+src/user/middleware/user.middleware.ts(17,22): error TS2304: Cannot find name 'password'.
+src/user/middleware/user.middleware.ts(18,5): error TS2304: Cannot find name 'valid'.
+src/user/middleware/user.middleware.ts(18,18): error TS2304: Cannot find name 'city'.
+src/user/middleware/user.middleware.ts(19,5): error TS2304: Cannot find name 'valid'.
+src/user/middleware/user.middleware.ts(19,22): error TS2304: Cannot find name 'province'.
+src/user/middleware/user.middleware.ts(20,5): error TS2304: Cannot find name 'valid'.
+src/user/middleware/user.middleware.ts(20,18): error TS2304: Cannot find name 'role'.
+src/user/middleware/user.middleware.ts(22,14): error TS2304: Cannot find name 'valid'.
+
+Error: ⨯ Unable to compile TypeScript:
+src/user/middleware/user.middleware.ts(8,17): error TS6133: 'req' is declared but its value is never read.
+src/user/middleware/user.middleware.ts(13,5): error TS2304: Cannot find name 'valid'.
+src/user/middleware/user.middleware.ts(14,5): error TS2304: Cannot find name 'valid'.
+src/user/middleware/user.middleware.ts(14,22): error TS2304: Cannot find name 'lastname'.
+src/user/middleware/user.middleware.ts(15,5): error TS2304: Cannot find name 'valid'.
+src/user/middleware/user.middleware.ts(15,22): error TS2304: Cannot find name 'username'.
+src/user/middleware/user.middleware.ts(16,5): error TS2304: Cannot find name 'valid'.
+src/user/middleware/user.middleware.ts(16,19): error TS2304: Cannot find name 'email'.
+src/user/middleware/user.middleware.ts(17,5): error TS2304: Cannot find name 'valid'.
+src/user/middleware/user.middleware.ts(17,22): error TS2304: Cannot find name 'password'.
+src/user/middleware/user.middleware.ts(18,5): error TS2304: Cannot find name 'valid'.
+src/user/middleware/user.middleware.ts(18,18): error TS2304: Cannot find name 'city'.
+src/user/middleware/user.middleware.ts(19,5): error TS2304: Cannot find name 'valid'.
+src/user/middleware/user.middleware.ts(19,22): error TS2304: Cannot find name 'province'.
+src/user/middleware/user.middleware.ts(20,5): error TS2304: Cannot find name 'valid'.
+src/user/middleware/user.middleware.ts(20,18): error TS2304: Cannot find name 'role'.
+src/user/middleware/user.middleware.ts(22,14): error TS2304: Cannot find name 'valid'.
+
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/user/middleware/user.middleware.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-27095789147133.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-27095789147133.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-27095789147133.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2023-04-04 19:10:40 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/user/middleware/user.middleware.ts(22,20): error TS2304: Cannot find name 'plainToClass'.
+src/user/middleware/user.middleware.ts(22,33): error TS2304: Cannot find name 'type'.
+src/user/middleware/user.middleware.ts(24,14): error TS2304: Cannot find name 'valid'.
+
+Error: ⨯ Unable to compile TypeScript:
+src/user/middleware/user.middleware.ts(22,20): error TS2304: Cannot find name 'plainToClass'.
+src/user/middleware/user.middleware.ts(22,33): error TS2304: Cannot find name 'type'.
+src/user/middleware/user.middleware.ts(24,14): error TS2304: Cannot find name 'valid'.
+
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/user/middleware/user.middleware.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-27095789147133.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-27095789147133.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-27095789147133.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2023-04-04 19:10:48 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/user/middleware/user.middleware.ts(22,20): error TS2304: Cannot find name 'plainToClass'.
+src/user/middleware/user.middleware.ts(22,33): error TS2304: Cannot find name 'type'.
+
+Error: ⨯ Unable to compile TypeScript:
+src/user/middleware/user.middleware.ts(22,20): error TS2304: Cannot find name 'plainToClass'.
+src/user/middleware/user.middleware.ts(22,33): error TS2304: Cannot find name 'type'.
+
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/user/middleware/user.middleware.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-27095789147133.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-27095789147133.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-27095789147133.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2023-04-04 19:10:57 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/user/middleware/user.middleware.ts(22,20): error TS2304: Cannot find name 'plainToClass'.
+src/user/middleware/user.middleware.ts(22,33): error TS2304: Cannot find name 'type'.
+src/user/middleware/user.middleware.ts(24,24): error TS18004: No value exists in scope for the shorthand property 'skipMissingProperties'. Either declare one or provide an initializer.
+
+Error: ⨯ Unable to compile TypeScript:
+src/user/middleware/user.middleware.ts(22,20): error TS2304: Cannot find name 'plainToClass'.
+src/user/middleware/user.middleware.ts(22,33): error TS2304: Cannot find name 'type'.
+src/user/middleware/user.middleware.ts(24,24): error TS18004: No value exists in scope for the shorthand property 'skipMissingProperties'. Either declare one or provide an initializer.
+
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/user/middleware/user.middleware.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-27095789147133.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-27095789147133.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-27095789147133.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2023-04-04 19:11:03 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/user/middleware/user.middleware.ts(23,33): error TS2304: Cannot find name 'type'.
+src/user/middleware/user.middleware.ts(25,24): error TS18004: No value exists in scope for the shorthand property 'skipMissingProperties'. Either declare one or provide an initializer.
+
+Error: ⨯ Unable to compile TypeScript:
+src/user/middleware/user.middleware.ts(23,33): error TS2304: Cannot find name 'type'.
+src/user/middleware/user.middleware.ts(25,24): error TS18004: No value exists in scope for the shorthand property 'skipMissingProperties'. Either declare one or provide an initializer.
+
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/user/middleware/user.middleware.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-27095789147133.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-27095789147133.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-27095789147133.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2023-04-04 19:11:21 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/user/middleware/user.middleware.ts(23,33): error TS2304: Cannot find name 'type'.
+
+Error: ⨯ Unable to compile TypeScript:
+src/user/middleware/user.middleware.ts(23,33): error TS2304: Cannot find name 'type'.
+
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/user/middleware/user.middleware.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-27095789147133.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-27095789147133.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-27095789147133.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2023-04-04 19:12:16 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/user/middleware/user.middleware.ts(30,9): error TS2304: Cannot find name 'sanitize'.
+
+Error: ⨯ Unable to compile TypeScript:
+src/user/middleware/user.middleware.ts(30,9): error TS2304: Cannot find name 'sanitize'.
+
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/user/middleware/user.middleware.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-27095789147133.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-27095789147133.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-27095789147133.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2023-04-04 19:18:43 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/purchase/middlewares/purchase-product.middelware.ts(10,20): error TS2304: Cannot find name 'plainToClass'.
+src/purchase/middlewares/purchase-product.middelware.ts(10,33): error TS2304: Cannot find name 'type'.
+src/purchase/middlewares/purchase-product.middelware.ts(12,14): error TS2304: Cannot find name 'valid'.
+
+Error: ⨯ Unable to compile TypeScript:
+src/purchase/middlewares/purchase-product.middelware.ts(10,20): error TS2304: Cannot find name 'plainToClass'.
+src/purchase/middlewares/purchase-product.middelware.ts(10,33): error TS2304: Cannot find name 'type'.
+src/purchase/middlewares/purchase-product.middelware.ts(12,14): error TS2304: Cannot find name 'valid'.
+
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/purchase/middlewares/purchase-product.middelware.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-27095789147133.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-27095789147133.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-27095789147133.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2023-04-04 19:18:52 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/purchase/middlewares/purchase-product.middelware.ts(10,20): error TS2304: Cannot find name 'plainToClass'.
+src/purchase/middlewares/purchase-product.middelware.ts(12,14): error TS2304: Cannot find name 'valid'.
+
+Error: ⨯ Unable to compile TypeScript:
+src/purchase/middlewares/purchase-product.middelware.ts(10,20): error TS2304: Cannot find name 'plainToClass'.
+src/purchase/middlewares/purchase-product.middelware.ts(12,14): error TS2304: Cannot find name 'valid'.
+
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/purchase/middlewares/purchase-product.middelware.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-27095789147133.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-27095789147133.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-27095789147133.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2023-04-04 19:19:01 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/purchase/middlewares/purchase-product.middelware.ts(13,14): error TS2304: Cannot find name 'valid'.
+
+Error: ⨯ Unable to compile TypeScript:
+src/purchase/middlewares/purchase-product.middelware.ts(13,14): error TS2304: Cannot find name 'valid'.
+
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/purchase/middlewares/purchase-product.middelware.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-27095789147133.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-27095789147133.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-27095789147133.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2023-04-04 19:19:22 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/purchase/middlewares/purchase-product.middelware.ts(18,9): error TS2304: Cannot find name 'sanitize'.
+
+Error: ⨯ Unable to compile TypeScript:
+src/purchase/middlewares/purchase-product.middelware.ts(18,9): error TS2304: Cannot find name 'sanitize'.
+
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/purchase/middlewares/purchase-product.middelware.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-27095789147133.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-27095789147133.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-27095789147133.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2023-04-04 19:19:57 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/purchase/middlewares/purchase.middleware.ts(9,20): error TS2304: Cannot find name 'plainToClass'.
+src/purchase/middlewares/purchase.middleware.ts(9,33): error TS2304: Cannot find name 'type'.
+src/purchase/middlewares/purchase.middleware.ts(12,16): error TS2304: Cannot find name 'valid'.
+
+Error: ⨯ Unable to compile TypeScript:
+src/purchase/middlewares/purchase.middleware.ts(9,20): error TS2304: Cannot find name 'plainToClass'.
+src/purchase/middlewares/purchase.middleware.ts(9,33): error TS2304: Cannot find name 'type'.
+src/purchase/middlewares/purchase.middleware.ts(12,16): error TS2304: Cannot find name 'valid'.
+
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/purchase/middlewares/purchase.middleware.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-27095789147133.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-27095789147133.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-27095789147133.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2023-04-04 19:20:04 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/purchase/middlewares/purchase.middleware.ts(9,20): error TS2304: Cannot find name 'plainToClass'.
+src/purchase/middlewares/purchase.middleware.ts(9,33): error TS2304: Cannot find name 'type'.
+
+Error: ⨯ Unable to compile TypeScript:
+src/purchase/middlewares/purchase.middleware.ts(9,20): error TS2304: Cannot find name 'plainToClass'.
+src/purchase/middlewares/purchase.middleware.ts(9,33): error TS2304: Cannot find name 'type'.
+
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/purchase/middlewares/purchase.middleware.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-27095789147133.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-27095789147133.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-27095789147133.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2023-04-04 19:50:20 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/customer/entities/customer.entity.ts(2,26): error TS2307: Cannot find module '../interfaces/customer.interface' or its corresponding type declarations.
+
+Error: ⨯ Unable to compile TypeScript:
+src/customer/entities/customer.entity.ts(2,26): error TS2307: Cannot find module '../interfaces/customer.interface' or its corresponding type declarations.
+
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/customer/entities/customer.entity.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-8782048508058442.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-8782048508058442.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-8782048508058442.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2023-04-04 19:50:49 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/customer/dto/customer.dto.ts(3,26): error TS2307: Cannot find module '../interfaces/customer.interface' or its corresponding type declarations.
+
+Error: ⨯ Unable to compile TypeScript:
+src/customer/dto/customer.dto.ts(3,26): error TS2307: Cannot find module '../interfaces/customer.interface' or its corresponding type declarations.
+
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/customer/dto/customer.dto.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-08163481114435767.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-08163481114435767.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-08163481114435767.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2023-04-04 20:06:17 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/routes/user.routes.ts(4,32): error TS2307: Cannot find module '../user/middleware/user.middleware' or its corresponding type declarations.
+
+Error: ⨯ Unable to compile TypeScript:
+src/routes/user.routes.ts(4,32): error TS2307: Cannot find module '../user/middleware/user.middleware' or its corresponding type declarations.
+
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/routes/user.routes.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-6482060213384133.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-6482060213384133.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-6482060213384133.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)

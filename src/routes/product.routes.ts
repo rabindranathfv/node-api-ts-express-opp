@@ -1,13 +1,16 @@
 import { Router } from 'express';
-import { Routes } from '../interfaces/route.interface';
 import { ProductController } from '../product/product.controller';
+import { BaseRouter } from '../shared/route/base.route';
+import { ValidateMiddlewareDTO } from '../middlewares/validate-dto.middleware';
+import { ProductDTO } from '../product/dto/product.dto';
 
-class ProductRoute implements Routes {
+class ProductRoute extends BaseRouter<ProductController, ValidateMiddlewareDTO> {
   public path = '/products';
   public router = Router();
   public productController = new ProductController();
 
   constructor() {
+    super(ProductController, ValidateMiddlewareDTO);
     this.initProductRoutes();
   }
 
@@ -16,7 +19,11 @@ class ProductRoute implements Routes {
 
     this.router.get(`${this.path}/:id`, (req, res) => this.productController.getProductById(req, res));
 
-    this.router.post(`${this.path}`, (req, res) => this.productController.createProduct(req, res));
+    this.router.post(
+      `${this.path}`,
+      (req, res, next) => [this.middleware.validator(req, res, next, ProductDTO)],
+      (req, res) => this.productController.createProduct(req, res),
+    );
 
     this.router.put(`${this.path}/:id`, (req, res) => this.productController.updateProduct(req, res));
 

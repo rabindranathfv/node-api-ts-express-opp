@@ -1,8 +1,7 @@
 import { IsDate, IsNotEmpty, IsOptional } from 'class-validator';
 import { UserEntity } from '../../user/entities/user.entity';
-import { Customer } from '../interfaces/customer.interface';
 
-export class CustomerDTO implements Customer {
+export class CustomerDTO {
   @IsOptional()
   id!: string;
 

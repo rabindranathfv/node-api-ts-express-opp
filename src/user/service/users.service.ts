@@ -1,8 +1,8 @@
-import { HttpException } from '../exceptions/httpExceptions';
+import { HttpException } from '../../exceptions/httpExceptions';
 
-import { UserEntity } from './entities/user.entity';
-import { BaseService } from '../config/base.service';
-import { UserDTO } from './dto/user.dto';
+import { UserEntity } from '../entities/user.entity';
+import { BaseService } from '../../config/base.service';
+import { UserDTO } from '../dto/user.dto';
 import { DeleteResult, UpdateResult } from 'typeorm';
 
 class UserService extends BaseService<UserEntity> {

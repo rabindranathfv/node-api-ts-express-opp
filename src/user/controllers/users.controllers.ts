@@ -1,6 +1,6 @@
 import { Request, Response } from 'express';
-import { HttpResponse } from '../shared/response/http.response';
-import UserService from './users.service';
+import { HttpResponse } from '../../shared/response/http.response';
+import UserService from '../service/users.service';
 import { UpdateResult, DeleteResult } from 'typeorm';
 
 class UserController {

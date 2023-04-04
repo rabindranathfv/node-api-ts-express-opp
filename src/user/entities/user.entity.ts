@@ -1,11 +1,9 @@
-import { crossOriginResourcePolicy } from 'helmet';
 import { Entity, PrimaryGeneratedColumn, Column, Unique, CreateDateColumn, UpdateDateColumn, OneToOne } from 'typeorm';
 import { CustomerEntity } from '../../customer/entities/customer.entity';
 import { RoleType } from '../dto/user.dto';
-import { User } from '../user.interface';
 
 @Entity({ name: 'user' })
-export class UserEntity implements User {
+export class UserEntity {
   @PrimaryGeneratedColumn('uuid')
   id!: string;
 
