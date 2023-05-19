@@ -9,7 +9,7 @@ export class PurchaseProductDTO {
   @IsNotEmpty()
   quantityProduct!: number;
 
-  @IsNotEmpty()
+  @IsOptional()
   totalPrice!: number;
 
   @IsOptional()

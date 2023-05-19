@@ -16,7 +16,8 @@ export class PurchaseProductService extends BaseService<PurchaseProductEntity> {
     return (await this.execRepository).findOneBy({ id });
   }
   async createPurchaseProduct(body: PurchaseProductDTO): Promise<PurchaseProductEntity> {
-    const newPurchaseProduct = (await this.execRepository).save(body);
+    console.log('🚀 ~ file: purchase-product.service.ts:19 ~ PurchaseProductService ~ createPurchaseProduct ~ body:', body);
+    const newPurchaseProduct = (await this.execRepository).create(body);
     const product = await this.productService.findProductById((await newPurchaseProduct).product.id);
 
     // eslint-disable-next-line @typescript-eslint/no-non-null-assertion

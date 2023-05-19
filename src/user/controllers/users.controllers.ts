@@ -37,6 +37,18 @@ class UserController {
     }
   };
 
+  public findUserByIdWithRelCtrl = async (req: Request, res: Response) => {
+    try {
+      const usersRes = await this.userService.findUserByIdwithRelation(req.params.id);
+      if (!usersRes) {
+        return this.httpResponse.NotFound(res, 'user does not exist');
+      }
+      return this.httpResponse.OK(res, usersRes);
+    } catch (error) {
+      return this.httpResponse.Error(res, error);
+    }
+  };
+
   public updateUserCtrl = async (req: Request, res: Response) => {
     try {
       const usersRes: UpdateResult = await this.userService.updateUser(req.params.id, req.body);

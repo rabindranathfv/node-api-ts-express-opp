@@ -5,7 +5,7 @@ import { PurchaseProductDTO } from '../purchase/dto/purchase-product.dto';
 import { ValidateMiddlewareDTO } from '../middlewares/validate-dto.middleware';
 
 class PurchaseProductRouter extends BaseRouter<PurchaseProductController, ValidateMiddlewareDTO> {
-  public path = '/purchaseProducts';
+  public path = '/purchase-products';
   public router = Router();
   public purchaseProductController = new PurchaseProductController();
 

@@ -12,7 +12,7 @@ export class ValidateMiddlewareDTO {
     validate(dtoObj).then((err) => {
       if (err.length > 0) {
         const dtoErrors = err.map((error: ValidationError) => (Object as any).values(error.constraints)).join(', ');
-        return this.httpResponse.Error(res, dtoErrors);
+        return this.httpResponse.BadRequest(res, dtoErrors);
       } else {
         sanitize(dtoObj);
         req.body = dtoObj;

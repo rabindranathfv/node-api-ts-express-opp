@@ -1,0 +1,366 @@
+2023-04-05 15:51:07 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/shared/response/http.response.ts(37,3): error TS7010: 'BadRequest', which lacks return-type annotation, implicitly has an 'any' return type.
+src/shared/response/http.response.ts(39,3): error TS2389: Function implementation name must be 'BadRequest'.
+
+Error: ⨯ Unable to compile TypeScript:
+src/shared/response/http.response.ts(37,3): error TS7010: 'BadRequest', which lacks return-type annotation, implicitly has an 'any' return type.
+src/shared/response/http.response.ts(39,3): error TS2389: Function implementation name must be 'BadRequest'.
+
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/shared/response/http.response.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-5668651870999508.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-5668651870999508.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-5668651870999508.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2023-04-05 15:51:22 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/shared/response/http.response.ts(37,14): error TS6133: 'res' is declared but its value is never read.
+src/shared/response/http.response.ts(37,29): error TS6133: 'data' is declared but its value is never read.
+src/shared/response/http.response.ts(37,41): error TS2355: A function whose declared type is neither 'void' nor 'any' must return a value.
+
+Error: ⨯ Unable to compile TypeScript:
+src/shared/response/http.response.ts(37,14): error TS6133: 'res' is declared but its value is never read.
+src/shared/response/http.response.ts(37,29): error TS6133: 'data' is declared but its value is never read.
+src/shared/response/http.response.ts(37,41): error TS2355: A function whose declared type is neither 'void' nor 'any' must return a value.
+
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/shared/response/http.response.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-5668651870999508.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-5668651870999508.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-5668651870999508.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2023-04-05 16:31:57 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/user/controllers/users.controllers.ts(40,10): error TS2300: Duplicate identifier 'findUserByIdCtrl'.
+
+Error: ⨯ Unable to compile TypeScript:
+src/user/controllers/users.controllers.ts(40,10): error TS2300: Duplicate identifier 'findUserByIdCtrl'.
+
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/user/controllers/users.controllers.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-4007601041550126.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-4007601041550126.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-4007601041550126.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2023-04-05 16:33:51 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/user/controllers/users.controllers.ts(30,24): error TS2304: Cannot find name 'awa'.
+src/user/controllers/users.controllers.ts(31,7): error TS2582: Cannot find name 'it'. Do you need to install type definitions for a test runner? Try `npm i --save-dev @types/jest` or `npm i --save-dev @types/mocha`.
+src/user/controllers/users.controllers.ts(31,7): error TS1434: Unexpected keyword or identifier.
+
+Error: ⨯ Unable to compile TypeScript:
+src/user/controllers/users.controllers.ts(30,24): error TS2304: Cannot find name 'awa'.
+src/user/controllers/users.controllers.ts(31,7): error TS2582: Cannot find name 'it'. Do you need to install type definitions for a test runner? Try `npm i --save-dev @types/jest` or `npm i --save-dev @types/mocha`.
+src/user/controllers/users.controllers.ts(31,7): error TS1434: Unexpected keyword or identifier.
+
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/user/controllers/users.controllers.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-4007601041550126.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-4007601041550126.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-4007601041550126.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2023-04-05 16:33:57 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/user/controllers/users.controllers.ts(30,13): error TS1182: A destructuring declaration must have an initializer.
+
+Error: ⨯ Unable to compile TypeScript:
+src/user/controllers/users.controllers.ts(30,13): error TS1182: A destructuring declaration must have an initializer.
+
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/user/controllers/users.controllers.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-4007601041550126.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-4007601041550126.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-4007601041550126.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2023-04-05 16:34:02 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/user/controllers/users.controllers.ts(30,13): error TS1182: A destructuring declaration must have an initializer.
+src/user/controllers/users.controllers.ts(30,15): error TS7031: Binding element 'id' implicitly has an 'any' type.
+
+Error: ⨯ Unable to compile TypeScript:
+src/user/controllers/users.controllers.ts(30,13): error TS1182: A destructuring declaration must have an initializer.
+src/user/controllers/users.controllers.ts(30,15): error TS7031: Binding element 'id' implicitly has an 'any' type.
+
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/user/controllers/users.controllers.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-4007601041550126.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-4007601041550126.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-4007601041550126.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2023-04-05 16:36:59 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/user/service/users.service.ts(18,16): error TS2393: Duplicate function implementation.
+src/user/service/users.service.ts(25,16): error TS2393: Duplicate function implementation.
+
+Error: ⨯ Unable to compile TypeScript:
+src/user/service/users.service.ts(18,16): error TS2393: Duplicate function implementation.
+src/user/service/users.service.ts(25,16): error TS2393: Duplicate function implementation.
+
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/user/service/users.service.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-4007601041550126.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-4007601041550126.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-4007601041550126.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2023-04-05 16:37:08 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/user/service/users.service.ts(26,10): error TS1123: Variable declaration list cannot be empty.
+
+Error: ⨯ Unable to compile TypeScript:
+src/user/service/users.service.ts(26,10): error TS1123: Variable declaration list cannot be empty.
+
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/user/service/users.service.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-4007601041550126.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-4007601041550126.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-4007601041550126.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2023-04-05 16:37:17 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/user/service/users.service.ts(25,41): error TS6133: 'userId' is declared but its value is never read.
+src/user/service/users.service.ts(29,5): error TS2740: Type 'Repository<UserEntity>' is missing the following properties from type 'UserEntity': id, username, name, lastname, and 8 more.
+
+Error: ⨯ Unable to compile TypeScript:
+src/user/service/users.service.ts(25,41): error TS6133: 'userId' is declared but its value is never read.
+src/user/service/users.service.ts(29,5): error TS2740: Type 'Repository<UserEntity>' is missing the following properties from type 'UserEntity': id, username, name, lastname, and 8 more.
+
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/user/service/users.service.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-4007601041550126.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-4007601041550126.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-4007601041550126.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2023-04-05 16:37:30 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/user/service/users.service.ts(25,41): error TS6133: 'userId' is declared but its value is never read.
+src/user/service/users.service.ts(29,5): error TS2740: Type 'SelectQueryBuilder<UserEntity>' is missing the following properties from type 'UserEntity': id, username, name, lastname, and 8 more.
+
+Error: ⨯ Unable to compile TypeScript:
+src/user/service/users.service.ts(25,41): error TS6133: 'userId' is declared but its value is never read.
+src/user/service/users.service.ts(29,5): error TS2740: Type 'SelectQueryBuilder<UserEntity>' is missing the following properties from type 'UserEntity': id, username, name, lastname, and 8 more.
+
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/user/service/users.service.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-4007601041550126.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-4007601041550126.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-4007601041550126.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2023-04-05 16:39:32 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/user/service/users.service.ts(25,41): error TS6133: 'userId' is declared but its value is never read.
+src/user/service/users.service.ts(29,5): error TS2740: Type 'SelectQueryBuilder<UserEntity>' is missing the following properties from type 'UserEntity': id, username, name, lastname, and 8 more.
+
+Error: ⨯ Unable to compile TypeScript:
+src/user/service/users.service.ts(25,41): error TS6133: 'userId' is declared but its value is never read.
+src/user/service/users.service.ts(29,5): error TS2740: Type 'SelectQueryBuilder<UserEntity>' is missing the following properties from type 'UserEntity': id, username, name, lastname, and 8 more.
+
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/user/service/users.service.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-4007601041550126.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-4007601041550126.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-4007601041550126.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2023-04-05 16:39:36 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/user/service/users.service.ts(25,41): error TS6133: 'userId' is declared but its value is never read.
+src/user/service/users.service.ts(26,11): error TS7022: 'findUser' implicitly has type 'any' because it does not have a type annotation and is referenced directly or indirectly in its own initializer.
+src/user/service/users.service.ts(27,5): error TS2339: Property 'if' does not exist on type 'SelectQueryBuilder<UserEntity>'.
+src/user/service/users.service.ts(27,10): error TS2448: Block-scoped variable 'findUser' used before its declaration.
+src/user/service/users.service.ts(27,20): error TS1005: ',' expected.
+
+Error: ⨯ Unable to compile TypeScript:
+src/user/service/users.service.ts(25,41): error TS6133: 'userId' is declared but its value is never read.
+src/user/service/users.service.ts(26,11): error TS7022: 'findUser' implicitly has type 'any' because it does not have a type annotation and is referenced directly or indirectly in its own initializer.
+src/user/service/users.service.ts(27,5): error TS2339: Property 'if' does not exist on type 'SelectQueryBuilder<UserEntity>'.
+src/user/service/users.service.ts(27,10): error TS2448: Block-scoped variable 'findUser' used before its declaration.
+src/user/service/users.service.ts(27,20): error TS1005: ',' expected.
+
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/user/service/users.service.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-4007601041550126.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-4007601041550126.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-4007601041550126.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2023-04-05 16:39:48 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/user/service/users.service.ts(25,41): error TS6133: 'userId' is declared but its value is never read.
+src/user/service/users.service.ts(26,77): error TS2339: Property 'le' does not exist on type 'SelectQueryBuilder<UserEntity>'.
+
+Error: ⨯ Unable to compile TypeScript:
+src/user/service/users.service.ts(25,41): error TS6133: 'userId' is declared but its value is never read.
+src/user/service/users.service.ts(26,77): error TS2339: Property 'le' does not exist on type 'SelectQueryBuilder<UserEntity>'.
+
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/user/service/users.service.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-4007601041550126.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-4007601041550126.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-4007601041550126.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2023-04-05 16:39:55 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/user/service/users.service.ts(25,41): error TS6133: 'userId' is declared but its value is never read.
+src/user/service/users.service.ts(26,77): error TS2554: Expected 2-4 arguments, but got 0.
+src/user/service/users.service.ts(29,5): error TS2740: Type 'SelectQueryBuilder<UserEntity>' is missing the following properties from type 'UserEntity': id, username, name, lastname, and 8 more.
+
+Error: ⨯ Unable to compile TypeScript:
+src/user/service/users.service.ts(25,41): error TS6133: 'userId' is declared but its value is never read.
+src/user/service/users.service.ts(26,77): error TS2554: Expected 2-4 arguments, but got 0.
+src/user/service/users.service.ts(29,5): error TS2740: Type 'SelectQueryBuilder<UserEntity>' is missing the following properties from type 'UserEntity': id, username, name, lastname, and 8 more.
+
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/user/service/users.service.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-4007601041550126.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-4007601041550126.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-4007601041550126.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2023-04-05 16:40:00 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/user/service/users.service.ts(25,41): error TS6133: 'userId' is declared but its value is never read.
+src/user/service/users.service.ts(26,77): error TS2554: Expected 2-4 arguments, but got 1.
+src/user/service/users.service.ts(29,5): error TS2740: Type 'SelectQueryBuilder<UserEntity>' is missing the following properties from type 'UserEntity': id, username, name, lastname, and 8 more.
+
+Error: ⨯ Unable to compile TypeScript:
+src/user/service/users.service.ts(25,41): error TS6133: 'userId' is declared but its value is never read.
+src/user/service/users.service.ts(26,77): error TS2554: Expected 2-4 arguments, but got 1.
+src/user/service/users.service.ts(29,5): error TS2740: Type 'SelectQueryBuilder<UserEntity>' is missing the following properties from type 'UserEntity': id, username, name, lastname, and 8 more.
+
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/user/service/users.service.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-4007601041550126.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-4007601041550126.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-4007601041550126.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2023-04-05 16:40:06 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/user/service/users.service.ts(25,41): error TS6133: 'userId' is declared but its value is never read.
+src/user/service/users.service.ts(29,5): error TS2740: Type 'SelectQueryBuilder<UserEntity>' is missing the following properties from type 'UserEntity': id, username, name, lastname, and 8 more.
+
+Error: ⨯ Unable to compile TypeScript:
+src/user/service/users.service.ts(25,41): error TS6133: 'userId' is declared but its value is never read.
+src/user/service/users.service.ts(29,5): error TS2740: Type 'SelectQueryBuilder<UserEntity>' is missing the following properties from type 'UserEntity': id, username, name, lastname, and 8 more.
+
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/user/service/users.service.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-4007601041550126.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-4007601041550126.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-4007601041550126.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2023-04-05 16:40:41 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/user/service/users.service.ts(25,41): error TS6133: 'userId' is declared but its value is never read.
+src/user/service/users.service.ts(26,124): error TS2554: Expected 1-2 arguments, but got 0.
+src/user/service/users.service.ts(29,5): error TS2740: Type 'SelectQueryBuilder<UserEntity>' is missing the following properties from type 'UserEntity': id, username, name, lastname, and 8 more.
+
+Error: ⨯ Unable to compile TypeScript:
+src/user/service/users.service.ts(25,41): error TS6133: 'userId' is declared but its value is never read.
+src/user/service/users.service.ts(26,124): error TS2554: Expected 1-2 arguments, but got 0.
+src/user/service/users.service.ts(29,5): error TS2740: Type 'SelectQueryBuilder<UserEntity>' is missing the following properties from type 'UserEntity': id, username, name, lastname, and 8 more.
+
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/user/service/users.service.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-4007601041550126.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-4007601041550126.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-4007601041550126.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2023-04-05 16:40:47 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/user/service/users.service.ts(25,41): error TS6133: 'userId' is declared but its value is never read.
+src/user/service/users.service.ts(29,5): error TS2740: Type 'SelectQueryBuilder<UserEntity>' is missing the following properties from type 'UserEntity': id, username, name, lastname, and 8 more.
+
+Error: ⨯ Unable to compile TypeScript:
+src/user/service/users.service.ts(25,41): error TS6133: 'userId' is declared but its value is never read.
+src/user/service/users.service.ts(29,5): error TS2740: Type 'SelectQueryBuilder<UserEntity>' is missing the following properties from type 'UserEntity': id, username, name, lastname, and 8 more.
+
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/user/service/users.service.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-4007601041550126.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-4007601041550126.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-4007601041550126.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2023-04-05 16:40:52 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/user/service/users.service.ts(29,5): error TS2740: Type 'SelectQueryBuilder<UserEntity>' is missing the following properties from type 'UserEntity': id, username, name, lastname, and 8 more.
+
+Error: ⨯ Unable to compile TypeScript:
+src/user/service/users.service.ts(29,5): error TS2740: Type 'SelectQueryBuilder<UserEntity>' is missing the following properties from type 'UserEntity': id, username, name, lastname, and 8 more.
+
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/user/service/users.service.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-4007601041550126.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-4007601041550126.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-4007601041550126.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2023-04-05 16:49:52 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/user/controllers/users.controllers.ts(40,10): error TS2300: Duplicate identifier 'findUserByIdCtrl'.
+
+Error: ⨯ Unable to compile TypeScript:
+src/user/controllers/users.controllers.ts(40,10): error TS2300: Duplicate identifier 'findUserByIdCtrl'.
+
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/user/controllers/users.controllers.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-45369845680532395.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-45369845680532395.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-45369845680532395.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)

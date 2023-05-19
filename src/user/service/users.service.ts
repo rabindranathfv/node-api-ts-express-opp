@@ -22,6 +22,17 @@ class UserService extends BaseService<UserEntity> {
     return findUser;
   }
 
+  public async findUserByIdwithRelation(userId: string): Promise<UserEntity | null> {
+    const findUser = (await this.execRepository)
+      .createQueryBuilder('user')
+      .leftJoinAndSelect('user.customer', 'customer')
+      .where({ id: userId })
+      .getOne();
+    if (!findUser) throw new HttpException(409, "User doesn't exist");
+
+    return findUser;
+  }
+
   public async createUser(userData: UserDTO): Promise<UserEntity | null> {
     const newUser = (await this.execRepository).create(userData);
     return (await this.execRepository).save(newUser);

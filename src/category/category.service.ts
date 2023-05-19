@@ -15,8 +15,6 @@ export class CategoryService extends BaseService<CategoryEntity> {
     return (await this.execRepository).findOneBy({ id });
   }
   async createCategory(body: CategoryDTO): Promise<CategoryEntity> {
-    const { categoryName } = body;
-    console.log('🚀 ~ file: category.service.ts:22 ~ CategoryService ~ createCategory ~ body: ********', typeof body, body, Object.keys(body));
     return (await this.execRepository).save(body);
   }
   async deleteCategory(id: string): Promise<DeleteResult> {
