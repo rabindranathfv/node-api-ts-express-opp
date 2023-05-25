@@ -1,0 +1,627 @@
+2023-05-25 18:51:15 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/customer/entities/customer.entity.ts(24,67): error TS1109: Expression expected.
+
+Error: ⨯ Unable to compile TypeScript:
+src/customer/entities/customer.entity.ts(24,67): error TS1109: Expression expected.
+
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/customer/entities/customer.entity.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-11972280591342743.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-11972280591342743.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-11972280591342743.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2023-05-25 18:51:29 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/customer/entities/customer.entity.ts(24,58): error TS2345: Argument of type '{ O: any; onDelete: "CASCADE"; }' is not assignable to parameter of type 'RelationOptions'.
+  Object literal may only specify known properties, and 'O' does not exist in type 'RelationOptions'.
+src/customer/entities/customer.entity.ts(24,58): error TS18004: No value exists in scope for the shorthand property 'O'. Either declare one or provide an initializer.
+src/customer/entities/customer.entity.ts(24,60): error TS1005: ',' expected.
+
+Error: ⨯ Unable to compile TypeScript:
+src/customer/entities/customer.entity.ts(24,58): error TS2345: Argument of type '{ O: any; onDelete: "CASCADE"; }' is not assignable to parameter of type 'RelationOptions'.
+  Object literal may only specify known properties, and 'O' does not exist in type 'RelationOptions'.
+src/customer/entities/customer.entity.ts(24,58): error TS18004: No value exists in scope for the shorthand property 'O'. Either declare one or provide an initializer.
+src/customer/entities/customer.entity.ts(24,60): error TS1005: ',' expected.
+
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/customer/entities/customer.entity.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-11972280591342743.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-11972280591342743.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-11972280591342743.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2023-05-25 18:51:35 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/customer/entities/customer.entity.ts(24,58): error TS2345: Argument of type '{ o: any; onDelete: "CASCADE"; }' is not assignable to parameter of type 'RelationOptions'.
+  Object literal may only specify known properties, and 'o' does not exist in type 'RelationOptions'.
+src/customer/entities/customer.entity.ts(24,58): error TS18004: No value exists in scope for the shorthand property 'o'. Either declare one or provide an initializer.
+src/customer/entities/customer.entity.ts(24,60): error TS1005: ',' expected.
+
+Error: ⨯ Unable to compile TypeScript:
+src/customer/entities/customer.entity.ts(24,58): error TS2345: Argument of type '{ o: any; onDelete: "CASCADE"; }' is not assignable to parameter of type 'RelationOptions'.
+  Object literal may only specify known properties, and 'o' does not exist in type 'RelationOptions'.
+src/customer/entities/customer.entity.ts(24,58): error TS18004: No value exists in scope for the shorthand property 'o'. Either declare one or provide an initializer.
+src/customer/entities/customer.entity.ts(24,60): error TS1005: ',' expected.
+
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/customer/entities/customer.entity.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-11972280591342743.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-11972280591342743.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-11972280591342743.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2023-05-25 18:52:55 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/customer/entities/customer.entity.ts(24,79): error TS2345: Argument of type '{ onDelete: "CASCADE"; on: any; }' is not assignable to parameter of type 'RelationOptions'.
+  Object literal may only specify known properties, and 'on' does not exist in type 'RelationOptions'.
+src/customer/entities/customer.entity.ts(24,79): error TS18004: No value exists in scope for the shorthand property 'on'. Either declare one or provide an initializer.
+
+Error: ⨯ Unable to compile TypeScript:
+src/customer/entities/customer.entity.ts(24,79): error TS2345: Argument of type '{ onDelete: "CASCADE"; on: any; }' is not assignable to parameter of type 'RelationOptions'.
+  Object literal may only specify known properties, and 'on' does not exist in type 'RelationOptions'.
+src/customer/entities/customer.entity.ts(24,79): error TS18004: No value exists in scope for the shorthand property 'on'. Either declare one or provide an initializer.
+
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/customer/entities/customer.entity.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-11972280591342743.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-11972280591342743.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-11972280591342743.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2023-05-25 18:53:00 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/customer/entities/customer.entity.ts(24,79): error TS18004: No value exists in scope for the shorthand property 'onUpdate'. Either declare one or provide an initializer.
+
+Error: ⨯ Unable to compile TypeScript:
+src/customer/entities/customer.entity.ts(24,79): error TS18004: No value exists in scope for the shorthand property 'onUpdate'. Either declare one or provide an initializer.
+
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/customer/entities/customer.entity.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-11972280591342743.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-11972280591342743.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-11972280591342743.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2023-05-25 18:53:04 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/customer/entities/customer.entity.ts(24,79): error TS2322: Type '""' is not assignable to type 'OnUpdateType | undefined'.
+
+Error: ⨯ Unable to compile TypeScript:
+src/customer/entities/customer.entity.ts(24,79): error TS2322: Type '""' is not assignable to type 'OnUpdateType | undefined'.
+
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/customer/entities/customer.entity.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-11972280591342743.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-11972280591342743.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-11972280591342743.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2023-05-25 19:16:51 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/middlewares/validate-dto.middleware.ts(8,14): error TS2415: Class 'ValidateMiddlewareDTO' incorrectly extends base class 'SharedMiddleware'.
+  Property 'httpResponse' is private in type 'ValidateMiddlewareDTO' but not in type 'SharedMiddleware'.
+src/middlewares/validate-dto.middleware.ts(9,3): error TS2377: Constructors for derived classes must contain a 'super' call.
+
+Error: ⨯ Unable to compile TypeScript:
+src/middlewares/validate-dto.middleware.ts(8,14): error TS2415: Class 'ValidateMiddlewareDTO' incorrectly extends base class 'SharedMiddleware'.
+  Property 'httpResponse' is private in type 'ValidateMiddlewareDTO' but not in type 'SharedMiddleware'.
+src/middlewares/validate-dto.middleware.ts(9,3): error TS2377: Constructors for derived classes must contain a 'super' call.
+
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/middlewares/validate-dto.middleware.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-11972280591342743.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-11972280591342743.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-11972280591342743.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2023-05-25 19:16:52 error: uncaughtException: Channel closed
+Error: Channel closed
+    at new NodeError (node:internal/errors:372:5)
+    at process.target.send (node:internal/child_process:741:16)
+    at Object.exports.send (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/ts-node-dev/lib/ipc.js:17:14)
+    at /home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/ts-node-dev/lib/wrap.js:88:9
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/ts-node-dev/lib/hook.js:61:17)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at tryToRequire (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/util/ImportUtils.ts:21:17)
+2023-05-25 19:16:52 error: uncaughtException: Channel closed
+Error: Channel closed
+    at new NodeError (node:internal/errors:372:5)
+    at process.target.send (node:internal/child_process:741:16)
+    at compile (/tmp/ts-node-dev-hook-11972280591342743.js:46:21)
+    at Module.m._compile (/tmp/ts-node-dev-hook-11972280591342743.js:69:44)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-11972280591342743.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-11972280591342743.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2023-05-25 19:16:57 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/middlewares/validate-dto.middleware.ts(8,14): error TS2415: Class 'ValidateMiddlewareDTO' incorrectly extends base class 'SharedMiddleware'.
+  Property 'httpResponse' is private in type 'ValidateMiddlewareDTO' but not in type 'SharedMiddleware'.
+
+Error: ⨯ Unable to compile TypeScript:
+src/middlewares/validate-dto.middleware.ts(8,14): error TS2415: Class 'ValidateMiddlewareDTO' incorrectly extends base class 'SharedMiddleware'.
+  Property 'httpResponse' is private in type 'ValidateMiddlewareDTO' but not in type 'SharedMiddleware'.
+
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/middlewares/validate-dto.middleware.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-11972280591342743.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-11972280591342743.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-11972280591342743.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2023-05-25 19:16:58 error: uncaughtException: Channel closed
+Error: Channel closed
+    at new NodeError (node:internal/errors:372:5)
+    at process.target.send (node:internal/child_process:741:16)
+    at Object.exports.send (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/ts-node-dev/lib/ipc.js:17:14)
+    at /home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/ts-node-dev/lib/wrap.js:88:9
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/ts-node-dev/lib/hook.js:61:17)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at tryToRequire (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/util/ImportUtils.ts:21:17)
+2023-05-25 19:16:58 error: uncaughtException: Channel closed
+Error: Channel closed
+    at new NodeError (node:internal/errors:372:5)
+    at process.target.send (node:internal/child_process:741:16)
+    at compile (/tmp/ts-node-dev-hook-11972280591342743.js:46:21)
+    at Module.m._compile (/tmp/ts-node-dev-hook-11972280591342743.js:69:44)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-11972280591342743.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-11972280591342743.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2023-05-25 19:20:01 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/routes/user.routes.ts(79,44): error TS1109: Expression expected.
+
+Error: ⨯ Unable to compile TypeScript:
+src/routes/user.routes.ts(79,44): error TS1109: Expression expected.
+
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/routes/user.routes.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-11972280591342743.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-11972280591342743.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-11972280591342743.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2023-05-25 19:20:01 error: uncaughtException: Channel closed
+Error: Channel closed
+    at new NodeError (node:internal/errors:372:5)
+    at process.target.send (node:internal/child_process:741:16)
+    at Object.exports.send (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/ts-node-dev/lib/ipc.js:17:14)
+    at /home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/ts-node-dev/lib/wrap.js:88:9
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/ts-node-dev/lib/hook.js:61:17)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at tryToRequire (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/util/ImportUtils.ts:21:17)
+2023-05-25 19:20:01 error: uncaughtException: Channel closed
+Error: Channel closed
+    at new NodeError (node:internal/errors:372:5)
+    at process.target.send (node:internal/child_process:741:16)
+    at compile (/tmp/ts-node-dev-hook-11972280591342743.js:46:21)
+    at Module.m._compile (/tmp/ts-node-dev-hook-11972280591342743.js:69:44)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-11972280591342743.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-11972280591342743.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2023-05-25 19:20:10 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/routes/user.routes.ts(79,45): error TS6133: 'req' is declared but its value is never read.
+src/routes/user.routes.ts(79,50): error TS6133: 'res' is declared but its value is never read.
+src/routes/user.routes.ts(79,55): error TS6133: 'next' is declared but its value is never read.
+src/routes/user.routes.ts(79,65): error TS1109: Expression expected.
+
+Error: ⨯ Unable to compile TypeScript:
+src/routes/user.routes.ts(79,45): error TS6133: 'req' is declared but its value is never read.
+src/routes/user.routes.ts(79,50): error TS6133: 'res' is declared but its value is never read.
+src/routes/user.routes.ts(79,55): error TS6133: 'next' is declared but its value is never read.
+src/routes/user.routes.ts(79,65): error TS1109: Expression expected.
+
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/routes/user.routes.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-11972280591342743.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-11972280591342743.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-11972280591342743.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2023-05-25 19:20:10 error: uncaughtException: Channel closed
+Error: Channel closed
+    at new NodeError (node:internal/errors:372:5)
+    at process.target.send (node:internal/child_process:741:16)
+    at Object.exports.send (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/ts-node-dev/lib/ipc.js:17:14)
+    at /home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/ts-node-dev/lib/wrap.js:88:9
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/ts-node-dev/lib/hook.js:61:17)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at tryToRequire (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/util/ImportUtils.ts:21:17)
+2023-05-25 19:20:10 error: uncaughtException: Channel closed
+Error: Channel closed
+    at new NodeError (node:internal/errors:372:5)
+    at process.target.send (node:internal/child_process:741:16)
+    at compile (/tmp/ts-node-dev-hook-11972280591342743.js:46:21)
+    at Module.m._compile (/tmp/ts-node-dev-hook-11972280591342743.js:69:44)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-11972280591342743.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-11972280591342743.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2023-05-25 19:20:16 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/routes/user.routes.ts(79,45): error TS6133: 'req' is declared but its value is never read.
+src/routes/user.routes.ts(79,50): error TS6133: 'res' is declared but its value is never read.
+src/routes/user.routes.ts(79,55): error TS6133: 'next' is declared but its value is never read.
+src/routes/user.routes.ts(79,81): error TS1003: Identifier expected.
+
+Error: ⨯ Unable to compile TypeScript:
+src/routes/user.routes.ts(79,45): error TS6133: 'req' is declared but its value is never read.
+src/routes/user.routes.ts(79,50): error TS6133: 'res' is declared but its value is never read.
+src/routes/user.routes.ts(79,55): error TS6133: 'next' is declared but its value is never read.
+src/routes/user.routes.ts(79,81): error TS1003: Identifier expected.
+
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/routes/user.routes.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-11972280591342743.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-11972280591342743.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-11972280591342743.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2023-05-25 19:20:16 error: uncaughtException: Channel closed
+Error: Channel closed
+    at new NodeError (node:internal/errors:372:5)
+    at process.target.send (node:internal/child_process:741:16)
+    at Object.exports.send (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/ts-node-dev/lib/ipc.js:17:14)
+    at /home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/ts-node-dev/lib/wrap.js:88:9
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/ts-node-dev/lib/hook.js:61:17)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at tryToRequire (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/util/ImportUtils.ts:21:17)
+2023-05-25 19:20:16 error: uncaughtException: Channel closed
+Error: Channel closed
+    at new NodeError (node:internal/errors:372:5)
+    at process.target.send (node:internal/child_process:741:16)
+    at compile (/tmp/ts-node-dev-hook-11972280591342743.js:46:21)
+    at Module.m._compile (/tmp/ts-node-dev-hook-11972280591342743.js:69:44)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-11972280591342743.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-11972280591342743.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2023-05-25 19:24:04 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/routes/user.routes.ts(81,33): error TS2339: Property 'mthis' does not exist on type 'UserRoute'.
+
+Error: ⨯ Unable to compile TypeScript:
+src/routes/user.routes.ts(81,33): error TS2339: Property 'mthis' does not exist on type 'UserRoute'.
+
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/routes/user.routes.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-11972280591342743.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-11972280591342743.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-11972280591342743.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2023-05-25 19:24:04 error: uncaughtException: Channel closed
+Error: Channel closed
+    at new NodeError (node:internal/errors:372:5)
+    at process.target.send (node:internal/child_process:741:16)
+    at Object.exports.send (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/ts-node-dev/lib/ipc.js:17:14)
+    at /home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/ts-node-dev/lib/wrap.js:88:9
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/ts-node-dev/lib/hook.js:61:17)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at tryToRequire (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/util/ImportUtils.ts:21:17)
+2023-05-25 19:24:04 error: uncaughtException: Channel closed
+Error: Channel closed
+    at new NodeError (node:internal/errors:372:5)
+    at process.target.send (node:internal/child_process:741:16)
+    at compile (/tmp/ts-node-dev-hook-11972280591342743.js:46:21)
+    at Module.m._compile (/tmp/ts-node-dev-hook-11972280591342743.js:69:44)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-11972280591342743.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-11972280591342743.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2023-05-25 19:24:09 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/routes/user.routes.ts(81,44): error TS2339: Property 'this' does not exist on type 'ValidateMiddlewareDTO'.
+
+Error: ⨯ Unable to compile TypeScript:
+src/routes/user.routes.ts(81,44): error TS2339: Property 'this' does not exist on type 'ValidateMiddlewareDTO'.
+
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/routes/user.routes.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-11972280591342743.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-11972280591342743.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-11972280591342743.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2023-05-25 19:24:09 error: uncaughtException: Channel closed
+Error: Channel closed
+    at new NodeError (node:internal/errors:372:5)
+    at process.target.send (node:internal/child_process:741:16)
+    at Object.exports.send (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/ts-node-dev/lib/ipc.js:17:14)
+    at /home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/ts-node-dev/lib/wrap.js:88:9
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/ts-node-dev/lib/hook.js:61:17)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at tryToRequire (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/util/ImportUtils.ts:21:17)
+2023-05-25 19:24:09 error: uncaughtException: Channel closed
+Error: Channel closed
+    at new NodeError (node:internal/errors:372:5)
+    at process.target.send (node:internal/child_process:741:16)
+    at compile (/tmp/ts-node-dev-hook-11972280591342743.js:46:21)
+    at Module.m._compile (/tmp/ts-node-dev-hook-11972280591342743.js:69:44)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-11972280591342743.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-11972280591342743.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2023-05-25 19:24:20 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/routes/user.routes.ts(81,53): error TS2345: Argument of type 'number' is not assignable to parameter of type 'string'.
+src/routes/user.routes.ts(81,54): error TS2304: Cannot find name 'login'.
+
+Error: ⨯ Unable to compile TypeScript:
+src/routes/user.routes.ts(81,53): error TS2345: Argument of type 'number' is not assignable to parameter of type 'string'.
+src/routes/user.routes.ts(81,54): error TS2304: Cannot find name 'login'.
+
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/routes/user.routes.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-11972280591342743.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-11972280591342743.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-11972280591342743.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2023-05-25 19:24:20 error: uncaughtException: Channel closed
+Error: Channel closed
+    at new NodeError (node:internal/errors:372:5)
+    at process.target.send (node:internal/child_process:741:16)
+    at Object.exports.send (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/ts-node-dev/lib/ipc.js:17:14)
+    at /home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/ts-node-dev/lib/wrap.js:88:9
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/ts-node-dev/lib/hook.js:61:17)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at tryToRequire (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/util/ImportUtils.ts:21:17)
+2023-05-25 19:24:20 error: uncaughtException: Channel closed
+Error: Channel closed
+    at new NodeError (node:internal/errors:372:5)
+    at process.target.send (node:internal/child_process:741:16)
+    at compile (/tmp/ts-node-dev-hook-11972280591342743.js:46:21)
+    at Module.m._compile (/tmp/ts-node-dev-hook-11972280591342743.js:69:44)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-11972280591342743.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-11972280591342743.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2023-05-25 19:26:01 error: [DELETE] /api/v1/users/aae8594b-913a-45d3-a77d-16f9e5d8288c >> StatusCode:: 500, Message:: Cannot read properties of undefined (reading 'role')
+2023-05-25 19:26:17 error: [DELETE] /api/v1/users/aae8594b-913a-45d3-a77d-16f9e5d8288c >> StatusCode:: 500, Message:: Cannot read properties of undefined (reading 'role')
+2023-05-25 19:26:37 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/routes/user.routes.ts(82,8): error TS2304: Cannot find name 'req'.
+src/routes/user.routes.ts(82,13): error TS2304: Cannot find name 'res'.
+src/routes/user.routes.ts(82,18): error TS2304: Cannot find name 'next'.
+src/routes/user.routes.ts(82,94): error TS2304: Cannot find name 'req'.
+src/routes/user.routes.ts(82,99): error TS2304: Cannot find name 'res'.
+src/routes/user.routes.ts(82,104): error TS2304: Cannot find name 'next'.
+src/routes/user.routes.ts(83,8): error TS7006: Parameter 'req' implicitly has an 'any' type.
+src/routes/user.routes.ts(83,13): error TS7006: Parameter 'res' implicitly has an 'any' type.
+src/routes/user.routes.ts(82,24): error TS1005: ',' expected.
+
+Error: ⨯ Unable to compile TypeScript:
+src/routes/user.routes.ts(82,8): error TS2304: Cannot find name 'req'.
+src/routes/user.routes.ts(82,13): error TS2304: Cannot find name 'res'.
+src/routes/user.routes.ts(82,18): error TS2304: Cannot find name 'next'.
+src/routes/user.routes.ts(82,94): error TS2304: Cannot find name 'req'.
+src/routes/user.routes.ts(82,99): error TS2304: Cannot find name 'res'.
+src/routes/user.routes.ts(82,104): error TS2304: Cannot find name 'next'.
+src/routes/user.routes.ts(83,8): error TS7006: Parameter 'req' implicitly has an 'any' type.
+src/routes/user.routes.ts(83,13): error TS7006: Parameter 'res' implicitly has an 'any' type.
+src/routes/user.routes.ts(82,24): error TS1005: ',' expected.
+
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/routes/user.routes.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-11972280591342743.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-11972280591342743.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-11972280591342743.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2023-05-25 19:26:37 error: uncaughtException: Channel closed
+Error: Channel closed
+    at new NodeError (node:internal/errors:372:5)
+    at process.target.send (node:internal/child_process:741:16)
+    at Object.exports.send (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/ts-node-dev/lib/ipc.js:17:14)
+    at /home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/ts-node-dev/lib/wrap.js:88:9
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/ts-node-dev/lib/hook.js:61:17)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at tryToRequire (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/util/ImportUtils.ts:21:17)
+2023-05-25 19:26:37 error: uncaughtException: Channel closed
+Error: Channel closed
+    at new NodeError (node:internal/errors:372:5)
+    at process.target.send (node:internal/child_process:741:16)
+    at compile (/tmp/ts-node-dev-hook-11972280591342743.js:46:21)
+    at Module.m._compile (/tmp/ts-node-dev-hook-11972280591342743.js:69:44)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-11972280591342743.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-11972280591342743.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2023-05-25 19:39:35 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/routes/user.routes.ts(81,8): error TS6133: 'req' is declared but its value is never read.
+
+Error: ⨯ Unable to compile TypeScript:
+src/routes/user.routes.ts(81,8): error TS6133: 'req' is declared but its value is never read.
+
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/routes/user.routes.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-11972280591342743.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-11972280591342743.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-11972280591342743.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2023-05-25 19:39:35 error: uncaughtException: Channel closed
+Error: Channel closed
+    at new NodeError (node:internal/errors:372:5)
+    at process.target.send (node:internal/child_process:741:16)
+    at Object.exports.send (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/ts-node-dev/lib/ipc.js:17:14)
+    at /home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/ts-node-dev/lib/wrap.js:88:9
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/ts-node-dev/lib/hook.js:61:17)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at tryToRequire (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/util/ImportUtils.ts:21:17)
+2023-05-25 19:39:35 error: uncaughtException: Channel closed
+Error: Channel closed
+    at new NodeError (node:internal/errors:372:5)
+    at process.target.send (node:internal/child_process:741:16)
+    at compile (/tmp/ts-node-dev-hook-11972280591342743.js:46:21)
+    at Module.m._compile (/tmp/ts-node-dev-hook-11972280591342743.js:69:44)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-11972280591342743.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-11972280591342743.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2023-05-25 19:39:41 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/routes/user.routes.ts(81,8): error TS6133: 'req' is declared but its value is never read.
+src/routes/user.routes.ts(81,13): error TS6133: 'res' is declared but its value is never read.
+src/routes/user.routes.ts(81,18): error TS6133: 'next' is declared but its value is never read.
+
+Error: ⨯ Unable to compile TypeScript:
+src/routes/user.routes.ts(81,8): error TS6133: 'req' is declared but its value is never read.
+src/routes/user.routes.ts(81,13): error TS6133: 'res' is declared but its value is never read.
+src/routes/user.routes.ts(81,18): error TS6133: 'next' is declared but its value is never read.
+
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/routes/user.routes.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-11972280591342743.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-11972280591342743.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-11972280591342743.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2023-05-25 19:39:41 error: uncaughtException: Channel closed
+Error: Channel closed
+    at new NodeError (node:internal/errors:372:5)
+    at process.target.send (node:internal/child_process:741:16)
+    at Object.exports.send (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/ts-node-dev/lib/ipc.js:17:14)
+    at /home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/ts-node-dev/lib/wrap.js:88:9
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/ts-node-dev/lib/hook.js:61:17)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at tryToRequire (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/util/ImportUtils.ts:21:17)
+2023-05-25 19:39:41 error: uncaughtException: Channel closed
+Error: Channel closed
+    at new NodeError (node:internal/errors:372:5)
+    at process.target.send (node:internal/child_process:741:16)
+    at compile (/tmp/ts-node-dev-hook-11972280591342743.js:46:21)
+    at Module.m._compile (/tmp/ts-node-dev-hook-11972280591342743.js:69:44)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-11972280591342743.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-11972280591342743.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2023-05-25 19:41:51 error: uncaughtException: Channel closed
+Error: Channel closed
+    at new NodeError (node:internal/errors:372:5)
+    at process.target.send (node:internal/child_process:741:16)
+    at Object.exports.send (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/ts-node-dev/lib/ipc.js:17:14)
+    at /home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/ts-node-dev/lib/wrap.js:88:9
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/ts-node-dev/lib/hook.js:61:17)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at tryToRequire (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/src/util/ImportUtils.ts:21:17)
+2023-05-25 19:41:51 error: uncaughtException: Channel closed
+Error: Channel closed
+    at new NodeError (node:internal/errors:372:5)
+    at process.target.send (node:internal/child_process:741:16)
+    at compile (/tmp/ts-node-dev-hook-11972280591342743.js:46:21)
+    at Module.m._compile (/tmp/ts-node-dev-hook-11972280591342743.js:69:44)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-11972280591342743.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-11972280591342743.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2023-05-25 19:41:51 error: uncaughtException: Channel closed
+Error: Channel closed
+    at new NodeError (node:internal/errors:372:5)
+    at process.target.send (node:internal/child_process:741:16)
+    at Object.exports.send (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/ts-node-dev/lib/ipc.js:17:14)
+    at process.<anonymous> (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/ts-node-dev/lib/wrap.js:78:9)
+    at process.emit (node:events:539:35)
+    at process.emit (/home/rabindranath/Documents/Backend/node-api-ts-express-opp/node_modules/source-map-support/source-map-support.js:516:21)
+    at process._fatalException (node:internal/process/execution:167:25)

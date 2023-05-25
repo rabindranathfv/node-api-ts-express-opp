@@ -2,8 +2,9 @@ import { HttpException } from '../../exceptions/httpExceptions';
 
 import { UserEntity } from '../entities/user.entity';
 import { BaseService } from '../../config/base.service';
-import { UserDTO } from '../dto/user.dto';
+import { RoleType, UserDTO } from '../dto/user.dto';
 import { DeleteResult, UpdateResult } from 'typeorm';
+import { createHashValue } from '../../utils/hash';
 
 class UserService extends BaseService<UserEntity> {
   constructor() {
@@ -33,8 +34,31 @@ class UserService extends BaseService<UserEntity> {
     return findUser;
   }
 
+  public async findUserByEmail(email: string): Promise<UserEntity | null> {
+    const findUser = (await this.execRepository).createQueryBuilder('user').addSelect('user.password').where({ email }).getOne();
+    if (!findUser) throw new HttpException(409, "User email doesn't exist");
+
+    return findUser;
+  }
+
+  public async findUserByUsername(username: string): Promise<UserEntity | null> {
+    const findUser = (await this.execRepository).createQueryBuilder('user').addSelect('user.username').where({ username }).getOne();
+    if (!findUser) throw new HttpException(409, "User email doesn't exist");
+
+    return findUser;
+  }
+
+  public async findUserWithRol(uId: string, role: RoleType): Promise<UserEntity | null> {
+    const findUser = (await this.execRepository).createQueryBuilder('user').where({ id: uId }).andWhere({ role }).getOne();
+    if (!findUser) throw new HttpException(409, "User doesn't exist");
+
+    return findUser;
+  }
+
   public async createUser(userData: UserDTO): Promise<UserEntity | null> {
     const newUser = (await this.execRepository).create(userData);
+    const hashPsw = await createHashValue(newUser.password);
+    newUser.password = hashPsw;
     return (await this.execRepository).save(newUser);
   }
 

@@ -1,4 +1,5 @@
 import App from './app';
+import AuthRoutes from './routes/auth.routes';
 import BaseRoute from './routes/base.routes';
 import CategoryRoute from './routes/category.routes';
 import CustomerRoute from './routes/customer.routes';
@@ -15,6 +16,7 @@ const app = new App([
   new ProductRoute(),
   new PurchaseRoute(),
   new PurchaseProductRouter(),
+  new AuthRoutes(),
 ]);
 
 app.listen();

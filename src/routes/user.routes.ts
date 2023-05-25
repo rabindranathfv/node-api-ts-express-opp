@@ -76,7 +76,12 @@ class UserRoute extends BaseRouter<UserController, ValidateMiddlewareDTO> {
 
     this.router.put(`${this.path}/:id`, (req, res) => this.userController.updateUserCtrl(req, res));
 
-    this.router.delete(`${this.path}/:id`, (req, res) => this.userController.deleteUserCtrl(req, res));
+    this.router.delete(
+      `${this.path}/:id`,
+      this.middleware.passAuth('jwt'), // agregando validacion de jwt
+      (req, res, next) => [this.middleware.checkAdminRole(req, res, next)],
+      (req, res) => this.userController.deleteUserCtrl(req, res),
+    );
   }
 }
 

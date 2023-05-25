@@ -20,6 +20,8 @@ import { swaggerOptions } from './config/swaggerConfig';
 
 // import { mongoDbConnection } from './db/mongo.config';
 import { DataSource } from 'typeorm';
+import { LoginStrategy } from './auth/strategies/login.strategy';
+import { JwtStrategy } from './auth/strategies/jwt.strategy';
 
 class App extends ConfigServer {
   public app: express.Application;
@@ -35,6 +37,7 @@ class App extends ConfigServer {
     this.connectToDatabase();
     this.initializeMiddlewares();
     this.initializeRoutes(routes);
+    this.passportUse();
     this.initializeSwagger();
     this.initializeErrorHandling();
   }
@@ -51,6 +54,13 @@ class App extends ConfigServer {
 
   public getServer() {
     return this.app;
+  }
+
+  /**
+   * passportUse
+   */
+  public passportUse() {
+    return [new LoginStrategy().use, new JwtStrategy().use];
   }
 
   public async connectToDatabase(): Promise<DataSource | void> {

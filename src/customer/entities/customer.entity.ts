@@ -21,7 +21,7 @@ export class CustomerEntity {
   @UpdateDateColumn()
   updatedAt!: Date;
 
-  @OneToOne(() => UserEntity, (user) => user.customer)
+  @OneToOne(() => UserEntity, (user) => user.customer, { onDelete: 'CASCADE' })
   @JoinColumn({ name: 'user_id' })
   user!: UserEntity;
 
