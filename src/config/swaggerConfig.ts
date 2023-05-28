@@ -1,6 +1,7 @@
+import { SwaggerOptions } from 'swagger-ui-express';
 import { PORT } from './config';
 
-export const swaggerOptions = {
+export const swaggerOptions: SwaggerOptions = {
   definition: {
     openapi: '3.0.0',
     info: {
